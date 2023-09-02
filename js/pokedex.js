@@ -812,6 +812,8 @@ var PokedexTierPanel = PokedexResultPanel.extend({
 			publ: "PUBL",
 			unreleased: "Unreleased",
 			illegal: "Illegal",
+			1:"❌",
+			2:"✅",
 		};
 		var name = tierTable[id] || id;
 		this.id = id;

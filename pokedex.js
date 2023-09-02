@@ -1,6 +1,6 @@
 exports.BattlePokedex = {
     bulbasaur: {
-        num: 1,
+    num: 1,
         name: "Bulbasaur",
         types: ["Grass", "Poison"],
         genderRatio: {
@@ -24,8 +24,7 @@ exports.BattlePokedex = {
         color: "Green",
         evos: ["Ivysaur"],
         eggGroups: ["Monster", "Grass"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     ivysaur: {
         num: 2,
@@ -54,8 +53,7 @@ exports.BattlePokedex = {
         evoLevel: 16,
         evos: ["Venusaur"],
         eggGroups: ["Monster", "Grass"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     venusaur: {
         num: 3,
@@ -86,8 +84,7 @@ exports.BattlePokedex = {
         otherFormes: ["Venusaur-Mega"],
         formeOrder: ["Venusaur", "Venusaur-Mega"],
         canGigantamax: "G-Max Vine Lash",
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     venusaurmega: {
         num: 3,
@@ -115,8 +112,7 @@ exports.BattlePokedex = {
         color: "Green",
         eggGroups: ["Monster", "Grass"],
         requiredItem: "Venusaurite",
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     charmander: {
         num: 4,
@@ -143,7 +139,7 @@ exports.BattlePokedex = {
         color: "Red",
         evos: ["Charmeleon"],
         eggGroups: ["Monster", "Dragon"],
-        tier: "LC"
+        tier: "1"
     },
     charmeleon: {
         num: 5,
@@ -172,7 +168,7 @@ exports.BattlePokedex = {
         evoLevel: 16,
         evos: ["Charizard"],
         eggGroups: ["Monster", "Dragon"],
-        tier: "NFE"
+        tier: "1"
     },
     charizard: {
         num: 6,
@@ -203,7 +199,7 @@ exports.BattlePokedex = {
         otherFormes: ["Charizard-Mega-X", "Charizard-Mega-Y"],
         formeOrder: ["Charizard", "Charizard-Mega-X", "Charizard-Mega-Y"],
         canGigantamax: "G-Max Wildfire",
-        tier: "PU"
+        tier: "1"
     },
     charizardmegax: {
         num: 6,
@@ -231,8 +227,7 @@ exports.BattlePokedex = {
         color: "Black",
         eggGroups: ["Monster", "Dragon"],
         requiredItem: "Charizardite X",
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     charizardmegay: {
         num: 6,
@@ -260,8 +255,7 @@ exports.BattlePokedex = {
         color: "Red",
         eggGroups: ["Monster", "Dragon"],
         requiredItem: "Charizardite Y",
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     squirtle: {
         num: 7,
@@ -288,8 +282,7 @@ exports.BattlePokedex = {
         color: "Blue",
         evos: ["Wartortle"],
         eggGroups: ["Monster", "Water 1"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     wartortle: {
         num: 8,
@@ -318,8 +311,7 @@ exports.BattlePokedex = {
         evoLevel: 16,
         evos: ["Blastoise"],
         eggGroups: ["Monster", "Water 1"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     blastoise: {
         num: 9,
@@ -350,8 +342,7 @@ exports.BattlePokedex = {
         otherFormes: ["Blastoise-Mega"],
         formeOrder: ["Blastoise", "Blastoise-Mega"],
         canGigantamax: "G-Max Cannonade",
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     blastoisemega: {
         num: 9,
@@ -379,8 +370,7 @@ exports.BattlePokedex = {
         color: "Blue",
         eggGroups: ["Monster", "Water 1"],
         requiredItem: "Blastoisinite",
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     caterpie: {
         num: 10,
@@ -403,8 +393,7 @@ exports.BattlePokedex = {
         color: "Green",
         evos: ["Metapod"],
         eggGroups: ["Bug"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     metapod: {
         num: 11,
@@ -428,8 +417,7 @@ exports.BattlePokedex = {
         evoLevel: 7,
         evos: ["Butterfree"],
         eggGroups: ["Bug"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     butterfree: {
         num: 12,
@@ -454,8 +442,7 @@ exports.BattlePokedex = {
         evoLevel: 10,
         eggGroups: ["Bug"],
         canGigantamax: "G-Max Befuddle",
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     weedle: {
         num: 13,
@@ -479,8 +466,7 @@ exports.BattlePokedex = {
         color: "Brown",
         evos: ["Kakuna"],
         eggGroups: ["Bug"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     kakuna: {
         num: 14,
@@ -504,8 +490,7 @@ exports.BattlePokedex = {
         evoLevel: 7,
         evos: ["Beedrill"],
         eggGroups: ["Bug"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     beedrill: {
         num: 15,
@@ -532,8 +517,7 @@ exports.BattlePokedex = {
         eggGroups: ["Bug"],
         otherFormes: ["Beedrill-Mega"],
         formeOrder: ["Beedrill", "Beedrill-Mega"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     beedrillmega: {
         num: 15,
@@ -557,8 +541,7 @@ exports.BattlePokedex = {
         color: "Yellow",
         eggGroups: ["Bug"],
         requiredItem: "Beedrillite",
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     pidgey: {
         num: 16,
@@ -580,8 +563,7 @@ exports.BattlePokedex = {
         color: "Brown",
         evos: ["Pidgeotto"],
         eggGroups: ["Flying"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     pidgeotto: {
         num: 17,
@@ -605,8 +587,7 @@ exports.BattlePokedex = {
         evoLevel: 16,
         evos: ["Pidgeot"],
         eggGroups: ["Flying"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     pidgeot: {
         num: 18,
@@ -631,8 +612,7 @@ exports.BattlePokedex = {
         eggGroups: ["Flying"],
         otherFormes: ["Pidgeot-Mega"],
         formeOrder: ["Pidgeot", "Pidgeot-Mega"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     pidgeotmega: {
         num: 18,
@@ -656,8 +636,7 @@ exports.BattlePokedex = {
         color: "Brown",
         eggGroups: ["Flying"],
         requiredItem: "Pidgeotite",
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     rattata: {
         num: 19,
@@ -683,8 +662,7 @@ exports.BattlePokedex = {
         eggGroups: ["Field"],
         otherFormes: ["Rattata-Alola"],
         formeOrder: ["Rattata", "Rattata-Alola"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     rattataalola: {
         num: 19,
@@ -710,8 +688,7 @@ exports.BattlePokedex = {
         color: "Black",
         evos: ["Raticate-Alola"],
         eggGroups: ["Field"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     raticate: {
         num: 20,
@@ -736,10 +713,9 @@ exports.BattlePokedex = {
         prevo: "Rattata",
         evoLevel: 20,
         eggGroups: ["Field"],
-        otherFormes: ["Raticate-Alola", "Raticate-Alola-Totem"],
-        formeOrder: ["Raticate", "Raticate-Alola", "Raticate-Alola-Totem"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        otherFormes: ["Raticate-Alola"],
+        formeOrder: ["Raticate", "Raticate-Alola"],
+        tier: "2",
     },
     raticatealola: {
         num: 20,
@@ -767,32 +743,7 @@ exports.BattlePokedex = {
         evoLevel: 20,
         evoCondition: "at night",
         eggGroups: ["Field"],
-        tier: "Illegal",
-        isNonstandard: "Past"
-    },
-    raticatealolatotem: {
-        num: 20,
-        name: "Raticate-Alola-Totem",
-        baseSpecies: "Raticate",
-        forme: "Alola-Totem",
-        types: ["Dark", "Normal"],
-        baseStats: {
-            hp: 75,
-            atk: 71,
-            def: 70,
-            spa: 40,
-            spd: 80,
-            spe: 77
-        },
-        abilities: {
-            "0": "Thick Fat"
-        },
-        heightm: 1.4,
-        weightkg: 105,
-        color: "Black",
-        eggGroups: ["Field"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     spearow: {
         num: 21,
@@ -815,8 +766,7 @@ exports.BattlePokedex = {
         color: "Brown",
         evos: ["Fearow"],
         eggGroups: ["Flying"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     fearow: {
         num: 22,
@@ -840,8 +790,7 @@ exports.BattlePokedex = {
         prevo: "Spearow",
         evoLevel: 20,
         eggGroups: ["Flying"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     ekans: {
         num: 23,
@@ -864,8 +813,7 @@ exports.BattlePokedex = {
         color: "Purple",
         evos: ["Arbok"],
         eggGroups: ["Field", "Dragon"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     arbok: {
         num: 24,
@@ -889,8 +837,7 @@ exports.BattlePokedex = {
         prevo: "Ekans",
         evoLevel: 22,
         eggGroups: ["Field", "Dragon"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     pikachu: {
         num: 25,
@@ -918,7 +865,7 @@ exports.BattlePokedex = {
         otherFormes: ["Pikachu-Cosplay", "Pikachu-Rock-Star", "Pikachu-Belle", "Pikachu-Pop-Star", "Pikachu-PhD", "Pikachu-Libre", "Pikachu-Original", "Pikachu-Hoenn", "Pikachu-Sinnoh", "Pikachu-Unova", "Pikachu-Kalos", "Pikachu-Alola", "Pikachu-Partner", "Pikachu-Starter", "Pikachu-World"],
         formeOrder: ["Pikachu", "Pikachu-Original", "Pikachu-Hoenn", "Pikachu-Sinnoh", "Pikachu-Unova", "Pikachu-Kalos", "Pikachu-Alola", "Pikachu-Partner", "Pikachu-Starter", "Pikachu-World", "Pikachu-Rock-Star", "Pikachu-Belle", "Pikachu-Pop-Star", "Pikachu-PhD", "Pikachu-Libre", "Pikachu-Cosplay"],
         canGigantamax: "G-Max Volt Crash",
-        tier: "(PU)"
+        tier: "1"
     },
     pikachucosplay: {
         num: 25,
@@ -944,8 +891,7 @@ exports.BattlePokedex = {
         color: "Yellow",
         eggGroups: ["Undiscovered"],
         gen: 6,
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     pikachurockstar: {
         num: 25,
@@ -972,8 +918,7 @@ exports.BattlePokedex = {
         eggGroups: ["Undiscovered"],
         changesFrom: "Pikachu-Cosplay",
         gen: 6,
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     pikachubelle: {
         num: 25,
@@ -1000,8 +945,7 @@ exports.BattlePokedex = {
         eggGroups: ["Undiscovered"],
         changesFrom: "Pikachu-Cosplay",
         gen: 6,
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     pikachupopstar: {
         num: 25,
@@ -1028,8 +972,7 @@ exports.BattlePokedex = {
         eggGroups: ["Undiscovered"],
         changesFrom: "Pikachu-Cosplay",
         gen: 6,
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     pikachuphd: {
         num: 25,
@@ -1056,8 +999,7 @@ exports.BattlePokedex = {
         eggGroups: ["Undiscovered"],
         changesFrom: "Pikachu-Cosplay",
         gen: 6,
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     pikachulibre: {
         num: 25,
@@ -1084,8 +1026,7 @@ exports.BattlePokedex = {
         eggGroups: ["Undiscovered"],
         changesFrom: "Pikachu-Cosplay",
         gen: 6,
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     pikachuoriginal: {
         num: 25,
@@ -1111,7 +1052,7 @@ exports.BattlePokedex = {
         color: "Yellow",
         eggGroups: ["Undiscovered"],
         gen: 7,
-        tier: "(PU)"
+        tier: "2"
     },
     pikachuhoenn: {
         num: 25,
@@ -1137,7 +1078,7 @@ exports.BattlePokedex = {
         color: "Yellow",
         eggGroups: ["Undiscovered"],
         gen: 7,
-        tier: "(PU)"
+        tier: "2"
     },
     pikachusinnoh: {
         num: 25,
@@ -1163,7 +1104,7 @@ exports.BattlePokedex = {
         color: "Yellow",
         eggGroups: ["Undiscovered"],
         gen: 7,
-        tier: "(PU)"
+        tier: "2"
     },
     pikachuunova: {
         num: 25,
@@ -1189,7 +1130,7 @@ exports.BattlePokedex = {
         color: "Yellow",
         eggGroups: ["Undiscovered"],
         gen: 7,
-        tier: "(PU)"
+        tier: "2"
     },
     pikachukalos: {
         num: 25,
@@ -1215,7 +1156,7 @@ exports.BattlePokedex = {
         color: "Yellow",
         eggGroups: ["Undiscovered"],
         gen: 7,
-        tier: "(PU)"
+        tier: "2"
     },
     pikachualola: {
         num: 25,
@@ -1241,7 +1182,7 @@ exports.BattlePokedex = {
         color: "Yellow",
         eggGroups: ["Undiscovered"],
         gen: 7,
-        tier: "(PU)"
+        tier: "2"
     },
     pikachupartner: {
         num: 25,
@@ -1267,7 +1208,7 @@ exports.BattlePokedex = {
         color: "Yellow",
         eggGroups: ["Undiscovered"],
         gen: 7,
-        tier: "(PU)"
+        tier: "2"
     },
     pikachustarter: {
         num: 25,
@@ -1291,7 +1232,7 @@ exports.BattlePokedex = {
         weightkg: 6,
         color: "Yellow",
         eggGroups: ["Undiscovered"],
-        tier: "Illegal",
+        tier: "2",
         isNonstandard: "LGPE"
     },
     pikachuworld: {
@@ -1318,7 +1259,7 @@ exports.BattlePokedex = {
         color: "Yellow",
         eggGroups: ["Undiscovered"],
         gen: 8,
-        tier: "(PU)"
+        tier: "2"
     },
     raichu: {
         num: 26,
@@ -1345,7 +1286,7 @@ exports.BattlePokedex = {
         eggGroups: ["Field", "Fairy"],
         otherFormes: ["Raichu-Alola"],
         formeOrder: ["Raichu", "Raichu-Alola"],
-        tier: "PU"
+        tier: "1"
     },
     raichualola: {
         num: 26,
@@ -1372,7 +1313,7 @@ exports.BattlePokedex = {
         evoItem: "Sun Stone",
         evoRegion: "Alola",
         eggGroups: ["Field", "Fairy"],
-        tier: "PU"
+        tier: ""
     },
     sandshrew: {
         num: 27,
@@ -1397,8 +1338,7 @@ exports.BattlePokedex = {
         eggGroups: ["Field"],
         otherFormes: ["Sandshrew-Alola"],
         formeOrder: ["Sandshrew", "Sandshrew-Alola"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     sandshrewalola: {
         num: 27,
@@ -1423,8 +1363,7 @@ exports.BattlePokedex = {
         color: "White",
         evos: ["Sandslash-Alola"],
         eggGroups: ["Field"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     sandslash: {
         num: 28,
@@ -1450,8 +1389,7 @@ exports.BattlePokedex = {
         eggGroups: ["Field"],
         otherFormes: ["Sandslash-Alola"],
         formeOrder: ["Sandslash", "Sandslash-Alola"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     sandslashalola: {
         num: 28,
@@ -1478,8 +1416,7 @@ exports.BattlePokedex = {
         evoType: "useItem",
         evoItem: "Ice Stone",
         eggGroups: ["Field"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     nidoranf: {
         num: 29,
@@ -1503,8 +1440,7 @@ exports.BattlePokedex = {
         color: "Blue",
         evos: ["Nidorina"],
         eggGroups: ["Monster", "Field"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     nidorina: {
         num: 30,
@@ -1530,8 +1466,7 @@ exports.BattlePokedex = {
         evoLevel: 16,
         evos: ["Nidoqueen"],
         eggGroups: ["Undiscovered"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     nidoqueen: {
         num: 31,
@@ -1557,8 +1492,7 @@ exports.BattlePokedex = {
         evoType: "useItem",
         evoItem: "Moon Stone",
         eggGroups: ["Undiscovered"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     nidoranm: {
         num: 32,
@@ -1582,8 +1516,7 @@ exports.BattlePokedex = {
         color: "Purple",
         evos: ["Nidorino"],
         eggGroups: ["Monster", "Field"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     nidorino: {
         num: 33,
@@ -1609,8 +1542,7 @@ exports.BattlePokedex = {
         evoLevel: 16,
         evos: ["Nidoking"],
         eggGroups: ["Monster", "Field"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     nidoking: {
         num: 34,
@@ -1636,8 +1568,7 @@ exports.BattlePokedex = {
         evoType: "useItem",
         evoItem: "Moon Stone",
         eggGroups: ["Monster", "Field"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     clefairy: {
         num: 35,
@@ -1667,8 +1598,7 @@ exports.BattlePokedex = {
         evoLevel: "10",
         evos: ["Clefable"],
         eggGroups: ["Fairy"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     clefable: {
         num: 36,
@@ -1698,8 +1628,7 @@ exports.BattlePokedex = {
         evoType: "useItem",
         evoItem: "Moon Stone",
         eggGroups: ["Fairy"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     vulpix: {
         num: 37,
@@ -1728,8 +1657,7 @@ exports.BattlePokedex = {
         eggGroups: ["Field"],
         otherFormes: ["Vulpix-Alola"],
         formeOrder: ["Vulpix", "Vulpix-Alola"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     vulpixalola: {
         num: 37,
@@ -1758,8 +1686,7 @@ exports.BattlePokedex = {
         color: "White",
         evos: ["Ninetales-Alola"],
         eggGroups: ["Field"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     ninetales: {
         num: 38,
@@ -1790,8 +1717,7 @@ exports.BattlePokedex = {
         eggGroups: ["Field"],
         otherFormes: ["Ninetales-Alola"],
         formeOrder: ["Ninetales", "Ninetales-Alola"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     ninetalesalola: {
         num: 38,
@@ -1822,8 +1748,7 @@ exports.BattlePokedex = {
         evoType: "useItem",
         evoItem: "Ice Stone",
         eggGroups: ["Field"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     jigglypuff: {
         num: 39,
@@ -1853,7 +1778,7 @@ exports.BattlePokedex = {
         evoType: "levelFriendship",
         evos: ["Wigglytuff"],
         eggGroups: ["Fairy"],
-        tier: "NFE"
+        tier: "2"
     },
     wigglytuff: {
         num: 40,
@@ -1883,7 +1808,7 @@ exports.BattlePokedex = {
         evoType: "useItem",
         evoItem: "Moon Stone",
         eggGroups: ["Fairy"],
-        tier: "(PU)"
+        tier: "2"
     },
     zubat: {
         num: 41,
@@ -1906,8 +1831,7 @@ exports.BattlePokedex = {
         color: "Purple",
         evos: ["Golbat"],
         eggGroups: ["Flying"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     golbat: {
         num: 42,
@@ -1932,8 +1856,7 @@ exports.BattlePokedex = {
         evoLevel: 22,
         evos: ["Crobat"],
         eggGroups: ["Flying"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     oddish: {
         num: 43,
@@ -1956,8 +1879,7 @@ exports.BattlePokedex = {
         color: "Blue",
         evos: ["Gloom"],
         eggGroups: ["Grass"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     gloom: {
         num: 44,
@@ -1982,8 +1904,7 @@ exports.BattlePokedex = {
         evoLevel: 21,
         evos: ["Vileplume", "Bellossom"],
         eggGroups: ["Grass"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     vileplume: {
         num: 45,
@@ -2008,8 +1929,7 @@ exports.BattlePokedex = {
         evoType: "useItem",
         evoItem: "Leaf Stone",
         eggGroups: ["Grass"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     paras: {
         num: 46,
@@ -2032,8 +1952,7 @@ exports.BattlePokedex = {
         color: "Red",
         evos: ["Parasect"],
         eggGroups: ["Bug", "Grass"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     parasect: {
         num: 47,
@@ -2057,8 +1976,7 @@ exports.BattlePokedex = {
         prevo: "Paras",
         evoLevel: 22,
         eggGroups: ["Bug", "Grass"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     venonat: {
         num: 48,
@@ -2082,7 +2000,7 @@ exports.BattlePokedex = {
         color: "Purple",
         evos: ["Venomoth"],
         eggGroups: ["Bug"],
-        tier: "LC"
+        tier: "2"
     },
     venomoth: {
         num: 49,
@@ -2107,7 +2025,7 @@ exports.BattlePokedex = {
         prevo: "Venonat",
         evoLevel: 31,
         eggGroups: ["Bug"],
-        tier: "NUBL"
+        tier: "2"
     },
     diglett: {
         num: 50,
@@ -2132,7 +2050,7 @@ exports.BattlePokedex = {
         eggGroups: ["Field"],
         otherFormes: ["Diglett-Alola"],
         formeOrder: ["Diglett", "Diglett-Alola"],
-        tier: "NFE"
+        tier: "2"
     },
     diglettalola: {
         num: 50,
@@ -2158,7 +2076,7 @@ exports.BattlePokedex = {
         color: "Brown",
         evos: ["Dugtrio-Alola"],
         eggGroups: ["Field"],
-        tier: "LC"
+        tier: "2"
     },
     dugtrio: {
         num: 51,
@@ -2184,7 +2102,7 @@ exports.BattlePokedex = {
         eggGroups: ["Field"],
         otherFormes: ["Dugtrio-Alola"],
         formeOrder: ["Dugtrio", "Dugtrio-Alola"],
-        tier: "PU"
+        tier: "2"
     },
     dugtrioalola: {
         num: 51,
@@ -2211,7 +2129,7 @@ exports.BattlePokedex = {
         prevo: "Diglett-Alola",
         evoLevel: 26,
         eggGroups: ["Field"],
-        tier: "PU"
+        tier: "2"
     },
     meowth: {
         num: 52,
@@ -2238,7 +2156,7 @@ exports.BattlePokedex = {
         otherFormes: ["Meowth-Alola", "Meowth-Galar"],
         formeOrder: ["Meowth", "Meowth-Alola", "Meowth-Galar"],
         canGigantamax: "G-Max Gold Rush",
-        tier: "LC"
+        tier: "2"
     },
     meowthalola: {
         num: 52,
@@ -2264,7 +2182,7 @@ exports.BattlePokedex = {
         color: "Blue",
         evos: ["Persian-Alola"],
         eggGroups: ["Field"],
-        tier: "LC"
+        tier: "2"
     },
     meowthgalar: {
         num: 52,
@@ -2290,7 +2208,7 @@ exports.BattlePokedex = {
         color: "Brown",
         evos: ["Perrserker"],
         eggGroups: ["Field"],
-        tier: "LC"
+        tier: "1"
     },
     persian: {
         num: 53,
@@ -2317,7 +2235,7 @@ exports.BattlePokedex = {
         eggGroups: ["Field"],
         otherFormes: ["Persian-Alola"],
         formeOrder: ["Persian", "Persian-Alola"],
-        tier: "(PU)"
+        tier: "2"
     },
     persianalola: {
         num: 53,
@@ -2344,7 +2262,7 @@ exports.BattlePokedex = {
         prevo: "Meowth-Alola",
         evoType: "levelFriendship",
         eggGroups: ["Field"],
-        tier: "PU"
+        tier: "2"
     },
     psyduck: {
         num: 54,
@@ -2367,7 +2285,7 @@ exports.BattlePokedex = {
         color: "Yellow",
         evos: ["Golduck"],
         eggGroups: ["Water 1", "Field"],
-        tier: "LC"
+        tier: "1"
     },
     golduck: {
         num: 55,
@@ -2391,7 +2309,7 @@ exports.BattlePokedex = {
         prevo: "Psyduck",
         evoLevel: 26,
         eggGroups: ["Water 1", "Field"],
-        tier: "(PU)"
+        tier: "1"
     },
     mankey: {
         num: 56,
@@ -2415,7 +2333,7 @@ exports.BattlePokedex = {
         color: "Brown",
         evos: ["Primeape"],
         eggGroups: ["Field"],
-        tier: "LC"
+        tier: "2"
     },
     primeape: {
         num: 57,
@@ -2441,7 +2359,7 @@ exports.BattlePokedex = {
         evoLevel: 28,
         evos: ["Annihilape"],
         eggGroups: ["Field"],
-        tier: "NU"
+        tier: "2"
     },
     growlithe: {
         num: 58,
@@ -2470,7 +2388,7 @@ exports.BattlePokedex = {
         eggGroups: ["Field"],
         otherFormes: ["Growlithe-Hisui"],
         formeOrder: ["Growlithe", "Growlithe-Hisui"],
-        tier: "LC"
+        tier: "1"
     },
     growlithehisui: {
         num: 58,
@@ -2500,7 +2418,7 @@ exports.BattlePokedex = {
         color: "Brown",
         evos: ["Arcanine-Hisui"],
         eggGroups: ["Field"],
-        tier: "NFE"
+        tier: "1"
     },
     arcanine: {
         num: 59,
@@ -2531,7 +2449,7 @@ exports.BattlePokedex = {
         eggGroups: ["Field"],
         otherFormes: ["Arcanine-Hisui"],
         formeOrder: ["Arcanine", "Arcanine-Hisui"],
-        tier: "RU"
+        tier: "1"
     },
     arcaninehisui: {
         num: 59,
@@ -2563,7 +2481,7 @@ exports.BattlePokedex = {
         evoType: "useItem",
         evoItem: "Fire Stone",
         eggGroups: ["Field"],
-        tier: "UU"
+        tier: "1"
     },
     poliwag: {
         num: 60,
@@ -2587,8 +2505,7 @@ exports.BattlePokedex = {
         color: "Blue",
         evos: ["Poliwhirl"],
         eggGroups: ["Water 1"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     poliwhirl: {
         num: 61,
@@ -2614,8 +2531,7 @@ exports.BattlePokedex = {
         evoLevel: 25,
         evos: ["Poliwrath", "Politoed"],
         eggGroups: ["Water 1"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     poliwrath: {
         num: 62,
@@ -2641,8 +2557,7 @@ exports.BattlePokedex = {
         evoType: "useItem",
         evoItem: "Water Stone",
         eggGroups: ["Water 1"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     abra: {
         num: 63,
@@ -2670,8 +2585,7 @@ exports.BattlePokedex = {
         color: "Brown",
         evos: ["Kadabra"],
         eggGroups: ["Human-Like"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     kadabra: {
         num: 64,
@@ -2701,8 +2615,7 @@ exports.BattlePokedex = {
         evoLevel: 16,
         evos: ["Alakazam"],
         eggGroups: ["Human-Like"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     alakazam: {
         num: 65,
@@ -2733,8 +2646,7 @@ exports.BattlePokedex = {
         eggGroups: ["Human-Like"],
         otherFormes: ["Alakazam-Mega"],
         formeOrder: ["Alakazam", "Alakazam-Mega"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     alakazammega: {
         num: 65,
@@ -2762,8 +2674,7 @@ exports.BattlePokedex = {
         color: "Brown",
         eggGroups: ["Human-Like"],
         requiredItem: "Alakazite",
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     machop: {
         num: 66,
@@ -2791,8 +2702,7 @@ exports.BattlePokedex = {
         color: "Gray",
         evos: ["Machoke"],
         eggGroups: ["Human-Like"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     machoke: {
         num: 67,
@@ -2822,8 +2732,7 @@ exports.BattlePokedex = {
         evoLevel: 28,
         evos: ["Machamp"],
         eggGroups: ["Human-Like"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     machamp: {
         num: 68,
@@ -2853,8 +2762,7 @@ exports.BattlePokedex = {
         evoType: "trade",
         eggGroups: ["Human-Like"],
         canGigantamax: "G-Max Chi Strike",
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     bellsprout: {
         num: 69,
@@ -2877,8 +2785,7 @@ exports.BattlePokedex = {
         color: "Green",
         evos: ["Weepinbell"],
         eggGroups: ["Grass"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     weepinbell: {
         num: 70,
@@ -2903,8 +2810,7 @@ exports.BattlePokedex = {
         evoLevel: 21,
         evos: ["Victreebel"],
         eggGroups: ["Grass"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     victreebel: {
         num: 71,
@@ -2929,8 +2835,7 @@ exports.BattlePokedex = {
         evoType: "useItem",
         evoItem: "Leaf Stone",
         eggGroups: ["Grass"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     tentacool: {
         num: 72,
@@ -2954,8 +2859,7 @@ exports.BattlePokedex = {
         color: "Blue",
         evos: ["Tentacruel"],
         eggGroups: ["Water 3"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     tentacruel: {
         num: 73,
@@ -2980,8 +2884,7 @@ exports.BattlePokedex = {
         prevo: "Tentacool",
         evoLevel: 30,
         eggGroups: ["Water 3"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     geodude: {
         num: 74,
@@ -3007,8 +2910,7 @@ exports.BattlePokedex = {
         eggGroups: ["Mineral"],
         otherFormes: ["Geodude-Alola"],
         formeOrder: ["Geodude", "Geodude-Alola"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     geodudealola: {
         num: 74,
@@ -3034,8 +2936,7 @@ exports.BattlePokedex = {
         color: "Gray",
         evos: ["Graveler-Alola"],
         eggGroups: ["Mineral"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     graveler: {
         num: 75,
@@ -3063,8 +2964,7 @@ exports.BattlePokedex = {
         eggGroups: ["Mineral"],
         otherFormes: ["Graveler-Alola"],
         formeOrder: ["Graveler", "Graveler-Alola"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     graveleralola: {
         num: 75,
@@ -3092,8 +2992,7 @@ exports.BattlePokedex = {
         evoLevel: 25,
         evos: ["Golem-Alola"],
         eggGroups: ["Mineral"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     golem: {
         num: 76,
@@ -3120,8 +3019,7 @@ exports.BattlePokedex = {
         eggGroups: ["Mineral"],
         otherFormes: ["Golem-Alola"],
         formeOrder: ["Golem", "Golem-Alola"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     golemalola: {
         num: 76,
@@ -3148,8 +3046,7 @@ exports.BattlePokedex = {
         prevo: "Graveler-Alola",
         evoType: "trade",
         eggGroups: ["Mineral"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     ponyta: {
         num: 77,
@@ -3174,8 +3071,7 @@ exports.BattlePokedex = {
         eggGroups: ["Field"],
         otherFormes: ["Ponyta-Galar"],
         formeOrder: ["Ponyta", "Ponyta-Galar"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     ponytagalar: {
         num: 77,
@@ -3201,8 +3097,7 @@ exports.BattlePokedex = {
         color: "White",
         evos: ["Rapidash-Galar"],
         eggGroups: ["Field"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     rapidash: {
         num: 78,
@@ -3228,8 +3123,7 @@ exports.BattlePokedex = {
         eggGroups: ["Field"],
         otherFormes: ["Rapidash-Galar"],
         formeOrder: ["Rapidash", "Rapidash-Galar"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     rapidashgalar: {
         num: 78,
@@ -3256,8 +3150,7 @@ exports.BattlePokedex = {
         prevo: "Ponyta-Galar",
         evoLevel: 40,
         eggGroups: ["Field"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     slowpoke: {
         num: 79,
@@ -3283,7 +3176,7 @@ exports.BattlePokedex = {
         eggGroups: ["Monster", "Water 1"],
         otherFormes: ["Slowpoke-Galar"],
         formeOrder: ["Slowpoke", "Slowpoke-Galar"],
-        tier: "LC"
+        tier: "1"
     },
     slowpokegalar: {
         num: 79,
@@ -3309,7 +3202,7 @@ exports.BattlePokedex = {
         color: "Pink",
         evos: ["Slowbro-Galar", "Slowking-Galar"],
         eggGroups: ["Monster", "Water 1"],
-        tier: "LC"
+        tier: "2"
     },
     slowbro: {
         num: 80,
@@ -3336,7 +3229,7 @@ exports.BattlePokedex = {
         eggGroups: ["Monster", "Water 1"],
         otherFormes: ["Slowbro-Mega", "Slowbro-Galar"],
         formeOrder: ["Slowbro", "Slowbro-Mega", "Slowbro-Galar"],
-        tier: "RU"
+        tier: "1"
     },
     slowbromega: {
         num: 80,
@@ -3360,8 +3253,7 @@ exports.BattlePokedex = {
         color: "Pink",
         eggGroups: ["Monster", "Water 1"],
         requiredItem: "Slowbronite",
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     slowbrogalar: {
         num: 80,
@@ -3389,7 +3281,7 @@ exports.BattlePokedex = {
         evoType: "useItem",
         evoItem: "Galarica Cuff",
         eggGroups: ["Monster", "Water 1"],
-        tier: "RU"
+        tier: "2"
     },
     magnemite: {
         num: 81,
@@ -3414,7 +3306,7 @@ exports.BattlePokedex = {
         color: "Gray",
         evos: ["Magneton"],
         eggGroups: ["Mineral"],
-        tier: "LC"
+        tier: "1"
     },
     magneton: {
         num: 82,
@@ -3441,7 +3333,7 @@ exports.BattlePokedex = {
         evoLevel: 30,
         evos: ["Magnezone"],
         eggGroups: ["Mineral"],
-        tier: "NU"
+        tier: "1"
     },
     farfetchd: {
         num: 83,
@@ -3466,8 +3358,7 @@ exports.BattlePokedex = {
         eggGroups: ["Flying", "Field"],
         otherFormes: ["Farfetchâ€™d-Galar"],
         formeOrder: ["Farfetchâ€™d", "Farfetchâ€™d-Galar"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     farfetchdgalar: {
         num: 83,
@@ -3492,8 +3383,7 @@ exports.BattlePokedex = {
         color: "Brown",
         evos: ["Sirfetchâ€™d"],
         eggGroups: ["Flying", "Field"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     doduo: {
         num: 84,
@@ -3517,8 +3407,7 @@ exports.BattlePokedex = {
         color: "Brown",
         evos: ["Dodrio"],
         eggGroups: ["Flying"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     dodrio: {
         num: 85,
@@ -3543,8 +3432,7 @@ exports.BattlePokedex = {
         prevo: "Doduo",
         evoLevel: 31,
         eggGroups: ["Flying"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     seel: {
         num: 86,
@@ -3568,8 +3456,7 @@ exports.BattlePokedex = {
         color: "White",
         evos: ["Dewgong"],
         eggGroups: ["Water 1", "Field"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     dewgong: {
         num: 87,
@@ -3594,8 +3481,7 @@ exports.BattlePokedex = {
         prevo: "Seel",
         evoLevel: 34,
         eggGroups: ["Water 1", "Field"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     grimer: {
         num: 88,
@@ -3621,7 +3507,7 @@ exports.BattlePokedex = {
         eggGroups: ["Amorphous"],
         otherFormes: ["Grimer-Alola"],
         formeOrder: ["Grimer", "Grimer-Alola"],
-        tier: "LC"
+        tier: "2"
     },
     grimeralola: {
         num: 88,
@@ -3647,7 +3533,7 @@ exports.BattlePokedex = {
         color: "Green",
         evos: ["Muk-Alola"],
         eggGroups: ["Amorphous"],
-        tier: "LC"
+        tier: "1"
     },
     muk: {
         num: 89,
@@ -3674,7 +3560,7 @@ exports.BattlePokedex = {
         eggGroups: ["Amorphous"],
         otherFormes: ["Muk-Alola"],
         formeOrder: ["Muk", "Muk-Alola"],
-        tier: "NU"
+        tier: "2"
     },
     mukalola: {
         num: 89,
@@ -3701,7 +3587,7 @@ exports.BattlePokedex = {
         prevo: "Grimer-Alola",
         evoLevel: 38,
         eggGroups: ["Amorphous"],
-        tier: "UU"
+        tier: "1"
     },
     shellder: {
         num: 90,
@@ -3724,7 +3610,7 @@ exports.BattlePokedex = {
         color: "Purple",
         evos: ["Cloyster"],
         eggGroups: ["Water 3"],
-        tier: "LC"
+        tier: "1"
     },
     cloyster: {
         num: 91,
@@ -3750,7 +3636,7 @@ exports.BattlePokedex = {
         evoType: "useItem",
         evoItem: "Water Stone",
         eggGroups: ["Water 3"],
-        tier: "RU"
+        tier: "1"
     },
     gastly: {
         num: 92,
@@ -3772,7 +3658,7 @@ exports.BattlePokedex = {
         color: "Purple",
         evos: ["Haunter"],
         eggGroups: ["Amorphous"],
-        tier: "NFE"
+        tier: "1"
     },
     haunter: {
         num: 93,
@@ -3796,7 +3682,7 @@ exports.BattlePokedex = {
         evoLevel: 25,
         evos: ["Gengar"],
         eggGroups: ["Amorphous"],
-        tier: "PU"
+        tier: "1"
     },
     gengar: {
         num: 94,
@@ -3823,7 +3709,7 @@ exports.BattlePokedex = {
         otherFormes: ["Gengar-Mega"],
         formeOrder: ["Gengar", "Gengar-Mega"],
         canGigantamax: "G-Max Terror",
-        tier: "UU"
+        tier: "1"
     },
     gengarmega: {
         num: 94,
@@ -3847,8 +3733,7 @@ exports.BattlePokedex = {
         color: "Purple",
         eggGroups: ["Amorphous"],
         requiredItem: "Gengarite",
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     onix: {
         num: 95,
@@ -3872,8 +3757,7 @@ exports.BattlePokedex = {
         color: "Gray",
         evos: ["Steelix"],
         eggGroups: ["Mineral"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     drowzee: {
         num: 96,
@@ -3896,7 +3780,7 @@ exports.BattlePokedex = {
         color: "Yellow",
         evos: ["Hypno"],
         eggGroups: ["Human-Like"],
-        tier: "LC"
+        tier: "1"
     },
     hypno: {
         num: 97,
@@ -3920,7 +3804,7 @@ exports.BattlePokedex = {
         prevo: "Drowzee",
         evoLevel: 24,
         eggGroups: ["Human-Like"],
-        tier: "(PU)"
+        tier: "1"
     },
     krabby: {
         num: 98,
@@ -3944,8 +3828,7 @@ exports.BattlePokedex = {
         color: "Red",
         evos: ["Kingler"],
         eggGroups: ["Water 3"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     kingler: {
         num: 99,
@@ -3971,8 +3854,7 @@ exports.BattlePokedex = {
         evoLevel: 26,
         eggGroups: ["Water 3"],
         canGigantamax: "G-Max Foam Burst",
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     voltorb: {
         num: 100,
@@ -3999,7 +3881,7 @@ exports.BattlePokedex = {
         eggGroups: ["Mineral"],
         otherFormes: ["Voltorb-Hisui"],
         formeOrder: ["Voltorb", "Voltorb-Hisui"],
-        tier: "LC"
+        tier: "2"
     },
     voltorbhisui: {
         num: 100,
@@ -4026,7 +3908,7 @@ exports.BattlePokedex = {
         color: "Red",
         evos: ["Electrode-Hisui"],
         eggGroups: ["Mineral"],
-        tier: "LC"
+        tier: "1"
     },
     electrode: {
         num: 101,
@@ -4054,7 +3936,7 @@ exports.BattlePokedex = {
         eggGroups: ["Mineral"],
         otherFormes: ["Electrode-Hisui"],
         formeOrder: ["Electrode", "Electrode-Hisui"],
-        tier: "PU"
+        tier: "2"
     },
     electrodehisui: {
         num: 101,
@@ -4082,7 +3964,7 @@ exports.BattlePokedex = {
         prevo: "Voltorb-Hisui",
         evoLevel: "30",
         eggGroups: ["Mineral"],
-        tier: "NU"
+        tier: "1"
     },
     exeggcute: {
         num: 102,
@@ -4105,8 +3987,7 @@ exports.BattlePokedex = {
         color: "Pink",
         evos: ["Exeggutor", "Exeggutor-Alola"],
         eggGroups: ["Grass"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     exeggutor: {
         num: 103,
@@ -4133,8 +4014,7 @@ exports.BattlePokedex = {
         eggGroups: ["Grass"],
         otherFormes: ["Exeggutor-Alola"],
         formeOrder: ["Exeggutor", "Exeggutor-Alola"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     exeggutoralola: {
         num: 103,
@@ -4161,8 +4041,7 @@ exports.BattlePokedex = {
         evoItem: "Shiny Stone",
         evoRegion: "Alola",
         eggGroups: ["Grass"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     cubone: {
         num: 104,
@@ -4186,8 +4065,7 @@ exports.BattlePokedex = {
         color: "Brown",
         evos: ["Marowak", "Marowak-Alola"],
         eggGroups: ["Monster"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     marowak: {
         num: 105,
@@ -4212,10 +4090,9 @@ exports.BattlePokedex = {
         prevo: "Cubone",
         evoLevel: 28,
         eggGroups: ["Monster"],
-        otherFormes: ["Marowak-Alola", "Marowak-Alola-Totem"],
-        formeOrder: ["Marowak", "Marowak-Alola", "Marowak-Alola-Totem"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        otherFormes: ["Marowak-Alola"],
+        formeOrder: ["Marowak", "Marowak-Alola"],
+        tier: "2",
     },
     marowakalola: {
         num: 105,
@@ -4244,32 +4121,7 @@ exports.BattlePokedex = {
         evoCondition: "at night",
         evoRegion: "Alola",
         eggGroups: ["Monster"],
-        tier: "Illegal",
-        isNonstandard: "Past"
-    },
-    marowakalolatotem: {
-        num: 105,
-        name: "Marowak-Alola-Totem",
-        baseSpecies: "Marowak",
-        forme: "Alola-Totem",
-        types: ["Fire", "Ghost"],
-        baseStats: {
-            hp: 60,
-            atk: 80,
-            def: 110,
-            spa: 50,
-            spd: 80,
-            spe: 45
-        },
-        abilities: {
-            "0": "Rock Head"
-        },
-        heightm: 1.7,
-        weightkg: 98,
-        color: "Purple",
-        eggGroups: ["Monster"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     hitmonlee: {
         num: 106,
@@ -4296,8 +4148,7 @@ exports.BattlePokedex = {
         evoLevel: 20,
         evoCondition: "with an Atk stat > its Def stat",
         eggGroups: ["Human-Like"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     hitmonchan: {
         num: 107,
@@ -4324,8 +4175,7 @@ exports.BattlePokedex = {
         evoLevel: 20,
         evoCondition: "with an Atk stat < its Def stat",
         eggGroups: ["Human-Like"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     lickitung: {
         num: 108,
@@ -4349,8 +4199,7 @@ exports.BattlePokedex = {
         color: "Pink",
         evos: ["Lickilicky"],
         eggGroups: ["Monster"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     koffing: {
         num: 109,
@@ -4373,8 +4222,7 @@ exports.BattlePokedex = {
         color: "Purple",
         evos: ["Weezing", "Weezing-Galar"],
         eggGroups: ["Amorphous"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     weezing: {
         num: 110,
@@ -4400,8 +4248,7 @@ exports.BattlePokedex = {
         eggGroups: ["Amorphous"],
         otherFormes: ["Weezing-Galar"],
         formeOrder: ["Weezing", "Weezing-Galar"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     weezinggalar: {
         num: 110,
@@ -4429,8 +4276,7 @@ exports.BattlePokedex = {
         evoLevel: 35,
         evoRegion: "Galar",
         eggGroups: ["Amorphous"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     rhyhorn: {
         num: 111,
@@ -4454,8 +4300,7 @@ exports.BattlePokedex = {
         color: "Gray",
         evos: ["Rhydon"],
         eggGroups: ["Monster", "Field"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     rhydon: {
         num: 112,
@@ -4481,8 +4326,7 @@ exports.BattlePokedex = {
         evoLevel: 34,
         evos: ["Rhyperior"],
         eggGroups: ["Monster", "Field"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     chansey: {
         num: 113,
@@ -4512,7 +4356,7 @@ exports.BattlePokedex = {
         evos: ["Blissey"],
         eggGroups: ["Fairy"],
         canHatch: true,
-        tier: "PU"
+        tier: "2"
     },
     tangela: {
         num: 114,
@@ -4536,8 +4380,7 @@ exports.BattlePokedex = {
         color: "Blue",
         evos: ["Tangrowth"],
         eggGroups: ["Grass"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     kangaskhan: {
         num: 115,
@@ -4563,8 +4406,7 @@ exports.BattlePokedex = {
         eggGroups: ["Monster"],
         otherFormes: ["Kangaskhan-Mega"],
         formeOrder: ["Kangaskhan", "Kangaskhan-Mega"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     kangaskhanmega: {
         num: 115,
@@ -4589,8 +4431,7 @@ exports.BattlePokedex = {
         color: "Brown",
         eggGroups: ["Monster"],
         requiredItem: "Kangaskhanite",
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     horsea: {
         num: 116,
@@ -4614,8 +4455,7 @@ exports.BattlePokedex = {
         color: "Blue",
         evos: ["Seadra"],
         eggGroups: ["Water 1", "Dragon"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     seadra: {
         num: 117,
@@ -4641,8 +4481,7 @@ exports.BattlePokedex = {
         evoLevel: 20,
         evos: ["Kingdra"],
         eggGroups: ["Water 1", "Dragon"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     goldeen: {
         num: 118,
@@ -4666,8 +4505,7 @@ exports.BattlePokedex = {
         color: "Red",
         evos: ["Seaking"],
         eggGroups: ["Water 2"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     seaking: {
         num: 119,
@@ -4692,8 +4530,7 @@ exports.BattlePokedex = {
         prevo: "Goldeen",
         evoLevel: 33,
         eggGroups: ["Water 2"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     staryu: {
         num: 120,
@@ -4717,8 +4554,7 @@ exports.BattlePokedex = {
         color: "Brown",
         evos: ["Starmie"],
         eggGroups: ["Water 3"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     starmie: {
         num: 121,
@@ -4744,8 +4580,7 @@ exports.BattlePokedex = {
         evoType: "useItem",
         evoItem: "Water Stone",
         eggGroups: ["Water 3"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     mrmime: {
         num: 122,
@@ -4774,8 +4609,7 @@ exports.BattlePokedex = {
         canHatch: true,
         otherFormes: ["Mr. Mime-Galar"],
         formeOrder: ["Mr. Mime", "Mr. Mime-Galar"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     mrmimegalar: {
         num: 122,
@@ -4806,8 +4640,7 @@ exports.BattlePokedex = {
         evos: ["Mr. Rime"],
         eggGroups: ["Human-Like"],
         canHatch: true,
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     scyther: {
         num: 123,
@@ -4830,7 +4663,7 @@ exports.BattlePokedex = {
         color: "Green",
         evos: ["Scizor", "Kleavor"],
         eggGroups: ["Bug"],
-        tier: "NU"
+        tier: "1"
     },
     jynx: {
         num: 124,
@@ -4856,8 +4689,7 @@ exports.BattlePokedex = {
         prevo: "Smoochum",
         evoLevel: 30,
         eggGroups: ["Human-Like"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     electabuzz: {
         num: 125,
@@ -4886,8 +4718,7 @@ exports.BattlePokedex = {
         evoLevel: 30,
         evos: ["Electivire"],
         eggGroups: ["Human-Like"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     magmar: {
         num: 126,
@@ -4917,8 +4748,7 @@ exports.BattlePokedex = {
         evoLevel: 30,
         evos: ["Magmortar"],
         eggGroups: ["Human-Like"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     pinsir: {
         num: 127,
@@ -4943,8 +4773,7 @@ exports.BattlePokedex = {
         eggGroups: ["Bug"],
         otherFormes: ["Pinsir-Mega"],
         formeOrder: ["Pinsir", "Pinsir-Mega"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     pinsirmega: {
         num: 127,
@@ -4968,8 +4797,7 @@ exports.BattlePokedex = {
         color: "Brown",
         eggGroups: ["Bug"],
         requiredItem: "Pinsirite",
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     tauros: {
         num: 128,
@@ -4991,88 +4819,8 @@ exports.BattlePokedex = {
         heightm: 1.4,
         weightkg: 88.4,
         color: "Brown",
-        otherFormes: ["Tauros-Paldea-Combat", "Tauros-Paldea-Blaze", "Tauros-Paldea-Aqua"],
-        formeOrder: ["Tauros", "Tauros-Paldea-Combat", "Tauros-Paldea-Blaze", "Tauros-Paldea-Aqua"],
         eggGroups: ["Field"],
-        tier: "NU"
-    },
-    taurospaldeacombat: {
-        num: 128,
-        name: "Tauros-Paldea-Combat",
-        baseSpecies: "Tauros",
-        forme: "Paldea-Combat",
-        types: ["Fighting"],
-        gender: "M",
-        baseStats: {
-            hp: 75,
-            atk: 110,
-            def: 105,
-            spa: 30,
-            spd: 70,
-            spe: 100
-        },
-        abilities: {
-            "0": "Intimidate",
-            "1": "Anger Point",
-            H: "Cud Chew"
-        },
-        heightm: 1.4,
-        weightkg: 115,
-        color: "Black",
-        eggGroups: ["Field"],
-        tier: "PU"
-    },
-    taurospaldeablaze: {
-        num: 128,
-        name: "Tauros-Paldea-Blaze",
-        baseSpecies: "Tauros",
-        forme: "Paldea-Blaze",
-        types: ["Fighting", "Fire"],
-        gender: "M",
-        baseStats: {
-            hp: 75,
-            atk: 110,
-            def: 105,
-            spa: 30,
-            spd: 70,
-            spe: 100
-        },
-        abilities: {
-            "0": "Intimidate",
-            "1": "Anger Point",
-            H: "Cud Chew"
-        },
-        heightm: 1.4,
-        weightkg: 85,
-        color: "Black",
-        eggGroups: ["Field"],
-        tier: "NU"
-    },
-    taurospaldeaaqua: {
-        num: 128,
-        name: "Tauros-Paldea-Aqua",
-        baseSpecies: "Tauros",
-        forme: "Paldea-Aqua",
-        types: ["Fighting", "Water"],
-        gender: "M",
-        baseStats: {
-            hp: 75,
-            atk: 110,
-            def: 105,
-            spa: 30,
-            spd: 70,
-            spe: 100
-        },
-        abilities: {
-            "0": "Intimidate",
-            "1": "Anger Point",
-            H: "Cud Chew"
-        },
-        heightm: 1.4,
-        weightkg: 110,
-        color: "Black",
-        eggGroups: ["Field"],
-        tier: "RU"
+        tier: "1"
     },
     magikarp: {
         num: 129,
@@ -5095,7 +4843,7 @@ exports.BattlePokedex = {
         color: "Red",
         evos: ["Gyarados"],
         eggGroups: ["Water 2", "Dragon"],
-        tier: "LC"
+        tier: "1"
     },
     gyarados: {
         num: 130,
@@ -5121,7 +4869,7 @@ exports.BattlePokedex = {
         eggGroups: ["Water 2", "Dragon"],
         otherFormes: ["Gyarados-Mega"],
         formeOrder: ["Gyarados", "Gyarados-Mega"],
-        tier: "UU"
+        tier: "1"
     },
     gyaradosmega: {
         num: 130,
@@ -5145,8 +4893,7 @@ exports.BattlePokedex = {
         color: "Blue",
         eggGroups: ["Water 2", "Dragon"],
         requiredItem: "Gyaradosite",
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     lapras: {
         num: 131,
@@ -5170,8 +4917,7 @@ exports.BattlePokedex = {
         color: "Blue",
         eggGroups: ["Monster", "Water 1"],
         canGigantamax: "G-Max Resonance",
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     ditto: {
         num: 132,
@@ -5194,7 +4940,7 @@ exports.BattlePokedex = {
         weightkg: 4,
         color: "Purple",
         eggGroups: ["Ditto"],
-        tier: "NU"
+        tier: "2"
     },
     eevee: {
         num: 133,
@@ -5225,7 +4971,7 @@ exports.BattlePokedex = {
         otherFormes: ["Eevee-Starter"],
         formeOrder: ["Eevee", "Eevee-Starter"],
         canGigantamax: "G-Max Cuddle",
-        tier: "LC"
+        tier: "2"
     },
     eeveestarter: {
         num: 133,
@@ -5254,7 +5000,7 @@ exports.BattlePokedex = {
         weightkg: 6.5,
         color: "Brown",
         eggGroups: ["Undiscovered"],
-        tier: "Illegal",
+        tier: "2",
         isNonstandard: "LGPE"
     },
     vaporeon: {
@@ -5284,7 +5030,7 @@ exports.BattlePokedex = {
         evoType: "useItem",
         evoItem: "Water Stone",
         eggGroups: ["Field"],
-        tier: "RU"
+        tier: "2"
     },
     jolteon: {
         num: 135,
@@ -5313,7 +5059,7 @@ exports.BattlePokedex = {
         evoType: "useItem",
         evoItem: "Thunder Stone",
         eggGroups: ["Field"],
-        tier: "NUBL"
+        tier: "2"
     },
     flareon: {
         num: 136,
@@ -5342,7 +5088,7 @@ exports.BattlePokedex = {
         evoType: "useItem",
         evoItem: "Fire Stone",
         eggGroups: ["Field"],
-        tier: "(PU)"
+        tier: "2"
     },
     porygon: {
         num: 137,
@@ -5367,8 +5113,7 @@ exports.BattlePokedex = {
         color: "Pink",
         evos: ["Porygon2"],
         eggGroups: ["Mineral"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     omanyte: {
         num: 138,
@@ -5396,8 +5141,7 @@ exports.BattlePokedex = {
         color: "Blue",
         evos: ["Omastar"],
         eggGroups: ["Water 1", "Water 3"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     omastar: {
         num: 139,
@@ -5426,8 +5170,7 @@ exports.BattlePokedex = {
         prevo: "Omanyte",
         evoLevel: 40,
         eggGroups: ["Water 1", "Water 3"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     kabuto: {
         num: 140,
@@ -5455,8 +5198,7 @@ exports.BattlePokedex = {
         color: "Brown",
         evos: ["Kabutops"],
         eggGroups: ["Water 1", "Water 3"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     kabutops: {
         num: 141,
@@ -5485,8 +5227,7 @@ exports.BattlePokedex = {
         prevo: "Kabuto",
         evoLevel: 40,
         eggGroups: ["Water 1", "Water 3"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     aerodactyl: {
         num: 142,
@@ -5515,8 +5256,7 @@ exports.BattlePokedex = {
         eggGroups: ["Flying"],
         otherFormes: ["Aerodactyl-Mega"],
         formeOrder: ["Aerodactyl", "Aerodactyl-Mega"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     aerodactylmega: {
         num: 142,
@@ -5544,8 +5284,7 @@ exports.BattlePokedex = {
         color: "Purple",
         eggGroups: ["Flying"],
         requiredItem: "Aerodactylite",
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     snorlax: {
         num: 143,
@@ -5576,8 +5315,7 @@ exports.BattlePokedex = {
         eggGroups: ["Monster"],
         canHatch: true,
         canGigantamax: "G-Max Replenish",
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     articuno: {
         num: 144,
@@ -5603,7 +5341,7 @@ exports.BattlePokedex = {
         eggGroups: ["Undiscovered"],
         otherFormes: ["Articuno-Galar"],
         formeOrder: ["Articuno", "Articuno-Galar"],
-        tier: "NU"
+        tier: "2"
     },
     articunogalar: {
         num: 144,
@@ -5627,7 +5365,7 @@ exports.BattlePokedex = {
         weightkg: 50.9,
         color: "Purple",
         eggGroups: ["Undiscovered"],
-        tier: "NU"
+        tier: "2"
     },
     zapdos: {
         num: 145,
@@ -5653,7 +5391,7 @@ exports.BattlePokedex = {
         eggGroups: ["Undiscovered"],
         otherFormes: ["Zapdos-Galar"],
         formeOrder: ["Zapdos", "Zapdos-Galar"],
-        tier: "OU"
+        tier: "2"
     },
     zapdosgalar: {
         num: 145,
@@ -5677,7 +5415,7 @@ exports.BattlePokedex = {
         weightkg: 58.2,
         color: "Yellow",
         eggGroups: ["Undiscovered"],
-        tier: "UU"
+        tier: "2"
     },
     moltres: {
         num: 146,
@@ -5703,7 +5441,7 @@ exports.BattlePokedex = {
         eggGroups: ["Undiscovered"],
         otherFormes: ["Moltres-Galar"],
         formeOrder: ["Moltres", "Moltres-Galar"],
-        tier: "OU"
+        tier: "2"
     },
     moltresgalar: {
         num: 146,
@@ -5727,7 +5465,7 @@ exports.BattlePokedex = {
         weightkg: 66,
         color: "Red",
         eggGroups: ["Undiscovered"],
-        tier: "UU"
+        tier: "2"
     },
     dratini: {
         num: 147,
@@ -5750,7 +5488,7 @@ exports.BattlePokedex = {
         color: "Blue",
         evos: ["Dragonair"],
         eggGroups: ["Water 1", "Dragon"],
-        tier: "LC"
+        tier: "1"
     },
     dragonair: {
         num: 148,
@@ -5775,7 +5513,7 @@ exports.BattlePokedex = {
         evoLevel: 30,
         evos: ["Dragonite"],
         eggGroups: ["Water 1", "Dragon"],
-        tier: "NFE"
+        tier: "1"
     },
     dragonite: {
         num: 149,
@@ -5799,7 +5537,7 @@ exports.BattlePokedex = {
         prevo: "Dragonair",
         evoLevel: 55,
         eggGroups: ["Water 1", "Dragon"],
-        tier: "OU"
+        tier: "1"
     },
     mewtwo: {
         num: 150,
@@ -5825,7 +5563,7 @@ exports.BattlePokedex = {
         tags: ["Restricted Legendary"],
         otherFormes: ["Mewtwo-Mega-X", "Mewtwo-Mega-Y"],
         formeOrder: ["Mewtwo", "Mewtwo-Mega-X", "Mewtwo-Mega-Y"],
-        tier: "Uber"
+        tier: "2"
     },
     mewtwomegax: {
         num: 150,
@@ -5850,8 +5588,7 @@ exports.BattlePokedex = {
         color: "Purple",
         eggGroups: ["Undiscovered"],
         requiredItem: "Mewtwonite X",
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     mewtwomegay: {
         num: 150,
@@ -5876,8 +5613,7 @@ exports.BattlePokedex = {
         color: "Purple",
         eggGroups: ["Undiscovered"],
         requiredItem: "Mewtwonite Y",
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     mew: {
         num: 151,
@@ -5900,7 +5636,7 @@ exports.BattlePokedex = {
         color: "Pink",
         tags: ["Mythical"],
         eggGroups: ["Undiscovered"],
-        tier: "RUBL"
+        tier: "1"
     },
     chikorita: {
         num: 152,
@@ -5927,8 +5663,7 @@ exports.BattlePokedex = {
         color: "Green",
         evos: ["Bayleef"],
         eggGroups: ["Monster", "Grass"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     bayleef: {
         num: 153,
@@ -5957,8 +5692,7 @@ exports.BattlePokedex = {
         evoLevel: 16,
         evos: ["Meganium"],
         eggGroups: ["Monster", "Grass"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     meganium: {
         num: 154,
@@ -5986,8 +5720,7 @@ exports.BattlePokedex = {
         prevo: "Bayleef",
         evoLevel: 32,
         eggGroups: ["Monster", "Grass"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     cyndaquil: {
         num: 155,
@@ -6014,7 +5747,7 @@ exports.BattlePokedex = {
         color: "Yellow",
         evos: ["Quilava"],
         eggGroups: ["Field"],
-        tier: "LC"
+        tier: "1"
     },
     quilava: {
         num: 156,
@@ -6043,7 +5776,7 @@ exports.BattlePokedex = {
         evoLevel: 14,
         evos: ["Typhlosion", "Typhlosion-Hisui"],
         eggGroups: ["Field"],
-        tier: "NFE"
+        tier: "1"
     },
     typhlosion: {
         num: 157,
@@ -6073,7 +5806,7 @@ exports.BattlePokedex = {
         eggGroups: ["Field"],
         otherFormes: ["Typhlosion-Hisui"],
         formeOrder: ["Typhlosion", "Typhlosion-Hisui"],
-        tier: "NU"
+        tier: "1"
     },
     typhlosionhisui: {
         num: 157,
@@ -6104,7 +5837,7 @@ exports.BattlePokedex = {
         evoType: "levelExtra",
         evoCondition: "at Mt. Pyre",
         eggGroups: ["Field"],
-        tier: "RU"
+        tier: "1"
     },
     totodile: {
         num: 158,
@@ -6131,8 +5864,7 @@ exports.BattlePokedex = {
         color: "Blue",
         evos: ["Croconaw"],
         eggGroups: ["Monster", "Water 1"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     croconaw: {
         num: 159,
@@ -6161,8 +5893,7 @@ exports.BattlePokedex = {
         evoLevel: 16,
         evos: ["Feraligatr"],
         eggGroups: ["Monster", "Water 1"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     feraligatr: {
         num: 160,
@@ -6190,8 +5921,7 @@ exports.BattlePokedex = {
         prevo: "Croconaw",
         evoLevel: 30,
         eggGroups: ["Monster", "Water 1"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     sentret: {
         num: 161,
@@ -6215,8 +5945,7 @@ exports.BattlePokedex = {
         color: "Brown",
         evos: ["Furret"],
         eggGroups: ["Field"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     furret: {
         num: 162,
@@ -6241,8 +5970,7 @@ exports.BattlePokedex = {
         prevo: "Sentret",
         evoLevel: 15,
         eggGroups: ["Field"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     hoothoot: {
         num: 163,
@@ -6266,8 +5994,7 @@ exports.BattlePokedex = {
         color: "Brown",
         evos: ["Noctowl"],
         eggGroups: ["Flying"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     noctowl: {
         num: 164,
@@ -6292,8 +6019,7 @@ exports.BattlePokedex = {
         prevo: "Hoothoot",
         evoLevel: 20,
         eggGroups: ["Flying"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     ledyba: {
         num: 165,
@@ -6317,8 +6043,7 @@ exports.BattlePokedex = {
         color: "Red",
         evos: ["Ledian"],
         eggGroups: ["Bug"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     ledian: {
         num: 166,
@@ -6343,8 +6068,7 @@ exports.BattlePokedex = {
         prevo: "Ledyba",
         evoLevel: 18,
         eggGroups: ["Bug"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     spinarak: {
         num: 167,
@@ -6368,8 +6092,7 @@ exports.BattlePokedex = {
         color: "Green",
         evos: ["Ariados"],
         eggGroups: ["Bug"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     ariados: {
         num: 168,
@@ -6394,8 +6117,7 @@ exports.BattlePokedex = {
         prevo: "Spinarak",
         evoLevel: 22,
         eggGroups: ["Bug"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     crobat: {
         num: 169,
@@ -6419,8 +6141,7 @@ exports.BattlePokedex = {
         prevo: "Golbat",
         evoLevel: "38",
         eggGroups: ["Flying"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     chinchou: {
         num: 170,
@@ -6443,8 +6164,7 @@ exports.BattlePokedex = {
         color: "Blue",
         evos: ["Lanturn"],
         eggGroups: ["Water 2"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     lanturn: {
         num: 171,
@@ -6468,8 +6188,7 @@ exports.BattlePokedex = {
         prevo: "Chinchou",
         evoLevel: 27,
         eggGroups: ["Water 2"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     pichu: {
         num: 172,
@@ -6495,7 +6214,7 @@ exports.BattlePokedex = {
         canHatch: true,
         otherFormes: ["Pichu-Spiky-eared"],
         formeOrder: ["Pichu", "Pichu-Spiky-eared"],
-        tier: "LC"
+        tier: "1"
     },
     pichuspikyeared: {
         num: 172,
@@ -6520,8 +6239,7 @@ exports.BattlePokedex = {
         color: "Yellow",
         eggGroups: ["Undiscovered"],
         gen: 4,
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     cleffa: {
         num: 173,
@@ -6550,8 +6268,7 @@ exports.BattlePokedex = {
         evos: ["Clefairy"],
         eggGroups: ["Undiscovered"],
         canHatch: true,
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     igglybuff: {
         num: 174,
@@ -6580,7 +6297,7 @@ exports.BattlePokedex = {
         evos: ["Jigglypuff"],
         eggGroups: ["Undiscovered"],
         canHatch: true,
-        tier: "LC"
+        tier: "2"
     },
     togepi: {
         num: 175,
@@ -6609,8 +6326,7 @@ exports.BattlePokedex = {
         evos: ["Togetic"],
         eggGroups: ["Undiscovered"],
         canHatch: true,
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     togetic: {
         num: 176,
@@ -6640,8 +6356,7 @@ exports.BattlePokedex = {
         evoLevel: "10",
         evos: ["Togekiss"],
         eggGroups: ["Flying", "Fairy"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     natu: {
         num: 177,
@@ -6665,8 +6380,7 @@ exports.BattlePokedex = {
         color: "Green",
         evos: ["Xatu"],
         eggGroups: ["Flying"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     xatu: {
         num: 178,
@@ -6691,8 +6405,7 @@ exports.BattlePokedex = {
         prevo: "Natu",
         evoLevel: 22,
         eggGroups: ["Flying"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     mareep: {
         num: 179,
@@ -6714,7 +6427,7 @@ exports.BattlePokedex = {
         color: "White",
         evos: ["Flaaffy"],
         eggGroups: ["Monster", "Field"],
-        tier: "LC"
+        tier: "1"
     },
     flaaffy: {
         num: 180,
@@ -6738,7 +6451,7 @@ exports.BattlePokedex = {
         evoLevel: 15,
         evos: ["Ampharos"],
         eggGroups: ["Monster", "Field"],
-        tier: "NFE"
+        tier: "1"
     },
     ampharos: {
         num: 181,
@@ -6763,7 +6476,7 @@ exports.BattlePokedex = {
         eggGroups: ["Monster", "Field"],
         otherFormes: ["Ampharos-Mega"],
         formeOrder: ["Ampharos", "Ampharos-Mega"],
-        tier: "(PU)"
+        tier: "1"
     },
     ampharosmega: {
         num: 181,
@@ -6787,8 +6500,7 @@ exports.BattlePokedex = {
         color: "Yellow",
         eggGroups: ["Monster", "Field"],
         requiredItem: "Ampharosite",
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     bellossom: {
         num: 182,
@@ -6813,8 +6525,7 @@ exports.BattlePokedex = {
         evoType: "useItem",
         evoItem: "Sun Stone",
         eggGroups: ["Grass"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     marill: {
         num: 183,
@@ -6840,7 +6551,7 @@ exports.BattlePokedex = {
         evos: ["Azumarill"],
         eggGroups: ["Water 1", "Fairy"],
         canHatch: true,
-        tier: "NFE"
+        tier: "1"
     },
     azumarill: {
         num: 184,
@@ -6864,7 +6575,7 @@ exports.BattlePokedex = {
         prevo: "Marill",
         evoLevel: 18,
         eggGroups: ["Water 1", "Fairy"],
-        tier: "OU"
+        tier: "1"
     },
     sudowoodo: {
         num: 185,
@@ -6891,7 +6602,7 @@ exports.BattlePokedex = {
         evoMove: "Mimic",
         eggGroups: ["Mineral"],
         canHatch: true,
-        tier: "(PU)"
+        tier: "2"
     },
     politoed: {
         num: 186,
@@ -6917,8 +6628,7 @@ exports.BattlePokedex = {
         evoType: "trade",
         evoItem: "King's Rock",
         eggGroups: ["Water 1"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     hoppip: {
         num: 187,
@@ -6942,7 +6652,7 @@ exports.BattlePokedex = {
         color: "Pink",
         evos: ["Skiploom"],
         eggGroups: ["Fairy", "Grass"],
-        tier: "LC"
+        tier: "2"
     },
     skiploom: {
         num: 188,
@@ -6968,7 +6678,7 @@ exports.BattlePokedex = {
         evoLevel: 18,
         evos: ["Jumpluff"],
         eggGroups: ["Fairy", "Grass"],
-        tier: "NFE"
+        tier: "2"
     },
     jumpluff: {
         num: 189,
@@ -6993,7 +6703,7 @@ exports.BattlePokedex = {
         prevo: "Skiploom",
         evoLevel: 27,
         eggGroups: ["Fairy", "Grass"],
-        tier: "(PU)"
+        tier: "2"
     },
     aipom: {
         num: 190,
@@ -7016,8 +6726,7 @@ exports.BattlePokedex = {
         color: "Purple",
         evos: ["Ambipom"],
         eggGroups: ["Field"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     sunkern: {
         num: 191,
@@ -7041,7 +6750,7 @@ exports.BattlePokedex = {
         color: "Yellow",
         evos: ["Sunflora"],
         eggGroups: ["Grass"],
-        tier: "LC"
+        tier: "2"
     },
     sunflora: {
         num: 192,
@@ -7067,7 +6776,7 @@ exports.BattlePokedex = {
         evoType: "useItem",
         evoItem: "Sun Stone",
         eggGroups: ["Grass"],
-        tier: "(PU)"
+        tier: "2"
     },
     yanma: {
         num: 193,
@@ -7090,8 +6799,7 @@ exports.BattlePokedex = {
         color: "Red",
         evos: ["Yanmega"],
         eggGroups: ["Bug"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     wooper: {
         num: 194,
@@ -7115,35 +6823,7 @@ exports.BattlePokedex = {
         color: "Blue",
         evos: ["Quagsire"],
         eggGroups: ["Water 1", "Field"],
-        otherFormes: ["Wooper-Paldea"],
-        formeOrder: ["Wooper", "Wooper-Paldea"],
-        tier: "LC"
-    },
-    wooperpaldea: {
-        num: 194,
-        name: "Wooper-Paldea",
-        baseSpecies: "Wooper",
-        forme: "Paldea",
-        types: ["Poison", "Ground"],
-        baseStats: {
-            hp: 55,
-            atk: 45,
-            def: 45,
-            spa: 25,
-            spd: 25,
-            spe: 15
-        },
-        abilities: {
-            "0": "Poison Point",
-            "1": "Water Absorb",
-            H: "Unaware"
-        },
-        heightm: 0.4,
-        weightkg: 11,
-        color: "Brown",
-        evos: ["Clodsire"],
-        eggGroups: ["Water 1", "Field"],
-        tier: "LC"
+        tier: "2"
     },
     quagsire: {
         num: 195,
@@ -7168,7 +6848,7 @@ exports.BattlePokedex = {
         prevo: "Wooper",
         evoLevel: 20,
         eggGroups: ["Water 1", "Field"],
-        tier: "UU"
+        tier: "2"
     },
     espeon: {
         num: 196,
@@ -7197,7 +6877,7 @@ exports.BattlePokedex = {
         evoType: "levelFriendship",
         evoCondition: "during the day",
         eggGroups: ["Field"],
-        tier: "RU"
+        tier: "2"
     },
     umbreon: {
         num: 197,
@@ -7226,7 +6906,7 @@ exports.BattlePokedex = {
         evoType: "levelFriendship",
         evoCondition: "at night",
         eggGroups: ["Field"],
-        tier: "NU"
+        tier: "2"
     },
     murkrow: {
         num: 198,
@@ -7249,7 +6929,7 @@ exports.BattlePokedex = {
         color: "Black",
         evos: ["Honchkrow"],
         eggGroups: ["Flying"],
-        tier: "NFE"
+        tier: "1"
     },
     slowking: {
         num: 199,
@@ -7277,7 +6957,7 @@ exports.BattlePokedex = {
         eggGroups: ["Monster", "Water 1"],
         otherFormes: ["Slowking-Galar"],
         formeOrder: ["Slowking", "Slowking-Galar"],
-        tier: "UU"
+        tier: "1"
     },
     slowkinggalar: {
         num: 199,
@@ -7305,7 +6985,7 @@ exports.BattlePokedex = {
         evoType: "useItem",
         evoItem: "Galarica Wreath",
         eggGroups: ["Monster", "Water 1"],
-        tier: "OU"
+        tier: "2"
     },
     misdreavus: {
         num: 200,
@@ -7327,7 +7007,7 @@ exports.BattlePokedex = {
         color: "Gray",
         evos: ["Mismagius"],
         eggGroups: ["Amorphous"],
-        tier: "PU"
+        tier: "2"
     },
     unown: {
         num: 201,
@@ -7352,8 +7032,7 @@ exports.BattlePokedex = {
         eggGroups: ["Undiscovered"],
         cosmeticFormes: ["Unown-B", "Unown-C", "Unown-D", "Unown-E", "Unown-F", "Unown-G", "Unown-H", "Unown-I", "Unown-J", "Unown-K", "Unown-L", "Unown-M", "Unown-N", "Unown-O", "Unown-P", "Unown-Q", "Unown-R", "Unown-S", "Unown-T", "Unown-U", "Unown-V", "Unown-W", "Unown-X", "Unown-Y", "Unown-Z", "Unown-Exclamation", "Unown-Question"],
         formeOrder: ["Unown", "Unown-B", "Unown-C", "Unown-D", "Unown-E", "Unown-F", "Unown-G", "Unown-H", "Unown-I", "Unown-J", "Unown-K", "Unown-L", "Unown-M", "Unown-N", "Unown-O", "Unown-P", "Unown-Q", "Unown-R", "Unown-S", "Unown-T", "Unown-U", "Unown-V", "Unown-W", "Unown-X", "Unown-Y", "Unown-Z", "Unown-Exclamation", "Unown-Question"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     wobbuffet: {
         num: 202,
@@ -7378,8 +7057,7 @@ exports.BattlePokedex = {
         evoLevel: 15,
         eggGroups: ["Amorphous"],
         canHatch: true,
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     girafarig: {
         num: 203,
@@ -7401,9 +7079,8 @@ exports.BattlePokedex = {
         heightm: 1.5,
         weightkg: 41.5,
         color: "Yellow",
-        evos: ["Farigiraf"],
         eggGroups: ["Field"],
-        tier: "NFE"
+        tier: "2"
     },
     pineco: {
         num: 204,
@@ -7426,7 +7103,7 @@ exports.BattlePokedex = {
         color: "Gray",
         evos: ["Forretress"],
         eggGroups: ["Bug"],
-        tier: "LC"
+        tier: "2"
     },
     forretress: {
         num: 205,
@@ -7450,7 +7127,7 @@ exports.BattlePokedex = {
         prevo: "Pineco",
         evoLevel: 31,
         eggGroups: ["Bug"],
-        tier: "RU"
+        tier: "2"
     },
     dunsparce: {
         num: 206,
@@ -7472,9 +7149,8 @@ exports.BattlePokedex = {
         heightm: 1.5,
         weightkg: 14,
         color: "Yellow",
-        evos: ["Dudunsparce", "Dudunsparce-Three-Segment"],
         eggGroups: ["Field"],
-        tier: "NFE"
+        tier: "2"
     },
     gligar: {
         num: 207,
@@ -7497,8 +7173,7 @@ exports.BattlePokedex = {
         color: "Purple",
         evos: ["Gliscor"],
         eggGroups: ["Bug"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     steelix: {
         num: 208,
@@ -7526,8 +7201,7 @@ exports.BattlePokedex = {
         eggGroups: ["Mineral"],
         otherFormes: ["Steelix-Mega"],
         formeOrder: ["Steelix", "Steelix-Mega"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     steelixmega: {
         num: 208,
@@ -7551,8 +7225,7 @@ exports.BattlePokedex = {
         color: "Gray",
         eggGroups: ["Mineral"],
         requiredItem: "Steelixite",
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     snubbull: {
         num: 209,
@@ -7579,8 +7252,7 @@ exports.BattlePokedex = {
         color: "Pink",
         evos: ["Granbull"],
         eggGroups: ["Field", "Fairy"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     granbull: {
         num: 210,
@@ -7608,8 +7280,7 @@ exports.BattlePokedex = {
         prevo: "Snubbull",
         evoLevel: 23,
         eggGroups: ["Field", "Fairy"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     qwilfish: {
         num: 211,
@@ -7633,7 +7304,7 @@ exports.BattlePokedex = {
         eggGroups: ["Water 2"],
         otherFormes: ["Qwilfish-Hisui"],
         formeOrder: ["Qwilfish", "Qwilfish-Hisui"],
-        tier: "NU"
+        tier: "1"
     },
     qwilfishhisui: {
         num: 211,
@@ -7659,7 +7330,7 @@ exports.BattlePokedex = {
         color: "Black",
         evos: ["Overqwil"],
         eggGroups: ["Water 2"],
-        tier: "NU"
+        tier: "1"
     },
     scizor: {
         num: 212,
@@ -7686,7 +7357,7 @@ exports.BattlePokedex = {
         eggGroups: ["Bug"],
         otherFormes: ["Scizor-Mega"],
         formeOrder: ["Scizor", "Scizor-Mega"],
-        tier: "UU"
+        tier: "1"
     },
     scizormega: {
         num: 212,
@@ -7710,8 +7381,7 @@ exports.BattlePokedex = {
         color: "Red",
         eggGroups: ["Bug"],
         requiredItem: "Scizorite",
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     shuckle: {
         num: 213,
@@ -7734,8 +7404,7 @@ exports.BattlePokedex = {
         weightkg: 20.5,
         color: "Yellow",
         eggGroups: ["Bug"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     heracross: {
         num: 214,
@@ -7760,7 +7429,7 @@ exports.BattlePokedex = {
         eggGroups: ["Bug"],
         otherFormes: ["Heracross-Mega"],
         formeOrder: ["Heracross", "Heracross-Mega"],
-        tier: "NU"
+        tier: "1"
     },
     heracrossmega: {
         num: 214,
@@ -7784,8 +7453,7 @@ exports.BattlePokedex = {
         color: "Blue",
         eggGroups: ["Bug"],
         requiredItem: "Heracronite",
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     sneasel: {
         num: 215,
@@ -7811,7 +7479,7 @@ exports.BattlePokedex = {
         eggGroups: ["Field"],
         otherFormes: ["Sneasel-Hisui"],
         formeOrder: ["Sneasel", "Sneasel-Hisui"],
-        tier: "NFE"
+        tier: "1"
     },
     sneaselhisui: {
         num: 215,
@@ -7836,7 +7504,7 @@ exports.BattlePokedex = {
         color: "Gray",
         evos: ["Sneasler"],
         eggGroups: ["Field"],
-        tier: "NU"
+        tier: "1"
     },
     teddiursa: {
         num: 216,
@@ -7859,7 +7527,7 @@ exports.BattlePokedex = {
         color: "Brown",
         evos: ["Ursaring"],
         eggGroups: ["Field"],
-        tier: "LC"
+        tier: "1"
     },
     ursaring: {
         num: 217,
@@ -7885,7 +7553,7 @@ exports.BattlePokedex = {
         evoLevel: 30,
         evos: ["Ursaluna"],
         eggGroups: ["Field"],
-        tier: "NU"
+        tier: "1"
     },
     slugma: {
         num: 218,
@@ -7909,8 +7577,7 @@ exports.BattlePokedex = {
         color: "Red",
         evos: ["Magcargo"],
         eggGroups: ["Amorphous"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     magcargo: {
         num: 219,
@@ -7935,8 +7602,7 @@ exports.BattlePokedex = {
         prevo: "Slugma",
         evoLevel: 38,
         eggGroups: ["Amorphous"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     swinub: {
         num: 220,
@@ -7960,8 +7626,7 @@ exports.BattlePokedex = {
         color: "Brown",
         evos: ["Piloswine"],
         eggGroups: ["Field"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     piloswine: {
         num: 221,
@@ -7987,8 +7652,7 @@ exports.BattlePokedex = {
         evoLevel: 30,
         evos: ["Mamoswine"],
         eggGroups: ["Field"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     corsola: {
         num: 222,
@@ -8017,8 +7681,7 @@ exports.BattlePokedex = {
         eggGroups: ["Water 1", "Water 3"],
         otherFormes: ["Corsola-Galar"],
         formeOrder: ["Corsola", "Corsola-Galar"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     corsolagalar: {
         num: 222,
@@ -8047,8 +7710,7 @@ exports.BattlePokedex = {
         color: "White",
         evos: ["Cursola"],
         eggGroups: ["Water 1", "Water 3"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     remoraid: {
         num: 223,
@@ -8071,8 +7733,7 @@ exports.BattlePokedex = {
         color: "Gray",
         evos: ["Octillery"],
         eggGroups: ["Water 1", "Water 2"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     octillery: {
         num: 224,
@@ -8096,8 +7757,7 @@ exports.BattlePokedex = {
         prevo: "Remoraid",
         evoLevel: 25,
         eggGroups: ["Water 1", "Water 2"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     delibird: {
         num: 225,
@@ -8120,7 +7780,7 @@ exports.BattlePokedex = {
         weightkg: 16,
         color: "Red",
         eggGroups: ["Water 1", "Field"],
-        tier: "(PU)"
+        tier: "2"
     },
     mantine: {
         num: 226,
@@ -8147,8 +7807,7 @@ exports.BattlePokedex = {
         evoCondition: "with a Remoraid in party",
         eggGroups: ["Water 1"],
         canHatch: true,
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     skarmory: {
         num: 227,
@@ -8171,8 +7830,7 @@ exports.BattlePokedex = {
         weightkg: 50.5,
         color: "Gray",
         eggGroups: ["Flying"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     houndour: {
         num: 228,
@@ -8196,7 +7854,7 @@ exports.BattlePokedex = {
         color: "Black",
         evos: ["Houndoom"],
         eggGroups: ["Field"],
-        tier: "LC"
+        tier: "1"
     },
     houndoom: {
         num: 229,
@@ -8223,7 +7881,7 @@ exports.BattlePokedex = {
         eggGroups: ["Field"],
         otherFormes: ["Houndoom-Mega"],
         formeOrder: ["Houndoom", "Houndoom-Mega"],
-        tier: "PU"
+        tier: "1"
     },
     houndoommega: {
         num: 229,
@@ -8247,8 +7905,7 @@ exports.BattlePokedex = {
         color: "Black",
         eggGroups: ["Field"],
         requiredItem: "Houndoominite",
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     kingdra: {
         num: 230,
@@ -8274,8 +7931,7 @@ exports.BattlePokedex = {
         evoType: "useItem",
         evoItem: "Dragon Scale",
         eggGroups: ["Water 1", "Dragon"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     phanpy: {
         num: 231,
@@ -8298,7 +7954,7 @@ exports.BattlePokedex = {
         color: "Blue",
         evos: ["Donphan"],
         eggGroups: ["Field"],
-        tier: "LC"
+        tier: "1"
     },
     donphan: {
         num: 232,
@@ -8323,7 +7979,7 @@ exports.BattlePokedex = {
         prevo: "Phanpy",
         evoLevel: 25,
         eggGroups: ["Field"],
-        tier: "UU"
+        tier: "1"
     },
     porygon2: {
         num: 233,
@@ -8351,8 +8007,7 @@ exports.BattlePokedex = {
         evoItem: "Up-Grade",
         evos: ["Porygon-Z"],
         eggGroups: ["Mineral"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     stantler: {
         num: 234,
@@ -8375,7 +8030,7 @@ exports.BattlePokedex = {
         color: "Brown",
         evos: ["Wyrdeer"],
         eggGroups: ["Field"],
-        tier: "NFE"
+        tier: "1"
     },
     smeargle: {
         num: 235,
@@ -8398,8 +8053,7 @@ exports.BattlePokedex = {
         weightkg: 58,
         color: "White",
         eggGroups: ["Field"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     tyrogue: {
         num: 236,
@@ -8425,8 +8079,7 @@ exports.BattlePokedex = {
         evos: ["Hitmonlee", "Hitmonchan", "Hitmontop"],
         eggGroups: ["Undiscovered"],
         canHatch: true,
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     hitmontop: {
         num: 237,
@@ -8453,8 +8106,7 @@ exports.BattlePokedex = {
         evoLevel: 20,
         evoCondition: "with an Atk stat equal to its Def stat",
         eggGroups: ["Human-Like"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     smoochum: {
         num: 238,
@@ -8480,8 +8132,7 @@ exports.BattlePokedex = {
         evos: ["Jynx"],
         eggGroups: ["Undiscovered"],
         canHatch: true,
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     elekid: {
         num: 239,
@@ -8509,8 +8160,7 @@ exports.BattlePokedex = {
         evos: ["Electabuzz"],
         eggGroups: ["Undiscovered"],
         canHatch: true,
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     magby: {
         num: 240,
@@ -8539,8 +8189,7 @@ exports.BattlePokedex = {
         evos: ["Magmar"],
         eggGroups: ["Undiscovered"],
         canHatch: true,
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     miltank: {
         num: 241,
@@ -8564,8 +8213,7 @@ exports.BattlePokedex = {
         weightkg: 75.5,
         color: "Pink",
         eggGroups: ["Field"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     blissey: {
         num: 242,
@@ -8591,7 +8239,7 @@ exports.BattlePokedex = {
         prevo: "Chansey",
         evoType: "levelFriendship",
         eggGroups: ["Fairy"],
-        tier: "NU"
+        tier: "2"
     },
     raikou: {
         num: 243,
@@ -8615,8 +8263,7 @@ exports.BattlePokedex = {
         color: "Yellow",
         tags: ["Sub-Legendary"],
         eggGroups: ["Undiscovered"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     entei: {
         num: 244,
@@ -8640,8 +8287,7 @@ exports.BattlePokedex = {
         color: "Brown",
         tags: ["Sub-Legendary"],
         eggGroups: ["Undiscovered"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     suicune: {
         num: 245,
@@ -8665,8 +8311,7 @@ exports.BattlePokedex = {
         color: "Blue",
         tags: ["Sub-Legendary"],
         eggGroups: ["Undiscovered"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     larvitar: {
         num: 246,
@@ -8689,7 +8334,7 @@ exports.BattlePokedex = {
         color: "Green",
         evos: ["Pupitar"],
         eggGroups: ["Monster"],
-        tier: "LC"
+        tier: "1"
     },
     pupitar: {
         num: 247,
@@ -8713,7 +8358,7 @@ exports.BattlePokedex = {
         evoLevel: 30,
         evos: ["Tyranitar"],
         eggGroups: ["Monster"],
-        tier: "NFE"
+        tier: "1"
     },
     tyranitar: {
         num: 248,
@@ -8739,7 +8384,7 @@ exports.BattlePokedex = {
         eggGroups: ["Monster"],
         otherFormes: ["Tyranitar-Mega"],
         formeOrder: ["Tyranitar", "Tyranitar-Mega"],
-        tier: "UU"
+        tier: "1"
     },
     tyranitarmega: {
         num: 248,
@@ -8763,8 +8408,7 @@ exports.BattlePokedex = {
         color: "Green",
         eggGroups: ["Monster"],
         requiredItem: "Tyranitarite",
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     lugia: {
         num: 249,
@@ -8788,8 +8432,7 @@ exports.BattlePokedex = {
         color: "White",
         tags: ["Restricted Legendary"],
         eggGroups: ["Undiscovered"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     hooh: {
         num: 250,
@@ -8813,8 +8456,7 @@ exports.BattlePokedex = {
         color: "Red",
         tags: ["Restricted Legendary"],
         eggGroups: ["Undiscovered"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     celebi: {
         num: 251,
@@ -8837,8 +8479,7 @@ exports.BattlePokedex = {
         color: "Green",
         tags: ["Mythical"],
         eggGroups: ["Undiscovered"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     treecko: {
         num: 252,
@@ -8865,8 +8506,7 @@ exports.BattlePokedex = {
         color: "Green",
         evos: ["Grovyle"],
         eggGroups: ["Monster", "Dragon"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     grovyle: {
         num: 253,
@@ -8895,8 +8535,7 @@ exports.BattlePokedex = {
         evoLevel: 16,
         evos: ["Sceptile"],
         eggGroups: ["Monster", "Dragon"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     sceptile: {
         num: 254,
@@ -8926,8 +8565,7 @@ exports.BattlePokedex = {
         eggGroups: ["Monster", "Dragon"],
         otherFormes: ["Sceptile-Mega"],
         formeOrder: ["Sceptile", "Sceptile-Mega"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     sceptilemega: {
         num: 254,
@@ -8955,8 +8593,7 @@ exports.BattlePokedex = {
         color: "Green",
         eggGroups: ["Monster", "Dragon"],
         requiredItem: "Sceptilite",
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     torchic: {
         num: 255,
@@ -8983,8 +8620,7 @@ exports.BattlePokedex = {
         color: "Red",
         evos: ["Combusken"],
         eggGroups: ["Field"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     combusken: {
         num: 256,
@@ -9013,8 +8649,7 @@ exports.BattlePokedex = {
         evoLevel: 16,
         evos: ["Blaziken"],
         eggGroups: ["Field"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     blaziken: {
         num: 257,
@@ -9044,8 +8679,7 @@ exports.BattlePokedex = {
         eggGroups: ["Field"],
         otherFormes: ["Blaziken-Mega"],
         formeOrder: ["Blaziken", "Blaziken-Mega"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     blazikenmega: {
         num: 257,
@@ -9073,8 +8707,7 @@ exports.BattlePokedex = {
         color: "Red",
         eggGroups: ["Field"],
         requiredItem: "Blazikenite",
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     mudkip: {
         num: 258,
@@ -9101,8 +8734,7 @@ exports.BattlePokedex = {
         color: "Blue",
         evos: ["Marshtomp"],
         eggGroups: ["Monster", "Water 1"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     marshtomp: {
         num: 259,
@@ -9131,8 +8763,7 @@ exports.BattlePokedex = {
         evoLevel: 16,
         evos: ["Swampert"],
         eggGroups: ["Monster", "Water 1"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     swampert: {
         num: 260,
@@ -9162,8 +8793,7 @@ exports.BattlePokedex = {
         eggGroups: ["Monster", "Water 1"],
         otherFormes: ["Swampert-Mega"],
         formeOrder: ["Swampert", "Swampert-Mega"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     swampertmega: {
         num: 260,
@@ -9191,8 +8821,7 @@ exports.BattlePokedex = {
         color: "Blue",
         eggGroups: ["Monster", "Water 1"],
         requiredItem: "Swampertite",
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     poochyena: {
         num: 261,
@@ -9215,8 +8844,7 @@ exports.BattlePokedex = {
         color: "Gray",
         evos: ["Mightyena"],
         eggGroups: ["Field"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     mightyena: {
         num: 262,
@@ -9240,8 +8868,7 @@ exports.BattlePokedex = {
         prevo: "Poochyena",
         evoLevel: 18,
         eggGroups: ["Field"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     zigzagoon: {
         num: 263,
@@ -9267,8 +8894,7 @@ exports.BattlePokedex = {
         eggGroups: ["Field"],
         otherFormes: ["Zigzagoon-Galar"],
         formeOrder: ["Zigzagoon", "Zigzagoon-Galar"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     zigzagoongalar: {
         num: 263,
@@ -9293,8 +8919,7 @@ exports.BattlePokedex = {
         color: "White",
         evos: ["Linoone-Galar"],
         eggGroups: ["Field"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     linoone: {
         num: 264,
@@ -9321,8 +8946,7 @@ exports.BattlePokedex = {
         eggGroups: ["Field"],
         otherFormes: ["Linoone-Galar"],
         formeOrder: ["Linoone", "Linoone-Galar"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     linoonegalar: {
         num: 264,
@@ -9349,8 +8973,7 @@ exports.BattlePokedex = {
         evoLevel: 20,
         evos: ["Obstagoon"],
         eggGroups: ["Field"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     wurmple: {
         num: 265,
@@ -9373,8 +8996,7 @@ exports.BattlePokedex = {
         color: "Red",
         evos: ["Silcoon", "Cascoon"],
         eggGroups: ["Bug"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     silcoon: {
         num: 266,
@@ -9398,8 +9020,7 @@ exports.BattlePokedex = {
         evoLevel: 7,
         evos: ["Beautifly"],
         eggGroups: ["Bug"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     beautifly: {
         num: 267,
@@ -9423,8 +9044,7 @@ exports.BattlePokedex = {
         prevo: "Silcoon",
         evoLevel: 10,
         eggGroups: ["Bug"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     cascoon: {
         num: 268,
@@ -9448,8 +9068,7 @@ exports.BattlePokedex = {
         evoLevel: 7,
         evos: ["Dustox"],
         eggGroups: ["Bug"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     dustox: {
         num: 269,
@@ -9473,8 +9092,7 @@ exports.BattlePokedex = {
         prevo: "Cascoon",
         evoLevel: 10,
         eggGroups: ["Bug"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     lotad: {
         num: 270,
@@ -9498,8 +9116,7 @@ exports.BattlePokedex = {
         color: "Green",
         evos: ["Lombre"],
         eggGroups: ["Water 1", "Grass"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     lombre: {
         num: 271,
@@ -9525,8 +9142,7 @@ exports.BattlePokedex = {
         evoLevel: 14,
         evos: ["Ludicolo"],
         eggGroups: ["Water 1", "Grass"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     ludicolo: {
         num: 272,
@@ -9552,8 +9168,7 @@ exports.BattlePokedex = {
         evoType: "useItem",
         evoItem: "Water Stone",
         eggGroups: ["Water 1", "Grass"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     seedot: {
         num: 273,
@@ -9577,8 +9192,7 @@ exports.BattlePokedex = {
         color: "Brown",
         evos: ["Nuzleaf"],
         eggGroups: ["Field", "Grass"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     nuzleaf: {
         num: 274,
@@ -9604,8 +9218,7 @@ exports.BattlePokedex = {
         evoLevel: 14,
         evos: ["Shiftry"],
         eggGroups: ["Field", "Grass"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     shiftry: {
         num: 275,
@@ -9631,8 +9244,7 @@ exports.BattlePokedex = {
         evoType: "useItem",
         evoItem: "Leaf Stone",
         eggGroups: ["Field", "Grass"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     taillow: {
         num: 276,
@@ -9655,8 +9267,7 @@ exports.BattlePokedex = {
         color: "Blue",
         evos: ["Swellow"],
         eggGroups: ["Flying"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     swellow: {
         num: 277,
@@ -9680,8 +9291,7 @@ exports.BattlePokedex = {
         prevo: "Taillow",
         evoLevel: 22,
         eggGroups: ["Flying"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     wingull: {
         num: 278,
@@ -9705,7 +9315,7 @@ exports.BattlePokedex = {
         color: "White",
         evos: ["Pelipper"],
         eggGroups: ["Water 1", "Flying"],
-        tier: "LC"
+        tier: "2"
     },
     pelipper: {
         num: 279,
@@ -9730,7 +9340,7 @@ exports.BattlePokedex = {
         prevo: "Wingull",
         evoLevel: 25,
         eggGroups: ["Water 1", "Flying"],
-        tier: "OU"
+        tier: "2"
     },
     ralts: {
         num: 280,
@@ -9754,7 +9364,7 @@ exports.BattlePokedex = {
         color: "White",
         evos: ["Kirlia"],
         eggGroups: ["Human-Like", "Amorphous"],
-        tier: "LC"
+        tier: "1"
     },
     kirlia: {
         num: 281,
@@ -9780,7 +9390,7 @@ exports.BattlePokedex = {
         evoLevel: 20,
         evos: ["Gardevoir", "Gallade"],
         eggGroups: ["Human-Like", "Amorphous"],
-        tier: "NFE"
+        tier: "1"
     },
     gardevoir: {
         num: 282,
@@ -9807,7 +9417,7 @@ exports.BattlePokedex = {
         eggGroups: ["Human-Like", "Amorphous"],
         otherFormes: ["Gardevoir-Mega"],
         formeOrder: ["Gardevoir", "Gardevoir-Mega"],
-        tier: "RU"
+        tier: "1"
     },
     gardevoirmega: {
         num: 282,
@@ -9831,8 +9441,7 @@ exports.BattlePokedex = {
         color: "White",
         eggGroups: ["Amorphous"],
         requiredItem: "Gardevoirite",
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     surskit: {
         num: 283,
@@ -9855,7 +9464,7 @@ exports.BattlePokedex = {
         color: "Blue",
         evos: ["Masquerain"],
         eggGroups: ["Water 1", "Bug"],
-        tier: "LC"
+        tier: "1"
     },
     masquerain: {
         num: 284,
@@ -9879,7 +9488,7 @@ exports.BattlePokedex = {
         prevo: "Surskit",
         evoLevel: 22,
         eggGroups: ["Water 1", "Bug"],
-        tier: "PU"
+        tier: "1"
     },
     shroomish: {
         num: 285,
@@ -9903,7 +9512,7 @@ exports.BattlePokedex = {
         color: "Brown",
         evos: ["Breloom"],
         eggGroups: ["Fairy", "Grass"],
-        tier: "LC"
+        tier: "1"
     },
     breloom: {
         num: 286,
@@ -9928,7 +9537,7 @@ exports.BattlePokedex = {
         prevo: "Shroomish",
         evoLevel: 23,
         eggGroups: ["Fairy", "Grass"],
-        tier: "UU"
+        tier: "1"
     },
     slakoth: {
         num: 287,
@@ -9950,7 +9559,7 @@ exports.BattlePokedex = {
         color: "Brown",
         evos: ["Vigoroth"],
         eggGroups: ["Field"],
-        tier: "LC"
+        tier: "2"
     },
     vigoroth: {
         num: 288,
@@ -9974,7 +9583,7 @@ exports.BattlePokedex = {
         evoLevel: 18,
         evos: ["Slaking"],
         eggGroups: ["Field"],
-        tier: "NFE"
+        tier: "2"
     },
     slaking: {
         num: 289,
@@ -9997,7 +9606,7 @@ exports.BattlePokedex = {
         prevo: "Vigoroth",
         evoLevel: 36,
         eggGroups: ["Field"],
-        tier: "(PU)"
+        tier: "2"
     },
     nincada: {
         num: 290,
@@ -10020,8 +9629,7 @@ exports.BattlePokedex = {
         color: "Gray",
         evos: ["Ninjask", "Shedinja"],
         eggGroups: ["Bug"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     ninjask: {
         num: 291,
@@ -10045,8 +9653,7 @@ exports.BattlePokedex = {
         prevo: "Nincada",
         evoLevel: 20,
         eggGroups: ["Bug"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     shedinja: {
         num: 292,
@@ -10071,8 +9678,7 @@ exports.BattlePokedex = {
         prevo: "Nincada",
         evoLevel: 20,
         eggGroups: ["Mineral"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     whismur: {
         num: 293,
@@ -10095,8 +9701,7 @@ exports.BattlePokedex = {
         color: "Pink",
         evos: ["Loudred"],
         eggGroups: ["Monster", "Field"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     loudred: {
         num: 294,
@@ -10121,8 +9726,7 @@ exports.BattlePokedex = {
         evoLevel: 20,
         evos: ["Exploud"],
         eggGroups: ["Monster", "Field"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     exploud: {
         num: 295,
@@ -10146,8 +9750,7 @@ exports.BattlePokedex = {
         prevo: "Loudred",
         evoLevel: 40,
         eggGroups: ["Monster", "Field"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     makuhita: {
         num: 296,
@@ -10175,7 +9778,7 @@ exports.BattlePokedex = {
         color: "Yellow",
         evos: ["Hariyama"],
         eggGroups: ["Human-Like"],
-        tier: "LC"
+        tier: "1"
     },
     hariyama: {
         num: 297,
@@ -10204,7 +9807,7 @@ exports.BattlePokedex = {
         prevo: "Makuhita",
         evoLevel: 24,
         eggGroups: ["Human-Like"],
-        tier: "NU"
+        tier: "1"
     },
     azurill: {
         num: 298,
@@ -10232,7 +9835,7 @@ exports.BattlePokedex = {
         evos: ["Marill"],
         eggGroups: ["Undiscovered"],
         canHatch: true,
-        tier: "LC"
+        tier: "1"
     },
     nosepass: {
         num: 299,
@@ -10255,8 +9858,7 @@ exports.BattlePokedex = {
         color: "Gray",
         evos: ["Probopass"],
         eggGroups: ["Mineral"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     skitty: {
         num: 300,
@@ -10282,8 +9884,7 @@ exports.BattlePokedex = {
         color: "Pink",
         evos: ["Delcatty"],
         eggGroups: ["Field", "Fairy"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     delcatty: {
         num: 301,
@@ -10311,8 +9912,7 @@ exports.BattlePokedex = {
         evoType: "useItem",
         evoItem: "Moon Stone",
         eggGroups: ["Field", "Fairy"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     sableye: {
         num: 302,
@@ -10337,7 +9937,7 @@ exports.BattlePokedex = {
         eggGroups: ["Human-Like"],
         otherFormes: ["Sableye-Mega"],
         formeOrder: ["Sableye", "Sableye-Mega"],
-        tier: "NU"
+        tier: "1"
     },
     sableyemega: {
         num: 302,
@@ -10361,8 +9961,7 @@ exports.BattlePokedex = {
         color: "Purple",
         eggGroups: ["Human-Like"],
         requiredItem: "Sablenite",
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     mawile: {
         num: 303,
@@ -10387,8 +9986,7 @@ exports.BattlePokedex = {
         eggGroups: ["Field", "Fairy"],
         otherFormes: ["Mawile-Mega"],
         formeOrder: ["Mawile", "Mawile-Mega"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     mawilemega: {
         num: 303,
@@ -10412,8 +10010,7 @@ exports.BattlePokedex = {
         color: "Black",
         eggGroups: ["Field", "Fairy"],
         requiredItem: "Mawilite",
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     aron: {
         num: 304,
@@ -10437,8 +10034,7 @@ exports.BattlePokedex = {
         color: "Gray",
         evos: ["Lairon"],
         eggGroups: ["Monster"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     lairon: {
         num: 305,
@@ -10464,8 +10060,7 @@ exports.BattlePokedex = {
         evoLevel: 26,
         evos: ["Aggron"],
         eggGroups: ["Monster"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     aggron: {
         num: 306,
@@ -10492,8 +10087,7 @@ exports.BattlePokedex = {
         eggGroups: ["Monster"],
         otherFormes: ["Aggron-Mega"],
         formeOrder: ["Aggron", "Aggron-Mega"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     aggronmega: {
         num: 306,
@@ -10517,8 +10111,7 @@ exports.BattlePokedex = {
         color: "Gray",
         eggGroups: ["Monster"],
         requiredItem: "Aggronite",
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     meditite: {
         num: 307,
@@ -10541,7 +10134,7 @@ exports.BattlePokedex = {
         color: "Blue",
         evos: ["Medicham"],
         eggGroups: ["Human-Like"],
-        tier: "NFE"
+        tier: "1"
     },
     medicham: {
         num: 308,
@@ -10567,7 +10160,7 @@ exports.BattlePokedex = {
         eggGroups: ["Human-Like"],
         otherFormes: ["Medicham-Mega"],
         formeOrder: ["Medicham", "Medicham-Mega"],
-        tier: "NU"
+        tier: "1"
     },
     medichammega: {
         num: 308,
@@ -10591,8 +10184,7 @@ exports.BattlePokedex = {
         color: "Red",
         eggGroups: ["Human-Like"],
         requiredItem: "Medichamite",
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     electrike: {
         num: 309,
@@ -10615,8 +10207,7 @@ exports.BattlePokedex = {
         color: "Green",
         evos: ["Manectric"],
         eggGroups: ["Field"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     manectric: {
         num: 310,
@@ -10642,8 +10233,7 @@ exports.BattlePokedex = {
         eggGroups: ["Field"],
         otherFormes: ["Manectric-Mega"],
         formeOrder: ["Manectric", "Manectric-Mega"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     manectricmega: {
         num: 310,
@@ -10667,8 +10257,7 @@ exports.BattlePokedex = {
         color: "Yellow",
         eggGroups: ["Field"],
         requiredItem: "Manectite",
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     plusle: {
         num: 311,
@@ -10690,8 +10279,7 @@ exports.BattlePokedex = {
         weightkg: 4.2,
         color: "Yellow",
         eggGroups: ["Fairy"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     minun: {
         num: 312,
@@ -10713,8 +10301,7 @@ exports.BattlePokedex = {
         weightkg: 4.2,
         color: "Yellow",
         eggGroups: ["Fairy"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     volbeat: {
         num: 313,
@@ -10738,8 +10325,7 @@ exports.BattlePokedex = {
         weightkg: 17.7,
         color: "Gray",
         eggGroups: ["Bug", "Human-Like"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     illumise: {
         num: 314,
@@ -10763,8 +10349,7 @@ exports.BattlePokedex = {
         weightkg: 17.7,
         color: "Purple",
         eggGroups: ["Bug", "Human-Like"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     roselia: {
         num: 315,
@@ -10791,8 +10376,7 @@ exports.BattlePokedex = {
         evos: ["Roserade"],
         eggGroups: ["Fairy", "Grass"],
         canHatch: true,
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     gulpin: {
         num: 316,
@@ -10816,7 +10400,7 @@ exports.BattlePokedex = {
         color: "Green",
         evos: ["Swalot"],
         eggGroups: ["Amorphous"],
-        tier: "LC"
+        tier: "2"
     },
     swalot: {
         num: 317,
@@ -10841,7 +10425,7 @@ exports.BattlePokedex = {
         prevo: "Gulpin",
         evoLevel: 26,
         eggGroups: ["Amorphous"],
-        tier: "PU"
+        tier: "2"
     },
     carvanha: {
         num: 318,
@@ -10864,8 +10448,7 @@ exports.BattlePokedex = {
         color: "Red",
         evos: ["Sharpedo"],
         eggGroups: ["Water 2"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     sharpedo: {
         num: 319,
@@ -10891,8 +10474,7 @@ exports.BattlePokedex = {
         eggGroups: ["Water 2"],
         otherFormes: ["Sharpedo-Mega"],
         formeOrder: ["Sharpedo", "Sharpedo-Mega"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     sharpedomega: {
         num: 319,
@@ -10916,8 +10498,7 @@ exports.BattlePokedex = {
         color: "Blue",
         eggGroups: ["Water 2"],
         requiredItem: "Sharpedonite",
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     wailmer: {
         num: 320,
@@ -10941,8 +10522,7 @@ exports.BattlePokedex = {
         color: "Blue",
         evos: ["Wailord"],
         eggGroups: ["Field", "Water 2"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     wailord: {
         num: 321,
@@ -10967,8 +10547,7 @@ exports.BattlePokedex = {
         prevo: "Wailmer",
         evoLevel: 40,
         eggGroups: ["Field", "Water 2"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     numel: {
         num: 322,
@@ -10992,7 +10571,7 @@ exports.BattlePokedex = {
         color: "Yellow",
         evos: ["Camerupt"],
         eggGroups: ["Field"],
-        tier: "LC"
+        tier: "1"
     },
     camerupt: {
         num: 323,
@@ -11019,7 +10598,7 @@ exports.BattlePokedex = {
         eggGroups: ["Field"],
         otherFormes: ["Camerupt-Mega"],
         formeOrder: ["Camerupt", "Camerupt-Mega"],
-        tier: "(PU)"
+        tier: "1"
     },
     cameruptmega: {
         num: 323,
@@ -11043,8 +10622,7 @@ exports.BattlePokedex = {
         color: "Red",
         eggGroups: ["Field"],
         requiredItem: "Cameruptite",
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     torkoal: {
         num: 324,
@@ -11066,7 +10644,7 @@ exports.BattlePokedex = {
         weightkg: 80.4,
         color: "Brown",
         eggGroups: ["Field"],
-        tier: "OU"
+        tier: "1"
     },
     spoink: {
         num: 325,
@@ -11090,7 +10668,7 @@ exports.BattlePokedex = {
         color: "Black",
         evos: ["Grumpig"],
         eggGroups: ["Field"],
-        tier: "LC"
+        tier: "2"
     },
     grumpig: {
         num: 326,
@@ -11115,7 +10693,7 @@ exports.BattlePokedex = {
         prevo: "Spoink",
         evoLevel: 32,
         eggGroups: ["Field"],
-        tier: "(PU)"
+        tier: "2"
     },
     spinda: {
         num: 327,
@@ -11138,8 +10716,7 @@ exports.BattlePokedex = {
         weightkg: 5,
         color: "Brown",
         eggGroups: ["Field", "Human-Like"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     trapinch: {
         num: 328,
@@ -11161,8 +10738,7 @@ exports.BattlePokedex = {
         color: "Brown",
         evos: ["Vibrava"],
         eggGroups: ["Bug", "Dragon"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     vibrava: {
         num: 329,
@@ -11186,8 +10762,7 @@ exports.BattlePokedex = {
         evoLevel: 30,
         evos: ["Flygon"],
         eggGroups: ["Bug", "Dragon"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     flygon: {
         num: 330,
@@ -11210,8 +10785,7 @@ exports.BattlePokedex = {
         prevo: "Vibrava",
         evoLevel: 40,
         eggGroups: ["Bug", "Dragon"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     cacnea: {
         num: 331,
@@ -11234,7 +10808,7 @@ exports.BattlePokedex = {
         color: "Green",
         evos: ["Cacturne"],
         eggGroups: ["Grass", "Human-Like"],
-        tier: "LC"
+        tier: "2"
     },
     cacturne: {
         num: 332,
@@ -11258,7 +10832,7 @@ exports.BattlePokedex = {
         prevo: "Cacnea",
         evoLevel: 32,
         eggGroups: ["Grass", "Human-Like"],
-        tier: "PU"
+        tier: "2"
     },
     swablu: {
         num: 333,
@@ -11281,7 +10855,7 @@ exports.BattlePokedex = {
         color: "Blue",
         evos: ["Altaria"],
         eggGroups: ["Flying", "Dragon"],
-        tier: "LC"
+        tier: "1"
     },
     altaria: {
         num: 334,
@@ -11307,7 +10881,7 @@ exports.BattlePokedex = {
         eggGroups: ["Flying", "Dragon"],
         otherFormes: ["Altaria-Mega"],
         formeOrder: ["Altaria", "Altaria-Mega"],
-        tier: "RU"
+        tier: "1"
     },
     altariamega: {
         num: 334,
@@ -11331,8 +10905,7 @@ exports.BattlePokedex = {
         color: "Blue",
         eggGroups: ["Flying", "Dragon"],
         requiredItem: "Altarianite",
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     zangoose: {
         num: 335,
@@ -11354,7 +10927,7 @@ exports.BattlePokedex = {
         weightkg: 40.3,
         color: "White",
         eggGroups: ["Field"],
-        tier: "PU"
+        tier: "2"
     },
     seviper: {
         num: 336,
@@ -11376,7 +10949,7 @@ exports.BattlePokedex = {
         weightkg: 52.5,
         color: "Black",
         eggGroups: ["Field", "Dragon"],
-        tier: "(PU)"
+        tier: "2"
     },
     lunatone: {
         num: 337,
@@ -11398,8 +10971,7 @@ exports.BattlePokedex = {
         weightkg: 168,
         color: "Yellow",
         eggGroups: ["Mineral"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     solrock: {
         num: 338,
@@ -11421,8 +10993,7 @@ exports.BattlePokedex = {
         weightkg: 154,
         color: "Red",
         eggGroups: ["Mineral"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     barboach: {
         num: 339,
@@ -11446,7 +11017,7 @@ exports.BattlePokedex = {
         color: "Gray",
         evos: ["Whiscash"],
         eggGroups: ["Water 2"],
-        tier: "LC"
+        tier: "2"
     },
     whiscash: {
         num: 340,
@@ -11471,7 +11042,7 @@ exports.BattlePokedex = {
         prevo: "Barboach",
         evoLevel: 30,
         eggGroups: ["Water 2"],
-        tier: "PU"
+        tier: "2"
     },
     corphish: {
         num: 341,
@@ -11495,8 +11066,7 @@ exports.BattlePokedex = {
         color: "Red",
         evos: ["Crawdaunt"],
         eggGroups: ["Water 1", "Water 3"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     crawdaunt: {
         num: 342,
@@ -11521,8 +11091,7 @@ exports.BattlePokedex = {
         prevo: "Corphish",
         evoLevel: 26,
         eggGroups: ["Water 1", "Water 3"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     baltoy: {
         num: 343,
@@ -11545,8 +11114,7 @@ exports.BattlePokedex = {
         color: "Brown",
         evos: ["Claydol"],
         eggGroups: ["Mineral"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     claydol: {
         num: 344,
@@ -11570,8 +11138,7 @@ exports.BattlePokedex = {
         prevo: "Baltoy",
         evoLevel: 36,
         eggGroups: ["Mineral"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     lileep: {
         num: 345,
@@ -11598,8 +11165,7 @@ exports.BattlePokedex = {
         color: "Purple",
         evos: ["Cradily"],
         eggGroups: ["Water 3"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     cradily: {
         num: 346,
@@ -11627,8 +11193,7 @@ exports.BattlePokedex = {
         prevo: "Lileep",
         evoLevel: 40,
         eggGroups: ["Water 3"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     anorith: {
         num: 347,
@@ -11655,8 +11220,7 @@ exports.BattlePokedex = {
         color: "Gray",
         evos: ["Armaldo"],
         eggGroups: ["Water 3"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     armaldo: {
         num: 348,
@@ -11684,8 +11248,7 @@ exports.BattlePokedex = {
         prevo: "Anorith",
         evoLevel: 40,
         eggGroups: ["Water 3"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     feebas: {
         num: 349,
@@ -11707,8 +11270,7 @@ exports.BattlePokedex = {
         color: "Brown",
         evos: ["Milotic"],
         eggGroups: ["Water 1", "Dragon"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     milotic: {
         num: 350,
@@ -11733,8 +11295,7 @@ exports.BattlePokedex = {
         evoType: "useItem",
         evoItem: "Prism Scale",
         eggGroups: ["Water 1", "Dragon"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     castform: {
         num: 351,
@@ -11757,8 +11318,7 @@ exports.BattlePokedex = {
         eggGroups: ["Fairy", "Amorphous"],
         otherFormes: ["Castform-Sunny", "Castform-Rainy", "Castform-Snowy"],
         formeOrder: ["Castform", "Castform-Sunny", "Castform-Rainy", "Castform-Snowy"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     castformsunny: {
         num: 351,
@@ -11783,7 +11343,6 @@ exports.BattlePokedex = {
         eggGroups: ["Fairy", "Amorphous"],
         requiredAbility: "Forecast",
         battleOnly: "Castform",
-        isNonstandard: "Past"
     },
     castformrainy: {
         num: 351,
@@ -11808,7 +11367,6 @@ exports.BattlePokedex = {
         eggGroups: ["Fairy", "Amorphous"],
         requiredAbility: "Forecast",
         battleOnly: "Castform",
-        isNonstandard: "Past"
     },
     castformsnowy: {
         num: 351,
@@ -11833,7 +11391,6 @@ exports.BattlePokedex = {
         eggGroups: ["Fairy", "Amorphous"],
         requiredAbility: "Forecast",
         battleOnly: "Castform",
-        isNonstandard: "Past"
     },
     kecleon: {
         num: 352,
@@ -11855,8 +11412,7 @@ exports.BattlePokedex = {
         weightkg: 22,
         color: "Green",
         eggGroups: ["Field"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     shuppet: {
         num: 353,
@@ -11879,7 +11435,7 @@ exports.BattlePokedex = {
         color: "Black",
         evos: ["Banette"],
         eggGroups: ["Amorphous"],
-        tier: "LC"
+        tier: "1"
     },
     banette: {
         num: 354,
@@ -11905,7 +11461,7 @@ exports.BattlePokedex = {
         eggGroups: ["Amorphous"],
         otherFormes: ["Banette-Mega"],
         formeOrder: ["Banette", "Banette-Mega"],
-        tier: "(PU)"
+        tier: "1"
     },
     banettemega: {
         num: 354,
@@ -11929,8 +11485,7 @@ exports.BattlePokedex = {
         color: "Black",
         eggGroups: ["Amorphous"],
         requiredItem: "Banettite",
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     duskull: {
         num: 355,
@@ -11953,8 +11508,7 @@ exports.BattlePokedex = {
         color: "Black",
         evos: ["Dusclops"],
         eggGroups: ["Amorphous"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     dusclops: {
         num: 356,
@@ -11979,8 +11533,7 @@ exports.BattlePokedex = {
         evoLevel: 37,
         evos: ["Dusknoir"],
         eggGroups: ["Amorphous"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     tropius: {
         num: 357,
@@ -12003,7 +11556,7 @@ exports.BattlePokedex = {
         weightkg: 100,
         color: "Green",
         eggGroups: ["Monster", "Grass"],
-        tier: "(PU)"
+        tier: "2"
     },
     chimecho: {
         num: 358,
@@ -12028,8 +11581,7 @@ exports.BattlePokedex = {
         evoCondition: "at night",
         eggGroups: ["Amorphous"],
         canHatch: true,
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     absol: {
         num: 359,
@@ -12053,8 +11605,7 @@ exports.BattlePokedex = {
         eggGroups: ["Field"],
         otherFormes: ["Absol-Mega"],
         formeOrder: ["Absol", "Absol-Mega"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     absolmega: {
         num: 359,
@@ -12078,8 +11629,7 @@ exports.BattlePokedex = {
         color: "White",
         eggGroups: ["Field"],
         requiredItem: "Absolite",
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     wynaut: {
         num: 360,
@@ -12103,8 +11653,7 @@ exports.BattlePokedex = {
         evos: ["Wobbuffet"],
         eggGroups: ["Undiscovered"],
         canHatch: true,
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     snorunt: {
         num: 361,
@@ -12127,7 +11676,7 @@ exports.BattlePokedex = {
         color: "Gray",
         evos: ["Glalie", "Froslass"],
         eggGroups: ["Fairy", "Mineral"],
-        tier: "LC"
+        tier: "1"
     },
     glalie: {
         num: 362,
@@ -12153,7 +11702,7 @@ exports.BattlePokedex = {
         eggGroups: ["Fairy", "Mineral"],
         otherFormes: ["Glalie-Mega"],
         formeOrder: ["Glalie", "Glalie-Mega"],
-        tier: "(PU)"
+        tier: "1"
     },
     glaliemega: {
         num: 362,
@@ -12177,8 +11726,7 @@ exports.BattlePokedex = {
         color: "Gray",
         eggGroups: ["Fairy", "Mineral"],
         requiredItem: "Glalitite",
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     spheal: {
         num: 363,
@@ -12202,8 +11750,7 @@ exports.BattlePokedex = {
         color: "Blue",
         evos: ["Sealeo"],
         eggGroups: ["Water 1", "Field"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     sealeo: {
         num: 364,
@@ -12229,8 +11776,7 @@ exports.BattlePokedex = {
         evoLevel: 20,
         evos: ["Walrein"],
         eggGroups: ["Water 1", "Field"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     walrein: {
         num: 365,
@@ -12255,8 +11801,7 @@ exports.BattlePokedex = {
         prevo: "Sealeo",
         evoLevel: 34,
         eggGroups: ["Water 1", "Field"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     clamperl: {
         num: 366,
@@ -12279,8 +11824,7 @@ exports.BattlePokedex = {
         color: "Blue",
         evos: ["Huntail", "Gorebyss"],
         eggGroups: ["Water 1"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     huntail: {
         num: 367,
@@ -12305,8 +11849,7 @@ exports.BattlePokedex = {
         evoType: "useItem",
         evoItem: "Moon Stone",
         eggGroups: ["Water 1"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     gorebyss: {
         num: 368,
@@ -12331,8 +11874,7 @@ exports.BattlePokedex = {
         evoType: "useItem",
         evoItem: "Sun Stone",
         eggGroups: ["Water 1"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     relicanth: {
         num: 369,
@@ -12359,8 +11901,7 @@ exports.BattlePokedex = {
         weightkg: 23.4,
         color: "Gray",
         eggGroups: ["Water 1", "Water 2"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     luvdisc: {
         num: 370,
@@ -12386,7 +11927,7 @@ exports.BattlePokedex = {
         weightkg: 8.7,
         color: "Pink",
         eggGroups: ["Water 2"],
-        tier: "(PU)"
+        tier: "2"
     },
     bagon: {
         num: 371,
@@ -12409,7 +11950,7 @@ exports.BattlePokedex = {
         color: "Blue",
         evos: ["Shelgon"],
         eggGroups: ["Dragon"],
-        tier: "LC"
+        tier: "1"
     },
     shelgon: {
         num: 372,
@@ -12434,7 +11975,7 @@ exports.BattlePokedex = {
         evoLevel: 30,
         evos: ["Salamence"],
         eggGroups: ["Dragon"],
-        tier: "NFE"
+        tier: "1"
     },
     salamence: {
         num: 373,
@@ -12460,7 +12001,7 @@ exports.BattlePokedex = {
         eggGroups: ["Dragon"],
         otherFormes: ["Salamence-Mega"],
         formeOrder: ["Salamence", "Salamence-Mega"],
-        tier: "UU"
+        tier: "1"
     },
     salamencemega: {
         num: 373,
@@ -12484,8 +12025,7 @@ exports.BattlePokedex = {
         color: "Blue",
         eggGroups: ["Dragon"],
         requiredItem: "Salamencite",
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     beldum: {
         num: 374,
@@ -12508,8 +12048,7 @@ exports.BattlePokedex = {
         color: "Blue",
         evos: ["Metang"],
         eggGroups: ["Mineral"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     metang: {
         num: 375,
@@ -12534,8 +12073,7 @@ exports.BattlePokedex = {
         evoLevel: 20,
         evos: ["Metagross"],
         eggGroups: ["Mineral"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     metagross: {
         num: 376,
@@ -12561,8 +12099,7 @@ exports.BattlePokedex = {
         eggGroups: ["Mineral"],
         otherFormes: ["Metagross-Mega"],
         formeOrder: ["Metagross", "Metagross-Mega"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     metagrossmega: {
         num: 376,
@@ -12587,8 +12124,7 @@ exports.BattlePokedex = {
         color: "Blue",
         eggGroups: ["Mineral"],
         requiredItem: "Metagrossite",
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     regirock: {
         num: 377,
@@ -12612,8 +12148,7 @@ exports.BattlePokedex = {
         color: "Brown",
         tags: ["Sub-Legendary"],
         eggGroups: ["Undiscovered"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     regice: {
         num: 378,
@@ -12637,8 +12172,7 @@ exports.BattlePokedex = {
         color: "Blue",
         tags: ["Sub-Legendary"],
         eggGroups: ["Undiscovered"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     registeel: {
         num: 379,
@@ -12662,8 +12196,7 @@ exports.BattlePokedex = {
         color: "Gray",
         tags: ["Sub-Legendary"],
         eggGroups: ["Undiscovered"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     latias: {
         num: 380,
@@ -12688,8 +12221,7 @@ exports.BattlePokedex = {
         eggGroups: ["Undiscovered"],
         otherFormes: ["Latias-Mega"],
         formeOrder: ["Latias", "Latias-Mega"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     latiasmega: {
         num: 380,
@@ -12714,8 +12246,7 @@ exports.BattlePokedex = {
         color: "Purple",
         eggGroups: ["Undiscovered"],
         requiredItem: "Latiasite",
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     latios: {
         num: 381,
@@ -12740,8 +12271,7 @@ exports.BattlePokedex = {
         tags: ["Sub-Legendary"],
         otherFormes: ["Latios-Mega"],
         formeOrder: ["Latios", "Latios-Mega"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     latiosmega: {
         num: 381,
@@ -12766,8 +12296,7 @@ exports.BattlePokedex = {
         color: "Purple",
         eggGroups: ["Undiscovered"],
         requiredItem: "Latiosite",
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     kyogre: {
         num: 382,
@@ -12792,7 +12321,7 @@ exports.BattlePokedex = {
         eggGroups: ["Undiscovered"],
         otherFormes: ["Kyogre-Primal"],
         formeOrder: ["Kyogre", "Kyogre-Primal"],
-        tier: "Uber"
+        tier: "2"
     },
     kyogreprimal: {
         num: 382,
@@ -12817,8 +12346,7 @@ exports.BattlePokedex = {
         color: "Blue",
         eggGroups: ["Undiscovered"],
         requiredItem: "Blue Orb",
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     groudon: {
         num: 383,
@@ -12843,7 +12371,7 @@ exports.BattlePokedex = {
         eggGroups: ["Undiscovered"],
         otherFormes: ["Groudon-Primal"],
         formeOrder: ["Groudon", "Groudon-Primal"],
-        tier: "Uber"
+        tier: "2"
     },
     groudonprimal: {
         num: 383,
@@ -12868,8 +12396,7 @@ exports.BattlePokedex = {
         color: "Red",
         eggGroups: ["Undiscovered"],
         requiredItem: "Red Orb",
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     rayquaza: {
         num: 384,
@@ -12894,7 +12421,7 @@ exports.BattlePokedex = {
         eggGroups: ["Undiscovered"],
         otherFormes: ["Rayquaza-Mega"],
         formeOrder: ["Rayquaza", "Rayquaza-Mega"],
-        tier: "Uber"
+        tier: "2"
     },
     rayquazamega: {
         num: 384,
@@ -12919,8 +12446,7 @@ exports.BattlePokedex = {
         color: "Green",
         eggGroups: ["Undiscovered"],
         requiredMove: "Dragon Ascent",
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     jirachi: {
         num: 385,
@@ -12943,8 +12469,7 @@ exports.BattlePokedex = {
         color: "Yellow",
         tags: ["Mythical"],
         eggGroups: ["Undiscovered"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     deoxys: {
         num: 386,
@@ -12970,8 +12495,7 @@ exports.BattlePokedex = {
         tags: ["Mythical"],
         otherFormes: ["Deoxys-Attack", "Deoxys-Defense", "Deoxys-Speed"],
         formeOrder: ["Deoxys", "Deoxys-Attack", "Deoxys-Defense", "Deoxys-Speed"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     deoxysattack: {
         num: 386,
@@ -12996,8 +12520,7 @@ exports.BattlePokedex = {
         color: "Red",
         eggGroups: ["Undiscovered"],
         changesFrom: "Deoxys",
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     deoxysdefense: {
         num: 386,
@@ -13022,8 +12545,7 @@ exports.BattlePokedex = {
         color: "Red",
         eggGroups: ["Undiscovered"],
         changesFrom: "Deoxys",
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     deoxysspeed: {
         num: 386,
@@ -13048,8 +12570,7 @@ exports.BattlePokedex = {
         color: "Red",
         eggGroups: ["Undiscovered"],
         changesFrom: "Deoxys",
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     turtwig: {
         num: 387,
@@ -13077,8 +12598,7 @@ exports.BattlePokedex = {
         color: "Green",
         evos: ["Grotle"],
         eggGroups: ["Monster", "Grass"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     grotle: {
         num: 388,
@@ -13108,8 +12628,7 @@ exports.BattlePokedex = {
         evoLevel: 16,
         evos: ["Torterra"],
         eggGroups: ["Monster", "Grass"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     torterra: {
         num: 389,
@@ -13138,8 +12657,7 @@ exports.BattlePokedex = {
         prevo: "Grotle",
         evoLevel: 36,
         eggGroups: ["Monster", "Grass"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     chimchar: {
         num: 390,
@@ -13167,8 +12685,7 @@ exports.BattlePokedex = {
         color: "Brown",
         evos: ["Monferno"],
         eggGroups: ["Field", "Human-Like"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     monferno: {
         num: 391,
@@ -13198,8 +12715,7 @@ exports.BattlePokedex = {
         evoLevel: 16,
         evos: ["Infernape"],
         eggGroups: ["Field", "Human-Like"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     infernape: {
         num: 392,
@@ -13228,8 +12744,7 @@ exports.BattlePokedex = {
         prevo: "Monferno",
         evoLevel: 36,
         eggGroups: ["Field", "Human-Like"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     piplup: {
         num: 393,
@@ -13257,8 +12772,7 @@ exports.BattlePokedex = {
         color: "Blue",
         evos: ["Prinplup"],
         eggGroups: ["Water 1", "Field"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     prinplup: {
         num: 394,
@@ -13288,8 +12802,7 @@ exports.BattlePokedex = {
         evoLevel: 16,
         evos: ["Empoleon"],
         eggGroups: ["Water 1", "Field"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     empoleon: {
         num: 395,
@@ -13318,8 +12831,7 @@ exports.BattlePokedex = {
         prevo: "Prinplup",
         evoLevel: 36,
         eggGroups: ["Water 1", "Field"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     starly: {
         num: 396,
@@ -13342,7 +12854,7 @@ exports.BattlePokedex = {
         color: "Brown",
         evos: ["Staravia"],
         eggGroups: ["Flying"],
-        tier: "LC"
+        tier: "1"
     },
     staravia: {
         num: 397,
@@ -13367,7 +12879,7 @@ exports.BattlePokedex = {
         evoLevel: 14,
         evos: ["Staraptor"],
         eggGroups: ["Flying"],
-        tier: "NFE"
+        tier: "1"
     },
     staraptor: {
         num: 398,
@@ -13391,7 +12903,7 @@ exports.BattlePokedex = {
         prevo: "Staravia",
         evoLevel: 34,
         eggGroups: ["Flying"],
-        tier: "RU"
+        tier: "1"
     },
     bidoof: {
         num: 399,
@@ -13415,8 +12927,7 @@ exports.BattlePokedex = {
         color: "Brown",
         evos: ["Bibarel"],
         eggGroups: ["Water 1", "Field"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     bibarel: {
         num: 400,
@@ -13441,8 +12952,7 @@ exports.BattlePokedex = {
         prevo: "Bidoof",
         evoLevel: 15,
         eggGroups: ["Water 1", "Field"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     kricketot: {
         num: 401,
@@ -13465,7 +12975,7 @@ exports.BattlePokedex = {
         color: "Red",
         evos: ["Kricketune"],
         eggGroups: ["Bug"],
-        tier: "LC"
+        tier: "2"
     },
     kricketune: {
         num: 402,
@@ -13489,7 +12999,7 @@ exports.BattlePokedex = {
         prevo: "Kricketot",
         evoLevel: 10,
         eggGroups: ["Bug"],
-        tier: "(PU)"
+        tier: "2"
     },
     shinx: {
         num: 403,
@@ -13512,7 +13022,7 @@ exports.BattlePokedex = {
         color: "Blue",
         evos: ["Luxio"],
         eggGroups: ["Field"],
-        tier: "LC"
+        tier: "1"
     },
     luxio: {
         num: 404,
@@ -13537,7 +13047,7 @@ exports.BattlePokedex = {
         evoLevel: 15,
         evos: ["Luxray"],
         eggGroups: ["Field"],
-        tier: "NFE"
+        tier: "1"
     },
     luxray: {
         num: 405,
@@ -13561,7 +13071,7 @@ exports.BattlePokedex = {
         prevo: "Luxio",
         evoLevel: 30,
         eggGroups: ["Field"],
-        tier: "(PU)"
+        tier: "1"
     },
     budew: {
         num: 406,
@@ -13586,8 +13096,7 @@ exports.BattlePokedex = {
         evos: ["Roselia"],
         eggGroups: ["Undiscovered"],
         canHatch: true,
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     roserade: {
         num: 407,
@@ -13613,8 +13122,7 @@ exports.BattlePokedex = {
         evoType: "useItem",
         evoItem: "Shiny Stone",
         eggGroups: ["Fairy", "Grass"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     cranidos: {
         num: 408,
@@ -13641,8 +13149,7 @@ exports.BattlePokedex = {
         color: "Blue",
         evos: ["Rampardos"],
         eggGroups: ["Monster"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     rampardos: {
         num: 409,
@@ -13670,8 +13177,7 @@ exports.BattlePokedex = {
         prevo: "Cranidos",
         evoLevel: 30,
         eggGroups: ["Monster"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     shieldon: {
         num: 410,
@@ -13698,8 +13204,7 @@ exports.BattlePokedex = {
         color: "Gray",
         evos: ["Bastiodon"],
         eggGroups: ["Monster"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     bastiodon: {
         num: 411,
@@ -13727,8 +13232,7 @@ exports.BattlePokedex = {
         prevo: "Shieldon",
         evoLevel: 30,
         eggGroups: ["Monster"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     burmy: {
         num: 412,
@@ -13754,8 +13258,7 @@ exports.BattlePokedex = {
         eggGroups: ["Bug"],
         cosmeticFormes: ["Burmy-Sandy", "Burmy-Trash"],
         formeOrder: ["Burmy", "Burmy-Sandy", "Burmy-Trash"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     wormadam: {
         num: 413,
@@ -13783,8 +13286,7 @@ exports.BattlePokedex = {
         eggGroups: ["Bug"],
         otherFormes: ["Wormadam-Sandy", "Wormadam-Trash"],
         formeOrder: ["Wormadam", "Wormadam-Sandy", "Wormadam-Trash"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     wormadamsandy: {
         num: 413,
@@ -13811,8 +13313,7 @@ exports.BattlePokedex = {
         prevo: "Burmy",
         evoLevel: 20,
         eggGroups: ["Bug"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     wormadamtrash: {
         num: 413,
@@ -13839,8 +13340,7 @@ exports.BattlePokedex = {
         prevo: "Burmy",
         evoLevel: 20,
         eggGroups: ["Bug"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     mothim: {
         num: 414,
@@ -13865,8 +13365,7 @@ exports.BattlePokedex = {
         prevo: "Burmy",
         evoLevel: 20,
         eggGroups: ["Bug"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     combee: {
         num: 415,
@@ -13893,7 +13392,7 @@ exports.BattlePokedex = {
         color: "Yellow",
         evos: ["Vespiquen"],
         eggGroups: ["Bug"],
-        tier: "LC"
+        tier: "1"
     },
     vespiquen: {
         num: 416,
@@ -13918,7 +13417,7 @@ exports.BattlePokedex = {
         prevo: "Combee",
         evoLevel: 21,
         eggGroups: ["Bug"],
-        tier: "(PU)"
+        tier: "1"
     },
     pachirisu: {
         num: 417,
@@ -13941,7 +13440,7 @@ exports.BattlePokedex = {
         weightkg: 3.9,
         color: "White",
         eggGroups: ["Field", "Fairy"],
-        tier: "(PU)"
+        tier: "2"
     },
     buizel: {
         num: 418,
@@ -13965,7 +13464,7 @@ exports.BattlePokedex = {
         color: "Brown",
         evos: ["Floatzel"],
         eggGroups: ["Water 1", "Field"],
-        tier: "LC"
+        tier: "1"
     },
     floatzel: {
         num: 419,
@@ -13990,7 +13489,7 @@ exports.BattlePokedex = {
         prevo: "Buizel",
         evoLevel: 26,
         eggGroups: ["Water 1", "Field"],
-        tier: "NU"
+        tier: "1"
     },
     cherubi: {
         num: 420,
@@ -14012,8 +13511,7 @@ exports.BattlePokedex = {
         color: "Pink",
         evos: ["Cherrim"],
         eggGroups: ["Fairy", "Grass"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     cherrim: {
         num: 421,
@@ -14039,8 +13537,7 @@ exports.BattlePokedex = {
         eggGroups: ["Fairy", "Grass"],
         otherFormes: ["Cherrim-Sunshine"],
         formeOrder: ["Cherrim", "Cherrim-Sunshine"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     cherrimsunshine: {
         num: 421,
@@ -14065,7 +13562,6 @@ exports.BattlePokedex = {
         eggGroups: ["Fairy", "Grass"],
         requiredAbility: "Flower Gift",
         battleOnly: "Cherrim",
-        isNonstandard: "Past"
     },
     shellos: {
         num: 422,
@@ -14092,7 +13588,7 @@ exports.BattlePokedex = {
         eggGroups: ["Water 1", "Amorphous"],
         cosmeticFormes: ["Shellos-East"],
         formeOrder: ["Shellos", "Shellos-East"],
-        tier: "LC"
+        tier: "1"
     },
     gastrodon: {
         num: 423,
@@ -14120,7 +13616,7 @@ exports.BattlePokedex = {
         eggGroups: ["Water 1", "Amorphous"],
         cosmeticFormes: ["Gastrodon-East"],
         formeOrder: ["Gastrodon", "Gastrodon-East"],
-        tier: "UU"
+        tier: "1"
     },
     ambipom: {
         num: 424,
@@ -14145,8 +13641,7 @@ exports.BattlePokedex = {
         evoType: "levelMove",
         evoMove: "Double Hit",
         eggGroups: ["Field"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     drifloon: {
         num: 425,
@@ -14170,7 +13665,7 @@ exports.BattlePokedex = {
         color: "Purple",
         evos: ["Drifblim"],
         eggGroups: ["Amorphous"],
-        tier: "LC"
+        tier: "1"
     },
     drifblim: {
         num: 426,
@@ -14195,7 +13690,7 @@ exports.BattlePokedex = {
         prevo: "Drifloon",
         evoLevel: 28,
         eggGroups: ["Amorphous"],
-        tier: "NU"
+        tier: "1"
     },
     buneary: {
         num: 427,
@@ -14219,8 +13714,7 @@ exports.BattlePokedex = {
         color: "Brown",
         evos: ["Lopunny"],
         eggGroups: ["Field", "Human-Like"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     lopunny: {
         num: 428,
@@ -14247,8 +13741,7 @@ exports.BattlePokedex = {
         eggGroups: ["Field", "Human-Like"],
         otherFormes: ["Lopunny-Mega"],
         formeOrder: ["Lopunny", "Lopunny-Mega"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     lopunnymega: {
         num: 428,
@@ -14272,8 +13765,7 @@ exports.BattlePokedex = {
         color: "Brown",
         eggGroups: ["Field", "Human-Like"],
         requiredItem: "Lopunnite",
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     mismagius: {
         num: 429,
@@ -14297,7 +13789,7 @@ exports.BattlePokedex = {
         evoType: "useItem",
         evoItem: "Dusk Stone",
         eggGroups: ["Amorphous"],
-        tier: "NU"
+        tier: "2"
     },
     honchkrow: {
         num: 430,
@@ -14322,7 +13814,7 @@ exports.BattlePokedex = {
         evoType: "useItem",
         evoItem: "Dusk Stone",
         eggGroups: ["Flying"],
-        tier: "PU"
+        tier: "1"
     },
     glameow: {
         num: 431,
@@ -14350,8 +13842,7 @@ exports.BattlePokedex = {
         color: "Gray",
         evos: ["Purugly"],
         eggGroups: ["Field"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     purugly: {
         num: 432,
@@ -14380,8 +13871,7 @@ exports.BattlePokedex = {
         prevo: "Glameow",
         evoLevel: 38,
         eggGroups: ["Field"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     chingling: {
         num: 433,
@@ -14404,8 +13894,7 @@ exports.BattlePokedex = {
         evos: ["Chimecho"],
         eggGroups: ["Undiscovered"],
         canHatch: true,
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     stunky: {
         num: 434,
@@ -14429,7 +13918,7 @@ exports.BattlePokedex = {
         color: "Purple",
         evos: ["Skuntank"],
         eggGroups: ["Field"],
-        tier: "LC"
+        tier: "1"
     },
     skuntank: {
         num: 435,
@@ -14454,7 +13943,7 @@ exports.BattlePokedex = {
         prevo: "Stunky",
         evoLevel: 34,
         eggGroups: ["Field"],
-        tier: "PU"
+        tier: "1"
     },
     bronzor: {
         num: 436,
@@ -14479,7 +13968,7 @@ exports.BattlePokedex = {
         color: "Green",
         evos: ["Bronzong"],
         eggGroups: ["Mineral"],
-        tier: "LC"
+        tier: "2"
     },
     bronzong: {
         num: 437,
@@ -14505,7 +13994,7 @@ exports.BattlePokedex = {
         prevo: "Bronzor",
         evoLevel: 33,
         eggGroups: ["Mineral"],
-        tier: "RU"
+        tier: "2"
     },
     bonsly: {
         num: 438,
@@ -14530,7 +14019,7 @@ exports.BattlePokedex = {
         evos: ["Sudowoodo"],
         eggGroups: ["Undiscovered"],
         canHatch: true,
-        tier: "LC"
+        tier: "2"
     },
     mimejr: {
         num: 439,
@@ -14555,8 +14044,7 @@ exports.BattlePokedex = {
         evos: ["Mr. Mime", "Mr. Mime-Galar"],
         eggGroups: ["Undiscovered"],
         canHatch: true,
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     happiny: {
         num: 440,
@@ -14582,7 +14070,7 @@ exports.BattlePokedex = {
         evos: ["Chansey"],
         eggGroups: ["Undiscovered"],
         canHatch: true,
-        tier: "LC"
+        tier: "2"
     },
     chatot: {
         num: 441,
@@ -14605,8 +14093,7 @@ exports.BattlePokedex = {
         weightkg: 1.9,
         color: "Black",
         eggGroups: ["Flying"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     spiritomb: {
         num: 442,
@@ -14628,7 +14115,7 @@ exports.BattlePokedex = {
         weightkg: 108,
         color: "Purple",
         eggGroups: ["Amorphous"],
-        tier: "PU"
+        tier: "1"
     },
     gible: {
         num: 443,
@@ -14651,7 +14138,7 @@ exports.BattlePokedex = {
         color: "Blue",
         evos: ["Gabite"],
         eggGroups: ["Monster", "Dragon"],
-        tier: "LC"
+        tier: "1"
     },
     gabite: {
         num: 444,
@@ -14676,7 +14163,7 @@ exports.BattlePokedex = {
         evoLevel: 24,
         evos: ["Garchomp"],
         eggGroups: ["Monster", "Dragon"],
-        tier: "PU"
+        tier: "1"
     },
     garchomp: {
         num: 445,
@@ -14702,7 +14189,7 @@ exports.BattlePokedex = {
         eggGroups: ["Monster", "Dragon"],
         otherFormes: ["Garchomp-Mega"],
         formeOrder: ["Garchomp", "Garchomp-Mega"],
-        tier: "OU"
+        tier: "1"
     },
     garchompmega: {
         num: 445,
@@ -14726,8 +14213,7 @@ exports.BattlePokedex = {
         color: "Blue",
         eggGroups: ["Monster", "Dragon"],
         requiredItem: "Garchompite",
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     munchlax: {
         num: 446,
@@ -14756,8 +14242,7 @@ exports.BattlePokedex = {
         evos: ["Snorlax"],
         eggGroups: ["Undiscovered"],
         canHatch: true,
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     riolu: {
         num: 447,
@@ -14786,7 +14271,7 @@ exports.BattlePokedex = {
         evos: ["Lucario"],
         eggGroups: ["Undiscovered"],
         canHatch: true,
-        tier: "LC"
+        tier: "1"
     },
     lucario: {
         num: 448,
@@ -14817,7 +14302,7 @@ exports.BattlePokedex = {
         eggGroups: ["Field", "Human-Like"],
         otherFormes: ["Lucario-Mega"],
         formeOrder: ["Lucario", "Lucario-Mega"],
-        tier: "RU"
+        tier: "1"
     },
     lucariomega: {
         num: 448,
@@ -14845,8 +14330,7 @@ exports.BattlePokedex = {
         color: "Blue",
         eggGroups: ["Field", "Human-Like"],
         requiredItem: "Lucarionite",
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     hippopotas: {
         num: 449,
@@ -14869,7 +14353,7 @@ exports.BattlePokedex = {
         color: "Brown",
         evos: ["Hippowdon"],
         eggGroups: ["Field"],
-        tier: "LC"
+        tier: "2"
     },
     hippowdon: {
         num: 450,
@@ -14893,7 +14377,7 @@ exports.BattlePokedex = {
         prevo: "Hippopotas",
         evoLevel: 34,
         eggGroups: ["Field"],
-        tier: "UU"
+        tier: "2"
     },
     skorupi: {
         num: 451,
@@ -14916,8 +14400,7 @@ exports.BattlePokedex = {
         color: "Purple",
         evos: ["Drapion"],
         eggGroups: ["Bug", "Water 3"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     drapion: {
         num: 452,
@@ -14941,8 +14424,7 @@ exports.BattlePokedex = {
         prevo: "Skorupi",
         evoLevel: 40,
         eggGroups: ["Bug", "Water 3"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     croagunk: {
         num: 453,
@@ -14965,7 +14447,7 @@ exports.BattlePokedex = {
         color: "Blue",
         evos: ["Toxicroak"],
         eggGroups: ["Human-Like"],
-        tier: "LC"
+        tier: "1"
     },
     toxicroak: {
         num: 454,
@@ -14989,7 +14471,7 @@ exports.BattlePokedex = {
         prevo: "Croagunk",
         evoLevel: 30,
         eggGroups: ["Human-Like"],
-        tier: "NU"
+        tier: "1"
     },
     carnivine: {
         num: 455,
@@ -15010,8 +14492,7 @@ exports.BattlePokedex = {
         weightkg: 27,
         color: "Green",
         eggGroups: ["Grass"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     finneon: {
         num: 456,
@@ -15035,7 +14516,7 @@ exports.BattlePokedex = {
         color: "Blue",
         evos: ["Lumineon"],
         eggGroups: ["Water 2"],
-        tier: "LC"
+        tier: "1"
     },
     lumineon: {
         num: 457,
@@ -15060,7 +14541,7 @@ exports.BattlePokedex = {
         prevo: "Finneon",
         evoLevel: 20,
         eggGroups: ["Water 2"],
-        tier: "(PU)"
+        tier: "1"
     },
     mantyke: {
         num: 458,
@@ -15085,8 +14566,7 @@ exports.BattlePokedex = {
         evos: ["Mantine"],
         eggGroups: ["Undiscovered"],
         canHatch: true,
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     snover: {
         num: 459,
@@ -15109,7 +14589,7 @@ exports.BattlePokedex = {
         color: "White",
         evos: ["Abomasnow"],
         eggGroups: ["Monster", "Grass"],
-        tier: "LC"
+        tier: "1"
     },
     abomasnow: {
         num: 460,
@@ -15135,7 +14615,7 @@ exports.BattlePokedex = {
         eggGroups: ["Monster", "Grass"],
         otherFormes: ["Abomasnow-Mega"],
         formeOrder: ["Abomasnow", "Abomasnow-Mega"],
-        tier: "NU"
+        tier: "1"
     },
     abomasnowmega: {
         num: 460,
@@ -15159,8 +14639,7 @@ exports.BattlePokedex = {
         color: "White",
         eggGroups: ["Monster", "Grass"],
         requiredItem: "Abomasite",
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     weavile: {
         num: 461,
@@ -15187,7 +14666,7 @@ exports.BattlePokedex = {
         evoItem: "Razor Claw",
         evoCondition: "at night",
         eggGroups: ["Field"],
-        tier: "RU"
+        tier: "1"
     },
     magnezone: {
         num: 462,
@@ -15214,7 +14693,7 @@ exports.BattlePokedex = {
         evoType: "levelExtra",
         evoCondition: "at New Mauville",
         eggGroups: ["Mineral"],
-        tier: "UU"
+        tier: "1"
     },
     lickilicky: {
         num: 463,
@@ -15240,8 +14719,7 @@ exports.BattlePokedex = {
         evoType: "levelMove",
         evoMove: "Rollout",
         eggGroups: ["Monster"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     rhyperior: {
         num: 464,
@@ -15267,8 +14745,7 @@ exports.BattlePokedex = {
         evoType: "useItem",
         evoItem: "Protector",
         eggGroups: ["Monster", "Field"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     tangrowth: {
         num: 465,
@@ -15294,8 +14771,7 @@ exports.BattlePokedex = {
         evoType: "levelMove",
         evoMove: "Ancient Power",
         eggGroups: ["Grass"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     electivire: {
         num: 466,
@@ -15324,8 +14800,7 @@ exports.BattlePokedex = {
         evoType: "useItem",
         evoItem: "Electirizer",
         eggGroups: ["Human-Like"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     magmortar: {
         num: 467,
@@ -15355,8 +14830,7 @@ exports.BattlePokedex = {
         evoType: "useItem",
         evoItem: "Magmarizer",
         eggGroups: ["Human-Like"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     togekiss: {
         num: 468,
@@ -15386,8 +14860,7 @@ exports.BattlePokedex = {
         evoType: "useItem",
         evoItem: "Shiny Stone",
         eggGroups: ["Flying", "Fairy"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     yanmega: {
         num: 469,
@@ -15412,8 +14885,7 @@ exports.BattlePokedex = {
         evoType: "levelMove",
         evoMove: "Ancient Power",
         eggGroups: ["Bug"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     leafeon: {
         num: 470,
@@ -15442,7 +14914,7 @@ exports.BattlePokedex = {
         evoType: "useItem",
         evoItem: "Leaf Stone",
         eggGroups: ["Field"],
-        tier: "PU"
+        tier: "2"
     },
     glaceon: {
         num: 471,
@@ -15471,7 +14943,7 @@ exports.BattlePokedex = {
         evoType: "useItem",
         evoItem: "Ice Stone",
         eggGroups: ["Field"],
-        tier: "(PU)"
+        tier: "2"
     },
     gliscor: {
         num: 472,
@@ -15497,8 +14969,7 @@ exports.BattlePokedex = {
         evoItem: "Razor Fang",
         evoCondition: "at night",
         eggGroups: ["Bug"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     mamoswine: {
         num: 473,
@@ -15524,8 +14995,7 @@ exports.BattlePokedex = {
         evoType: "levelMove",
         evoMove: "Ancient Power",
         eggGroups: ["Field"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     porygonz: {
         num: 474,
@@ -15552,8 +15022,7 @@ exports.BattlePokedex = {
         evoType: "useItem",
         evoItem: "Dubious Disc",
         eggGroups: ["Mineral"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     gallade: {
         num: 475,
@@ -15581,7 +15050,7 @@ exports.BattlePokedex = {
         eggGroups: ["Human-Like", "Amorphous"],
         otherFormes: ["Gallade-Mega"],
         formeOrder: ["Gallade", "Gallade-Mega"],
-        tier: "RU"
+        tier: "1"
     },
     gallademega: {
         num: 475,
@@ -15606,8 +15075,7 @@ exports.BattlePokedex = {
         color: "White",
         eggGroups: ["Amorphous"],
         requiredItem: "Galladite",
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     probopass: {
         num: 476,
@@ -15632,8 +15100,7 @@ exports.BattlePokedex = {
         evoType: "levelExtra",
         evoCondition: "at New Mauville",
         eggGroups: ["Mineral"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     dusknoir: {
         num: 477,
@@ -15658,8 +15125,7 @@ exports.BattlePokedex = {
         evoType: "trade",
         evoItem: "Reaper Cloth",
         eggGroups: ["Amorphous"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     froslass: {
         num: 478,
@@ -15685,7 +15151,7 @@ exports.BattlePokedex = {
         evoType: "useItem",
         evoItem: "Dawn Stone",
         eggGroups: ["Fairy", "Mineral"],
-        tier: "NU"
+        tier: "1"
     },
     rotom: {
         num: 479,
@@ -15709,7 +15175,7 @@ exports.BattlePokedex = {
         eggGroups: ["Amorphous"],
         otherFormes: ["Rotom-Heat", "Rotom-Wash", "Rotom-Frost", "Rotom-Fan", "Rotom-Mow"],
         formeOrder: ["Rotom", "Rotom-Heat", "Rotom-Wash", "Rotom-Frost", "Rotom-Fan", "Rotom-Mow"],
-        tier: "NU"
+        tier: "2"
     },
     rotomheat: {
         num: 479,
@@ -15734,7 +15200,7 @@ exports.BattlePokedex = {
         color: "Red",
         eggGroups: ["Amorphous"],
         changesFrom: "Rotom",
-        tier: "RU"
+        tier: "2"
     },
     rotomwash: {
         num: 479,
@@ -15759,7 +15225,7 @@ exports.BattlePokedex = {
         color: "Red",
         eggGroups: ["Amorphous"],
         changesFrom: "Rotom",
-        tier: "OU"
+        tier: "2"
     },
     rotomfrost: {
         num: 479,
@@ -15784,7 +15250,7 @@ exports.BattlePokedex = {
         color: "Red",
         eggGroups: ["Amorphous"],
         changesFrom: "Rotom",
-        tier: "PU"
+        tier: "2"
     },
     rotomfan: {
         num: 479,
@@ -15809,7 +15275,7 @@ exports.BattlePokedex = {
         color: "Red",
         eggGroups: ["Amorphous"],
         changesFrom: "Rotom",
-        tier: "(PU)"
+        tier: "2"
     },
     rotommow: {
         num: 479,
@@ -15834,7 +15300,7 @@ exports.BattlePokedex = {
         color: "Red",
         eggGroups: ["Amorphous"],
         changesFrom: "Rotom",
-        tier: "NU"
+        tier: "2"
     },
     uxie: {
         num: 480,
@@ -15857,7 +15323,7 @@ exports.BattlePokedex = {
         color: "Yellow",
         tags: ["Sub-Legendary"],
         eggGroups: ["Undiscovered"],
-        tier: "NU"
+        tier: "2"
     },
     mesprit: {
         num: 481,
@@ -15880,7 +15346,7 @@ exports.BattlePokedex = {
         color: "Pink",
         tags: ["Sub-Legendary"],
         eggGroups: ["Undiscovered"],
-        tier: "NU"
+        tier: "2"
     },
     azelf: {
         num: 482,
@@ -15903,7 +15369,7 @@ exports.BattlePokedex = {
         color: "Blue",
         tags: ["Sub-Legendary"],
         eggGroups: ["Undiscovered"],
-        tier: "RU"
+        tier: "2"
     },
     dialga: {
         num: 483,
@@ -15929,7 +15395,7 @@ exports.BattlePokedex = {
         eggGroups: ["Undiscovered"],
         otherFormes: ["Dialga-Origin"],
         formeOrder: ["Dialga", "Dialga-Origin"],
-        tier: "Uber"
+        tier: "2"
     },
     dialgaorigin: {
         num: 483,
@@ -15957,7 +15423,7 @@ exports.BattlePokedex = {
         requiredItem: "Adamant Crystal",
         changesFrom: "Dialga",
         gen: 8,
-        tier: "Uber"
+        tier: "2"
     },
     palkia: {
         num: 484,
@@ -15983,7 +15449,7 @@ exports.BattlePokedex = {
         eggGroups: ["Undiscovered"],
         otherFormes: ["Palkia-Origin"],
         formeOrder: ["Palkia", "Palkia-Origin"],
-        tier: "Uber"
+        tier: "2"
     },
     palkiaorigin: {
         num: 484,
@@ -16011,7 +15477,7 @@ exports.BattlePokedex = {
         requiredItem: "Lustrous Globe",
         changesFrom: "Palkia",
         gen: 8,
-        tier: "Uber"
+        tier: "2"
     },
     heatran: {
         num: 485,
@@ -16034,7 +15500,7 @@ exports.BattlePokedex = {
         color: "Brown",
         tags: ["Sub-Legendary"],
         eggGroups: ["Undiscovered"],
-        tier: "OU"
+        tier: "2"
     },
     regigigas: {
         num: 486,
@@ -16057,8 +15523,7 @@ exports.BattlePokedex = {
         color: "White",
         tags: ["Sub-Legendary"],
         eggGroups: ["Undiscovered"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     giratina: {
         num: 487,
@@ -16085,7 +15550,7 @@ exports.BattlePokedex = {
         tags: ["Restricted Legendary"],
         otherFormes: ["Giratina-Origin"],
         formeOrder: ["Giratina", "Giratina-Origin"],
-        tier: "Uber"
+        tier: "2"
     },
     giratinaorigin: {
         num: 487,
@@ -16111,7 +15576,7 @@ exports.BattlePokedex = {
         eggGroups: ["Undiscovered"],
         requiredItem: "Griseous Core",
         changesFrom: "Giratina",
-        tier: "Uber"
+        tier: "2"
     },
     cresselia: {
         num: 488,
@@ -16134,7 +15599,7 @@ exports.BattlePokedex = {
         color: "Yellow",
         tags: ["Sub-Legendary"],
         eggGroups: ["Undiscovered"],
-        tier: "OU"
+        tier: "1"
     },
     phione: {
         num: 489,
@@ -16157,8 +15622,7 @@ exports.BattlePokedex = {
         color: "Blue",
         tags: ["Mythical"],
         eggGroups: ["Water 1", "Fairy"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     manaphy: {
         num: 490,
@@ -16181,8 +15645,7 @@ exports.BattlePokedex = {
         color: "Blue",
         tags: ["Mythical"],
         eggGroups: ["Water 1", "Fairy"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     darkrai: {
         num: 491,
@@ -16205,8 +15668,7 @@ exports.BattlePokedex = {
         color: "Black",
         tags: ["Mythical"],
         eggGroups: ["Undiscovered"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     shaymin: {
         num: 492,
@@ -16232,8 +15694,7 @@ exports.BattlePokedex = {
         tags: ["Mythical"],
         otherFormes: ["Shaymin-Sky"],
         formeOrder: ["Shaymin", "Shaymin-Sky"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     shayminsky: {
         num: 492,
@@ -16258,8 +15719,7 @@ exports.BattlePokedex = {
         color: "Green",
         eggGroups: ["Undiscovered"],
         changesFrom: "Shaymin",
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     arceus: {
         num: 493,
@@ -16285,7 +15745,7 @@ exports.BattlePokedex = {
         eggGroups: ["Undiscovered"],
         otherFormes: ["Arceus-Bug", "Arceus-Dark", "Arceus-Dragon", "Arceus-Electric", "Arceus-Fairy", "Arceus-Fighting", "Arceus-Fire", "Arceus-Flying", "Arceus-Ghost", "Arceus-Grass", "Arceus-Ground", "Arceus-Ice", "Arceus-Poison", "Arceus-Psychic", "Arceus-Rock", "Arceus-Steel", "Arceus-Water"],
         formeOrder: ["Arceus", "Arceus-Fighting", "Arceus-Flying", "Arceus-Poison", "Arceus-Ground", "Arceus-Rock", "Arceus-Bug", "Arceus-Ghost", "Arceus-Steel", "Arceus-Fire", "Arceus-Water", "Arceus-Grass", "Arceus-Electric", "Arceus-Psychic", "Arceus-Ice", "Arceus-Dragon", "Arceus-Dark", "Arceus-Fairy"],
-        tier: "Uber"
+        tier: "2"
     },
     arceusbug: {
         num: 493,
@@ -16734,8 +16194,7 @@ exports.BattlePokedex = {
         color: "Yellow",
         tags: ["Mythical"],
         eggGroups: ["Undiscovered"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     snivy: {
         num: 495,
@@ -16762,8 +16221,7 @@ exports.BattlePokedex = {
         color: "Green",
         evos: ["Servine"],
         eggGroups: ["Field", "Grass"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     servine: {
         num: 496,
@@ -16792,8 +16250,7 @@ exports.BattlePokedex = {
         evoLevel: 17,
         evos: ["Serperior"],
         eggGroups: ["Field", "Grass"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     serperior: {
         num: 497,
@@ -16821,8 +16278,7 @@ exports.BattlePokedex = {
         prevo: "Servine",
         evoLevel: 36,
         eggGroups: ["Field", "Grass"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     tepig: {
         num: 498,
@@ -16849,8 +16305,7 @@ exports.BattlePokedex = {
         color: "Red",
         evos: ["Pignite"],
         eggGroups: ["Field"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     pignite: {
         num: 499,
@@ -16879,8 +16334,7 @@ exports.BattlePokedex = {
         evoLevel: 17,
         evos: ["Emboar"],
         eggGroups: ["Field"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     emboar: {
         num: 500,
@@ -16908,8 +16362,7 @@ exports.BattlePokedex = {
         prevo: "Pignite",
         evoLevel: 36,
         eggGroups: ["Field"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     oshawott: {
         num: 501,
@@ -16936,7 +16389,7 @@ exports.BattlePokedex = {
         color: "Blue",
         evos: ["Dewott"],
         eggGroups: ["Field"],
-        tier: "LC"
+        tier: "1"
     },
     dewott: {
         num: 502,
@@ -16965,7 +16418,7 @@ exports.BattlePokedex = {
         evoLevel: 17,
         evos: ["Samurott", "Samurott-Hisui"],
         eggGroups: ["Field"],
-        tier: "NFE"
+        tier: "1"
     },
     samurott: {
         num: 503,
@@ -16995,7 +16448,7 @@ exports.BattlePokedex = {
         eggGroups: ["Field"],
         otherFormes: ["Samurott-Hisui"],
         formeOrder: ["Samurott", "Samurott-Hisui"],
-        tier: "NU"
+        tier: "1"
     },
     samurotthisui: {
         num: 503,
@@ -17026,7 +16479,7 @@ exports.BattlePokedex = {
         evoType: "useItem",
         evoItem: "Dusk Stone",
         eggGroups: ["Field"],
-        tier: "OU"
+        tier: "1"
     },
     patrat: {
         num: 504,
@@ -17050,8 +16503,7 @@ exports.BattlePokedex = {
         color: "Brown",
         evos: ["Watchog"],
         eggGroups: ["Field"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     watchog: {
         num: 505,
@@ -17076,8 +16528,7 @@ exports.BattlePokedex = {
         prevo: "Patrat",
         evoLevel: 20,
         eggGroups: ["Field"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     lillipup: {
         num: 506,
@@ -17101,8 +16552,7 @@ exports.BattlePokedex = {
         color: "Brown",
         evos: ["Herdier"],
         eggGroups: ["Field"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     herdier: {
         num: 507,
@@ -17128,8 +16578,7 @@ exports.BattlePokedex = {
         evoLevel: 16,
         evos: ["Stoutland"],
         eggGroups: ["Field"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     stoutland: {
         num: 508,
@@ -17154,8 +16603,7 @@ exports.BattlePokedex = {
         prevo: "Herdier",
         evoLevel: 32,
         eggGroups: ["Field"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     purrloin: {
         num: 509,
@@ -17179,8 +16627,7 @@ exports.BattlePokedex = {
         color: "Purple",
         evos: ["Liepard"],
         eggGroups: ["Field"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     liepard: {
         num: 510,
@@ -17205,8 +16652,7 @@ exports.BattlePokedex = {
         prevo: "Purrloin",
         evoLevel: 20,
         eggGroups: ["Field"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     pansage: {
         num: 511,
@@ -17233,8 +16679,7 @@ exports.BattlePokedex = {
         color: "Green",
         evos: ["Simisage"],
         eggGroups: ["Field"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     simisage: {
         num: 512,
@@ -17263,8 +16708,7 @@ exports.BattlePokedex = {
         evoType: "useItem",
         evoItem: "Leaf Stone",
         eggGroups: ["Field"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     pansear: {
         num: 513,
@@ -17291,8 +16735,7 @@ exports.BattlePokedex = {
         color: "Red",
         evos: ["Simisear"],
         eggGroups: ["Field"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     simisear: {
         num: 514,
@@ -17321,8 +16764,7 @@ exports.BattlePokedex = {
         evoType: "useItem",
         evoItem: "Fire Stone",
         eggGroups: ["Field"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     panpour: {
         num: 515,
@@ -17349,8 +16791,7 @@ exports.BattlePokedex = {
         color: "Blue",
         evos: ["Simipour"],
         eggGroups: ["Field"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     simipour: {
         num: 516,
@@ -17379,8 +16820,7 @@ exports.BattlePokedex = {
         evoType: "useItem",
         evoItem: "Water Stone",
         eggGroups: ["Field"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     munna: {
         num: 517,
@@ -17403,8 +16843,7 @@ exports.BattlePokedex = {
         color: "Pink",
         evos: ["Musharna"],
         eggGroups: ["Field"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     musharna: {
         num: 518,
@@ -17429,8 +16868,7 @@ exports.BattlePokedex = {
         evoType: "useItem",
         evoItem: "Moon Stone",
         eggGroups: ["Field"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     pidove: {
         num: 519,
@@ -17454,8 +16892,7 @@ exports.BattlePokedex = {
         color: "Gray",
         evos: ["Tranquill"],
         eggGroups: ["Flying"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     tranquill: {
         num: 520,
@@ -17481,8 +16918,7 @@ exports.BattlePokedex = {
         evoLevel: 21,
         evos: ["Unfezant"],
         eggGroups: ["Flying"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     unfezant: {
         num: 521,
@@ -17507,8 +16943,7 @@ exports.BattlePokedex = {
         prevo: "Tranquill",
         evoLevel: 32,
         eggGroups: ["Flying"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     blitzle: {
         num: 522,
@@ -17532,8 +16967,7 @@ exports.BattlePokedex = {
         color: "Black",
         evos: ["Zebstrika"],
         eggGroups: ["Field"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     zebstrika: {
         num: 523,
@@ -17558,8 +16992,7 @@ exports.BattlePokedex = {
         prevo: "Blitzle",
         evoLevel: 27,
         eggGroups: ["Field"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     roggenrola: {
         num: 524,
@@ -17583,8 +17016,7 @@ exports.BattlePokedex = {
         color: "Blue",
         evos: ["Boldore"],
         eggGroups: ["Mineral"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     boldore: {
         num: 525,
@@ -17610,8 +17042,7 @@ exports.BattlePokedex = {
         evoLevel: 25,
         evos: ["Gigalith"],
         eggGroups: ["Mineral"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     gigalith: {
         num: 526,
@@ -17636,8 +17067,7 @@ exports.BattlePokedex = {
         prevo: "Boldore",
         evoLevel: "38",
         eggGroups: ["Mineral"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     woobat: {
         num: 527,
@@ -17661,8 +17091,7 @@ exports.BattlePokedex = {
         color: "Blue",
         evos: ["Swoobat"],
         eggGroups: ["Flying", "Field"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     swoobat: {
         num: 528,
@@ -17687,8 +17116,7 @@ exports.BattlePokedex = {
         prevo: "Woobat",
         evoType: "levelFriendship",
         eggGroups: ["Flying", "Field"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     drilbur: {
         num: 529,
@@ -17712,8 +17140,7 @@ exports.BattlePokedex = {
         color: "Gray",
         evos: ["Excadrill"],
         eggGroups: ["Field"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     excadrill: {
         num: 530,
@@ -17738,8 +17165,7 @@ exports.BattlePokedex = {
         prevo: "Drilbur",
         evoLevel: 31,
         eggGroups: ["Field"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     audino: {
         num: 531,
@@ -17763,8 +17189,7 @@ exports.BattlePokedex = {
         eggGroups: ["Fairy"],
         otherFormes: ["Audino-Mega"],
         formeOrder: ["Audino", "Audino-Mega"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     audinomega: {
         num: 531,
@@ -17788,8 +17213,7 @@ exports.BattlePokedex = {
         color: "White",
         eggGroups: ["Fairy"],
         requiredItem: "Audinite",
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     timburr: {
         num: 532,
@@ -17817,8 +17241,7 @@ exports.BattlePokedex = {
         color: "Gray",
         evos: ["Gurdurr"],
         eggGroups: ["Human-Like"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     gurdurr: {
         num: 533,
@@ -17848,8 +17271,7 @@ exports.BattlePokedex = {
         evoLevel: 25,
         evos: ["Conkeldurr"],
         eggGroups: ["Human-Like"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     conkeldurr: {
         num: 534,
@@ -17878,8 +17300,7 @@ exports.BattlePokedex = {
         prevo: "Gurdurr",
         evoLevel: "40",
         eggGroups: ["Human-Like"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     tympole: {
         num: 535,
@@ -17903,8 +17324,7 @@ exports.BattlePokedex = {
         color: "Blue",
         evos: ["Palpitoad"],
         eggGroups: ["Water 1"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     palpitoad: {
         num: 536,
@@ -17930,8 +17350,7 @@ exports.BattlePokedex = {
         evoLevel: 16,
         evos: ["Seismitoad"],
         eggGroups: ["Water 1"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     seismitoad: {
         num: 537,
@@ -17956,8 +17375,7 @@ exports.BattlePokedex = {
         prevo: "Palpitoad",
         evoLevel: 36,
         eggGroups: ["Water 1"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     throh: {
         num: 538,
@@ -17981,8 +17399,7 @@ exports.BattlePokedex = {
         weightkg: 55.5,
         color: "Red",
         eggGroups: ["Human-Like"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     sawk: {
         num: 539,
@@ -18006,8 +17423,7 @@ exports.BattlePokedex = {
         weightkg: 51,
         color: "Blue",
         eggGroups: ["Human-Like"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     sewaddle: {
         num: 540,
@@ -18031,8 +17447,7 @@ exports.BattlePokedex = {
         color: "Yellow",
         evos: ["Swadloon"],
         eggGroups: ["Bug"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     swadloon: {
         num: 541,
@@ -18058,8 +17473,7 @@ exports.BattlePokedex = {
         evoLevel: 20,
         evos: ["Leavanny"],
         eggGroups: ["Bug"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     leavanny: {
         num: 542,
@@ -18084,8 +17498,7 @@ exports.BattlePokedex = {
         prevo: "Swadloon",
         evoType: "levelFriendship",
         eggGroups: ["Bug"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     venipede: {
         num: 543,
@@ -18108,8 +17521,7 @@ exports.BattlePokedex = {
         color: "Red",
         evos: ["Whirlipede"],
         eggGroups: ["Bug"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     whirlipede: {
         num: 544,
@@ -18134,8 +17546,7 @@ exports.BattlePokedex = {
         evoLevel: 20,
         evos: ["Scolipede"],
         eggGroups: ["Bug"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     scolipede: {
         num: 545,
@@ -18159,8 +17570,7 @@ exports.BattlePokedex = {
         prevo: "Whirlipede",
         evoLevel: 30,
         eggGroups: ["Bug"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     cottonee: {
         num: 546,
@@ -18184,8 +17594,7 @@ exports.BattlePokedex = {
         color: "Green",
         evos: ["Whimsicott"],
         eggGroups: ["Fairy", "Grass"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     whimsicott: {
         num: 547,
@@ -18211,8 +17620,7 @@ exports.BattlePokedex = {
         evoType: "useItem",
         evoItem: "Sun Stone",
         eggGroups: ["Fairy", "Grass"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     petilil: {
         num: 548,
@@ -18237,7 +17645,7 @@ exports.BattlePokedex = {
         color: "Green",
         evos: ["Lilligant", "Lilligant-Hisui"],
         eggGroups: ["Grass"],
-        tier: "LC"
+        tier: "1"
     },
     lilligant: {
         num: 549,
@@ -18265,7 +17673,7 @@ exports.BattlePokedex = {
         eggGroups: ["Grass"],
         otherFormes: ["Lilligant-Hisui"],
         formeOrder: ["Lilligant", "Lilligant-Hisui"],
-        tier: "PUBL"
+        tier: "1"
     },
     lilliganthisui: {
         num: 549,
@@ -18294,7 +17702,7 @@ exports.BattlePokedex = {
         evoType: "useItem",
         evoItem: "Leaf Stone",
         eggGroups: ["Grass"],
-        tier: "UUBL"
+        tier: "1"
     },
     basculin: {
         num: 550,
@@ -18319,9 +17727,9 @@ exports.BattlePokedex = {
         color: "Green",
         evos: ["Basculegion"],
         eggGroups: ["Water 2"],
-        otherFormes: ["Basculin-Blue-Striped", "Basculin-White-Striped"],
-        formeOrder: ["Basculin", "Basculin-Blue-Striped", "Basculin-White-Striped"],
-        tier: "PU"
+        otherFormes: ["Basculin-Blue-Striped"],
+        formeOrder: ["Basculin", "Basculin-Blue-Striped"],
+        tier: "1"
     },
     basculinbluestriped: {
         num: 550,
@@ -18345,34 +17753,9 @@ exports.BattlePokedex = {
         heightm: 1,
         weightkg: 18,
         color: "Green",
+        evos: ["Basculegion"],
         eggGroups: ["Water 2"],
-        tier: "PU"
-    },
-    basculinwhitestriped: {
-        num: 550,
-        name: "Basculin-White-Striped",
-        baseSpecies: "Basculin",
-        forme: "White-Striped",
-        types: ["Water"],
-        baseStats: {
-            hp: 70,
-            atk: 92,
-            def: 65,
-            spa: 80,
-            spd: 55,
-            spe: 98
-        },
-        abilities: {
-            "0": "Rattled",
-            "1": "Adaptability",
-            H: "Mold Breaker"
-        },
-        heightm: 1,
-        weightkg: 18,
-        color: "Green",
-        eggGroups: ["Water 2"],
-        gen: 8,
-        tier: "PU"
+        tier: "1"
     },
     sandile: {
         num: 551,
@@ -18395,7 +17778,7 @@ exports.BattlePokedex = {
         color: "Brown",
         evos: ["Krokorok"],
         eggGroups: ["Field"],
-        tier: "LC"
+        tier: "1"
     },
     krokorok: {
         num: 552,
@@ -18420,7 +17803,7 @@ exports.BattlePokedex = {
         evoLevel: 22,
         evos: ["Krookodile"],
         eggGroups: ["Field"],
-        tier: "NFE"
+        tier: "1"
     },
     krookodile: {
         num: 553,
@@ -18444,7 +17827,7 @@ exports.BattlePokedex = {
         prevo: "Krokorok",
         evoLevel: 36,
         eggGroups: ["Field"],
-        tier: "RU"
+        tier: "1"
     },
     darumaka: {
         num: 554,
@@ -18469,8 +17852,7 @@ exports.BattlePokedex = {
         eggGroups: ["Field"],
         otherFormes: ["Darumaka-Galar"],
         formeOrder: ["Darumaka", "Darumaka-Galar"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     darumakagalar: {
         num: 554,
@@ -18495,8 +17877,7 @@ exports.BattlePokedex = {
         color: "White",
         evos: ["Darmanitan-Galar"],
         eggGroups: ["Field"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     darmanitan: {
         num: 555,
@@ -18523,8 +17904,7 @@ exports.BattlePokedex = {
         eggGroups: ["Field"],
         otherFormes: ["Darmanitan-Zen", "Darmanitan-Galar", "Darmanitan-Galar-Zen"],
         formeOrder: ["Darmanitan", "Darmanitan-Zen", "Darmanitan-Galar", "Darmanitan-Galar-Zen"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     darmanitanzen: {
         num: 555,
@@ -18549,7 +17929,6 @@ exports.BattlePokedex = {
         eggGroups: ["Field"],
         requiredAbility: "Zen Mode",
         battleOnly: "Darmanitan",
-        isNonstandard: "Past"
     },
     darmanitangalar: {
         num: 555,
@@ -18576,8 +17955,7 @@ exports.BattlePokedex = {
         evoType: "useItem",
         evoItem: "Ice Stone",
         eggGroups: ["Field"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     darmanitangalarzen: {
         num: 555,
@@ -18602,7 +17980,6 @@ exports.BattlePokedex = {
         eggGroups: ["Field"],
         requiredAbility: "Zen Mode",
         battleOnly: "Darmanitan-Galar",
-        isNonstandard: "Past"
     },
     maractus: {
         num: 556,
@@ -18624,8 +18001,7 @@ exports.BattlePokedex = {
         weightkg: 28,
         color: "Green",
         eggGroups: ["Grass"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     dwebble: {
         num: 557,
@@ -18649,8 +18025,7 @@ exports.BattlePokedex = {
         color: "Red",
         evos: ["Crustle"],
         eggGroups: ["Bug", "Mineral"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     crustle: {
         num: 558,
@@ -18675,8 +18050,7 @@ exports.BattlePokedex = {
         prevo: "Dwebble",
         evoLevel: 34,
         eggGroups: ["Bug", "Mineral"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     scraggy: {
         num: 559,
@@ -18700,8 +18074,7 @@ exports.BattlePokedex = {
         color: "Yellow",
         evos: ["Scrafty"],
         eggGroups: ["Field", "Dragon"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     scrafty: {
         num: 560,
@@ -18726,8 +18099,7 @@ exports.BattlePokedex = {
         prevo: "Scraggy",
         evoLevel: 39,
         eggGroups: ["Field", "Dragon"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     sigilyph: {
         num: 561,
@@ -18750,8 +18122,7 @@ exports.BattlePokedex = {
         weightkg: 14,
         color: "Black",
         eggGroups: ["Flying"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     yamask: {
         num: 562,
@@ -18775,8 +18146,7 @@ exports.BattlePokedex = {
         eggGroups: ["Mineral", "Amorphous"],
         otherFormes: ["Yamask-Galar"],
         formeOrder: ["Yamask", "Yamask-Galar"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     yamaskgalar: {
         num: 562,
@@ -18800,8 +18170,7 @@ exports.BattlePokedex = {
         color: "Black",
         evos: ["Runerigus"],
         eggGroups: ["Mineral", "Amorphous"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     cofagrigus: {
         num: 563,
@@ -18824,8 +18193,7 @@ exports.BattlePokedex = {
         prevo: "Yamask",
         evoLevel: 34,
         eggGroups: ["Mineral", "Amorphous"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     tirtouga: {
         num: 564,
@@ -18853,8 +18221,7 @@ exports.BattlePokedex = {
         color: "Blue",
         evos: ["Carracosta"],
         eggGroups: ["Water 1", "Water 3"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     carracosta: {
         num: 565,
@@ -18883,8 +18250,7 @@ exports.BattlePokedex = {
         prevo: "Tirtouga",
         evoLevel: 37,
         eggGroups: ["Water 1", "Water 3"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     archen: {
         num: 566,
@@ -18910,8 +18276,7 @@ exports.BattlePokedex = {
         color: "Yellow",
         evos: ["Archeops"],
         eggGroups: ["Flying", "Water 3"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     archeops: {
         num: 567,
@@ -18938,8 +18303,7 @@ exports.BattlePokedex = {
         prevo: "Archen",
         evoLevel: 37,
         eggGroups: ["Flying", "Water 3"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     trubbish: {
         num: 568,
@@ -18963,8 +18327,7 @@ exports.BattlePokedex = {
         color: "Green",
         evos: ["Garbodor"],
         eggGroups: ["Mineral"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     garbodor: {
         num: 569,
@@ -18990,8 +18353,7 @@ exports.BattlePokedex = {
         evoLevel: 36,
         eggGroups: ["Mineral"],
         canGigantamax: "G-Max Malodor",
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     zorua: {
         num: 570,
@@ -19019,7 +18381,7 @@ exports.BattlePokedex = {
         eggGroups: ["Field"],
         otherFormes: ["Zorua-Hisui"],
         formeOrder: ["Zorua", "Zorua-Hisui"],
-        tier: "LC"
+        tier: "1"
     },
     zoruahisui: {
         num: 570,
@@ -19047,7 +18409,7 @@ exports.BattlePokedex = {
         color: "Gray",
         evos: ["Zoroark-Hisui"],
         eggGroups: ["Field"],
-        tier: "LC"
+        tier: "1"
     },
     zoroark: {
         num: 571,
@@ -19076,7 +18438,7 @@ exports.BattlePokedex = {
         eggGroups: ["Field"],
         otherFormes: ["Zoroark-Hisui"],
         formeOrder: ["Zoroark", "Zoroark-Hisui"],
-        tier: "NUBL"
+        tier: "1NUBL"
     },
     zoroarkhisui: {
         num: 571,
@@ -19105,7 +18467,7 @@ exports.BattlePokedex = {
         prevo: "Zorua-Hisui",
         evoLevel: 30,
         eggGroups: ["Field"],
-        tier: "UU"
+        tier: "1"
     },
     minccino: {
         num: 572,
@@ -19133,8 +18495,7 @@ exports.BattlePokedex = {
         color: "Gray",
         evos: ["Cinccino"],
         eggGroups: ["Field"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     cinccino: {
         num: 573,
@@ -19164,8 +18525,7 @@ exports.BattlePokedex = {
         evoType: "useItem",
         evoItem: "Shiny Stone",
         eggGroups: ["Field"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     gothita: {
         num: 574,
@@ -19193,7 +18553,7 @@ exports.BattlePokedex = {
         color: "Purple",
         evos: ["Gothorita"],
         eggGroups: ["Human-Like"],
-        tier: "LC"
+        tier: "2"
     },
     gothorita: {
         num: 575,
@@ -19223,7 +18583,7 @@ exports.BattlePokedex = {
         evoLevel: 32,
         evos: ["Gothitelle"],
         eggGroups: ["Human-Like"],
-        tier: "NFE"
+        tier: "2"
     },
     gothitelle: {
         num: 576,
@@ -19252,7 +18612,7 @@ exports.BattlePokedex = {
         prevo: "Gothorita",
         evoLevel: 41,
         eggGroups: ["Human-Like"],
-        tier: "(PU)"
+        tier: "2"
     },
     solosis: {
         num: 577,
@@ -19276,8 +18636,7 @@ exports.BattlePokedex = {
         color: "Green",
         evos: ["Duosion"],
         eggGroups: ["Amorphous"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     duosion: {
         num: 578,
@@ -19303,8 +18662,7 @@ exports.BattlePokedex = {
         evoLevel: 32,
         evos: ["Reuniclus"],
         eggGroups: ["Amorphous"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     reuniclus: {
         num: 579,
@@ -19329,8 +18687,7 @@ exports.BattlePokedex = {
         prevo: "Duosion",
         evoLevel: 41,
         eggGroups: ["Amorphous"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     ducklett: {
         num: 580,
@@ -19354,8 +18711,7 @@ exports.BattlePokedex = {
         color: "Blue",
         evos: ["Swanna"],
         eggGroups: ["Water 1", "Flying"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     swanna: {
         num: 581,
@@ -19380,8 +18736,7 @@ exports.BattlePokedex = {
         prevo: "Ducklett",
         evoLevel: 35,
         eggGroups: ["Water 1", "Flying"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     vanillite: {
         num: 582,
@@ -19405,8 +18760,7 @@ exports.BattlePokedex = {
         color: "White",
         evos: ["Vanillish"],
         eggGroups: ["Mineral"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     vanillish: {
         num: 583,
@@ -19432,8 +18786,7 @@ exports.BattlePokedex = {
         evoLevel: 35,
         evos: ["Vanilluxe"],
         eggGroups: ["Mineral"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     vanilluxe: {
         num: 584,
@@ -19458,8 +18811,7 @@ exports.BattlePokedex = {
         prevo: "Vanillish",
         evoLevel: 47,
         eggGroups: ["Mineral"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     deerling: {
         num: 585,
@@ -19485,7 +18837,7 @@ exports.BattlePokedex = {
         eggGroups: ["Field"],
         cosmeticFormes: ["Deerling-Summer", "Deerling-Autumn", "Deerling-Winter"],
         formeOrder: ["Deerling", "Deerling-Summer", "Deerling-Autumn", "Deerling-Winter"],
-        tier: "LC"
+        tier: "1"
     },
     sawsbuck: {
         num: 586,
@@ -19512,7 +18864,7 @@ exports.BattlePokedex = {
         eggGroups: ["Field"],
         cosmeticFormes: ["Sawsbuck-Summer", "Sawsbuck-Autumn", "Sawsbuck-Winter"],
         formeOrder: ["Sawsbuck", "Sawsbuck-Summer", "Sawsbuck-Autumn", "Sawsbuck-Winter"],
-        tier: "(PU)"
+        tier: "1"
     },
     emolga: {
         num: 587,
@@ -19534,8 +18886,7 @@ exports.BattlePokedex = {
         weightkg: 5,
         color: "White",
         eggGroups: ["Field"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     karrablast: {
         num: 588,
@@ -19559,8 +18910,7 @@ exports.BattlePokedex = {
         color: "Blue",
         evos: ["Escavalier"],
         eggGroups: ["Bug"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     escavalier: {
         num: 589,
@@ -19586,8 +18936,7 @@ exports.BattlePokedex = {
         evoType: "useItem",
         evoItem: "Metal Coal",
         eggGroups: ["Bug"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     foongus: {
         num: 590,
@@ -19610,7 +18959,7 @@ exports.BattlePokedex = {
         color: "White",
         evos: ["Amoonguss"],
         eggGroups: ["Grass"],
-        tier: "LC"
+        tier: "1"
     },
     amoonguss: {
         num: 591,
@@ -19634,7 +18983,7 @@ exports.BattlePokedex = {
         prevo: "Foongus",
         evoLevel: 36,
         eggGroups: ["Grass"],
-        tier: "OU"
+        tier: "1"
     },
     frillish: {
         num: 592,
@@ -19657,8 +19006,7 @@ exports.BattlePokedex = {
         color: "White",
         evos: ["Jellicent"],
         eggGroups: ["Amorphous"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     jellicent: {
         num: 593,
@@ -19682,8 +19030,7 @@ exports.BattlePokedex = {
         prevo: "Frillish",
         evoLevel: 40,
         eggGroups: ["Amorphous"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     alomomola: {
         num: 594,
@@ -19706,7 +19053,7 @@ exports.BattlePokedex = {
         weightkg: 31.6,
         color: "Pink",
         eggGroups: ["Water 1", "Water 2"],
-        tier: "UU"
+        tier: "2"
     },
     joltik: {
         num: 595,
@@ -19730,8 +19077,7 @@ exports.BattlePokedex = {
         color: "Yellow",
         evos: ["Galvantula"],
         eggGroups: ["Bug"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     galvantula: {
         num: 596,
@@ -19756,8 +19102,7 @@ exports.BattlePokedex = {
         prevo: "Joltik",
         evoLevel: 30,
         eggGroups: ["Bug"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     ferroseed: {
         num: 597,
@@ -19780,8 +19125,7 @@ exports.BattlePokedex = {
         color: "Gray",
         evos: ["Ferrothorn"],
         eggGroups: ["Grass", "Mineral"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     ferrothorn: {
         num: 598,
@@ -19805,8 +19149,7 @@ exports.BattlePokedex = {
         prevo: "Ferroseed",
         evoLevel: 40,
         eggGroups: ["Grass", "Mineral"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     klink: {
         num: 599,
@@ -19831,8 +19174,7 @@ exports.BattlePokedex = {
         color: "Gray",
         evos: ["Klang"],
         eggGroups: ["Mineral"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     klang: {
         num: 600,
@@ -19859,8 +19201,7 @@ exports.BattlePokedex = {
         evoLevel: 38,
         evos: ["Klinklang"],
         eggGroups: ["Mineral"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     klinklang: {
         num: 601,
@@ -19886,8 +19227,7 @@ exports.BattlePokedex = {
         prevo: "Klang",
         evoLevel: 49,
         eggGroups: ["Mineral"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     tynamo: {
         num: 602,
@@ -19909,7 +19249,7 @@ exports.BattlePokedex = {
         color: "White",
         evos: ["Eelektrik"],
         eggGroups: ["Amorphous"],
-        tier: "LC"
+        tier: "1"
     },
     eelektrik: {
         num: 603,
@@ -19933,7 +19273,7 @@ exports.BattlePokedex = {
         evoLevel: 22,
         evos: ["Eelektross"],
         eggGroups: ["Amorphous"],
-        tier: "NFE"
+        tier: "1"
     },
     eelektross: {
         num: 604,
@@ -19957,7 +19297,7 @@ exports.BattlePokedex = {
         evoType: "useItem",
         evoItem: "Thunder Stone",
         eggGroups: ["Amorphous"],
-        tier: "NU"
+        tier: "1"
     },
     elgyem: {
         num: 605,
@@ -19981,8 +19321,7 @@ exports.BattlePokedex = {
         color: "Blue",
         evos: ["Beheeyem"],
         eggGroups: ["Human-Like"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     beheeyem: {
         num: 606,
@@ -20007,8 +19346,7 @@ exports.BattlePokedex = {
         prevo: "Elgyem",
         evoLevel: 42,
         eggGroups: ["Human-Like"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     litwick: {
         num: 607,
@@ -20032,8 +19370,7 @@ exports.BattlePokedex = {
         color: "White",
         evos: ["Lampent"],
         eggGroups: ["Amorphous"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     lampent: {
         num: 608,
@@ -20059,8 +19396,7 @@ exports.BattlePokedex = {
         evoLevel: 41,
         evos: ["Chandelure"],
         eggGroups: ["Amorphous"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     chandelure: {
         num: 609,
@@ -20086,8 +19422,7 @@ exports.BattlePokedex = {
         evoType: "useItem",
         evoItem: "Dusk Stone",
         eggGroups: ["Amorphous"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     axew: {
         num: 610,
@@ -20111,7 +19446,7 @@ exports.BattlePokedex = {
         color: "Green",
         evos: ["Fraxure"],
         eggGroups: ["Monster", "Dragon"],
-        tier: "LC"
+        tier: "2"
     },
     fraxure: {
         num: 611,
@@ -20137,7 +19472,7 @@ exports.BattlePokedex = {
         evoLevel: 38,
         evos: ["Haxorus"],
         eggGroups: ["Monster", "Dragon"],
-        tier: "NFE"
+        tier: "2"
     },
     haxorus: {
         num: 612,
@@ -20162,7 +19497,7 @@ exports.BattlePokedex = {
         prevo: "Fraxure",
         evoLevel: 48,
         eggGroups: ["Monster", "Dragon"],
-        tier: "UU"
+        tier: "2"
     },
     cubchoo: {
         num: 613,
@@ -20186,7 +19521,7 @@ exports.BattlePokedex = {
         color: "White",
         evos: ["Beartic"],
         eggGroups: ["Field"],
-        tier: "LC"
+        tier: "2"
     },
     beartic: {
         num: 614,
@@ -20211,7 +19546,7 @@ exports.BattlePokedex = {
         prevo: "Cubchoo",
         evoLevel: 37,
         eggGroups: ["Field"],
-        tier: "(PU)"
+        tier: "2"
     },
     cryogonal: {
         num: 615,
@@ -20233,7 +19568,7 @@ exports.BattlePokedex = {
         weightkg: 148,
         color: "Blue",
         eggGroups: ["Mineral"],
-        tier: "NU"
+        tier: "1"
     },
     shelmet: {
         num: 616,
@@ -20257,8 +19592,7 @@ exports.BattlePokedex = {
         color: "Red",
         evos: ["Accelgor"],
         eggGroups: ["Bug"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     accelgor: {
         num: 617,
@@ -20283,8 +19617,7 @@ exports.BattlePokedex = {
         prevo: "Shelmet",
         evoLevel: "36",
         eggGroups: ["Bug"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     stunfisk: {
         num: 618,
@@ -20308,8 +19641,7 @@ exports.BattlePokedex = {
         eggGroups: ["Water 1", "Amorphous"],
         otherFormes: ["Stunfisk-Galar"],
         formeOrder: ["Stunfisk", "Stunfisk-Galar"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     stunfiskgalar: {
         num: 618,
@@ -20332,8 +19664,7 @@ exports.BattlePokedex = {
         weightkg: 20.5,
         color: "Green",
         eggGroups: ["Water 1", "Amorphous"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     mienfoo: {
         num: 619,
@@ -20357,8 +19688,7 @@ exports.BattlePokedex = {
         color: "Yellow",
         evos: ["Mienshao"],
         eggGroups: ["Field", "Human-Like"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     mienshao: {
         num: 620,
@@ -20383,8 +19713,7 @@ exports.BattlePokedex = {
         prevo: "Mienfoo",
         evoLevel: 38,
         eggGroups: ["Field", "Human-Like"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     druddigon: {
         num: 621,
@@ -20407,8 +19736,7 @@ exports.BattlePokedex = {
         weightkg: 139,
         color: "Red",
         eggGroups: ["Monster", "Dragon"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     golett: {
         num: 622,
@@ -20433,8 +19761,7 @@ exports.BattlePokedex = {
         color: "Green",
         evos: ["Golurk"],
         eggGroups: ["Mineral"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     golurk: {
         num: 623,
@@ -20460,8 +19787,7 @@ exports.BattlePokedex = {
         prevo: "Golett",
         evoLevel: 43,
         eggGroups: ["Mineral"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     pawniard: {
         num: 624,
@@ -20485,7 +19811,7 @@ exports.BattlePokedex = {
         color: "Red",
         evos: ["Bisharp"],
         eggGroups: ["Human-Like"],
-        tier: "LC"
+        tier: "2"
     },
     bisharp: {
         num: 625,
@@ -20511,7 +19837,7 @@ exports.BattlePokedex = {
         evoLevel: 52,
         evos: ["Kingambit"],
         eggGroups: ["Human-Like"],
-        tier: "RU"
+        tier: "2"
     },
     bouffalant: {
         num: 626,
@@ -20534,8 +19860,7 @@ exports.BattlePokedex = {
         weightkg: 94.6,
         color: "Brown",
         eggGroups: ["Field"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     rufflet: {
         num: 627,
@@ -20560,7 +19885,7 @@ exports.BattlePokedex = {
         color: "White",
         evos: ["Braviary", "Braviary-Hisui"],
         eggGroups: ["Flying"],
-        tier: "NFE"
+        tier: "2"
     },
     braviary: {
         num: 628,
@@ -20588,7 +19913,7 @@ exports.BattlePokedex = {
         eggGroups: ["Flying"],
         otherFormes: ["Braviary-Hisui"],
         formeOrder: ["Braviary", "Braviary-Hisui"],
-        tier: "NU"
+        tier: "2"
     },
     braviaryhisui: {
         num: 628,
@@ -20616,7 +19941,7 @@ exports.BattlePokedex = {
         prevo: "Rufflet",
         evoLevel: 54,
         eggGroups: ["Flying"],
-        tier: "RU"
+        tier: "2"
     },
     vullaby: {
         num: 629,
@@ -20641,8 +19966,7 @@ exports.BattlePokedex = {
         color: "Brown",
         evos: ["Mandibuzz"],
         eggGroups: ["Flying"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     mandibuzz: {
         num: 630,
@@ -20668,8 +19992,7 @@ exports.BattlePokedex = {
         prevo: "Vullaby",
         evoLevel: 54,
         eggGroups: ["Flying"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     heatmor: {
         num: 631,
@@ -20692,8 +20015,7 @@ exports.BattlePokedex = {
         weightkg: 58,
         color: "Red",
         eggGroups: ["Field"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     durant: {
         num: 632,
@@ -20716,8 +20038,7 @@ exports.BattlePokedex = {
         weightkg: 33,
         color: "Gray",
         eggGroups: ["Bug"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     deino: {
         num: 633,
@@ -20739,7 +20060,7 @@ exports.BattlePokedex = {
         color: "Blue",
         evos: ["Zweilous"],
         eggGroups: ["Dragon"],
-        tier: "LC"
+        tier: "1"
     },
     zweilous: {
         num: 634,
@@ -20763,7 +20084,7 @@ exports.BattlePokedex = {
         evoLevel: 50,
         evos: ["Hydreigon"],
         eggGroups: ["Dragon"],
-        tier: "NFE"
+        tier: "1"
     },
     hydreigon: {
         num: 635,
@@ -20786,7 +20107,7 @@ exports.BattlePokedex = {
         prevo: "Zweilous",
         evoLevel: 64,
         eggGroups: ["Dragon"],
-        tier: "UU"
+        tier: "1"
     },
     larvesta: {
         num: 636,
@@ -20809,7 +20130,7 @@ exports.BattlePokedex = {
         color: "White",
         evos: ["Volcarona"],
         eggGroups: ["Bug"],
-        tier: "LC"
+        tier: "1"
     },
     volcarona: {
         num: 637,
@@ -20833,7 +20154,7 @@ exports.BattlePokedex = {
         prevo: "Larvesta",
         evoLevel: 59,
         eggGroups: ["Bug"],
-        tier: "Uber"
+        tier: "1"
     },
     cobalion: {
         num: 638,
@@ -20856,8 +20177,7 @@ exports.BattlePokedex = {
         color: "Blue",
         tags: ["Sub-Legendary"],
         eggGroups: ["Undiscovered"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     terrakion: {
         num: 639,
@@ -20880,8 +20200,7 @@ exports.BattlePokedex = {
         color: "Gray",
         tags: ["Sub-Legendary"],
         eggGroups: ["Undiscovered"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     virizion: {
         num: 640,
@@ -20904,8 +20223,7 @@ exports.BattlePokedex = {
         color: "Green",
         tags: ["Sub-Legendary"],
         eggGroups: ["Undiscovered"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     tornadus: {
         num: 641,
@@ -20932,7 +20250,7 @@ exports.BattlePokedex = {
         eggGroups: ["Undiscovered"],
         otherFormes: ["Tornadus-Therian"],
         formeOrder: ["Tornadus", "Tornadus-Therian"],
-        tier: "NUBL"
+        tier: "1"
     },
     tornadustherian: {
         num: 641,
@@ -20957,7 +20275,7 @@ exports.BattlePokedex = {
         color: "Green",
         eggGroups: ["Undiscovered"],
         changesFrom: "Tornadus",
-        tier: "UU"
+        tier: "2"
     },
     thundurus: {
         num: 642,
@@ -20984,7 +20302,7 @@ exports.BattlePokedex = {
         eggGroups: ["Undiscovered"],
         otherFormes: ["Thundurus-Therian"],
         formeOrder: ["Thundurus", "Thundurus-Therian"],
-        tier: "RU"
+        tier: "1"
     },
     thundurustherian: {
         num: 642,
@@ -21009,7 +20327,7 @@ exports.BattlePokedex = {
         color: "Blue",
         eggGroups: ["Undiscovered"],
         changesFrom: "Thundurus",
-        tier: "UU"
+        tier: "2"
     },
     reshiram: {
         num: 643,
@@ -21032,8 +20350,7 @@ exports.BattlePokedex = {
         color: "White",
         tags: ["Restricted Legendary"],
         eggGroups: ["Undiscovered"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     zekrom: {
         num: 644,
@@ -21056,8 +20373,7 @@ exports.BattlePokedex = {
         color: "Black",
         tags: ["Restricted Legendary"],
         eggGroups: ["Undiscovered"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     landorus: {
         num: 645,
@@ -21084,7 +20400,7 @@ exports.BattlePokedex = {
         eggGroups: ["Undiscovered"],
         otherFormes: ["Landorus-Therian"],
         formeOrder: ["Landorus", "Landorus-Therian"],
-        tier: "Uber"
+        tier: "1"
     },
     landorustherian: {
         num: 645,
@@ -21109,7 +20425,7 @@ exports.BattlePokedex = {
         color: "Brown",
         eggGroups: ["Undiscovered"],
         changesFrom: "Landorus",
-        tier: "OU"
+        tier: "2"
     },
     kyurem: {
         num: 646,
@@ -21134,8 +20450,7 @@ exports.BattlePokedex = {
         tags: ["Restricted Legendary"],
         otherFormes: ["Kyurem-Black", "Kyurem-White"],
         formeOrder: ["Kyurem", "Kyurem-White", "Kyurem-Black"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     kyuremblack: {
         num: 646,
@@ -21160,8 +20475,7 @@ exports.BattlePokedex = {
         color: "Gray",
         eggGroups: ["Undiscovered"],
         changesFrom: "Kyurem",
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     kyuremwhite: {
         num: 646,
@@ -21186,8 +20500,7 @@ exports.BattlePokedex = {
         color: "Gray",
         eggGroups: ["Undiscovered"],
         changesFrom: "Kyurem",
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     keldeo: {
         num: 647,
@@ -21213,8 +20526,7 @@ exports.BattlePokedex = {
         tags: ["Mythical"],
         otherFormes: ["Keldeo-Resolute"],
         formeOrder: ["Keldeo", "Keldeo-Resolute"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     keldeoresolute: {
         num: 647,
@@ -21240,7 +20552,6 @@ exports.BattlePokedex = {
         eggGroups: ["Undiscovered"],
         requiredMove: "Secret Sword",
         changesFrom: "Keldeo",
-        isNonstandard: "Past"
     },
     meloetta: {
         num: 648,
@@ -21266,7 +20577,7 @@ exports.BattlePokedex = {
         tags: ["Mythical"],
         otherFormes: ["Meloetta-Pirouette"],
         formeOrder: ["Meloetta", "Meloetta-Pirouette"],
-        tier: "NU"
+        tier: "2"
     },
     meloettapirouette: {
         num: 648,
@@ -21316,8 +20627,7 @@ exports.BattlePokedex = {
         tags: ["Mythical"],
         otherFormes: ["Genesect-Douse", "Genesect-Shock", "Genesect-Burn", "Genesect-Chill"],
         formeOrder: ["Genesect", "Genesect-Douse", "Genesect-Shock", "Genesect-Burn", "Genesect-Chill"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     genesectdouse: {
         num: 649,
@@ -21343,8 +20653,7 @@ exports.BattlePokedex = {
         eggGroups: ["Undiscovered"],
         requiredItem: "Douse Drive",
         changesFrom: "Genesect",
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     genesectshock: {
         num: 649,
@@ -21370,8 +20679,7 @@ exports.BattlePokedex = {
         eggGroups: ["Undiscovered"],
         requiredItem: "Shock Drive",
         changesFrom: "Genesect",
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     genesectburn: {
         num: 649,
@@ -21397,8 +20705,7 @@ exports.BattlePokedex = {
         eggGroups: ["Undiscovered"],
         requiredItem: "Burn Drive",
         changesFrom: "Genesect",
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     genesectchill: {
         num: 649,
@@ -21424,8 +20731,7 @@ exports.BattlePokedex = {
         eggGroups: ["Undiscovered"],
         requiredItem: "Chill Drive",
         changesFrom: "Genesect",
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     chespin: {
         num: 650,
@@ -21452,7 +20758,7 @@ exports.BattlePokedex = {
         color: "Green",
         evos: ["Quilladin"],
         eggGroups: ["Field"],
-        tier: "LC"
+        tier: "1"
     },
     quilladin: {
         num: 651,
@@ -21481,7 +20787,7 @@ exports.BattlePokedex = {
         evoLevel: 16,
         evos: ["Chesnaught"],
         eggGroups: ["Field"],
-        tier: "NFE"
+        tier: "1"
     },
     chesnaught: {
         num: 652,
@@ -21509,7 +20815,7 @@ exports.BattlePokedex = {
         prevo: "Quilladin",
         evoLevel: 36,
         eggGroups: ["Field"],
-        tier: "UU"
+        tier: "1"
     },
     fennekin: {
         num: 653,
@@ -21536,7 +20842,7 @@ exports.BattlePokedex = {
         color: "Red",
         evos: ["Braixen"],
         eggGroups: ["Field"],
-        tier: "LC"
+        tier: "1"
     },
     braixen: {
         num: 654,
@@ -21565,7 +20871,7 @@ exports.BattlePokedex = {
         evoLevel: 16,
         evos: ["Delphox"],
         eggGroups: ["Field"],
-        tier: "NFE"
+        tier: "1"
     },
     delphox: {
         num: 655,
@@ -21593,7 +20899,7 @@ exports.BattlePokedex = {
         prevo: "Braixen",
         evoLevel: 36,
         eggGroups: ["Field"],
-        tier: "NU"
+        tier: "1"
     },
     froakie: {
         num: 656,
@@ -21620,7 +20926,7 @@ exports.BattlePokedex = {
         color: "Blue",
         evos: ["Frogadier"],
         eggGroups: ["Water 1"],
-        tier: "LC"
+        tier: "1"
     },
     frogadier: {
         num: 657,
@@ -21649,7 +20955,7 @@ exports.BattlePokedex = {
         evoLevel: 16,
         evos: ["Greninja"],
         eggGroups: ["Water 1"],
-        tier: "NFE"
+        tier: "1"
     },
     greninja: {
         num: 658,
@@ -21680,7 +20986,7 @@ exports.BattlePokedex = {
         eggGroups: ["Water 1"],
         otherFormes: ["Greninja-Bond", "Greninja-Ash"],
         formeOrder: ["Greninja", "Greninja-Bond", "Greninja-Ash"],
-        tier: "OU"
+        tier: "1"
     },
     greninjabond: {
         num: 658,
@@ -21731,8 +21037,7 @@ exports.BattlePokedex = {
         requiredAbility: "Battle Bond",
         battleOnly: "Greninja-Bond",
         gen: 7,
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     bunnelby: {
         num: 659,
@@ -21755,8 +21060,7 @@ exports.BattlePokedex = {
         color: "Brown",
         evos: ["Diggersby"],
         eggGroups: ["Field"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     diggersby: {
         num: 660,
@@ -21780,8 +21084,7 @@ exports.BattlePokedex = {
         prevo: "Bunnelby",
         evoLevel: 20,
         eggGroups: ["Field"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     fletchling: {
         num: 661,
@@ -21804,7 +21107,7 @@ exports.BattlePokedex = {
         color: "Red",
         evos: ["Fletchinder"],
         eggGroups: ["Flying"],
-        tier: "LC"
+        tier: "1"
     },
     fletchinder: {
         num: 662,
@@ -21829,7 +21132,7 @@ exports.BattlePokedex = {
         evoLevel: 17,
         evos: ["Talonflame"],
         eggGroups: ["Flying"],
-        tier: "NFE"
+        tier: "1"
     },
     talonflame: {
         num: 663,
@@ -21853,7 +21156,7 @@ exports.BattlePokedex = {
         prevo: "Fletchinder",
         evoLevel: 35,
         eggGroups: ["Flying"],
-        tier: "UU"
+        tier: "1"
     },
     scatterbug: {
         num: 664,
@@ -21877,7 +21180,7 @@ exports.BattlePokedex = {
         color: "Black",
         evos: ["Spewpa"],
         eggGroups: ["Bug"],
-        tier: "LC"
+        tier: "1"
     },
     spewpa: {
         num: 665,
@@ -21902,7 +21205,7 @@ exports.BattlePokedex = {
         evoLevel: 9,
         evos: ["Vivillon", "Vivillon-Fancy"],
         eggGroups: ["Bug"],
-        tier: "NFE"
+        tier: "1"
     },
     vivillon: {
         num: 666,
@@ -21931,7 +21234,7 @@ exports.BattlePokedex = {
         otherFormes: ["Vivillon-Fancy", "Vivillon-Pokeball"],
         cosmeticFormes: ["Vivillon-Archipelago", "Vivillon-Continental", "Vivillon-Elegant", "Vivillon-Garden", "Vivillon-High Plains", "Vivillon-Icy Snow", "Vivillon-Jungle", "Vivillon-Marine", "Vivillon-Modern", "Vivillon-Monsoon", "Vivillon-Ocean", "Vivillon-Polar", "Vivillon-River", "Vivillon-Sandstorm", "Vivillon-Savanna", "Vivillon-Sun", "Vivillon-Tundra"],
         formeOrder: ["Vivillon-Icy Snow", "Vivillon-Polar", "Vivillon-Tundra", "Vivillon-Continental", "Vivillon-Garden", "Vivillon-Elegant", "Vivillon", "Vivillon-Modern", "Vivillon-Marine", "Vivillon-Archipelago", "Vivillon-High Plains", "Vivillon-Sandstorm", "Vivillon-River", "Vivillon-Monsoon", "Vivillon-Savanna", "Vivillon-Sun", "Vivillon-Ocean", "Vivillon-Jungle", "Vivillon-Fancy", "Vivillon-Pokeball"],
-        tier: "NU"
+        tier: "1"
     },
     vivillonfancy: {
         num: 666,
@@ -22007,7 +21310,7 @@ exports.BattlePokedex = {
         color: "Brown",
         evos: ["Pyroar"],
         eggGroups: ["Field"],
-        tier: "LC"
+        tier: "1"
     },
     pyroar: {
         num: 668,
@@ -22034,7 +21337,7 @@ exports.BattlePokedex = {
         prevo: "Litleo",
         evoLevel: 35,
         eggGroups: ["Field"],
-        tier: "PU"
+        tier: "1"
     },
     flabebe: {
         num: 669,
@@ -22061,7 +21364,7 @@ exports.BattlePokedex = {
         eggGroups: ["Fairy"],
         cosmeticFormes: ["FlabeÌbeÌ-Blue", "FlabeÌbeÌ-Orange", "FlabeÌbeÌ-White", "FlabeÌbeÌ-Yellow"],
         formeOrder: ["FlabeÌbeÌ", "FlabeÌbeÌ-Blue", "FlabeÌbeÌ-Orange", "FlabeÌbeÌ-White", "FlabeÌbeÌ-Yellow"],
-        tier: "LC"
+        tier: "1"
     },
     floette: {
         num: 670,
@@ -22091,7 +21394,7 @@ exports.BattlePokedex = {
         otherFormes: ["Floette-Eternal"],
         cosmeticFormes: ["Floette-Blue", "Floette-Orange", "Floette-White", "Floette-Yellow"],
         formeOrder: ["Floette", "Floette-Blue", "Floette-Orange", "Floette-White", "Floette-Yellow", "Floette-Eternal"],
-        tier: "NFE"
+        tier: "1"
     },
     floetteeternal: {
         num: 670,
@@ -22115,8 +21418,7 @@ exports.BattlePokedex = {
         weightkg: 0.9,
         color: "White",
         eggGroups: ["Undiscovered"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     florges: {
         num: 671,
@@ -22145,7 +21447,7 @@ exports.BattlePokedex = {
         eggGroups: ["Fairy"],
         cosmeticFormes: ["Florges-Blue", "Florges-Orange", "Florges-White", "Florges-Yellow"],
         formeOrder: ["Florges", "Florges-Blue", "Florges-Orange", "Florges-White", "Florges-Yellow"],
-        tier: "RU"
+        tier: "1"
     },
     skiddo: {
         num: 672,
@@ -22168,7 +21470,7 @@ exports.BattlePokedex = {
         color: "Brown",
         evos: ["Gogoat"],
         eggGroups: ["Field"],
-        tier: "LC"
+        tier: "2"
     },
     gogoat: {
         num: 673,
@@ -22192,7 +21494,7 @@ exports.BattlePokedex = {
         prevo: "Skiddo",
         evoLevel: 32,
         eggGroups: ["Field"],
-        tier: "PU"
+        tier: "2"
     },
     pancham: {
         num: 674,
@@ -22216,8 +21518,7 @@ exports.BattlePokedex = {
         color: "White",
         evos: ["Pangoro"],
         eggGroups: ["Field", "Human-Like"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     pangoro: {
         num: 675,
@@ -22242,8 +21543,7 @@ exports.BattlePokedex = {
         prevo: "Pancham",
         evoLevel: 32,
         eggGroups: ["Field", "Human-Like"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     furfrou: {
         num: 676,
@@ -22267,8 +21567,7 @@ exports.BattlePokedex = {
         eggGroups: ["Field"],
         cosmeticFormes: ["Furfrou-Dandy", "Furfrou-Debutante", "Furfrou-Diamond", "Furfrou-Heart", "Furfrou-Kabuki", "Furfrou-La Reine", "Furfrou-Matron", "Furfrou-Pharaoh", "Furfrou-Star"],
         formeOrder: ["Furfrou", "Furfrou-Heart", "Furfrou-Star", "Furfrou-Diamond", "Furfrou-Debutante", "Furfrou-Matron", "Furfrou-Dandy", "Furfrou-La Reine", "Furfrou-Kabuki", "Furfrou-Pharaoh"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     espurr: {
         num: 677,
@@ -22292,8 +21591,7 @@ exports.BattlePokedex = {
         color: "Gray",
         evos: ["Meowstic", "Meowstic-F"],
         eggGroups: ["Field"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     meowstic: {
         num: 678,
@@ -22322,8 +21620,7 @@ exports.BattlePokedex = {
         eggGroups: ["Field"],
         otherFormes: ["Meowstic-F"],
         formeOrder: ["Meowstic", "Meowstic-F"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     meowsticf: {
         num: 678,
@@ -22351,8 +21648,7 @@ exports.BattlePokedex = {
         prevo: "Espurr",
         evoLevel: 25,
         eggGroups: ["Field"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     honedge: {
         num: 679,
@@ -22374,8 +21670,7 @@ exports.BattlePokedex = {
         color: "Brown",
         evos: ["Doublade"],
         eggGroups: ["Mineral"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     doublade: {
         num: 680,
@@ -22399,8 +21694,7 @@ exports.BattlePokedex = {
         evoLevel: 35,
         evos: ["Aegislash"],
         eggGroups: ["Mineral"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     aegislash: {
         num: 681,
@@ -22427,8 +21721,7 @@ exports.BattlePokedex = {
         eggGroups: ["Mineral"],
         otherFormes: ["Aegislash-Blade"],
         formeOrder: ["Aegislash", "Aegislash-Blade"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     aegislashblade: {
         num: 681,
@@ -22453,7 +21746,6 @@ exports.BattlePokedex = {
         eggGroups: ["Mineral"],
         requiredAbility: "Stance Change",
         battleOnly: "Aegislash",
-        isNonstandard: "Past"
     },
     spritzee: {
         num: 682,
@@ -22476,8 +21768,7 @@ exports.BattlePokedex = {
         color: "Pink",
         evos: ["Aromatisse"],
         eggGroups: ["Fairy"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     aromatisse: {
         num: 683,
@@ -22502,8 +21793,7 @@ exports.BattlePokedex = {
         evoType: "trade",
         evoItem: "Sachet",
         eggGroups: ["Fairy"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     swirlix: {
         num: 684,
@@ -22526,8 +21816,7 @@ exports.BattlePokedex = {
         color: "White",
         evos: ["Slurpuff"],
         eggGroups: ["Fairy"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     slurpuff: {
         num: 685,
@@ -22552,8 +21841,7 @@ exports.BattlePokedex = {
         evoType: "trade",
         evoItem: "Whipped Dream",
         eggGroups: ["Fairy"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     inkay: {
         num: 686,
@@ -22577,8 +21865,7 @@ exports.BattlePokedex = {
         color: "Blue",
         evos: ["Malamar"],
         eggGroups: ["Water 1", "Water 2"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     malamar: {
         num: 687,
@@ -22604,8 +21891,7 @@ exports.BattlePokedex = {
         evoLevel: 30,
         evoCondition: "with the console turned upside-down",
         eggGroups: ["Water 1", "Water 2"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     binacle: {
         num: 688,
@@ -22629,8 +21915,7 @@ exports.BattlePokedex = {
         color: "Brown",
         evos: ["Barbaracle"],
         eggGroups: ["Water 3"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     barbaracle: {
         num: 689,
@@ -22655,8 +21940,7 @@ exports.BattlePokedex = {
         prevo: "Binacle",
         evoLevel: 39,
         eggGroups: ["Water 3"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     skrelp: {
         num: 690,
@@ -22679,7 +21963,7 @@ exports.BattlePokedex = {
         color: "Brown",
         evos: ["Dragalge"],
         eggGroups: ["Water 1", "Dragon"],
-        tier: "LC"
+        tier: "1"
     },
     dragalge: {
         num: 691,
@@ -22703,7 +21987,7 @@ exports.BattlePokedex = {
         prevo: "Skrelp",
         evoLevel: 38,
         eggGroups: ["Water 1", "Dragon"],
-        tier: "RU"
+        tier: "1"
     },
     clauncher: {
         num: 692,
@@ -22725,7 +22009,7 @@ exports.BattlePokedex = {
         color: "Blue",
         evos: ["Clawitzer"],
         eggGroups: ["Water 1", "Water 3"],
-        tier: "LC"
+        tier: "1"
     },
     clawitzer: {
         num: 693,
@@ -22748,7 +22032,7 @@ exports.BattlePokedex = {
         prevo: "Clauncher",
         evoLevel: 32,
         eggGroups: ["Water 1", "Water 3"],
-        tier: "NU"
+        tier: "1"
     },
     helioptile: {
         num: 694,
@@ -22772,8 +22056,7 @@ exports.BattlePokedex = {
         color: "Yellow",
         evos: ["Heliolisk"],
         eggGroups: ["Monster", "Dragon"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     heliolisk: {
         num: 695,
@@ -22799,8 +22082,7 @@ exports.BattlePokedex = {
         evoType: "useItem",
         evoItem: "Sun Stone",
         eggGroups: ["Monster", "Dragon"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     tyrunt: {
         num: 696,
@@ -22827,8 +22109,7 @@ exports.BattlePokedex = {
         color: "Brown",
         evos: ["Tyrantrum"],
         eggGroups: ["Monster", "Dragon"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     tyrantrum: {
         num: 697,
@@ -22857,8 +22138,7 @@ exports.BattlePokedex = {
         evoLevel: 39,
         evoCondition: "during the day",
         eggGroups: ["Monster", "Dragon"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     amaura: {
         num: 698,
@@ -22885,8 +22165,7 @@ exports.BattlePokedex = {
         color: "Blue",
         evos: ["Aurorus"],
         eggGroups: ["Monster"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     aurorus: {
         num: 699,
@@ -22915,8 +22194,7 @@ exports.BattlePokedex = {
         evoLevel: 34,
         evoCondition: "at night",
         eggGroups: ["Monster"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     sylveon: {
         num: 700,
@@ -22945,7 +22223,7 @@ exports.BattlePokedex = {
         evoType: "levelExtra",
         evoCondition: "with a Fairy-type move and two levels of Affection",
         eggGroups: ["Field"],
-        tier: "RU"
+        tier: "2"
     },
     hawlucha: {
         num: 701,
@@ -22968,7 +22246,7 @@ exports.BattlePokedex = {
         weightkg: 21.5,
         color: "Green",
         eggGroups: ["Flying", "Human-Like"],
-        tier: "RUBL"
+        tier: "1"
     },
     dedenne: {
         num: 702,
@@ -22991,7 +22269,7 @@ exports.BattlePokedex = {
         weightkg: 2.2,
         color: "Yellow",
         eggGroups: ["Field", "Fairy"],
-        tier: "(PU)"
+        tier: "2"
     },
     carbink: {
         num: 703,
@@ -23014,7 +22292,7 @@ exports.BattlePokedex = {
         weightkg: 5.7,
         color: "Gray",
         eggGroups: ["Fairy", "Mineral"],
-        tier: "PU"
+        tier: "2"
     },
     goomy: {
         num: 704,
@@ -23038,7 +22316,7 @@ exports.BattlePokedex = {
         color: "Purple",
         evos: ["Sliggoo", "Sliggoo-Hisui"],
         eggGroups: ["Dragon"],
-        tier: "LC"
+        tier: "1"
     },
     sliggoo: {
         num: 705,
@@ -23066,7 +22344,7 @@ exports.BattlePokedex = {
         eggGroups: ["Dragon"],
         otherFormes: ["Sliggoo-Hisui"],
         formeOrder: ["Sliggoo", "Sliggoo-Hisui"],
-        tier: "NFE"
+        tier: "1"
     },
     sliggoohisui: {
         num: 705,
@@ -23095,7 +22373,7 @@ exports.BattlePokedex = {
         evoItem: "Metal Coat",
         evos: ["Goodra-Hisui"],
         eggGroups: ["Dragon"],
-        tier: "PU"
+        tier: "1"
     },
     goodra: {
         num: 706,
@@ -23123,7 +22401,7 @@ exports.BattlePokedex = {
         eggGroups: ["Dragon"],
         otherFormes: ["Goodra-Hisui"],
         formeOrder: ["Goodra", "Goodra-Hisui"],
-        tier: "NUBL"
+        tier: "1"
     },
     goodrahisui: {
         num: 706,
@@ -23151,7 +22429,7 @@ exports.BattlePokedex = {
         evoLevel: 50,
         evoCondition: "on a rainy route",
         eggGroups: ["Dragon"],
-        tier: "UU"
+        tier: "1"
     },
     klefki: {
         num: 707,
@@ -23173,7 +22451,7 @@ exports.BattlePokedex = {
         weightkg: 3,
         color: "Gray",
         eggGroups: ["Mineral"],
-        tier: "RU"
+        tier: "2"
     },
     phantump: {
         num: 708,
@@ -23196,8 +22474,7 @@ exports.BattlePokedex = {
         color: "Brown",
         evos: ["Trevenant"],
         eggGroups: ["Grass", "Amorphous"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     trevenant: {
         num: 709,
@@ -23221,8 +22498,7 @@ exports.BattlePokedex = {
         prevo: "Phantump",
         evoLevel: "36",
         eggGroups: ["Grass", "Amorphous"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     pumpkaboo: {
         num: 710,
@@ -23248,8 +22524,7 @@ exports.BattlePokedex = {
         eggGroups: ["Amorphous"],
         otherFormes: ["Pumpkaboo-Small", "Pumpkaboo-Large", "Pumpkaboo-Super"],
         formeOrder: ["Pumpkaboo", "Pumpkaboo-Small", "Pumpkaboo-Large", "Pumpkaboo-Super"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     pumpkaboosmall: {
         num: 710,
@@ -23274,7 +22549,6 @@ exports.BattlePokedex = {
         color: "Brown",
         evos: ["Gourgeist-Small"],
         eggGroups: ["Amorphous"],
-        isNonstandard: "Past"
     },
     pumpkaboolarge: {
         num: 710,
@@ -23299,7 +22573,6 @@ exports.BattlePokedex = {
         color: "Brown",
         evos: ["Gourgeist-Large"],
         eggGroups: ["Amorphous"],
-        isNonstandard: "Past"
     },
     pumpkaboosuper: {
         num: 710,
@@ -23324,7 +22597,6 @@ exports.BattlePokedex = {
         color: "Brown",
         evos: ["Gourgeist-Super"],
         eggGroups: ["Amorphous"],
-        isNonstandard: "Past"
     },
     gourgeist: {
         num: 711,
@@ -23351,8 +22623,7 @@ exports.BattlePokedex = {
         eggGroups: ["Amorphous"],
         otherFormes: ["Gourgeist-Small", "Gourgeist-Large", "Gourgeist-Super"],
         formeOrder: ["Gourgeist", "Gourgeist-Small", "Gourgeist-Large", "Gourgeist-Super"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     gourgeistsmall: {
         num: 711,
@@ -23378,7 +22649,6 @@ exports.BattlePokedex = {
         prevo: "Pumpkaboo-Small",
         evoLevel: "36",
         eggGroups: ["Amorphous"],
-        isNonstandard: "Past"
     },
     gourgeistlarge: {
         num: 711,
@@ -23404,7 +22674,6 @@ exports.BattlePokedex = {
         prevo: "Pumpkaboo-Large",
         evoLevel: "36",
         eggGroups: ["Amorphous"],
-        isNonstandard: "Past"
     },
     gourgeistsuper: {
         num: 711,
@@ -23430,7 +22699,6 @@ exports.BattlePokedex = {
         prevo: "Pumpkaboo-Super",
         evoLevel: "36",
         eggGroups: ["Amorphous"],
-        isNonstandard: "Past"
     },
     bergmite: {
         num: 712,
@@ -23454,7 +22722,7 @@ exports.BattlePokedex = {
         color: "Blue",
         evos: ["Avalugg", "Avalugg-Hisui"],
         eggGroups: ["Monster", "Mineral"],
-        tier: "LC"
+        tier: "1"
     },
     avalugg: {
         num: 713,
@@ -23482,7 +22750,7 @@ exports.BattlePokedex = {
         eggGroups: ["Monster", "Mineral"],
         otherFormes: ["Avalugg-Hisui"],
         formeOrder: ["Avalugg", "Avalugg-Hisui"],
-        tier: "NU"
+        tier: "1"
     },
     avalugghisui: {
         num: 713,
@@ -23510,7 +22778,7 @@ exports.BattlePokedex = {
         evoType: "levelMove",
         evoMove: "Ancient Power",
         eggGroups: ["Monster", "Mineral"],
-        tier: "PU"
+        tier: "1"
     },
     noibat: {
         num: 714,
@@ -23534,7 +22802,7 @@ exports.BattlePokedex = {
         color: "Purple",
         evos: ["Noivern"],
         eggGroups: ["Flying", "Dragon"],
-        tier: "LC"
+        tier: "1"
     },
     noivern: {
         num: 715,
@@ -23559,7 +22827,7 @@ exports.BattlePokedex = {
         prevo: "Noibat",
         evoLevel: 48,
         eggGroups: ["Flying", "Dragon"],
-        tier: "RU"
+        tier: "1"
     },
     xerneas: {
         num: 716,
@@ -23585,8 +22853,7 @@ exports.BattlePokedex = {
         tags: ["Restricted Legendary"],
         otherFormes: ["Xerneas-Neutral"],
         formeOrder: ["Xerneas-Neutral", "Xerneas"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     xerneasneutral: {
         num: 716,
@@ -23610,7 +22877,7 @@ exports.BattlePokedex = {
         weightkg: 215,
         color: "Blue",
         eggGroups: ["Undiscovered"],
-        tier: "Illegal",
+        tier: "2",
         isNonstandard: "Custom"
     },
     yveltal: {
@@ -23634,8 +22901,7 @@ exports.BattlePokedex = {
         color: "Red",
         tags: ["Restricted Legendary"],
         eggGroups: ["Undiscovered"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     zygarde: {
         num: 718,
@@ -23662,8 +22928,7 @@ exports.BattlePokedex = {
         eggGroups: ["Undiscovered"],
         otherFormes: ["Zygarde-10%", "Zygarde-Complete"],
         formeOrder: ["Zygarde", "Zygarde-10%", "Zygarde-10%", "Zygarde", "Zygarde-Complete"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     zygarde10: {
         num: 718,
@@ -23690,8 +22955,7 @@ exports.BattlePokedex = {
         eggGroups: ["Undiscovered"],
         changesFrom: "Zygarde",
         gen: 7,
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     zygardecomplete: {
         num: 718,
@@ -23718,8 +22982,7 @@ exports.BattlePokedex = {
         requiredAbility: "Power Construct",
         battleOnly: ["Zygarde", "Zygarde-10%"],
         gen: 7,
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     diancie: {
         num: 719,
@@ -23744,7 +23007,7 @@ exports.BattlePokedex = {
         tags: ["Mythical"],
         otherFormes: ["Diancie-Mega"],
         formeOrder: ["Diancie", "Diancie-Mega"],
-        tier: "RU"
+        tier: "2"
     },
     dianciemega: {
         num: 719,
@@ -23769,8 +23032,7 @@ exports.BattlePokedex = {
         color: "Pink",
         eggGroups: ["Undiscovered"],
         requiredItem: "Diancite",
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     hoopa: {
         num: 720,
@@ -23796,7 +23058,7 @@ exports.BattlePokedex = {
         tags: ["Mythical"],
         otherFormes: ["Hoopa-Unbound"],
         formeOrder: ["Hoopa", "Hoopa-Unbound"],
-        tier: "NUBL"
+        tier: "2"
     },
     hoopaunbound: {
         num: 720,
@@ -23821,7 +23083,7 @@ exports.BattlePokedex = {
         color: "Purple",
         eggGroups: ["Undiscovered"],
         changesFrom: "Hoopa",
-        tier: "UU"
+        tier: "2"
     },
     volcanion: {
         num: 721,
@@ -23844,7 +23106,7 @@ exports.BattlePokedex = {
         color: "Brown",
         tags: ["Mythical"],
         eggGroups: ["Undiscovered"],
-        tier: "UU"
+        tier: "2"
     },
     rowlet: {
         num: 722,
@@ -23871,7 +23133,7 @@ exports.BattlePokedex = {
         color: "Brown",
         evos: ["Dartrix"],
         eggGroups: ["Flying"],
-        tier: "LC"
+        tier: "1"
     },
     dartrix: {
         num: 723,
@@ -23900,7 +23162,7 @@ exports.BattlePokedex = {
         evoLevel: 17,
         evos: ["Decidueye", "Decidueye-Hisui"],
         eggGroups: ["Flying"],
-        tier: "PU"
+        tier: "1"
     },
     decidueye: {
         num: 724,
@@ -23930,7 +23192,7 @@ exports.BattlePokedex = {
         eggGroups: ["Flying"],
         otherFormes: ["Decidueye-Hisui"],
         formeOrder: ["Decidueye", "Decidueye-Hisui"],
-        tier: "NU"
+        tier: "1"
     },
     decidueyehisui: {
         num: 724,
@@ -23960,7 +23222,7 @@ exports.BattlePokedex = {
         prevo: "Dartrix",
         evoLevel: 34,
         eggGroups: ["Flying"],
-        tier: "RU"
+        tier: "1"
     },
     litten: {
         num: 725,
@@ -23987,8 +23249,7 @@ exports.BattlePokedex = {
         color: "Red",
         evos: ["Torracat"],
         eggGroups: ["Field"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     torracat: {
         num: 726,
@@ -24017,8 +23278,7 @@ exports.BattlePokedex = {
         evoLevel: 17,
         evos: ["Incineroar"],
         eggGroups: ["Field"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     incineroar: {
         num: 727,
@@ -24046,8 +23306,7 @@ exports.BattlePokedex = {
         prevo: "Torracat",
         evoLevel: 34,
         eggGroups: ["Field"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     popplio: {
         num: 728,
@@ -24074,8 +23333,7 @@ exports.BattlePokedex = {
         color: "Blue",
         evos: ["Brionne"],
         eggGroups: ["Water 1", "Field"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     brionne: {
         num: 729,
@@ -24104,8 +23362,7 @@ exports.BattlePokedex = {
         evoLevel: 17,
         evos: ["Primarina"],
         eggGroups: ["Water 1", "Field"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     primarina: {
         num: 730,
@@ -24133,8 +23390,7 @@ exports.BattlePokedex = {
         prevo: "Brionne",
         evoLevel: 34,
         eggGroups: ["Water 1", "Field"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     pikipek: {
         num: 731,
@@ -24158,8 +23414,7 @@ exports.BattlePokedex = {
         color: "Black",
         evos: ["Trumbeak"],
         eggGroups: ["Flying"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     trumbeak: {
         num: 732,
@@ -24185,8 +23440,7 @@ exports.BattlePokedex = {
         evoLevel: 14,
         evos: ["Toucannon"],
         eggGroups: ["Flying"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     toucannon: {
         num: 733,
@@ -24211,8 +23465,7 @@ exports.BattlePokedex = {
         prevo: "Trumbeak",
         evoLevel: 28,
         eggGroups: ["Flying"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     yungoos: {
         num: 734,
@@ -24236,7 +23489,7 @@ exports.BattlePokedex = {
         color: "Brown",
         evos: ["Gumshoos"],
         eggGroups: ["Field"],
-        tier: "LC"
+        tier: "2"
     },
     gumshoos: {
         num: 735,
@@ -24262,33 +23515,7 @@ exports.BattlePokedex = {
         evoLevel: 20,
         evoCondition: "during the day",
         eggGroups: ["Field"],
-        otherFormes: ["Gumshoos-Totem"],
-        formeOrder: ["Gumshoos", "Gumshoos-Totem"],
-        tier: "(PU)"
-    },
-    gumshoostotem: {
-        num: 735,
-        name: "Gumshoos-Totem",
-        baseSpecies: "Gumshoos",
-        forme: "Totem",
-        types: ["Normal"],
-        baseStats: {
-            hp: 88,
-            atk: 110,
-            def: 60,
-            spa: 55,
-            spd: 60,
-            spe: 45
-        },
-        abilities: {
-            "0": "Adaptability"
-        },
-        heightm: 1.4,
-        weightkg: 60,
-        color: "Brown",
-        eggGroups: ["Field"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2"
     },
     grubbin: {
         num: 736,
@@ -24310,8 +23537,7 @@ exports.BattlePokedex = {
         color: "Gray",
         evos: ["Charjabug"],
         eggGroups: ["Bug"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     charjabug: {
         num: 737,
@@ -24335,8 +23561,7 @@ exports.BattlePokedex = {
         evoLevel: 20,
         evos: ["Vikavolt"],
         eggGroups: ["Bug"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     vikavolt: {
         num: 738,
@@ -24360,33 +23585,7 @@ exports.BattlePokedex = {
         evoType: "useItem",
         evoItem: "Thunder Stone",
         eggGroups: ["Bug"],
-        otherFormes: ["Vikavolt-Totem"],
-        formeOrder: ["Vikavolt", "Vikavolt-Totem"],
-        tier: "Illegal",
-        isNonstandard: "Past"
-    },
-    vikavolttotem: {
-        num: 738,
-        name: "Vikavolt-Totem",
-        baseSpecies: "Vikavolt",
-        forme: "Totem",
-        types: ["Bug", "Electric"],
-        baseStats: {
-            hp: 77,
-            atk: 70,
-            def: 90,
-            spa: 145,
-            spd: 75,
-            spe: 43
-        },
-        abilities: {
-            "0": "Levitate"
-        },
-        heightm: 2.6,
-        weightkg: 147.5,
-        color: "Blue",
-        eggGroups: ["Bug"],
-        isNonstandard: "Past"
+        tier: "2",
     },
     crabrawler: {
         num: 739,
@@ -24410,7 +23609,7 @@ exports.BattlePokedex = {
         color: "Purple",
         evos: ["Crabominable"],
         eggGroups: ["Water 3"],
-        tier: "LC"
+        tier: "2"
     },
     crabominable: {
         num: 740,
@@ -24436,7 +23635,7 @@ exports.BattlePokedex = {
         evoType: "useItem",
         evoItem: "Ice Stone",
         eggGroups: ["Water 3"],
-        tier: "PU"
+        tier: "2"
     },
     oricorio: {
         num: 741,
@@ -24464,7 +23663,7 @@ exports.BattlePokedex = {
         eggGroups: ["Flying"],
         otherFormes: ["Oricorio-Pom-Pom", "Oricorio-Pa'u", "Oricorio-Sensu"],
         formeOrder: ["Oricorio", "Oricorio-Pom-Pom", "Oricorio-Pa'u", "Oricorio-Sensu"],
-        tier: "NUBL"
+        tier: "2"
     },
     oricoriopompom: {
         num: 741,
@@ -24492,7 +23691,7 @@ exports.BattlePokedex = {
         color: "Yellow",
         eggGroups: ["Flying"],
         changesFrom: "Oricorio",
-        tier: "NUBL"
+        tier: "2"
     },
     oricoriopau: {
         num: 741,
@@ -24520,7 +23719,7 @@ exports.BattlePokedex = {
         color: "Pink",
         eggGroups: ["Flying"],
         changesFrom: "Oricorio",
-        tier: "PUBL"
+        tier: "2"
     },
     oricoriosensu: {
         num: 741,
@@ -24548,7 +23747,7 @@ exports.BattlePokedex = {
         color: "Purple",
         eggGroups: ["Flying"],
         changesFrom: "Oricorio",
-        tier: "NUBL"
+        tier: "2"
     },
     cutiefly: {
         num: 742,
@@ -24572,8 +23771,7 @@ exports.BattlePokedex = {
         color: "Yellow",
         evos: ["Ribombee"],
         eggGroups: ["Bug", "Fairy"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     ribombee: {
         num: 743,
@@ -24598,33 +23796,7 @@ exports.BattlePokedex = {
         prevo: "Cutiefly",
         evoLevel: 25,
         eggGroups: ["Bug", "Fairy"],
-        otherFormes: ["Ribombee-Totem"],
-        formeOrder: ["Ribombee", "Ribombee-Totem"],
-        tier: "Illegal",
-        isNonstandard: "Past"
-    },
-    ribombeetotem: {
-        num: 743,
-        name: "Ribombee-Totem",
-        baseSpecies: "Ribombee",
-        forme: "Totem",
-        types: ["Bug", "Fairy"],
-        baseStats: {
-            hp: 60,
-            atk: 55,
-            def: 60,
-            spa: 95,
-            spd: 70,
-            spe: 124
-        },
-        abilities: {
-            "0": "Sweet Veil"
-        },
-        heightm: 0.4,
-        weightkg: 2,
-        color: "Yellow",
-        eggGroups: ["Bug", "Fairy"],
-        isNonstandard: "Past"
+        tier: "1",
     },
     rockruff: {
         num: 744,
@@ -24650,7 +23822,7 @@ exports.BattlePokedex = {
         evos: ["Lycanroc", "Lycanroc-Midnight", "Lycanroc-Dusk"],
         eggGroups: ["Field"],
         formeOrder: ["Rockruff", "Rockruff"],
-        tier: "LC"
+        tier: "1"
     },
     lycanroc: {
         num: 745,
@@ -24678,7 +23850,7 @@ exports.BattlePokedex = {
         eggGroups: ["Field"],
         otherFormes: ["Lycanroc-Midnight", "Lycanroc-Dusk"],
         formeOrder: ["Lycanroc", "Lycanroc-Midnight", "Lycanroc-Dusk"],
-        tier: "RU"
+        tier: "1"
     },
     lycanrocmidnight: {
         num: 745,
@@ -24705,7 +23877,7 @@ exports.BattlePokedex = {
         evoType: "useItem",
         evoItem: "Moon Stone",
         eggGroups: ["Field"],
-        tier: "PU"
+        tier: "1"
     },
     lycanrocdusk: {
         num: 745,
@@ -24731,7 +23903,7 @@ exports.BattlePokedex = {
         evoType: "useItem",
         evoItem: "Dusk Stone",
         eggGroups: ["Field"],
-        tier: "RUBL"
+        tier: "1"
     },
     wishiwashi: {
         num: 746,
@@ -24755,8 +23927,7 @@ exports.BattlePokedex = {
         eggGroups: ["Water 2"],
         otherFormes: ["Wishiwashi-School"],
         formeOrder: ["Wishiwashi", "Wishiwashi-School"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     wishiwashischool: {
         num: 746,
@@ -24781,7 +23952,6 @@ exports.BattlePokedex = {
         eggGroups: ["Water 2"],
         requiredAbility: "Schooling",
         battleOnly: "Wishiwashi",
-        isNonstandard: "Past"
     },
     mareanie: {
         num: 747,
@@ -24805,7 +23975,7 @@ exports.BattlePokedex = {
         color: "Blue",
         evos: ["Toxapex"],
         eggGroups: ["Water 1"],
-        tier: "LC"
+        tier: "2"
     },
     toxapex: {
         num: 748,
@@ -24830,7 +24000,7 @@ exports.BattlePokedex = {
         prevo: "Mareanie",
         evoLevel: 38,
         eggGroups: ["Water 1"],
-        tier: "OU"
+        tier: "2"
     },
     mudbray: {
         num: 749,
@@ -24854,7 +24024,7 @@ exports.BattlePokedex = {
         color: "Brown",
         evos: ["Mudsdale"],
         eggGroups: ["Field"],
-        tier: "LC"
+        tier: "1"
     },
     mudsdale: {
         num: 750,
@@ -24879,7 +24049,7 @@ exports.BattlePokedex = {
         prevo: "Mudbray",
         evoLevel: 30,
         eggGroups: ["Field"],
-        tier: "RU"
+        tier: "1"
     },
     dewpider: {
         num: 751,
@@ -24902,8 +24072,7 @@ exports.BattlePokedex = {
         color: "Green",
         evos: ["Araquanid"],
         eggGroups: ["Water 1", "Bug"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     araquanid: {
         num: 752,
@@ -24927,33 +24096,7 @@ exports.BattlePokedex = {
         prevo: "Dewpider",
         evoLevel: 22,
         eggGroups: ["Water 1", "Bug"],
-        otherFormes: ["Araquanid-Totem"],
-        formeOrder: ["Araquanid", "Araquanid-Totem"],
-        tier: "Illegal",
-        isNonstandard: "Past"
-    },
-    araquanidtotem: {
-        num: 752,
-        name: "Araquanid-Totem",
-        baseSpecies: "Araquanid",
-        forme: "Totem",
-        types: ["Water", "Bug"],
-        baseStats: {
-            hp: 68,
-            atk: 70,
-            def: 92,
-            spa: 50,
-            spd: 132,
-            spe: 42
-        },
-        abilities: {
-            "0": "Water Bubble"
-        },
-        heightm: 3.1,
-        weightkg: 217.5,
-        color: "Green",
-        eggGroups: ["Water 1", "Bug"],
-        isNonstandard: "Past"
+        tier: "1",
     },
     fomantis: {
         num: 753,
@@ -24976,7 +24119,7 @@ exports.BattlePokedex = {
         color: "Pink",
         evos: ["Lurantis"],
         eggGroups: ["Grass"],
-        tier: "LC"
+        tier: "2"
     },
     lurantis: {
         num: 754,
@@ -25001,33 +24144,7 @@ exports.BattlePokedex = {
         evoLevel: 34,
         evoCondition: "during the day",
         eggGroups: ["Grass"],
-        otherFormes: ["Lurantis-Totem"],
-        formeOrder: ["Lurantis", "Lurantis-Totem"],
-        tier: "NU"
-    },
-    lurantistotem: {
-        num: 754,
-        name: "Lurantis-Totem",
-        baseSpecies: "Lurantis",
-        forme: "Totem",
-        types: ["Grass"],
-        baseStats: {
-            hp: 70,
-            atk: 105,
-            def: 90,
-            spa: 80,
-            spd: 90,
-            spe: 45
-        },
-        abilities: {
-            "0": "Leaf Guard"
-        },
-        heightm: 1.5,
-        weightkg: 58,
-        color: "Pink",
-        eggGroups: ["Grass"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2"
     },
     morelull: {
         num: 755,
@@ -25050,8 +24167,7 @@ exports.BattlePokedex = {
         color: "Purple",
         evos: ["Shiinotic"],
         eggGroups: ["Grass"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     shiinotic: {
         num: 756,
@@ -25075,8 +24191,7 @@ exports.BattlePokedex = {
         prevo: "Morelull",
         evoLevel: 24,
         eggGroups: ["Grass"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     salandit: {
         num: 757,
@@ -25102,7 +24217,7 @@ exports.BattlePokedex = {
         color: "Black",
         evos: ["Salazzle"],
         eggGroups: ["Monster", "Dragon"],
-        tier: "LC"
+        tier: "1"
     },
     salazzle: {
         num: 758,
@@ -25126,34 +24241,7 @@ exports.BattlePokedex = {
         prevo: "Salandit",
         evoLevel: 30,
         eggGroups: ["Monster", "Dragon"],
-        otherFormes: ["Salazzle-Totem"],
-        formeOrder: ["Salazzle", "Salazzle-Totem"],
-        tier: "NU"
-    },
-    salazzletotem: {
-        num: 758,
-        name: "Salazzle-Totem",
-        baseSpecies: "Salazzle",
-        forme: "Totem",
-        types: ["Poison", "Fire"],
-        gender: "F",
-        baseStats: {
-            hp: 68,
-            atk: 64,
-            def: 60,
-            spa: 111,
-            spd: 60,
-            spe: 117
-        },
-        abilities: {
-            "0": "Corrosion"
-        },
-        heightm: 2.1,
-        weightkg: 81,
-        color: "Black",
-        eggGroups: ["Monster", "Dragon"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1"
     },
     stufful: {
         num: 759,
@@ -25175,8 +24263,7 @@ exports.BattlePokedex = {
         color: "Pink",
         evos: ["Bewear"],
         eggGroups: ["Field"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     bewear: {
         num: 760,
@@ -25199,8 +24286,7 @@ exports.BattlePokedex = {
         prevo: "Stufful",
         evoLevel: 26,
         eggGroups: ["Field"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     bounsweet: {
         num: 761,
@@ -25225,7 +24311,7 @@ exports.BattlePokedex = {
         color: "Purple",
         evos: ["Steenee"],
         eggGroups: ["Grass"],
-        tier: "LC"
+        tier: "1"
     },
     steenee: {
         num: 762,
@@ -25252,7 +24338,7 @@ exports.BattlePokedex = {
         evoLevel: 12,
         evos: ["Tsareena"],
         eggGroups: ["Grass"],
-        tier: "NFE"
+        tier: "1"
     },
     tsareena: {
         num: 763,
@@ -25279,7 +24365,7 @@ exports.BattlePokedex = {
         evoType: "levelMove",
         evoMove: "Stomp",
         eggGroups: ["Grass"],
-        tier: "NU"
+        tier: "1"
     },
     comfey: {
         num: 764,
@@ -25305,8 +24391,7 @@ exports.BattlePokedex = {
         weightkg: 0.3,
         color: "Green",
         eggGroups: ["Grass"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     oranguru: {
         num: 765,
@@ -25329,7 +24414,7 @@ exports.BattlePokedex = {
         weightkg: 76,
         color: "White",
         eggGroups: ["Field"],
-        tier: "(PU)"
+        tier: "2"
     },
     passimian: {
         num: 766,
@@ -25351,7 +24436,7 @@ exports.BattlePokedex = {
         weightkg: 82.8,
         color: "White",
         eggGroups: ["Field"],
-        tier: "NU"
+        tier: "2"
     },
     wimpod: {
         num: 767,
@@ -25373,8 +24458,7 @@ exports.BattlePokedex = {
         color: "Gray",
         evos: ["Golisopod"],
         eggGroups: ["Bug", "Water 3"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     golisopod: {
         num: 768,
@@ -25397,8 +24481,7 @@ exports.BattlePokedex = {
         prevo: "Wimpod",
         evoLevel: 30,
         eggGroups: ["Bug", "Water 3"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     sandygast: {
         num: 769,
@@ -25421,7 +24504,7 @@ exports.BattlePokedex = {
         color: "Brown",
         evos: ["Palossand"],
         eggGroups: ["Amorphous"],
-        tier: "LC"
+        tier: "2"
     },
     palossand: {
         num: 770,
@@ -25445,7 +24528,7 @@ exports.BattlePokedex = {
         prevo: "Sandygast",
         evoLevel: 42,
         eggGroups: ["Amorphous"],
-        tier: "RU"
+        tier: "2"
     },
     pyukumuku: {
         num: 771,
@@ -25467,8 +24550,7 @@ exports.BattlePokedex = {
         weightkg: 1.2,
         color: "Black",
         eggGroups: ["Water 1"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     typenull: {
         num: 772,
@@ -25492,8 +24574,7 @@ exports.BattlePokedex = {
         tags: ["Sub-Legendary"],
         evos: ["Silvally"],
         eggGroups: ["Undiscovered"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     silvally: {
         num: 773,
@@ -25520,8 +24601,7 @@ exports.BattlePokedex = {
         eggGroups: ["Undiscovered"],
         otherFormes: ["Silvally-Bug", "Silvally-Dark", "Silvally-Dragon", "Silvally-Electric", "Silvally-Fairy", "Silvally-Fighting", "Silvally-Fire", "Silvally-Flying", "Silvally-Ghost", "Silvally-Grass", "Silvally-Ground", "Silvally-Ice", "Silvally-Poison", "Silvally-Psychic", "Silvally-Rock", "Silvally-Steel", "Silvally-Water"],
         formeOrder: ["Silvally", "Silvally-Fighting", "Silvally-Flying", "Silvally-Poison", "Silvally-Ground", "Silvally-Rock", "Silvally-Bug", "Silvally-Ghost", "Silvally-Steel", "Silvally-Fire", "Silvally-Water", "Silvally-Grass", "Silvally-Electric", "Silvally-Psychic", "Silvally-Ice", "Silvally-Dragon", "Silvally-Dark", "Silvally-Fairy"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     silvallybug: {
         num: 773,
@@ -25547,8 +24627,7 @@ exports.BattlePokedex = {
         eggGroups: ["Undiscovered"],
         requiredItem: "Bug Memory",
         changesFrom: "Silvally",
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     silvallydark: {
         num: 773,
@@ -25574,8 +24653,7 @@ exports.BattlePokedex = {
         eggGroups: ["Undiscovered"],
         requiredItem: "Dark Memory",
         changesFrom: "Silvally",
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     silvallydragon: {
         num: 773,
@@ -25601,8 +24679,7 @@ exports.BattlePokedex = {
         eggGroups: ["Undiscovered"],
         requiredItem: "Dragon Memory",
         changesFrom: "Silvally",
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     silvallyelectric: {
         num: 773,
@@ -25628,8 +24705,7 @@ exports.BattlePokedex = {
         eggGroups: ["Undiscovered"],
         requiredItem: "Electric Memory",
         changesFrom: "Silvally",
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     silvallyfairy: {
         num: 773,
@@ -25655,8 +24731,7 @@ exports.BattlePokedex = {
         eggGroups: ["Undiscovered"],
         requiredItem: "Fairy Memory",
         changesFrom: "Silvally",
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     silvallyfighting: {
         num: 773,
@@ -25682,8 +24757,7 @@ exports.BattlePokedex = {
         eggGroups: ["Undiscovered"],
         requiredItem: "Fighting Memory",
         changesFrom: "Silvally",
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     silvallyfire: {
         num: 773,
@@ -25709,8 +24783,7 @@ exports.BattlePokedex = {
         eggGroups: ["Undiscovered"],
         requiredItem: "Fire Memory",
         changesFrom: "Silvally",
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     silvallyflying: {
         num: 773,
@@ -25736,8 +24809,7 @@ exports.BattlePokedex = {
         eggGroups: ["Undiscovered"],
         requiredItem: "Flying Memory",
         changesFrom: "Silvally",
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     silvallyghost: {
         num: 773,
@@ -25763,8 +24835,7 @@ exports.BattlePokedex = {
         eggGroups: ["Undiscovered"],
         requiredItem: "Ghost Memory",
         changesFrom: "Silvally",
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     silvallygrass: {
         num: 773,
@@ -25790,8 +24861,7 @@ exports.BattlePokedex = {
         eggGroups: ["Undiscovered"],
         requiredItem: "Grass Memory",
         changesFrom: "Silvally",
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     silvallyground: {
         num: 773,
@@ -25817,8 +24887,7 @@ exports.BattlePokedex = {
         eggGroups: ["Undiscovered"],
         requiredItem: "Ground Memory",
         changesFrom: "Silvally",
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     silvallyice: {
         num: 773,
@@ -25844,8 +24913,7 @@ exports.BattlePokedex = {
         eggGroups: ["Undiscovered"],
         requiredItem: "Ice Memory",
         changesFrom: "Silvally",
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     silvallypoison: {
         num: 773,
@@ -25871,8 +24939,7 @@ exports.BattlePokedex = {
         eggGroups: ["Undiscovered"],
         requiredItem: "Poison Memory",
         changesFrom: "Silvally",
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     silvallypsychic: {
         num: 773,
@@ -25898,8 +24965,7 @@ exports.BattlePokedex = {
         eggGroups: ["Undiscovered"],
         requiredItem: "Psychic Memory",
         changesFrom: "Silvally",
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     silvallyrock: {
         num: 773,
@@ -25925,8 +24991,7 @@ exports.BattlePokedex = {
         eggGroups: ["Undiscovered"],
         requiredItem: "Rock Memory",
         changesFrom: "Silvally",
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     silvallysteel: {
         num: 773,
@@ -25952,8 +25017,7 @@ exports.BattlePokedex = {
         eggGroups: ["Undiscovered"],
         requiredItem: "Steel Memory",
         changesFrom: "Silvally",
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     silvallywater: {
         num: 773,
@@ -25979,8 +25043,7 @@ exports.BattlePokedex = {
         eggGroups: ["Undiscovered"],
         requiredItem: "Water Memory",
         changesFrom: "Silvally",
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     minior: {
         num: 774,
@@ -26006,8 +25069,7 @@ exports.BattlePokedex = {
         otherFormes: ["Minior-Meteor"],
         cosmeticFormes: ["Minior-Orange", "Minior-Yellow", "Minior-Green", "Minior-Blue", "Minior-Indigo", "Minior-Violet"],
         formeOrder: ["Minior-Meteor", "Minior-Meteor", "Minior-Meteor", "Minior-Meteor", "Minior-Meteor", "Minior-Meteor", "Minior-Meteor", "Minior", "Minior-Orange", "Minior-Yellow", "Minior-Green", "Minior-Blue", "Minior-Indigo", "Minior-Violet"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     miniormeteor: {
         num: 774,
@@ -26033,7 +25095,6 @@ exports.BattlePokedex = {
         eggGroups: ["Mineral"],
         requiredAbility: "Shields Down",
         battleOnly: "Minior",
-        isNonstandard: "Past"
     },
     komala: {
         num: 775,
@@ -26054,7 +25115,7 @@ exports.BattlePokedex = {
         weightkg: 19.9,
         color: "Blue",
         eggGroups: ["Field"],
-        tier: "PU"
+        tier: "2"
     },
     turtonator: {
         num: 776,
@@ -26075,8 +25136,7 @@ exports.BattlePokedex = {
         weightkg: 212,
         color: "Red",
         eggGroups: ["Monster", "Dragon"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     togedemaru: {
         num: 777,
@@ -26098,33 +25158,7 @@ exports.BattlePokedex = {
         weightkg: 3.3,
         color: "Gray",
         eggGroups: ["Field", "Fairy"],
-        otherFormes: ["Togedemaru-Totem"],
-        formeOrder: ["Togedemaru", "Togedemaru-Totem"],
-        tier: "Illegal",
-        isNonstandard: "Past"
-    },
-    togedemarutotem: {
-        num: 777,
-        name: "Togedemaru-Totem",
-        baseSpecies: "Togedemaru",
-        forme: "Totem",
-        types: ["Electric", "Steel"],
-        baseStats: {
-            hp: 65,
-            atk: 98,
-            def: 63,
-            spa: 40,
-            spd: 73,
-            spe: 96
-        },
-        abilities: {
-            "0": "Sturdy"
-        },
-        heightm: 0.6,
-        weightkg: 13,
-        color: "Gray",
-        eggGroups: ["Field", "Fairy"],
-        isNonstandard: "Past"
+        tier: "1",
     },
     mimikyu: {
         num: 778,
@@ -26146,9 +25180,9 @@ exports.BattlePokedex = {
         weightkg: 0.7,
         color: "Yellow",
         eggGroups: ["Amorphous"],
-        otherFormes: ["Mimikyu-Busted", "Mimikyu-Totem", "Mimikyu-Busted-Totem"],
-        formeOrder: ["Mimikyu", "Mimikyu-Busted", "Mimikyu-Totem", "Mimikyu-Busted-Totem"],
-        tier: "RU"
+        otherFormes: ["Mimikyu-Busted"],
+        formeOrder: ["Mimikyu", "Mimikyu-Busted"],
+        tier: "1"
     },
     mimikyubusted: {
         num: 778,
@@ -26174,56 +25208,6 @@ exports.BattlePokedex = {
         requiredAbility: "Disguise",
         battleOnly: "Mimikyu"
     },
-    mimikyutotem: {
-        num: 778,
-        name: "Mimikyu-Totem",
-        baseSpecies: "Mimikyu",
-        forme: "Totem",
-        types: ["Ghost", "Fairy"],
-        baseStats: {
-            hp: 55,
-            atk: 90,
-            def: 80,
-            spa: 50,
-            spd: 105,
-            spe: 96
-        },
-        abilities: {
-            "0": "Disguise"
-        },
-        heightm: 0.4,
-        weightkg: 2.8,
-        color: "Yellow",
-        eggGroups: ["Amorphous"],
-        tier: "Illegal",
-        isNonstandard: "Past"
-    },
-    mimikyubustedtotem: {
-        num: 778,
-        name: "Mimikyu-Busted-Totem",
-        baseSpecies: "Mimikyu",
-        forme: "Busted-Totem",
-        types: ["Ghost", "Fairy"],
-        baseStats: {
-            hp: 55,
-            atk: 90,
-            def: 80,
-            spa: 50,
-            spd: 105,
-            spe: 96
-        },
-        abilities: {
-            "0": "Disguise"
-        },
-        heightm: 0.4,
-        weightkg: 2.8,
-        color: "Yellow",
-        eggGroups: ["Amorphous"],
-        requiredAbility: "Disguise",
-        battleOnly: "Mimikyu-Totem",
-        tier: "Illegal",
-        isNonstandard: "Past"
-    },
     bruxish: {
         num: 779,
         name: "Bruxish",
@@ -26245,7 +25229,7 @@ exports.BattlePokedex = {
         weightkg: 19,
         color: "Pink",
         eggGroups: ["Water 2"],
-        tier: "NU"
+        tier: "1"
     },
     drampa: {
         num: 780,
@@ -26268,8 +25252,7 @@ exports.BattlePokedex = {
         weightkg: 185,
         color: "White",
         eggGroups: ["Monster", "Dragon"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     dhelmise: {
         num: 781,
@@ -26291,8 +25274,7 @@ exports.BattlePokedex = {
         weightkg: 210,
         color: "Green",
         eggGroups: ["Mineral"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     jangmoo: {
         num: 782,
@@ -26316,8 +25298,7 @@ exports.BattlePokedex = {
         color: "Gray",
         evos: ["Hakamo-o"],
         eggGroups: ["Dragon"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     hakamoo: {
         num: 783,
@@ -26343,8 +25324,7 @@ exports.BattlePokedex = {
         evoLevel: 35,
         evos: ["Kommo-o"],
         eggGroups: ["Dragon"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     kommoo: {
         num: 784,
@@ -26369,33 +25349,7 @@ exports.BattlePokedex = {
         prevo: "Hakamo-o",
         evoLevel: 45,
         eggGroups: ["Dragon"],
-        otherFormes: ["Kommo-o-Totem"],
-        formeOrder: ["Kommo-o", "Kommo-o-Totem"],
-        tier: "Illegal",
-        isNonstandard: "Past"
-    },
-    kommoototem: {
-        num: 784,
-        name: "Kommo-o-Totem",
-        baseSpecies: "Kommo-o",
-        forme: "Totem",
-        types: ["Dragon", "Fighting"],
-        baseStats: {
-            hp: 75,
-            atk: 110,
-            def: 125,
-            spa: 100,
-            spd: 105,
-            spe: 85
-        },
-        abilities: {
-            "0": "Overcoat"
-        },
-        heightm: 2.4,
-        weightkg: 207.5,
-        color: "Gray",
-        eggGroups: ["Dragon"],
-        isNonstandard: "Past"
+        tier: "1",
     },
     tapukoko: {
         num: 785,
@@ -26419,8 +25373,7 @@ exports.BattlePokedex = {
         color: "Yellow",
         tags: ["Sub-Legendary"],
         eggGroups: ["Undiscovered"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     tapulele: {
         num: 786,
@@ -26444,8 +25397,7 @@ exports.BattlePokedex = {
         color: "Pink",
         tags: ["Sub-Legendary"],
         eggGroups: ["Undiscovered"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     tapubulu: {
         num: 787,
@@ -26469,8 +25421,7 @@ exports.BattlePokedex = {
         color: "Red",
         tags: ["Sub-Legendary"],
         eggGroups: ["Undiscovered"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     tapufini: {
         num: 788,
@@ -26494,8 +25445,7 @@ exports.BattlePokedex = {
         color: "Purple",
         tags: ["Sub-Legendary"],
         eggGroups: ["Undiscovered"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     cosmog: {
         num: 789,
@@ -26519,8 +25469,7 @@ exports.BattlePokedex = {
         evos: ["Cosmoem"],
         tags: ["Restricted Legendary"],
         eggGroups: ["Undiscovered"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     cosmoem: {
         num: 790,
@@ -26546,8 +25495,7 @@ exports.BattlePokedex = {
         evoLevel: 43,
         evos: ["Solgaleo", "Lunala"],
         eggGroups: ["Undiscovered"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     solgaleo: {
         num: 791,
@@ -26572,8 +25520,7 @@ exports.BattlePokedex = {
         prevo: "Cosmoem",
         evoLevel: 53,
         eggGroups: ["Undiscovered"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     lunala: {
         num: 792,
@@ -26598,8 +25545,7 @@ exports.BattlePokedex = {
         prevo: "Cosmoem",
         evoLevel: 53,
         eggGroups: ["Undiscovered"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     nihilego: {
         num: 793,
@@ -26622,8 +25568,7 @@ exports.BattlePokedex = {
         color: "White",
         tags: ["Sub-Legendary"],
         eggGroups: ["Undiscovered"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     buzzwole: {
         num: 794,
@@ -26646,8 +25591,7 @@ exports.BattlePokedex = {
         color: "Red",
         tags: ["Sub-Legendary"],
         eggGroups: ["Undiscovered"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     pheromosa: {
         num: 795,
@@ -26670,8 +25614,7 @@ exports.BattlePokedex = {
         color: "White",
         tags: ["Sub-Legendary"],
         eggGroups: ["Undiscovered"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     xurkitree: {
         num: 796,
@@ -26694,8 +25637,7 @@ exports.BattlePokedex = {
         color: "Black",
         tags: ["Sub-Legendary"],
         eggGroups: ["Undiscovered"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     celesteela: {
         num: 797,
@@ -26718,8 +25660,7 @@ exports.BattlePokedex = {
         color: "Green",
         tags: ["Sub-Legendary"],
         eggGroups: ["Undiscovered"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     kartana: {
         num: 798,
@@ -26742,8 +25683,7 @@ exports.BattlePokedex = {
         color: "White",
         tags: ["Sub-Legendary"],
         eggGroups: ["Undiscovered"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     guzzlord: {
         num: 799,
@@ -26766,8 +25706,7 @@ exports.BattlePokedex = {
         color: "Black",
         tags: ["Sub-Legendary"],
         eggGroups: ["Undiscovered"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     necrozma: {
         num: 800,
@@ -26792,8 +25731,7 @@ exports.BattlePokedex = {
         eggGroups: ["Undiscovered"],
         otherFormes: ["Necrozma-Dusk-Mane", "Necrozma-Dawn-Wings", "Necrozma-Ultra"],
         formeOrder: ["Necrozma", "Necrozma-Dusk-Mane", "Necrozma-Dawn-Wings", "Necrozma-Ultra"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     necrozmaduskmane: {
         num: 800,
@@ -26818,8 +25756,7 @@ exports.BattlePokedex = {
         color: "Yellow",
         eggGroups: ["Undiscovered"],
         changesFrom: "Necrozma",
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     necrozmadawnwings: {
         num: 800,
@@ -26844,8 +25781,7 @@ exports.BattlePokedex = {
         color: "Blue",
         eggGroups: ["Undiscovered"],
         changesFrom: "Necrozma",
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     necrozmaultra: {
         num: 800,
@@ -26871,8 +25807,7 @@ exports.BattlePokedex = {
         eggGroups: ["Undiscovered"],
         requiredItem: "Ultranecrozium Z",
         battleOnly: ["Necrozma-Dawn-Wings", "Necrozma-Dusk-Mane"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     magearna: {
         num: 801,
@@ -26897,7 +25832,7 @@ exports.BattlePokedex = {
         tags: ["Mythical"],
         otherFormes: ["Magearna-Original"],
         formeOrder: ["Magearna", "Magearna-Original"],
-        tier: "Uber"
+        tier: "2"
     },
     magearnaoriginal: {
         num: 801,
@@ -26943,8 +25878,7 @@ exports.BattlePokedex = {
         color: "Gray",
         tags: ["Mythical"],
         eggGroups: ["Undiscovered"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     poipole: {
         num: 803,
@@ -26968,8 +25902,7 @@ exports.BattlePokedex = {
         tags: ["Sub-Legendary"],
         evos: ["Naganadel"],
         eggGroups: ["Undiscovered"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     naganadel: {
         num: 804,
@@ -26995,8 +25928,7 @@ exports.BattlePokedex = {
         evoType: "levelMove",
         evoMove: "Dragon Pulse",
         eggGroups: ["Undiscovered"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     stakataka: {
         num: 805,
@@ -27019,8 +25951,7 @@ exports.BattlePokedex = {
         color: "Gray",
         tags: ["Sub-Legendary"],
         eggGroups: ["Undiscovered"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     blacephalon: {
         num: 806,
@@ -27043,8 +25974,7 @@ exports.BattlePokedex = {
         color: "White",
         tags: ["Sub-Legendary"],
         eggGroups: ["Undiscovered"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     zeraora: {
         num: 807,
@@ -27067,8 +25997,7 @@ exports.BattlePokedex = {
         color: "Yellow",
         tags: ["Mythical"],
         eggGroups: ["Undiscovered"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     meltan: {
         num: 808,
@@ -27091,8 +26020,7 @@ exports.BattlePokedex = {
         color: "Gray",
         tags: ["Mythical"],
         eggGroups: ["Undiscovered"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     melmetal: {
         num: 809,
@@ -27116,8 +26044,7 @@ exports.BattlePokedex = {
         tags: ["Mythical"],
         eggGroups: ["Undiscovered"],
         canGigantamax: "G-Max Meltdown",
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     grookey: {
         num: 810,
@@ -27144,7 +26071,7 @@ exports.BattlePokedex = {
         color: "Green",
         evos: ["Thwackey"],
         eggGroups: ["Field", "Grass"],
-        tier: "LC"
+        tier: "1"
     },
     thwackey: {
         num: 811,
@@ -27173,7 +26100,7 @@ exports.BattlePokedex = {
         evoLevel: 16,
         evos: ["Rillaboom"],
         eggGroups: ["Field", "Grass"],
-        tier: "PU"
+        tier: "1"
     },
     rillaboom: {
         num: 812,
@@ -27202,7 +26129,7 @@ exports.BattlePokedex = {
         evoLevel: 35,
         eggGroups: ["Field", "Grass"],
         canGigantamax: "G-Max Drum Solo",
-        tier: "UU"
+        tier: "1"
     },
     scorbunny: {
         num: 813,
@@ -27229,7 +26156,7 @@ exports.BattlePokedex = {
         color: "White",
         evos: ["Raboot"],
         eggGroups: ["Field", "Human-Like"],
-        tier: "LC"
+        tier: "1"
     },
     raboot: {
         num: 814,
@@ -27258,7 +26185,7 @@ exports.BattlePokedex = {
         evoLevel: 16,
         evos: ["Cinderace"],
         eggGroups: ["Field", "Human-Like"],
-        tier: "NFE"
+        tier: "1"
     },
     cinderace: {
         num: 815,
@@ -27287,7 +26214,7 @@ exports.BattlePokedex = {
         evoLevel: 35,
         eggGroups: ["Field", "Human-Like"],
         canGigantamax: "G-Max Fireball",
-        tier: "OU"
+        tier: "1"
     },
     sobble: {
         num: 816,
@@ -27314,7 +26241,7 @@ exports.BattlePokedex = {
         color: "Blue",
         evos: ["Drizzile"],
         eggGroups: ["Water 1", "Field"],
-        tier: "LC"
+        tier: "1"
     },
     drizzile: {
         num: 817,
@@ -27343,7 +26270,7 @@ exports.BattlePokedex = {
         evoLevel: 16,
         evos: ["Inteleon"],
         eggGroups: ["Water 1", "Field"],
-        tier: "NFE"
+        tier: "1"
     },
     inteleon: {
         num: 818,
@@ -27372,7 +26299,7 @@ exports.BattlePokedex = {
         evoLevel: 35,
         eggGroups: ["Water 1", "Field"],
         canGigantamax: "G-Max Hydrosnipe",
-        tier: "NU"
+        tier: "1"
     },
     skwovet: {
         num: 819,
@@ -27395,7 +26322,7 @@ exports.BattlePokedex = {
         color: "Brown",
         evos: ["Greedent"],
         eggGroups: ["Field"],
-        tier: "LC"
+        tier: "2"
     },
     greedent: {
         num: 820,
@@ -27419,7 +26346,7 @@ exports.BattlePokedex = {
         prevo: "Skwovet",
         evoLevel: 24,
         eggGroups: ["Field"],
-        tier: "(PU)"
+        tier: "2"
     },
     rookidee: {
         num: 821,
@@ -27442,7 +26369,7 @@ exports.BattlePokedex = {
         color: "Blue",
         evos: ["Corvisquire"],
         eggGroups: ["Flying"],
-        tier: "LC"
+        tier: "1"
     },
     corvisquire: {
         num: 822,
@@ -27467,7 +26394,7 @@ exports.BattlePokedex = {
         evoLevel: 20,
         evos: ["Corviknight"],
         eggGroups: ["Flying"],
-        tier: "NFE"
+        tier: "1"
     },
     corviknight: {
         num: 823,
@@ -27492,7 +26419,7 @@ exports.BattlePokedex = {
         evoLevel: 44,
         eggGroups: ["Flying"],
         canGigantamax: "G-Max Wind Rage",
-        tier: "OU"
+        tier: "1"
     },
     blipbug: {
         num: 824,
@@ -27516,8 +26443,7 @@ exports.BattlePokedex = {
         color: "Blue",
         evos: ["Dottler"],
         eggGroups: ["Bug"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     dottler: {
         num: 825,
@@ -27543,8 +26469,7 @@ exports.BattlePokedex = {
         evoLevel: 10,
         evos: ["Orbeetle"],
         eggGroups: ["Bug"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     orbeetle: {
         num: 826,
@@ -27570,8 +26495,7 @@ exports.BattlePokedex = {
         evoLevel: 30,
         eggGroups: ["Bug"],
         canGigantamax: "G-Max Gravitas",
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     nickit: {
         num: 827,
@@ -27595,8 +26519,7 @@ exports.BattlePokedex = {
         color: "Brown",
         evos: ["Thievul"],
         eggGroups: ["Field"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     thievul: {
         num: 828,
@@ -27621,8 +26544,7 @@ exports.BattlePokedex = {
         prevo: "Nickit",
         evoLevel: 18,
         eggGroups: ["Field"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     gossifleur: {
         num: 829,
@@ -27645,8 +26567,7 @@ exports.BattlePokedex = {
         color: "Green",
         evos: ["Eldegoss"],
         eggGroups: ["Grass"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     eldegoss: {
         num: 830,
@@ -27670,8 +26591,7 @@ exports.BattlePokedex = {
         prevo: "Gossifleur",
         evoLevel: 20,
         eggGroups: ["Grass"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     wooloo: {
         num: 831,
@@ -27695,8 +26615,7 @@ exports.BattlePokedex = {
         color: "White",
         evos: ["Dubwool"],
         eggGroups: ["Field"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     dubwool: {
         num: 832,
@@ -27721,8 +26640,7 @@ exports.BattlePokedex = {
         prevo: "Wooloo",
         evoLevel: 24,
         eggGroups: ["Field"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     chewtle: {
         num: 833,
@@ -27746,7 +26664,7 @@ exports.BattlePokedex = {
         color: "Green",
         evos: ["Drednaw"],
         eggGroups: ["Monster", "Water 1"],
-        tier: "LC"
+        tier: "1"
     },
     drednaw: {
         num: 834,
@@ -27772,7 +26690,7 @@ exports.BattlePokedex = {
         evoLevel: 22,
         eggGroups: ["Monster", "Water 1"],
         canGigantamax: "G-Max Stonesurge",
-        tier: "NU"
+        tier: "1"
     },
     yamper: {
         num: 835,
@@ -27795,8 +26713,7 @@ exports.BattlePokedex = {
         color: "Yellow",
         evos: ["Boltund"],
         eggGroups: ["Field"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     boltund: {
         num: 836,
@@ -27820,8 +26737,7 @@ exports.BattlePokedex = {
         prevo: "Yamper",
         evoLevel: 22,
         eggGroups: ["Field"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     rolycoly: {
         num: 837,
@@ -27845,7 +26761,7 @@ exports.BattlePokedex = {
         color: "Black",
         evos: ["Carkol"],
         eggGroups: ["Mineral"],
-        tier: "LC"
+        tier: "2"
     },
     carkol: {
         num: 838,
@@ -27871,7 +26787,7 @@ exports.BattlePokedex = {
         evoLevel: 18,
         evos: ["Coalossal"],
         eggGroups: ["Mineral"],
-        tier: "NFE"
+        tier: "2"
     },
     coalossal: {
         num: 839,
@@ -27897,7 +26813,7 @@ exports.BattlePokedex = {
         evoLevel: 34,
         eggGroups: ["Mineral"],
         canGigantamax: "G-Max Volcalith",
-        tier: "NU"
+        tier: "2"
     },
     applin: {
         num: 840,
@@ -27921,7 +26837,7 @@ exports.BattlePokedex = {
         color: "Green",
         evos: ["Flapple", "Appletun"],
         eggGroups: ["Grass", "Dragon"],
-        tier: "LC"
+        tier: "2"
     },
     flapple: {
         num: 841,
@@ -27948,7 +26864,7 @@ exports.BattlePokedex = {
         evoItem: "Tart Apple",
         eggGroups: ["Grass", "Dragon"],
         canGigantamax: "G-Max Tartness",
-        tier: "PU"
+        tier: "2"
     },
     appletun: {
         num: 842,
@@ -27975,7 +26891,7 @@ exports.BattlePokedex = {
         evoItem: "Sweet Apple",
         eggGroups: ["Grass", "Dragon"],
         canGigantamax: "G-Max Sweetness",
-        tier: "NU"
+        tier: "2"
     },
     silicobra: {
         num: 843,
@@ -27999,7 +26915,7 @@ exports.BattlePokedex = {
         color: "Green",
         evos: ["Sandaconda"],
         eggGroups: ["Field", "Dragon"],
-        tier: "LC"
+        tier: "2"
     },
     sandaconda: {
         num: 844,
@@ -28025,7 +26941,7 @@ exports.BattlePokedex = {
         evoLevel: 36,
         eggGroups: ["Field", "Dragon"],
         canGigantamax: "G-Max Sandblast",
-        tier: "NU"
+        tier: "2"
     },
     cramorant: {
         num: 845,
@@ -28048,8 +26964,7 @@ exports.BattlePokedex = {
         eggGroups: ["Water 1", "Flying"],
         otherFormes: ["Cramorant-Gulping", "Cramorant-Gorging"],
         formeOrder: ["Cramorant", "Cramorant-Gulping", "Cramorant-Gorging"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     cramorantgulping: {
         num: 845,
@@ -28074,7 +26989,6 @@ exports.BattlePokedex = {
         eggGroups: ["Water 1", "Flying"],
         requiredAbility: "Gulp Missile",
         battleOnly: "Cramorant",
-        isNonstandard: "Past"
     },
     cramorantgorging: {
         num: 845,
@@ -28099,7 +27013,6 @@ exports.BattlePokedex = {
         eggGroups: ["Water 1", "Flying"],
         requiredAbility: "Gulp Missile",
         battleOnly: "Cramorant",
-        isNonstandard: "Past"
     },
     arrokuda: {
         num: 846,
@@ -28122,7 +27035,7 @@ exports.BattlePokedex = {
         color: "Brown",
         evos: ["Barraskewda"],
         eggGroups: ["Water 2"],
-        tier: "LC"
+        tier: "1"
     },
     barraskewda: {
         num: 847,
@@ -28146,7 +27059,7 @@ exports.BattlePokedex = {
         prevo: "Arrokuda",
         evoLevel: 26,
         eggGroups: ["Water 2"],
-        tier: "NUBL"
+        tier: "1"
     },
     toxel: {
         num: 848,
@@ -28171,7 +27084,7 @@ exports.BattlePokedex = {
         evos: ["Toxtricity", "Toxtricity-Low-Key"],
         eggGroups: ["Undiscovered"],
         canHatch: true,
-        tier: "LC"
+        tier: "1"
     },
     toxtricity: {
         num: 849,
@@ -28199,7 +27112,7 @@ exports.BattlePokedex = {
         otherFormes: ["Toxtricity-Low-Key"],
         formeOrder: ["Toxtricity", "Toxtricity-Low-Key"],
         canGigantamax: "G-Max Stun Shock",
-        tier: "NU"
+        tier: "1"
     },
     toxtricitylowkey: {
         num: 849,
@@ -28249,8 +27162,7 @@ exports.BattlePokedex = {
         color: "Red",
         evos: ["Centiskorch"],
         eggGroups: ["Bug"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     centiskorch: {
         num: 851,
@@ -28276,8 +27188,7 @@ exports.BattlePokedex = {
         evoLevel: 25,
         eggGroups: ["Bug"],
         canGigantamax: "G-Max Centiferno",
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     clobbopus: {
         num: 852,
@@ -28300,8 +27211,7 @@ exports.BattlePokedex = {
         color: "Brown",
         evos: ["Grapploct"],
         eggGroups: ["Water 1", "Human-Like"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     grapploct: {
         num: 853,
@@ -28326,8 +27236,7 @@ exports.BattlePokedex = {
         evoType: "levelMove",
         evoMove: "Taunt",
         eggGroups: ["Water 1", "Human-Like"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     sinistea: {
         num: 854,
@@ -28354,7 +27263,7 @@ exports.BattlePokedex = {
         eggGroups: ["Mineral", "Amorphous"],
         otherFormes: ["Sinistea-Antique"],
         formeOrder: ["Sinistea", "Sinistea-Antique"],
-        tier: "LC"
+        tier: "2"
     },
     sinisteaantique: {
         num: 854,
@@ -28408,7 +27317,7 @@ exports.BattlePokedex = {
         eggGroups: ["Mineral", "Amorphous"],
         otherFormes: ["Polteageist-Antique"],
         formeOrder: ["Polteageist", "Polteageist-Antique"],
-        tier: "RUBL"
+        tier: "2"
     },
     polteageistantique: {
         num: 855,
@@ -28459,7 +27368,7 @@ exports.BattlePokedex = {
         color: "Pink",
         evos: ["Hattrem"],
         eggGroups: ["Fairy"],
-        tier: "LC"
+        tier: "1"
     },
     hattrem: {
         num: 857,
@@ -28485,7 +27394,7 @@ exports.BattlePokedex = {
         evoLevel: 22,
         evos: ["Hatterene"],
         eggGroups: ["Fairy"],
-        tier: "NU"
+        tier: "1"
     },
     hatterene: {
         num: 858,
@@ -28511,7 +27420,7 @@ exports.BattlePokedex = {
         evoLevel: 38,
         eggGroups: ["Fairy"],
         canGigantamax: "G-Max Smite",
-        tier: "OU"
+        tier: "1"
     },
     impidimp: {
         num: 859,
@@ -28535,7 +27444,7 @@ exports.BattlePokedex = {
         color: "Pink",
         evos: ["Morgrem"],
         eggGroups: ["Fairy", "Human-Like"],
-        tier: "LC"
+        tier: "1"
     },
     morgrem: {
         num: 860,
@@ -28561,7 +27470,7 @@ exports.BattlePokedex = {
         evoLevel: 32,
         evos: ["Grimmsnarl"],
         eggGroups: ["Fairy", "Human-Like"],
-        tier: "NFE"
+        tier: "1"
     },
     grimmsnarl: {
         num: 861,
@@ -28587,7 +27496,7 @@ exports.BattlePokedex = {
         evoLevel: 42,
         eggGroups: ["Fairy", "Human-Like"],
         canGigantamax: "G-Max Snooze",
-        tier: "NUBL"
+        tier: "1"
     },
     obstagoon: {
         num: 862,
@@ -28612,8 +27521,7 @@ exports.BattlePokedex = {
         prevo: "Linoone-Galar",
         evoLevel: 35,
         eggGroups: ["Field"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     perrserker: {
         num: 863,
@@ -28638,7 +27546,7 @@ exports.BattlePokedex = {
         prevo: "Meowth-Galar",
         evoLevel: 26,
         eggGroups: ["Field"],
-        tier: "PU"
+        tier: "1"
     },
     cursola: {
         num: 864,
@@ -28666,8 +27574,7 @@ exports.BattlePokedex = {
         prevo: "Corsola-Galar",
         evoLevel: 38,
         eggGroups: ["Water 1", "Water 3"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     sirfetchd: {
         num: 865,
@@ -28691,8 +27598,7 @@ exports.BattlePokedex = {
         prevo: "Farfetchâ€™d-Galar",
         evoLevel: "36",
         eggGroups: ["Flying", "Field"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     mrrime: {
         num: 866,
@@ -28717,8 +27623,7 @@ exports.BattlePokedex = {
         prevo: "Mr. Mime-Galar",
         evoLevel: 42,
         eggGroups: ["Human-Like"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     runerigus: {
         num: 867,
@@ -28742,8 +27647,7 @@ exports.BattlePokedex = {
         evoType: "other",
         evoCondition: "Have 49+ HP lost and walk under stone sculpture in Dusty Bowl",
         eggGroups: ["Mineral", "Amorphous"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     milcery: {
         num: 868,
@@ -28767,8 +27671,7 @@ exports.BattlePokedex = {
         color: "White",
         evos: ["Alcremie"],
         eggGroups: ["Fairy", "Amorphous"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     alcremie: {
         num: 869,
@@ -28798,8 +27701,7 @@ exports.BattlePokedex = {
         cosmeticFormes: ["Alcremie-Ruby-Cream", "Alcremie-Matcha-Cream", "Alcremie-Mint-Cream", "Alcremie-Lemon-Cream", "Alcremie-Salted-Cream", "Alcremie-Ruby-Swirl", "Alcremie-Caramel-Swirl", "Alcremie-Rainbow-Swirl"],
         formeOrder: ["Alcremie", "Alcremie-Ruby-Cream", "Alcremie-Matcha-Cream", "Alcremie-Mint-Cream", "Alcremie-Lemon-Cream", "Alcremie-Salted-Cream", "Alcremie-Ruby-Swirl", "Alcremie-Caramel-Swirl", "Alcremie-Rainbow-Swirl"],
         canGigantamax: "G-Max Finale",
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     falinks: {
         num: 870,
@@ -28822,7 +27724,7 @@ exports.BattlePokedex = {
         weightkg: 62,
         color: "Yellow",
         eggGroups: ["Fairy", "Mineral"],
-        tier: "PU"
+        tier: "2"
     },
     pincurchin: {
         num: 871,
@@ -28844,7 +27746,7 @@ exports.BattlePokedex = {
         weightkg: 1,
         color: "Purple",
         eggGroups: ["Water 1", "Amorphous"],
-        tier: "(PU)"
+        tier: "2"
     },
     snom: {
         num: 872,
@@ -28867,7 +27769,7 @@ exports.BattlePokedex = {
         color: "White",
         evos: ["Frosmoth"],
         eggGroups: ["Bug"],
-        tier: "LC"
+        tier: "2"
     },
     frosmoth: {
         num: 873,
@@ -28892,7 +27794,7 @@ exports.BattlePokedex = {
         evoType: "levelFriendship",
         evoCondition: "at night",
         eggGroups: ["Bug"],
-        tier: "NUBL"
+        tier: "2"
     },
     stonjourner: {
         num: 874,
@@ -28913,7 +27815,7 @@ exports.BattlePokedex = {
         weightkg: 520,
         color: "Gray",
         eggGroups: ["Mineral"],
-        tier: "(PU)"
+        tier: "2"
     },
     eiscue: {
         num: 875,
@@ -28936,7 +27838,7 @@ exports.BattlePokedex = {
         eggGroups: ["Water 1", "Field"],
         otherFormes: ["Eiscue-Noice"],
         formeOrder: ["Eiscue", "Eiscue-Noice"],
-        tier: "(PU)"
+        tier: "2"
     },
     eiscuenoice: {
         num: 875,
@@ -28987,7 +27889,7 @@ exports.BattlePokedex = {
         eggGroups: ["Fairy"],
         otherFormes: ["Indeedee-F"],
         formeOrder: ["Indeedee", "Indeedee-F"],
-        tier: "NUBL"
+        tier: "2"
     },
     indeedeef: {
         num: 876,
@@ -29013,7 +27915,7 @@ exports.BattlePokedex = {
         weightkg: 28,
         color: "Purple",
         eggGroups: ["Fairy"],
-        tier: "(PU)"
+        tier: "2"
     },
     morpeko: {
         num: 877,
@@ -29036,8 +27938,7 @@ exports.BattlePokedex = {
         eggGroups: ["Field", "Fairy"],
         otherFormes: ["Morpeko-Hangry"],
         formeOrder: ["Morpeko", "Morpeko-Hangry"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     morpekohangry: {
         num: 877,
@@ -29062,7 +27963,6 @@ exports.BattlePokedex = {
         eggGroups: ["Field", "Fairy"],
         requiredAbility: "Hunger Switch",
         battleOnly: "Morpeko",
-        isNonstandard: "Past"
     },
     cufant: {
         num: 878,
@@ -29086,7 +27986,7 @@ exports.BattlePokedex = {
         color: "Yellow",
         evos: ["Copperajah"],
         eggGroups: ["Field", "Mineral"],
-        tier: "LC"
+        tier: "1"
     },
     copperajah: {
         num: 879,
@@ -29112,7 +28012,7 @@ exports.BattlePokedex = {
         evoLevel: 34,
         eggGroups: ["Field", "Mineral"],
         canGigantamax: "G-Max Steelsurge",
-        tier: "NU"
+        tier: "1"
     },
     dracozolt: {
         num: 880,
@@ -29136,8 +28036,7 @@ exports.BattlePokedex = {
         weightkg: 190,
         color: "Green",
         eggGroups: ["Undiscovered"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     arctozolt: {
         num: 881,
@@ -29161,8 +28060,7 @@ exports.BattlePokedex = {
         weightkg: 150,
         color: "Blue",
         eggGroups: ["Undiscovered"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     dracovish: {
         num: 882,
@@ -29186,8 +28084,7 @@ exports.BattlePokedex = {
         weightkg: 215,
         color: "Green",
         eggGroups: ["Undiscovered"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     arctovish: {
         num: 883,
@@ -29211,8 +28108,7 @@ exports.BattlePokedex = {
         weightkg: 175,
         color: "Blue",
         eggGroups: ["Undiscovered"],
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     duraludon: {
         num: 884,
@@ -29236,8 +28132,7 @@ exports.BattlePokedex = {
         color: "White",
         eggGroups: ["Mineral", "Dragon"],
         canGigantamax: "G-Max Depletion",
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "1",
     },
     dreepy: {
         num: 885,
@@ -29261,7 +28156,7 @@ exports.BattlePokedex = {
         color: "Green",
         evos: ["Drakloak"],
         eggGroups: ["Amorphous", "Dragon"],
-        tier: "LC"
+        tier: "1"
     },
     drakloak: {
         num: 886,
@@ -29287,7 +28182,7 @@ exports.BattlePokedex = {
         evoLevel: 50,
         evos: ["Dragapult"],
         eggGroups: ["Amorphous", "Dragon"],
-        tier: "NFE"
+        tier: "1"
     },
     dragapult: {
         num: 887,
@@ -29312,7 +28207,7 @@ exports.BattlePokedex = {
         prevo: "Drakloak",
         evoLevel: 60,
         eggGroups: ["Amorphous", "Dragon"],
-        tier: "OU"
+        tier: "1"
     },
     zacian: {
         num: 888,
@@ -29339,7 +28234,7 @@ exports.BattlePokedex = {
         otherFormes: ["Zacian-Crowned"],
         formeOrder: ["Zacian", "Zacian-Crowned"],
         cannotDynamax: true,
-        tier: "Uber"
+        tier: "2"
     },
     zaciancrowned: {
         num: 888,
@@ -29366,7 +28261,7 @@ exports.BattlePokedex = {
         requiredItem: "Rusted Sword",
         battleOnly: "Zacian",
         cannotDynamax: true,
-        tier: "Uber"
+        tier: "2"
     },
     zamazenta: {
         num: 889,
@@ -29393,7 +28288,7 @@ exports.BattlePokedex = {
         otherFormes: ["Zamazenta-Crowned"],
         formeOrder: ["Zamazenta", "Zamazenta-Crowned"],
         cannotDynamax: true,
-        tier: "OU"
+        tier: "2"
     },
     zamazentacrowned: {
         num: 889,
@@ -29420,7 +28315,7 @@ exports.BattlePokedex = {
         requiredItem: "Rusted Shield",
         battleOnly: "Zamazenta",
         cannotDynamax: true,
-        tier: "Uber"
+        tier: "2"
     },
     eternatus: {
         num: 890,
@@ -29446,7 +28341,7 @@ exports.BattlePokedex = {
         otherFormes: ["Eternatus-Eternamax"],
         formeOrder: ["Eternatus", "Eternatus-Eternamax"],
         cannotDynamax: true,
-        tier: "Uber"
+        tier: "2"
     },
     eternatuseternamax: {
         num: 890,
@@ -29471,8 +28366,7 @@ exports.BattlePokedex = {
         color: "Purple",
         eggGroups: ["Undiscovered"],
         cannotDynamax: true,
-        tier: "Illegal",
-        isNonstandard: "Past"
+        tier: "2",
     },
     kubfu: {
         num: 891,
@@ -29499,7 +28393,7 @@ exports.BattlePokedex = {
         tags: ["Sub-Legendary"],
         evos: ["Urshifu", "Urshifu-Rapid-Strike"],
         eggGroups: ["Undiscovered"],
-        tier: "NFE"
+        tier: "1"
     },
     urshifu: {
         num: 892,
@@ -29531,7 +28425,7 @@ exports.BattlePokedex = {
         otherFormes: ["Urshifu-Rapid-Strike"],
         formeOrder: ["Urshifu", "Urshifu-Rapid-Strike"],
         canGigantamax: "G-Max One Blow",
-        tier: "Uber"
+        tier: "1"
     },
     urshifurapidstrike: {
         num: 892,
@@ -29561,7 +28455,7 @@ exports.BattlePokedex = {
         evoLevel: "50",
         eggGroups: ["Undiscovered"],
         canGigantamax: "G-Max Rapid Flow",
-        tier: "Uber"
+        tier: "1"
     },
     zarude: {
         num: 893,
@@ -29586,7 +28480,7 @@ exports.BattlePokedex = {
         tags: ["Mythical"],
         otherFormes: ["Zarude-Dada"],
         formeOrder: ["Zarude", "Zarude-Dada"],
-        tier: "RUBL"
+        tier: "2"
     },
     zarudedada: {
         num: 893,
@@ -29632,7 +28526,7 @@ exports.BattlePokedex = {
         color: "Yellow",
         tags: ["Sub-Legendary"],
         eggGroups: ["Undiscovered"],
-        tier: "Uber"
+        tier: "2"
     },
     regidrago: {
         num: 895,
@@ -29655,7 +28549,7 @@ exports.BattlePokedex = {
         color: "Green",
         tags: ["Sub-Legendary"],
         eggGroups: ["Undiscovered"],
-        tier: "UU"
+        tier: "2"
     },
     glastrier: {
         num: 896,
@@ -29678,7 +28572,7 @@ exports.BattlePokedex = {
         color: "White",
         tags: ["Sub-Legendary"],
         eggGroups: ["Undiscovered"],
-        tier: "NU"
+        tier: "2"
     },
     spectrier: {
         num: 897,
@@ -29701,7 +28595,7 @@ exports.BattlePokedex = {
         color: "Black",
         tags: ["Sub-Legendary"],
         eggGroups: ["Undiscovered"],
-        tier: "Uber"
+        tier: "2"
     },
     calyrex: {
         num: 898,
@@ -29726,7 +28620,7 @@ exports.BattlePokedex = {
         tags: ["Restricted Legendary"],
         otherFormes: ["Calyrex-Ice", "Calyrex-Shadow"],
         formeOrder: ["Calyrex", "Calyrex-Ice", "Calyrex-Shadow"],
-        tier: "(PU)"
+        tier: "2"
     },
     calyrexice: {
         num: 898,
@@ -29751,7 +28645,7 @@ exports.BattlePokedex = {
         color: "White",
         eggGroups: ["Undiscovered"],
         changesFrom: "Calyrex",
-        tier: "Uber"
+        tier: "2"
     },
     calyrexshadow: {
         num: 898,
@@ -29776,7 +28670,7 @@ exports.BattlePokedex = {
         color: "Black",
         eggGroups: ["Undiscovered"],
         changesFrom: "Calyrex",
-        tier: "AG"
+        tier: "2"
     },
     wyrdeer: {
         num: 899,
@@ -29800,7 +28694,7 @@ exports.BattlePokedex = {
         prevo: "Stantler",
         evoLevel: "34",
         eggGroups: ["Field"],
-        tier: "PU"
+        tier: "1"
     },
     kleavor: {
         num: 900,
@@ -29826,7 +28720,7 @@ exports.BattlePokedex = {
         evoType: "useItem",
         evoCondition: "Protector",
         eggGroups: ["Bug"],
-        tier: "UU"
+        tier: "1"
     },
     ursaluna: {
         num: 901,
@@ -29852,7 +28746,7 @@ exports.BattlePokedex = {
         evoType: "useItem",
         evoItem: "Honey",
         eggGroups: ["Field"],
-        tier: "UU"
+        tier: "1"
     },
     basculegion: {
         num: 902,
@@ -29882,7 +28776,7 @@ exports.BattlePokedex = {
         eggGroups: ["Water 2"],
         otherFormes: ["Basculegion-F"],
         formeOrder: ["Basculegion", "Basculegion-F"],
-        tier: "RU"
+        tier: "1"
     },
     basculegionf: {
         num: 902,
@@ -29911,7 +28805,7 @@ exports.BattlePokedex = {
         evoType: "other",
         evoCondition: "Unavailable",
         eggGroups: ["Water 2"],
-        tier: "UU"
+        tier: "2"
     },
     sneasler: {
         num: 903,
@@ -29936,7 +28830,7 @@ exports.BattlePokedex = {
         evoType: "useItem",
         evoItem: "Razor Claw",
         eggGroups: ["Field"],
-        tier: "OU"
+        tier: "1"
     },
     overqwil: {
         num: 904,
@@ -29962,7 +28856,7 @@ exports.BattlePokedex = {
         evoType: "levelMove",
         evoMove: "Explosion",
         eggGroups: ["Water 2"],
-        tier: "RU"
+        tier: "1"
     },
     enamorus: {
         num: 905,
@@ -29989,7 +28883,7 @@ exports.BattlePokedex = {
         eggGroups: ["Undiscovered"],
         otherFormes: ["Enamorus-Therian"],
         formeOrder: ["Enamorus", "Enamorus-Therian"],
-        tier: "OU"
+        tier: "1"
     },
     enamorustherian: {
         num: 905,
@@ -30014,429 +28908,6 @@ exports.BattlePokedex = {
         color: "Pink",
         eggGroups: ["Undiscovered"],
         changesFrom: "Enamorus",
-        tier: "UU"
-    },
-    pokestarsmeargle: {
-        num: -5000,
-        name: "Pokestar Smeargle",
-        types: ["Normal"],
-        baseStats: {
-            hp: 55,
-            atk: 20,
-            def: 35,
-            spa: 20,
-            spd: 45,
-            spe: 75
-        },
-        abilities: {
-            "0": "Own Tempo",
-            "1": "Technician",
-            H: "Moody"
-        },
-        heightm: 1.5,
-        weightkg: 61,
-        color: "White",
-        eggGroups: ["Field"],
-        gen: 5,
-        tier: "Illegal",
-        isNonstandard: "Custom"
-    },
-    pokestarufo: {
-        num: -5001,
-        name: "Pokestar UFO",
-        types: ["Flying", "Electric"],
-        gender: "N",
-        baseStats: {
-            hp: 100,
-            atk: 100,
-            def: 100,
-            spa: 100,
-            spd: 100,
-            spe: 100
-        },
-        abilities: {
-            "0": "Levitate"
-        },
-        heightm: 1.5,
-        weightkg: 61,
-        color: "White",
-        eggGroups: ["Undiscovered"],
-        otherFormes: ["Pokestar UFO-2", "Pokestar UFO-PropU2"],
-        cosmeticFormes: ["Pokestar UFO-PropU1"],
-        gen: 5,
-        tier: "Illegal",
-        isNonstandard: "Custom"
-    },
-    pokestarufo2: {
-        num: -5001,
-        name: "Pokestar UFO-2",
-        baseSpecies: "Pokestar UFO",
-        forme: "2",
-        types: ["Psychic", "Electric"],
-        gender: "N",
-        baseStats: {
-            hp: 100,
-            atk: 100,
-            def: 100,
-            spa: 100,
-            spd: 100,
-            spe: 100
-        },
-        abilities: {
-            "0": "Levitate"
-        },
-        heightm: 1.5,
-        weightkg: 61,
-        color: "White",
-        eggGroups: ["Undiscovered"],
-        gen: 5,
-        tier: "Illegal",
-        isNonstandard: "Custom"
-    },
-    pokestarbrycenman: {
-        num: -5002,
-        name: "Pokestar Brycen-Man",
-        types: ["Dark", "Psychic"],
-        gender: "M",
-        baseStats: {
-            hp: 100,
-            atk: 100,
-            def: 100,
-            spa: 100,
-            spd: 100,
-            spe: 100
-        },
-        abilities: {
-            "0": "Levitate"
-        },
-        heightm: 1.5,
-        weightkg: 61,
-        color: "White",
-        eggGroups: ["Undiscovered"],
-        cosmeticFormes: ["Pokestar Brycen-Man-Prop"],
-        gen: 5,
-        tier: "Illegal",
-        isNonstandard: "Custom"
-    },
-    pokestarmt: {
-        num: -5003,
-        name: "Pokestar MT",
-        types: ["Steel"],
-        gender: "N",
-        baseStats: {
-            hp: 100,
-            atk: 100,
-            def: 100,
-            spa: 100,
-            spd: 100,
-            spe: 100
-        },
-        abilities: {
-            "0": "Analytic"
-        },
-        heightm: 1.5,
-        weightkg: 61,
-        color: "White",
-        eggGroups: ["Undiscovered"],
-        cosmeticFormes: ["Pokestar MT-Prop"],
-        gen: 5,
-        tier: "Illegal",
-        isNonstandard: "Custom"
-    },
-    pokestarmt2: {
-        num: -5004,
-        name: "Pokestar MT2",
-        types: ["Steel", "Electric"],
-        gender: "N",
-        baseStats: {
-            hp: 100,
-            atk: 100,
-            def: 100,
-            spa: 100,
-            spd: 100,
-            spe: 100
-        },
-        abilities: {
-            "0": "Flash Fire"
-        },
-        heightm: 1.5,
-        weightkg: 61,
-        color: "White",
-        eggGroups: ["Undiscovered"],
-        cosmeticFormes: ["Pokestar MT2-Prop"],
-        gen: 5,
-        tier: "Illegal",
-        isNonstandard: "Custom"
-    },
-    pokestartransport: {
-        num: -5005,
-        name: "Pokestar Transport",
-        types: ["Steel"],
-        gender: "N",
-        baseStats: {
-            hp: 100,
-            atk: 100,
-            def: 100,
-            spa: 100,
-            spd: 100,
-            spe: 100
-        },
-        abilities: {
-            "0": "Motor Drive"
-        },
-        heightm: 1.5,
-        weightkg: 61,
-        color: "White",
-        eggGroups: ["Undiscovered"],
-        cosmeticFormes: ["Pokestar Transport-Prop"],
-        gen: 5,
-        tier: "Illegal",
-        isNonstandard: "Custom"
-    },
-    pokestargiant: {
-        num: -5006,
-        name: "Pokestar Giant",
-        types: ["Normal"],
-        gender: "F",
-        baseStats: {
-            hp: 100,
-            atk: 100,
-            def: 100,
-            spa: 100,
-            spd: 100,
-            spe: 100
-        },
-        abilities: {
-            "0": "Huge Power"
-        },
-        heightm: 1.5,
-        weightkg: 61,
-        color: "White",
-        eggGroups: ["Undiscovered"],
-        cosmeticFormes: ["Pokestar Giant-2", "Pokestar Giant-PropO1", "Pokestar Giant-PropO2"],
-        gen: 5,
-        tier: "Illegal",
-        isNonstandard: "Custom"
-    },
-    pokestarhumanoid: {
-        num: -5007,
-        name: "Pokestar Humanoid",
-        types: ["Normal"],
-        baseStats: {
-            hp: 100,
-            atk: 100,
-            def: 100,
-            spa: 100,
-            spd: 100,
-            spe: 100
-        },
-        abilities: {
-            "0": "Insomnia"
-        },
-        heightm: 1.5,
-        weightkg: 61,
-        color: "White",
-        eggGroups: ["Undiscovered"],
-        cosmeticFormes: ["Pokestar Humanoid-Prop"],
-        gen: 5,
-        tier: "Illegal",
-        isNonstandard: "Custom"
-    },
-    pokestarmonster: {
-        num: -5008,
-        name: "Pokestar Monster",
-        types: ["Dark"],
-        baseStats: {
-            hp: 100,
-            atk: 100,
-            def: 100,
-            spa: 100,
-            spd: 100,
-            spe: 100
-        },
-        abilities: {
-            "0": "Pressure"
-        },
-        heightm: 1.5,
-        weightkg: 61,
-        color: "White",
-        eggGroups: ["Undiscovered"],
-        cosmeticFormes: ["Pokestar Monster-Prop"],
-        gen: 5,
-        tier: "Illegal",
-        isNonstandard: "Custom"
-    },
-    pokestarf00: {
-        num: -5009,
-        name: "Pokestar F-00",
-        types: ["Steel", "Normal"],
-        baseStats: {
-            hp: 100,
-            atk: 100,
-            def: 100,
-            spa: 100,
-            spd: 100,
-            spe: 100
-        },
-        abilities: {
-            "0": "Volt Absorb"
-        },
-        heightm: 1.5,
-        weightkg: 61,
-        color: "White",
-        eggGroups: ["Undiscovered"],
-        cosmeticFormes: ["Pokestar F-00-Prop"],
-        gen: 5,
-        tier: "Illegal",
-        isNonstandard: "Custom"
-    },
-    pokestarf002: {
-        num: -5010,
-        name: "Pokestar F-002",
-        types: ["Steel", "Normal"],
-        baseStats: {
-            hp: 100,
-            atk: 100,
-            def: 100,
-            spa: 100,
-            spd: 100,
-            spe: 100
-        },
-        abilities: {
-            "0": "Reckless"
-        },
-        heightm: 1.5,
-        weightkg: 61,
-        color: "White",
-        eggGroups: ["Undiscovered"],
-        cosmeticFormes: ["Pokestar F-002-Prop"],
-        gen: 5,
-        tier: "Illegal",
-        isNonstandard: "Custom"
-    },
-    pokestarspirit: {
-        num: -5011,
-        name: "Pokestar Spirit",
-        types: ["Dark", "Ghost"],
-        baseStats: {
-            hp: 100,
-            atk: 100,
-            def: 100,
-            spa: 100,
-            spd: 100,
-            spe: 100
-        },
-        abilities: {
-            "0": "Wonder Guard"
-        },
-        heightm: 1.5,
-        weightkg: 61,
-        color: "White",
-        eggGroups: ["Undiscovered"],
-        cosmeticFormes: ["Pokestar Spirit-Prop"],
-        gen: 5,
-        tier: "Illegal",
-        isNonstandard: "Custom"
-    },
-    pokestarblackdoor: {
-        num: -5012,
-        name: "Pokestar Black Door",
-        types: ["Grass"],
-        gender: "F",
-        baseStats: {
-            hp: 100,
-            atk: 100,
-            def: 100,
-            spa: 100,
-            spd: 100,
-            spe: 100
-        },
-        abilities: {
-            "0": "Early Bird"
-        },
-        heightm: 1.5,
-        weightkg: 61,
-        color: "White",
-        eggGroups: ["Undiscovered"],
-        cosmeticFormes: ["Pokestar Black Door-Prop"],
-        gen: 5,
-        tier: "Illegal",
-        isNonstandard: "Custom"
-    },
-    pokestarwhitedoor: {
-        num: -5013,
-        name: "Pokestar White Door",
-        types: ["Fire"],
-        gender: "M",
-        baseStats: {
-            hp: 100,
-            atk: 100,
-            def: 100,
-            spa: 100,
-            spd: 100,
-            spe: 100
-        },
-        abilities: {
-            "0": "Blaze"
-        },
-        heightm: 1.5,
-        weightkg: 61,
-        color: "White",
-        eggGroups: ["Undiscovered"],
-        cosmeticFormes: ["Pokestar White Door-Prop"],
-        gen: 5,
-        tier: "Illegal",
-        isNonstandard: "Custom"
-    },
-    pokestarblackbelt: {
-        num: -5014,
-        name: "Pokestar Black Belt",
-        types: ["Fighting"],
-        gender: "M",
-        baseStats: {
-            hp: 100,
-            atk: 100,
-            def: 100,
-            spa: 100,
-            spd: 100,
-            spe: 100
-        },
-        abilities: {
-            "0": "Huge Power"
-        },
-        heightm: 1.5,
-        weightkg: 61,
-        color: "White",
-        eggGroups: ["Undiscovered"],
-        cosmeticFormes: ["Pokestar Black Belt-Prop"],
-        gen: 5,
-        tier: "Illegal",
-        isNonstandard: "Custom"
-    },
-    pokestarufopropu2: {
-        num: -5001,
-        name: "Pokestar UFO-PropU2",
-        baseSpecies: "Pokestar UFO",
-        forme: "PropU2",
-        types: ["Psychic", "Electric"],
-        gender: "N",
-        baseStats: {
-            hp: 100,
-            atk: 100,
-            def: 100,
-            spa: 100,
-            spd: 100,
-            spe: 100
-        },
-        abilities: {
-            "0": "Levitate"
-        },
-        heightm: 1.5,
-        weightkg: 61,
-        color: "White",
-        eggGroups: ["Undiscovered"],
-        gen: 5,
-        tier: "Illegal",
-        isNonstandard: "Custom"
+        tier: "2"
     }
 };
