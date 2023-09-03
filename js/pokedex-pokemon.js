@@ -226,7 +226,7 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
 				changes += '' + curGenSpc + ' Spc <i class="fa fa-long-arrow-right"></i> ' + nextGenSpA + ' SpA, ' + nextGenSpD + ' SpD<br />';
 			}
 
-			if (changes) {
+			if (1==2) {
 				if (!pastGenChanges) buf += '<h3>Past gens</h3><dl>';
 				buf += '<dt>Gen ' + genNum + ' <i class="fa fa-arrow-right"></i> ' + (genNum + 1) + ':</dt>';
 				buf += '<dd>' + changes + '</dd>';
