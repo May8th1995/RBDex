@@ -296,7 +296,7 @@
 		var buf = '<li class="result"><a' + attrs + ' data-entry="pokemon|' + BattleLog.escapeHTML(pokemon.name) + '">';
 
 		// number
-		var tier = this.engine ? this.engine.getTier(pokemon) : pokemon.num;
+		var tier = pokemon.tier;
         if (tier === "1") {
 			tier = "✅"
 		}
