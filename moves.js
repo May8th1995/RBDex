@@ -1,23 +1,4 @@
 exports.BattleMovedex = {
-    "10000000voltthunderbolt": {
-        num: 719,
-        accuracy: true,
-        basePower: 195,
-        category: "Special",
-        isNonstandard: "Past",
-        name: "10,000,000 Volt Thunderbolt",
-        pp: 1,
-        priority: 0,
-        flags: {},
-        isZ: "pikashuniumz",
-        critRatio: 3,
-        secondary: null,
-        target: "normal",
-        type: "Electric",
-        contestType: "Cool",
-        desc: "Has a very high chance for a critical hit.",
-        shortDesc: "Very high critical hit ratio."
-    },
     absorb: {
         num: 71,
         accuracy: 100,
@@ -106,24 +87,6 @@ exports.BattleMovedex = {
         contestType: "Tough",
         desc: "Raises the user's Defense by 2 stages.",
         shortDesc: "Raises the user's Defense by 2."
-    },
-    aciddownpour: {
-        num: 628,
-        accuracy: true,
-        basePower: 1,
-        category: "Physical",
-        isNonstandard: "Past",
-        name: "Acid Downpour",
-        pp: 1,
-        priority: 0,
-        flags: {},
-        isZ: "poisoniumz",
-        secondary: null,
-        target: "normal",
-        type: "Poison",
-        contestType: "Cool",
-        desc: "Power is equal to the base move's Z-Power.",
-        shortDesc: "Power is equal to the base move's Z-Power."
     },
     acidspray: {
         num: 491,
@@ -328,24 +291,6 @@ exports.BattleMovedex = {
         desc: "Has a 30% chance to make the target flinch.",
         shortDesc: "30% chance to make the target flinch."
     },
-    alloutpummeling: {
-        num: 624,
-        accuracy: true,
-        basePower: 1,
-        category: "Physical",
-        isNonstandard: "Past",
-        name: "All-Out Pummeling",
-        pp: 1,
-        priority: 0,
-        flags: {},
-        isZ: "fightiniumz",
-        secondary: null,
-        target: "normal",
-        type: "Fighting",
-        contestType: "Cool",
-        desc: "Power is equal to the base move's Z-Power.",
-        shortDesc: "Power is equal to the base move's Z-Power."
-    },
     allyswitch: {
         num: 502,
         accuracy: true,
@@ -468,27 +413,6 @@ exports.BattleMovedex = {
         desc: "Has a 100% chance to lower the target's Special Defense by 1 stage.",
         shortDesc: "100% chance to lower the target's Sp. Def by 1."
     },
-    aquacutter: {
-        num: 895,
-        accuracy: 100,
-        basePower: 70,
-        category: "Physical",
-        name: "Aqua Cutter",
-        pp: 20,
-        priority: 0,
-        flags: {
-            protect: 1,
-            mirror: 1,
-            slicing: 1
-        },
-        critRatio: 2,
-        secondary: null,
-        target: "normal",
-        type: "Water",
-        contestType: "Cool",
-        desc: "Has a higher chance for a critical hit.",
-        shortDesc: "High critical hit ratio."
-    },
     aquajet: {
         num: 453,
         accuracy: 100,
@@ -536,34 +460,6 @@ exports.BattleMovedex = {
         desc: "The user has 1/16 of its maximum HP, rounded down, restored at the end of each turn while it remains active. If Big Root is held by the user, the HP recovered is 1.3x normal, rounded half down. If the user uses Baton Pass, the replacement will receive the healing effect.",
         shortDesc: "User recovers 1/16 max HP per turn."
     },
-    aquastep: {
-        num: 872,
-        accuracy: 100,
-        basePower: 80,
-        category: "Physical",
-        name: "Aqua Step",
-        pp: 10,
-        priority: 0,
-        flags: {
-            contact: 1,
-            protect: 1,
-            mirror: 1,
-            dance: 1
-        },
-        secondary: {
-            chance: 100,
-            self: {
-                boosts: {
-                    spe: 1
-                }
-            }
-        },
-        target: "normal",
-        type: "Water",
-        contestType: "Cool",
-        desc: "Has a 100% chance to raise the user's Speed by 1 stage.",
-        shortDesc: "100% chance to raise the user's Speed by 1."
-    },
     aquatail: {
         num: 401,
         accuracy: 95,
@@ -583,30 +479,6 @@ exports.BattleMovedex = {
         contestType: "Beautiful",
         desc: "No additional effect.",
         shortDesc: "No additional effect."
-    },
-    armorcannon: {
-        num: 890,
-        accuracy: 100,
-        basePower: 120,
-        category: "Special",
-        name: "Armor Cannon",
-        pp: 5,
-        priority: 0,
-        flags: {
-            protect: 1,
-            mirror: 1
-        },
-        self: {
-            boosts: {
-                def: -1,
-                spd: -1
-            }
-        },
-        secondary: null,
-        target: "normal",
-        type: "Fire",
-        desc: "Lowers the user's Defense and Special Defense by 1 stage.",
-        shortDesc: "Lowers the user's Defense and Sp. Def by 1."
     },
     armthrust: {
         num: 292,
@@ -808,8 +680,8 @@ exports.BattleMovedex = {
             effect: "clearnegativeboost"
         },
         contestType: "Cute",
-        desc: "Causes the target to become infatuated, making it unable to attack 50% of the time. Fails if both the user and the target are the same gender, if either is genderless, or if the target is already infatuated. The effect ends when either the user or the target is no longer active. Pokemon with the Oblivious Ability or protected by the Aroma Veil Ability are immune.",
-        shortDesc: "A target of the opposite gender gets infatuated."
+        desc: "Causes the target to become infatuated, making it unable to attack 50% of the time. Pokemon with the Oblivious Ability or protected by the Aroma Veil Ability are immune.",
+        shortDesc: "A target gets infatuated, disregards gender."
     },
     aurasphere: {
         num: 396,
@@ -957,29 +829,6 @@ exports.BattleMovedex = {
         desc: "Power doubles if the user was hit by the target this turn.",
         shortDesc: "Power doubles if user is damaged by the target."
     },
-    axekick: {
-        num: 853,
-        accuracy: 90,
-        basePower: 120,
-        category: "Physical",
-        name: "Axe Kick",
-        pp: 10,
-        priority: 0,
-        flags: {
-            contact: 1,
-            protect: 1,
-            mirror: 1
-        },
-        hasCrashDamage: true,
-        secondary: {
-            chance: 30,
-            volatileStatus: "confusion"
-        },
-        target: "normal",
-        type: "Fighting",
-        desc: "Has a 30% chance to confuse the target. If this attack is not successful, the user loses half of its maximum HP, rounded down, as crash damage. Pokemon with the Magic Guard Ability are unaffected by crash damage.",
-        shortDesc: "30% confusion. User loses 50% max HP if miss."
-    },
     babydolleyes: {
         num: 608,
         accuracy: 100,
@@ -1008,29 +857,6 @@ exports.BattleMovedex = {
         contestType: "Cute",
         desc: "Lowers the target's Attack by 1 stage.",
         shortDesc: "Lowers the target's Attack by 1."
-    },
-    baddybad: {
-        num: 737,
-        accuracy: 95,
-        basePower: 80,
-        category: "Special",
-        isNonstandard: "LGPE",
-        name: "Baddy Bad",
-        pp: 15,
-        priority: 0,
-        flags: {
-            protect: 1,
-            mirror: 1
-        },
-        self: {
-            sideCondition: "reflect"
-        },
-        secondary: null,
-        target: "normal",
-        type: "Dark",
-        contestType: "Clever",
-        desc: "This move summons Reflect for 5 turns upon use.",
-        shortDesc: "Summons Reflect."
     },
     banefulbunker: {
         num: 661,
@@ -1061,27 +887,6 @@ exports.BattleMovedex = {
         contestType: "Tough",
         desc: "The user is protected from most attacks made by other Pokemon during this turn, and Pokemon making contact with the user become poisoned. This move has a 1/X chance of being successful, where X starts at 1 and triples each time this move is successfully used. X resets to 1 if this move fails, if the user's last move used is not Baneful Bunker, Detect, Endure, King's Shield, Max Guard, Obstruct, Protect, Quick Guard, Silk Trap, Spiky Shield, or Wide Guard, or if it was one of those moves and the user's protection was broken. Fails if the user moves last this turn.",
         shortDesc: "Protects from moves. Contact: poison."
-    },
-    barbbarrage: {
-        num: 839,
-        accuracy: 100,
-        basePower: 60,
-        category: "Physical",
-        name: "Barb Barrage",
-        pp: 10,
-        priority: 0,
-        flags: {
-            protect: 1,
-            mirror: 1
-        },
-        secondary: {
-            chance: 50,
-            status: "psn"
-        },
-        target: "normal",
-        type: "Poison",
-        desc: "Has a 50% chance to poison the target. Power doubles if the target is already poisoned.",
-        shortDesc: "50% psn. 2x power if target already poisoned."
     },
     barrage: {
         num: 140,
@@ -1198,49 +1003,6 @@ exports.BattleMovedex = {
         contestType: "Clever",
         desc: "Hits one time for the user and one time for each unfainted Pokemon without a non-volatile status condition in the user's party. The power of each hit is equal to 5+(X/10), where X is each participating Pokemon's base Attack; each hit is considered to come from the user.",
         shortDesc: "All healthy allies aid in damaging the target."
-    },
-    behemothbash: {
-        num: 782,
-        accuracy: 100,
-        basePower: 100,
-        category: "Physical",
-        name: "Behemoth Bash",
-        pp: 5,
-        priority: 0,
-        flags: {
-            contact: 1,
-            protect: 1,
-            mirror: 1,
-            failcopycat: 1,
-            failmimic: 1
-        },
-        secondary: null,
-        target: "normal",
-        type: "Steel",
-        desc: "No additional effect.",
-        shortDesc: "No additional effect."
-    },
-    behemothblade: {
-        num: 781,
-        accuracy: 100,
-        basePower: 100,
-        category: "Physical",
-        name: "Behemoth Blade",
-        pp: 5,
-        priority: 0,
-        flags: {
-            contact: 1,
-            protect: 1,
-            mirror: 1,
-            slicing: 1,
-            failcopycat: 1,
-            failmimic: 1
-        },
-        secondary: null,
-        target: "normal",
-        type: "Steel",
-        desc: "No additional effect.",
-        shortDesc: "No additional effect."
     },
     belch: {
         num: 562,
@@ -1389,68 +1151,6 @@ exports.BattleMovedex = {
         desc: "Has a 30% chance to make the target flinch.",
         shortDesc: "30% chance to make the target flinch."
     },
-    bitterblade: {
-        num: 891,
-        accuracy: 100,
-        basePower: 90,
-        category: "Physical",
-        name: "Bitter Blade",
-        pp: 10,
-        priority: 0,
-        flags: {
-            contact: 1,
-            protect: 1,
-            mirror: 1,
-            slicing: 1
-        },
-        drain: [1, 2],
-        secondary: null,
-        target: "normal",
-        type: "Fire",
-        desc: "The user recovers 1/2 the HP lost by the target, rounded half up. If Big Root is held by the user, the HP recovered is 1.3x normal, rounded half down.",
-        shortDesc: "User recovers 50% of the damage dealt."
-    },
-    bittermalice: {
-        num: 841,
-        accuracy: 100,
-        basePower: 75,
-        category: "Special",
-        name: "Bitter Malice",
-        pp: 10,
-        priority: 0,
-        flags: {
-            protect: 1,
-            mirror: 1
-        },
-        secondary: {
-            chance: 100,
-            boosts: {
-                atk: -1
-            }
-        },
-        target: "normal",
-        type: "Ghost",
-        desc: "Has a 100% chance to lower the target's Attack by 1 stage.",
-        shortDesc: "100% chance to lower the target's Attack by 1."
-    },
-    blackholeeclipse: {
-        num: 654,
-        accuracy: true,
-        basePower: 1,
-        category: "Physical",
-        isNonstandard: "Past",
-        name: "Black Hole Eclipse",
-        pp: 1,
-        priority: 0,
-        flags: {},
-        isZ: "darkiniumz",
-        secondary: null,
-        target: "normal",
-        type: "Dark",
-        contestType: "Cool",
-        desc: "Power is equal to the base move's Z-Power.",
-        shortDesc: "Power is equal to the base move's Z-Power."
-    },
     blastburn: {
         num: 307,
         accuracy: 90,
@@ -1498,58 +1198,6 @@ exports.BattleMovedex = {
         desc: "Has a 10% chance to burn the target and a higher chance for a critical hit.",
         shortDesc: "High critical hit ratio. 10% chance to burn."
     },
-    blazingtorque: {
-        num: 896,
-        accuracy: 100,
-        basePower: 80,
-        category: "Physical",
-        isNonstandard: "Unobtainable",
-        name: "Blazing Torque",
-        pp: 10,
-        priority: 0,
-        flags: {
-            protect: 1,
-            failencore: 1,
-            failmefirst: 1,
-            nosleeptalk: 1,
-            noassist: 1,
-            failcopycat: 1,
-            failinstruct: 1,
-            failmimic: 1
-        },
-        secondary: {
-            chance: 30,
-            status: "brn"
-        },
-        target: "normal",
-        type: "Fire",
-        desc: "Has a 30% chance to burn the target.",
-        shortDesc: "30% chance to burn the target."
-    },
-    bleakwindstorm: {
-        num: 846,
-        accuracy: 80,
-        basePower: 100,
-        category: "Special",
-        name: "Bleakwind Storm",
-        pp: 10,
-        priority: 0,
-        flags: {
-            protect: 1,
-            mirror: 1,
-            wind: 1
-        },
-        secondary: {
-            chance: 30,
-            boosts: {
-                spe: -1
-            }
-        },
-        target: "allAdjacentFoes",
-        type: "Flying",
-        desc: "Has a 30% chance to lower the target's Speed by 1 stage.",
-        shortDesc: "30% chance to lower the foe(s) Speed by 1."
-    },
     blizzard: {
         num: 59,
         accuracy: 80,
@@ -1596,24 +1244,6 @@ exports.BattleMovedex = {
         contestType: "Cute",
         desc: "Prevents the target from switching out. The target can still switch out if it is holding Shed Shell or uses Baton Pass, Flip Turn, Parting Shot, Teleport, U-turn, or Volt Switch. If the target leaves the field using Baton Pass, the replacement will remain trapped. The effect ends if the user leaves the field.",
         shortDesc: "Prevents the target from switching out."
-    },
-    bloomdoom: {
-        num: 644,
-        accuracy: true,
-        basePower: 1,
-        category: "Physical",
-        isNonstandard: "Past",
-        name: "Bloom Doom",
-        pp: 1,
-        priority: 0,
-        flags: {},
-        isZ: "grassiumz",
-        secondary: null,
-        target: "normal",
-        type: "Grass",
-        contestType: "Cool",
-        desc: "Power is equal to the base move's Z-Power.",
-        shortDesc: "Power is equal to the base move's Z-Power."
     },
     blueflare: {
         num: 551,
@@ -1852,28 +1482,6 @@ exports.BattleMovedex = {
         desc: "Has a 30% chance to paralyze the target. This attack charges on the first turn and executes on the second. On the first turn, the user avoids all attacks other than Gust, Hurricane, Sky Uppercut, Smack Down, Thousand Arrows, Thunder, and Twister, and Gust and Twister have doubled power when used against it. If the user is holding a Power Herb, the move completes in one turn.",
         shortDesc: "Bounces turn 1. Hits turn 2. 30% paralyze."
     },
-    bouncybubble: {
-        num: 733,
-        accuracy: 100,
-        basePower: 60,
-        category: "Special",
-        isNonstandard: "LGPE",
-        name: "Bouncy Bubble",
-        pp: 20,
-        priority: 0,
-        flags: {
-            protect: 1,
-            mirror: 1,
-            heal: 1
-        },
-        drain: [1, 2],
-        secondary: null,
-        target: "normal",
-        type: "Water",
-        contestType: "Clever",
-        desc: "The user recovers 1/2 the HP lost by the target, rounded half up. If Big Root is held by the user, the HP recovered is 1.3x normal, rounded half down.",
-        shortDesc: "User recovers 50% of the damage dealt."
-    },
     branchpoke: {
         num: 785,
         accuracy: 100,
@@ -1938,24 +1546,6 @@ exports.BattleMovedex = {
         type: "Dragon",
         desc: "Has a 100% chance to lower the target's Attack by 1 stage.",
         shortDesc: "100% chance to lower the foe(s) Attack by 1."
-    },
-    breakneckblitz: {
-        num: 622,
-        accuracy: true,
-        basePower: 1,
-        category: "Physical",
-        isNonstandard: "Past",
-        name: "Breakneck Blitz",
-        pp: 1,
-        priority: 0,
-        flags: {},
-        isZ: "normaliumz",
-        secondary: null,
-        target: "normal",
-        type: "Normal",
-        contestType: "Cool",
-        desc: "Power is equal to the base move's Z-Power.",
-        shortDesc: "Power is equal to the base move's Z-Power."
     },
     brickbreak: {
         num: 280,
@@ -2253,29 +1843,6 @@ exports.BattleMovedex = {
         desc: "Fails unless the user is a Fire type. If this move is successful and the user is not Terastallized, the user's Fire type becomes typeless as long as it remains active.",
         shortDesc: "User's Fire type becomes typeless; must be Fire."
     },
-    buzzybuzz: {
-        num: 734,
-        accuracy: 100,
-        basePower: 60,
-        category: "Special",
-        isNonstandard: "LGPE",
-        name: "Buzzy Buzz",
-        pp: 20,
-        priority: 0,
-        flags: {
-            protect: 1,
-            mirror: 1
-        },
-        secondary: {
-            chance: 100,
-            status: "par"
-        },
-        target: "normal",
-        type: "Electric",
-        contestType: "Clever",
-        desc: "Has a 100% chance to paralyze the foe.",
-        shortDesc: "100% chance to paralyze the foe."
-    },
     calmmind: {
         num: 347,
         accuracy: true,
@@ -2353,46 +1920,6 @@ exports.BattleMovedex = {
         contestType: "Cute",
         desc: "Lowers the target's Special Attack by 2 stages. The target is unaffected if both the user and the target are the same gender, or if either is genderless. Pokemon with the Oblivious Ability are immune.",
         shortDesc: "Lowers the foe(s) Sp. Atk by 2 if opposite gender."
-    },
-    catastropika: {
-        num: 658,
-        accuracy: true,
-        basePower: 210,
-        category: "Physical",
-        isNonstandard: "Past",
-        name: "Catastropika",
-        pp: 1,
-        priority: 0,
-        flags: {
-            contact: 1
-        },
-        isZ: "pikaniumz",
-        secondary: null,
-        target: "normal",
-        type: "Electric",
-        contestType: "Cool",
-        desc: "No additional effect.",
-        shortDesc: "No additional effect."
-    },
-    ceaselessedge: {
-        num: 845,
-        accuracy: 90,
-        basePower: 65,
-        category: "Physical",
-        name: "Ceaseless Edge",
-        pp: 15,
-        priority: 0,
-        flags: {
-            contact: 1,
-            protect: 1,
-            mirror: 1,
-            slicing: 1
-        },
-        secondary: {},
-        target: "normal",
-        type: "Dark",
-        desc: "If this move is successful, it sets up a hazard on the opposing side of the field, damaging each opposing Pokemon that switches in, unless it is a Flying-type Pokemon or has the Levitate Ability. A maximum of three layers may be set, and opponents lose 1/8 of their maximum HP with one layer, 1/6 of their maximum HP with two layers, and 1/4 of their maximum HP with three layers, all rounded down. Can be removed from the opposing side if any opposing Pokemon uses Mortal Spin, Rapid Spin, or Defog successfully, or is hit by Defog.",
-        shortDesc: "Sets a layer of Spikes on the opposing side."
     },
     celebrate: {
         num: 606,
@@ -2542,47 +2069,6 @@ exports.BattleMovedex = {
         desc: "Has a 100% chance to confuse the target.",
         shortDesc: "100% chance to confuse the target."
     },
-    chillingwater: {
-        num: 886,
-        accuracy: 100,
-        basePower: 50,
-        category: "Special",
-        name: "Chilling Water",
-        pp: 20,
-        priority: 0,
-        flags: {
-            protect: 1,
-            mirror: 1
-        },
-        secondary: {
-            chance: 100,
-            boosts: {
-                atk: -1
-            }
-        },
-        target: "normal",
-        type: "Water",
-        contestType: "Beautiful",
-        desc: "Has a 100% chance to lower the target's Attack by 1 stage.",
-        shortDesc: "100% chance to lower the target's Attack by 1."
-    },
-    chillyreception: {
-        num: 881,
-        accuracy: true,
-        basePower: 0,
-        category: "Status",
-        name: "Chilly Reception",
-        pp: 10,
-        priority: 0,
-        flags: {},
-        weather: "snow",
-        selfSwitch: true,
-        secondary: null,
-        target: "all",
-        type: "Ice",
-        desc: "For 5 turns, the weather becomes Snow. The user switches out even if it is trapped and is replaced immediately by a selected party member. The user does not switch out if there are no unfainted party members.",
-        shortDesc: "Starts Snow. User switches out."
-    },
     chipaway: {
         num: 498,
         accuracy: 100,
@@ -2605,24 +2091,6 @@ exports.BattleMovedex = {
         contestType: "Tough",
         desc: "Ignores the target's stat stage changes, including evasiveness.",
         shortDesc: "Ignores the target's stat stage changes."
-    },
-    chloroblast: {
-        num: 835,
-        accuracy: 95,
-        basePower: 150,
-        category: "Special",
-        name: "Chloroblast",
-        pp: 5,
-        priority: 0,
-        flags: {
-            protect: 1,
-            mirror: 1
-        },
-        secondary: null,
-        target: "normal",
-        type: "Grass",
-        desc: "Whether or not this move is successful and even if it would cause fainting, the user loses 1/2 of its maximum HP, rounded up, unless the user has the Magic Guard Ability.",
-        shortDesc: "User loses 50% max HP."
     },
     circlethrow: {
         num: 509,
@@ -2722,36 +2190,6 @@ exports.BattleMovedex = {
         desc: "Raises the user's Attack, Defense, Special Attack, Special Defense, and Speed by 1 stage in exchange for the user losing 33% of its maximum HP, rounded down. Fails if the user would faint or if its Attack, Defense, Special Attack, Special Defense, and Speed stat stages would not change.",
         shortDesc: "User loses 33% of its max HP. +1 to all stats."
     },
-    clangoroussoulblaze: {
-        num: 728,
-        accuracy: true,
-        basePower: 185,
-        category: "Special",
-        isNonstandard: "Past",
-        name: "Clangorous Soulblaze",
-        pp: 1,
-        priority: 0,
-        flags: {
-            sound: 1,
-            bypasssub: 1
-        },
-        selfBoost: {
-            boosts: {
-                atk: 1,
-                def: 1,
-                spa: 1,
-                spd: 1,
-                spe: 1
-            }
-        },
-        isZ: "kommoniumz",
-        secondary: {},
-        target: "allAdjacentFoes",
-        type: "Dragon",
-        contestType: "Cool",
-        desc: "Raises the user's Attack, Defense, Special Attack, Special Defense, and Speed by 1 stage.",
-        shortDesc: "Raises the user's Atk/Def/SpAtk/SpDef/Spe by 1."
-    },
     clearsmog: {
         num: 499,
         accuracy: true,
@@ -2845,54 +2283,6 @@ exports.BattleMovedex = {
         desc: "Raises the user's Attack, Defense, and accuracy by 1 stage.",
         shortDesc: "Raises user's Attack, Defense, accuracy by 1."
     },
-    collisioncourse: {
-        num: 878,
-        accuracy: 100,
-        basePower: 100,
-        category: "Physical",
-        name: "Collision Course",
-        pp: 5,
-        priority: 0,
-        flags: {
-            contact: 1,
-            protect: 1,
-            mirror: 1
-        },
-        secondary: null,
-        target: "normal",
-        type: "Fighting",
-        contestType: "Tough",
-        desc: "Damage is multiplied by 1.3333 if this move is super effective against the target.",
-        shortDesc: "Deals 1.3333x damage with supereffective hits."
-    },
-    combattorque: {
-        num: 899,
-        accuracy: 100,
-        basePower: 100,
-        category: "Physical",
-        isNonstandard: "Unobtainable",
-        name: "Combat Torque",
-        pp: 10,
-        priority: 0,
-        flags: {
-            protect: 1,
-            failencore: 1,
-            failmefirst: 1,
-            nosleeptalk: 1,
-            noassist: 1,
-            failcopycat: 1,
-            failinstruct: 1,
-            failmimic: 1
-        },
-        secondary: {
-            chance: 30,
-            status: "par"
-        },
-        target: "normal",
-        type: "Fighting",
-        desc: "Has a 30% chance to paralyze the target.",
-        shortDesc: "30% chance to paralyze the target."
-    },
     cometpunch: {
         num: 4,
         accuracy: 90,
@@ -2918,27 +2308,6 @@ exports.BattleMovedex = {
         contestType: "Tough",
         desc: "Hits two to five times. Has a 35% chance to hit two or three times and a 15% chance to hit four or five times. If one of the hits breaks the target's substitute, it will take damage for the remaining hits. If the user has the Skill Link Ability, this move will always hit five times.",
         shortDesc: "Hits 2-5 times in one turn."
-    },
-    comeuppance: {
-        num: 894,
-        accuracy: 100,
-        basePower: 0,
-        category: "Physical",
-        name: "Comeuppance",
-        pp: 10,
-        priority: 0,
-        flags: {
-            contact: 1,
-            protect: 1,
-            mirror: 1,
-            failmefirst: 1
-        },
-        secondary: null,
-        target: "scripted",
-        type: "Dark",
-        contestType: "Cool",
-        desc: "Deals damage to the last opposing Pokemon to hit the user with a physical or special attack this turn equal to 1.5 times the HP lost by the user from that attack, rounded down. If the user did not lose HP from that attack, this move deals 1 HP of damage instead. If that opposing Pokemon's position is no longer in use and there is another opposing Pokemon on the field, the damage is done to it instead. Only the last hit of a multi-hit attack is counted. Fails if the user was not hit by an opposing Pokemon's physical or special attack this turn.",
-        shortDesc: "If hit by an attack, returns 1.5x damage."
     },
     confide: {
         num: 590,
@@ -3043,24 +2412,6 @@ exports.BattleMovedex = {
         desc: "Has a 10% chance to lower the target's Speed by 1 stage.",
         shortDesc: "10% chance to lower the target's Speed by 1."
     },
-    continentalcrush: {
-        num: 632,
-        accuracy: true,
-        basePower: 1,
-        category: "Physical",
-        isNonstandard: "Past",
-        name: "Continental Crush",
-        pp: 1,
-        priority: 0,
-        flags: {},
-        isZ: "rockiumz",
-        secondary: null,
-        target: "normal",
-        type: "Rock",
-        contestType: "Cool",
-        desc: "Power is equal to the base move's Z-Power.",
-        shortDesc: "Power is equal to the base move's Z-Power."
-    },
     conversion: {
         num: 160,
         accuracy: true,
@@ -3161,24 +2512,6 @@ exports.BattleMovedex = {
         contestType: "Tough",
         desc: "If the user moves after the target, the target's Ability is rendered ineffective as long as it remains active. If the target uses Baton Pass, the replacement will remain under this effect. If the target's Ability is As One, Battle Bond, Comatose, Commander, Disguise, Gulp Missile, Hadron Engine, Ice Face, Multitype, Orichalcum Pulse, Power Construct, Protosynthesis, Quark Drive, RKS System, Schooling, Shields Down, Stance Change, Zen Mode, or Zero to Hero, this effect does not happen, and receiving the effect through Baton Pass ends the effect immediately.",
         shortDesc: "Nullifies the foe(s) Ability if the foe(s) move first."
-    },
-    corkscrewcrash: {
-        num: 638,
-        accuracy: true,
-        basePower: 1,
-        category: "Physical",
-        isNonstandard: "Past",
-        name: "Corkscrew Crash",
-        pp: 1,
-        priority: 0,
-        flags: {},
-        isZ: "steeliumz",
-        secondary: null,
-        target: "normal",
-        type: "Steel",
-        contestType: "Cool",
-        desc: "Power is equal to the base move's Z-Power.",
-        shortDesc: "Power is equal to the base move's Z-Power."
     },
     corrosivegas: {
         num: 810,
@@ -3815,24 +3148,6 @@ exports.BattleMovedex = {
         desc: "The user is protected from most attacks made by other Pokemon during this turn. This move has a 1/X chance of being successful, where X starts at 1 and triples each time this move is successfully used. X resets to 1 if this move fails, if the user's last move used is not Baneful Bunker, Detect, Endure, King's Shield, Max Guard, Obstruct, Protect, Quick Guard, Silk Trap, Spiky Shield, or Wide Guard, or if it was one of those moves and the user's protection was broken. Fails if the user moves last this turn.",
         shortDesc: "Prevents moves from affecting the user this turn."
     },
-    devastatingdrake: {
-        num: 652,
-        accuracy: true,
-        basePower: 1,
-        category: "Physical",
-        isNonstandard: "Past",
-        name: "Devastating Drake",
-        pp: 1,
-        priority: 0,
-        flags: {},
-        isZ: "dragoniumz",
-        secondary: null,
-        target: "normal",
-        type: "Dragon",
-        contestType: "Cool",
-        desc: "Power is equal to the base move's Z-Power.",
-        shortDesc: "Power is equal to the base move's Z-Power."
-    },
     diamondstorm: {
         num: 591,
         accuracy: 100,
@@ -3960,27 +3275,6 @@ exports.BattleMovedex = {
         desc: "Has a 30% chance to paralyze the target.",
         shortDesc: "30% chance to paralyze adjacent Pokemon."
     },
-    direclaw: {
-        num: 827,
-        accuracy: 100,
-        basePower: 80,
-        category: "Physical",
-        name: "Dire Claw",
-        pp: 15,
-        priority: 0,
-        flags: {
-            contact: 1,
-            protect: 1,
-            mirror: 1
-        },
-        secondary: {
-            chance: 50
-        },
-        target: "normal",
-        type: "Poison",
-        desc: "Has a 50% chance to cause the target to either fall asleep, become poisoned, or become paralyzed.",
-        shortDesc: "50% chance to sleep, poison, or paralyze target."
-    },
     dive: {
         num: 291,
         accuracy: 100,
@@ -4034,21 +3328,6 @@ exports.BattleMovedex = {
         contestType: "Cute",
         desc: "Has a 20% chance to confuse the target.",
         shortDesc: "20% chance to confuse the target."
-    },
-    doodle: {
-        num: 867,
-        accuracy: 100,
-        basePower: 0,
-        category: "Status",
-        name: "Doodle",
-        pp: 10,
-        priority: 0,
-        flags: {},
-        secondary: null,
-        target: "adjacentFoe",
-        type: "Normal",
-        desc: "The user and its ally's Abilities change to match the target's Ability. Does not change Ability if the user's or its ally's is As One, Battle Bond, Comatose, Commander, Disguise, Gulp Missile, Hadron Engine, Ice Face, Multitype, Orichalcum Pulse, Power Construct, Protosynthesis, Quark Drive, RKS System, Schooling, Shields Down, Stance Change, Zen Mode, Zero to Hero, or already matches the target. Fails if both the user and its ally's Ability already matches the target, or if the target's Ability is As One, Battle Bond, Comatose, Commander, Disguise, Flower Gift, Forecast, Gulp Missile, Hadron Engine, Hunger Switch, Ice Face, Illusion, Imposter, Multitype, Neutralizing Gas, Orichalcum Pulse, Power Construct, Power of Alchemy, Protosynthesis, Quark Drive, Receiver, RKS System, Schooling, Shields Down, Stance Change, Trace, Wonder Guard, Zen Mode, or Zero to Hero.",
-        shortDesc: "User and ally's Abilities become target's Ability."
     },
     doomdesire: {
         num: 353,
@@ -4172,27 +3451,6 @@ exports.BattleMovedex = {
         contestType: "Cool",
         desc: "Hits twice. If the first hit breaks the target's substitute, it will take damage for the second hit.",
         shortDesc: "Hits 2 times in one turn."
-    },
-    doubleshock: {
-        num: 892,
-        accuracy: 100,
-        basePower: 120,
-        category: "Physical",
-        name: "Double Shock",
-        pp: 5,
-        priority: 0,
-        flags: {
-            contact: 1,
-            protect: 1,
-            mirror: 1
-        },
-        self: {},
-        secondary: null,
-        target: "normal",
-        type: "Electric",
-        contestType: "Clever",
-        desc: "Fails unless the user is an Electric type. If this move is successful and the user is not Terastallized, the user's Electric type becomes typeless as long as it remains active.",
-        shortDesc: "User's Electric type: typeless; must be Electric."
     },
     doubleslap: {
         num: 3,
@@ -4687,29 +3945,6 @@ exports.BattleMovedex = {
         desc: "Hits twice. If the first hit breaks the target's substitute, it will take damage for the second hit.",
         shortDesc: "Hits 2 times in one turn."
     },
-    dynamaxcannon: {
-        num: 744,
-        accuracy: 100,
-        basePower: 100,
-        category: "Special",
-        name: "Dynamax Cannon",
-        pp: 5,
-        priority: 0,
-        flags: {
-            protect: 1,
-            failencore: 1,
-            nosleeptalk: 1,
-            noparentalbond: 1,
-            failcopycat: 1,
-            failinstruct: 1,
-            failmimic: 1
-        },
-        secondary: null,
-        target: "normal",
-        type: "Dragon",
-        desc: "No additional effect.",
-        shortDesc: "No additional effect."
-    },
     dynamicpunch: {
         num: 223,
         accuracy: 50,
@@ -4961,26 +4196,6 @@ exports.BattleMovedex = {
         desc: "The power of this move depends on (user's current Speed / target's current Speed), rounded down. Power is equal to 150 if the result is 4 or more, 120 if 3, 80 if 2, 60 if 1, 40 if less than 1. If the target's current Speed is 0, this move's power is 40.",
         shortDesc: "More power the faster the user is than the target."
     },
-    electrodrift: {
-        num: 879,
-        accuracy: 100,
-        basePower: 100,
-        category: "Special",
-        name: "Electro Drift",
-        pp: 5,
-        priority: 0,
-        flags: {
-            contact: 1,
-            protect: 1,
-            mirror: 1
-        },
-        secondary: null,
-        target: "normal",
-        type: "Electric",
-        contestType: "Cool",
-        desc: "Damage is multiplied by 1.3333 if this move is super effective against the target.",
-        shortDesc: "Deals 1.3333x damage with supereffective hits."
-    },
     electroweb: {
         num: 527,
         accuracy: 100,
@@ -5216,55 +4431,6 @@ exports.BattleMovedex = {
         desc: "Power is equal to (user's current HP * 150 / user's maximum HP), rounded down, but not less than 1.",
         shortDesc: "Less power as user's HP decreases. Hits foe(s)."
     },
-    esperwing: {
-        num: 840,
-        accuracy: 100,
-        basePower: 80,
-        category: "Special",
-        name: "Esper Wing",
-        pp: 10,
-        priority: 0,
-        flags: {
-            protect: 1,
-            mirror: 1
-        },
-        critRatio: 2,
-        secondary: {
-            chance: 100,
-            self: {
-                boosts: {
-                    spe: 1
-                }
-            }
-        },
-        target: "normal",
-        type: "Psychic",
-        desc: "Has a 100% chance to raise the user's Speed by 1 stage and a higher chance for a critical hit.",
-        shortDesc: "100% chance to raise user Speed by 1. High crit."
-    },
-    eternabeam: {
-        num: 795,
-        accuracy: 90,
-        basePower: 160,
-        category: "Special",
-        isNonstandard: "Past",
-        name: "Eternabeam",
-        pp: 5,
-        priority: 0,
-        flags: {
-            recharge: 1,
-            protect: 1,
-            mirror: 1
-        },
-        self: {
-            volatileStatus: "mustrecharge"
-        },
-        secondary: null,
-        target: "normal",
-        type: "Dragon",
-        desc: "If this move is successful, the user must recharge on the following turn and cannot select a move.",
-        shortDesc: "User cannot move next turn."
-    },
     expandingforce: {
         num: 797,
         accuracy: 100,
@@ -5325,31 +4491,6 @@ exports.BattleMovedex = {
         contestType: "Cool",
         desc: "Has a 10% chance to make the target flinch.",
         shortDesc: "10% chance to make the target flinch."
-    },
-    extremeevoboost: {
-        num: 702,
-        accuracy: true,
-        basePower: 0,
-        category: "Status",
-        isNonstandard: "Past",
-        name: "Extreme Evoboost",
-        pp: 1,
-        priority: 0,
-        flags: {},
-        isZ: "eeviumz",
-        boosts: {
-            atk: 2,
-            def: 2,
-            spa: 2,
-            spd: 2,
-            spe: 2
-        },
-        secondary: null,
-        target: "self",
-        type: "Normal",
-        contestType: "Beautiful",
-        desc: "Raises the user's Attack, Defense, Special Attack, Special Defense, and Speed by 2 stages.",
-        shortDesc: "Raises user's Atk, Def, SpA, SpD, and Spe by 2."
     },
     extremespeed: {
         num: 245,
@@ -5670,28 +4811,6 @@ exports.BattleMovedex = {
         type: "Dark",
         desc: "Has a 20% chance to make the target flinch.",
         shortDesc: "20% chance to make the foe(s) flinch."
-    },
-    filletaway: {
-        num: 868,
-        accuracy: true,
-        basePower: 0,
-        category: "Status",
-        name: "Fillet Away",
-        pp: 10,
-        priority: 0,
-        flags: {
-            snatch: 1
-        },
-        boosts: {
-            atk: 2,
-            spa: 2,
-            spe: 2
-        },
-        secondary: null,
-        target: "self",
-        type: "Normal",
-        desc: "Raises the user's Attack, Special Attack, and Speed by 2 stages in exchange for the user losing 1/2 of its maximum HP, rounded down. Fails if the user would faint or if its Attack, Special Attack, and Speed stat stages would not change.",
-        shortDesc: "+2 Attack, Sp. Atk, Speed for 1/2 user's max HP."
     },
     finalgambit: {
         num: 515,
@@ -6222,31 +5341,6 @@ exports.BattleMovedex = {
         desc: "If this move is successful and the user has not fainted, the user switches out even if it is trapped and is replaced immediately by a selected party member. The user does not switch out if there are no unfainted party members, or if the target switched out using an Eject Button or through the effect of the Emergency Exit or Wimp Out Abilities.",
         shortDesc: "User switches out after damaging the target."
     },
-    floatyfall: {
-        num: 731,
-        accuracy: 95,
-        basePower: 90,
-        category: "Physical",
-        isNonstandard: "LGPE",
-        name: "Floaty Fall",
-        pp: 15,
-        priority: 0,
-        flags: {
-            contact: 1,
-            protect: 1,
-            mirror: 1,
-            gravity: 1
-        },
-        secondary: {
-            chance: 30,
-            volatileStatus: "flinch"
-        },
-        target: "normal",
-        type: "Flying",
-        contestType: "Cool",
-        desc: "Has a 30% chance to make the target flinch.",
-        shortDesc: "30% chance to make the target flinch."
-    },
     floralhealing: {
         num: 666,
         accuracy: true,
@@ -6295,25 +5389,6 @@ exports.BattleMovedex = {
         contestType: "Beautiful",
         desc: "Raises the Defense of all active Grass-type Pokemon by 1 stage. Fails if there are no active Grass-type Pokemon.",
         shortDesc: "Raises Defense by 1 of all active Grass types."
-    },
-    flowertrick: {
-        num: 870,
-        accuracy: true,
-        basePower: 70,
-        category: "Physical",
-        name: "Flower Trick",
-        pp: 10,
-        priority: 0,
-        flags: {
-            protect: 1,
-            mirror: 1
-        },
-        willCrit: true,
-        secondary: null,
-        target: "normal",
-        type: "Grass",
-        desc: "This move is always a critical hit unless the target is under the effect of Lucky Chant or has the Battle Armor or Shell Armor Abilities. This move does not check accuracy.",
-        shortDesc: "Always results in a critical hit; no accuracy check."
     },
     fly: {
         num: 19,
@@ -6648,26 +5723,6 @@ exports.BattleMovedex = {
         desc: "Has a 10% chance to freeze the target.",
         shortDesc: "10% chance to freeze the target."
     },
-    freezyfrost: {
-        num: 739,
-        accuracy: 90,
-        basePower: 100,
-        category: "Special",
-        isNonstandard: "LGPE",
-        name: "Freezy Frost",
-        pp: 10,
-        priority: 0,
-        flags: {
-            protect: 1,
-            mirror: 1
-        },
-        secondary: null,
-        target: "normal",
-        type: "Ice",
-        contestType: "Clever",
-        desc: "Resets the stat stages of all active Pokemon to 0.",
-        shortDesc: "Eliminates all stat changes."
-    },
     frenzyplant: {
         num: 338,
         accuracy: 100,
@@ -6950,27 +6005,6 @@ exports.BattleMovedex = {
         desc: "Raises the Attack and Special Attack of Pokemon on the user's side with the Plus or Minus Abilities by 1 stage.",
         shortDesc: "Raises Atk, Sp. Atk of allies with Plus/Minus by 1."
     },
-    genesissupernova: {
-        num: 703,
-        accuracy: true,
-        basePower: 185,
-        category: "Special",
-        isNonstandard: "Past",
-        name: "Genesis Supernova",
-        pp: 1,
-        priority: 0,
-        flags: {},
-        isZ: "mewniumz",
-        secondary: {
-            chance: 100,
-            self: {}
-        },
-        target: "normal",
-        type: "Psychic",
-        contestType: "Cool",
-        desc: "If this move is successful, the terrain becomes Psychic Terrain.",
-        shortDesc: "Summons Psychic Terrain."
-    },
     geomancy: {
         num: 601,
         accuracy: true,
@@ -7052,43 +6086,6 @@ exports.BattleMovedex = {
         desc: "If this move is successful, the user must recharge on the following turn and cannot select a move.",
         shortDesc: "User cannot move next turn."
     },
-    gigatonhammer: {
-        num: 893,
-        accuracy: 100,
-        basePower: 160,
-        category: "Physical",
-        name: "Gigaton Hammer",
-        pp: 5,
-        priority: 0,
-        flags: {
-            protect: 1,
-            mirror: 1
-        },
-        condition: {},
-        secondary: null,
-        target: "normal",
-        type: "Steel",
-        desc: "Cannot be used twice in a row.",
-        shortDesc: "Cannot be used twice in a row."
-    },
-    gigavolthavoc: {
-        num: 646,
-        accuracy: true,
-        basePower: 1,
-        category: "Physical",
-        isNonstandard: "Past",
-        name: "Gigavolt Havoc",
-        pp: 1,
-        priority: 0,
-        flags: {},
-        isZ: "electriumz",
-        secondary: null,
-        target: "normal",
-        type: "Electric",
-        contestType: "Cool",
-        desc: "Power is equal to the base move's Z-Power.",
-        shortDesc: "Power is equal to the base move's Z-Power."
-    },
     glaciallance: {
         num: 824,
         accuracy: 100,
@@ -7132,32 +6129,6 @@ exports.BattleMovedex = {
         desc: "Has a 100% chance to lower the target's Speed by 1 stage.",
         shortDesc: "100% chance to lower the foe(s) Speed by 1."
     },
-    glaiverush: {
-        num: 862,
-        accuracy: 100,
-        basePower: 120,
-        category: "Physical",
-        name: "Glaive Rush",
-        pp: 5,
-        priority: 0,
-        flags: {
-            contact: 1,
-            protect: 1,
-            mirror: 1
-        },
-        self: {
-            volatileStatus: "glaiverush"
-        },
-        condition: {
-            noCopy: true,
-            onBeforeMovePriority: 100
-        },
-        secondary: null,
-        target: "normal",
-        type: "Dragon",
-        desc: "If this move is successful, moves targeted at the user deal double damage and do not check accuracy until the user's next turn.",
-        shortDesc: "User takes sure-hit 2x damage until its next turn."
-    },
     glare: {
         num: 137,
         accuracy: 100,
@@ -7183,686 +6154,6 @@ exports.BattleMovedex = {
         contestType: "Tough",
         desc: "Paralyzes the target.",
         shortDesc: "Paralyzes the target."
-    },
-    glitzyglow: {
-        num: 736,
-        accuracy: 95,
-        basePower: 80,
-        category: "Special",
-        isNonstandard: "LGPE",
-        name: "Glitzy Glow",
-        pp: 15,
-        priority: 0,
-        flags: {
-            protect: 1,
-            mirror: 1
-        },
-        self: {
-            sideCondition: "lightscreen"
-        },
-        secondary: null,
-        target: "normal",
-        type: "Psychic",
-        contestType: "Clever",
-        desc: "This move summons Light Screen for 5 turns upon use.",
-        shortDesc: "Summons Light Screen."
-    },
-    gmaxbefuddle: {
-        num: 1000,
-        accuracy: true,
-        basePower: 10,
-        category: "Physical",
-        isNonstandard: "Gigantamax",
-        name: "G-Max Befuddle",
-        pp: 5,
-        priority: 0,
-        flags: {},
-        isMax: "Butterfree",
-        self: {},
-        target: "adjacentFoe",
-        type: "Bug",
-        contestType: "Cool",
-        desc: "Power is equal to the base move's Max Move power. If this move is successful, each Pokemon on the opposing side either falls asleep, becomes poisoned, or becomes paralyzed, even if they have a substitute.",
-        shortDesc: "Base move affects power. Foes: slp or psn or par."
-    },
-    gmaxcannonade: {
-        num: 1000,
-        accuracy: true,
-        basePower: 10,
-        category: "Physical",
-        isNonstandard: "Gigantamax",
-        name: "G-Max Cannonade",
-        pp: 10,
-        priority: 0,
-        flags: {},
-        isMax: "Blastoise",
-        self: {},
-        condition: {
-            duration: 4,
-            onResidualOrder: 5,
-            onResidualSubOrder: 1,
-            onSideResidualOrder: 26,
-            onSideResidualSubOrder: 11
-        },
-        secondary: null,
-        target: "adjacentFoe",
-        type: "Water",
-        contestType: "Cool",
-        desc: "Power is equal to the base move's Max Move power. If this move is successful, for 4 turns each non-Water-type Pokemon on the opposing side takes damage equal to 1/6 of its maximum HP, rounded down, at the end of each turn during effect, including the last turn.",
-        shortDesc: "Base move affects power. Foes: -1/6 HP, 4 turns."
-    },
-    gmaxcentiferno: {
-        num: 1000,
-        accuracy: true,
-        basePower: 10,
-        category: "Physical",
-        isNonstandard: "Gigantamax",
-        name: "G-Max Centiferno",
-        pp: 5,
-        priority: 0,
-        flags: {},
-        isMax: "Centiskorch",
-        self: {},
-        secondary: null,
-        target: "adjacentFoe",
-        type: "Fire",
-        contestType: "Cool",
-        desc: "Power is equal to the base move's Max Move power. If this move is successful, each Pokemon on the opposing side is prevented from switching for four or five turns (seven turns if the user is holding Grip Claw), even if they have a substitute. Causes damage equal to 1/8 of their maximum HP (1/6 if the user is holding Binding Band), rounded down, at the end of each turn during effect. They can still switch out if they are holding Shed Shell or use Baton Pass, Flip Turn, Parting Shot, Teleport, U-turn, or Volt Switch. The effect ends for a target if it leaves the field, or if it uses Rapid Spin or Substitute successfully. This effect is not stackable or reset by using this or another binding move.",
-        shortDesc: "Base move affects power. Foes: bound 4-5 turns."
-    },
-    gmaxchistrike: {
-        num: 1000,
-        accuracy: true,
-        basePower: 10,
-        category: "Physical",
-        isNonstandard: "Gigantamax",
-        name: "G-Max Chi Strike",
-        pp: 5,
-        priority: 0,
-        flags: {},
-        isMax: "Machamp",
-        self: {},
-        condition: {
-            noCopy: true
-        },
-        secondary: null,
-        target: "adjacentFoe",
-        type: "Fighting",
-        contestType: "Cool",
-        desc: "Power is equal to the base move's Max Move power. If this move is successful, each Pokemon on the user's side has their critical hit ratio raised by 1 stage, even if they have a substitute.",
-        shortDesc: "Base move affects power. Allies: Crit Ratio +1."
-    },
-    gmaxcuddle: {
-        num: 1000,
-        accuracy: true,
-        basePower: 10,
-        category: "Physical",
-        isNonstandard: "Gigantamax",
-        name: "G-Max Cuddle",
-        pp: 5,
-        priority: 0,
-        flags: {},
-        isMax: "Eevee",
-        self: {},
-        secondary: null,
-        target: "adjacentFoe",
-        type: "Normal",
-        contestType: "Cool",
-        desc: "Power is equal to the base move's Max Move power. If this move is successful, each Pokemon on the opposing side becomes infatuated, even if they have a substitute. This effect does not happen for a target if both it and the user are the same gender, if either is genderless, or if the target is already infatuated.",
-        shortDesc: "Base move affects power. Foes: infatuated."
-    },
-    gmaxdepletion: {
-        num: 1000,
-        accuracy: true,
-        basePower: 10,
-        category: "Physical",
-        isNonstandard: "Gigantamax",
-        name: "G-Max Depletion",
-        pp: 5,
-        priority: 0,
-        flags: {},
-        isMax: "Duraludon",
-        self: {},
-        secondary: null,
-        target: "adjacentFoe",
-        type: "Dragon",
-        contestType: "Cool",
-        desc: "Power is equal to the base move's Max Move power. If this move is successful, each Pokemon on the opposing side loses 2 PP from its last move used, even if they have a substitute.",
-        shortDesc: "Base move affects power. Foes: last move -2 PP."
-    },
-    gmaxdrumsolo: {
-        num: 1000,
-        accuracy: true,
-        basePower: 160,
-        category: "Physical",
-        isNonstandard: "Gigantamax",
-        name: "G-Max Drum Solo",
-        pp: 5,
-        priority: 0,
-        flags: {},
-        isMax: "Rillaboom",
-        ignoreAbility: true,
-        secondary: null,
-        target: "adjacentFoe",
-        type: "Grass",
-        contestType: "Cool",
-        desc: "Power is 160 regardless of the base move's Max Move power. This move and its effects ignore the Abilities of other Pokemon.",
-        shortDesc: "Always 160 power. Ignores Abilities."
-    },
-    gmaxfinale: {
-        num: 1000,
-        accuracy: true,
-        basePower: 10,
-        category: "Physical",
-        isNonstandard: "Gigantamax",
-        name: "G-Max Finale",
-        pp: 5,
-        priority: 0,
-        flags: {},
-        isMax: "Alcremie",
-        self: {},
-        secondary: null,
-        target: "adjacentFoe",
-        type: "Fairy",
-        contestType: "Cool",
-        desc: "Power is equal to the base move's Max Move power. If this move is successful, each Pokemon on the user's side restores 1/6 of its current maximum HP, even if they have a substitute.",
-        shortDesc: "Base move affects power. Allies: +1/6 max HP."
-    },
-    gmaxfireball: {
-        num: 1000,
-        accuracy: true,
-        basePower: 160,
-        category: "Physical",
-        isNonstandard: "Gigantamax",
-        name: "G-Max Fireball",
-        pp: 5,
-        priority: 0,
-        flags: {},
-        isMax: "Cinderace",
-        ignoreAbility: true,
-        secondary: null,
-        target: "adjacentFoe",
-        type: "Fire",
-        contestType: "Cool",
-        desc: "Power is 160 regardless of the base move's Max Move power. This move and its effects ignore the Abilities of other Pokemon.",
-        shortDesc: "Always 160 power. Ignores Abilities."
-    },
-    gmaxfoamburst: {
-        num: 1000,
-        accuracy: true,
-        basePower: 10,
-        category: "Physical",
-        isNonstandard: "Gigantamax",
-        name: "G-Max Foam Burst",
-        pp: 5,
-        priority: 0,
-        flags: {},
-        isMax: "Kingler",
-        self: {},
-        secondary: null,
-        target: "adjacentFoe",
-        type: "Water",
-        contestType: "Cool",
-        desc: "Power is equal to the base move's Max Move power. If this move is successful, the Speed of each Pokemon on the opposing side is lowered by 2 stages, even if they have a substitute.",
-        shortDesc: "Base move affects power. Foes: -2 Speed."
-    },
-    gmaxgoldrush: {
-        num: 1000,
-        accuracy: true,
-        basePower: 10,
-        category: "Physical",
-        isNonstandard: "Gigantamax",
-        name: "G-Max Gold Rush",
-        pp: 5,
-        priority: 0,
-        flags: {},
-        isMax: "Meowth",
-        self: {},
-        secondary: null,
-        target: "adjacentFoe",
-        type: "Normal",
-        contestType: "Cool",
-        desc: "Power is equal to the base move's Max Move power. If this move is successful, each Pokemon on the opposing side becomes confused, even if they have a substitute.",
-        shortDesc: "Base move affects power. Foes: confused."
-    },
-    gmaxgravitas: {
-        num: 1000,
-        accuracy: true,
-        basePower: 10,
-        category: "Physical",
-        isNonstandard: "Gigantamax",
-        name: "G-Max Gravitas",
-        pp: 5,
-        priority: 0,
-        flags: {},
-        isMax: "Orbeetle",
-        self: {
-            pseudoWeather: "gravity"
-        },
-        target: "adjacentFoe",
-        type: "Psychic",
-        contestType: "Cool",
-        desc: "Power is equal to the base move's Max Move power. If this move is successful, the effect of Gravity begins.",
-        shortDesc: "Base move affects power. Starts Gravity."
-    },
-    gmaxhydrosnipe: {
-        num: 1000,
-        accuracy: true,
-        basePower: 160,
-        category: "Physical",
-        isNonstandard: "Gigantamax",
-        name: "G-Max Hydrosnipe",
-        pp: 5,
-        priority: 0,
-        flags: {},
-        isMax: "Inteleon",
-        ignoreAbility: true,
-        secondary: null,
-        target: "adjacentFoe",
-        type: "Water",
-        contestType: "Cool",
-        desc: "Power is 160 regardless of the base move's Max Move power. This move and its effects ignore the Abilities of other Pokemon.",
-        shortDesc: "Always 160 power. Ignores Abilities."
-    },
-    gmaxmalodor: {
-        num: 1000,
-        accuracy: true,
-        basePower: 10,
-        category: "Physical",
-        isNonstandard: "Gigantamax",
-        name: "G-Max Malodor",
-        pp: 5,
-        priority: 0,
-        flags: {},
-        isMax: "Garbodor",
-        self: {},
-        target: "adjacentFoe",
-        type: "Poison",
-        contestType: "Cool",
-        desc: "Power is equal to the base move's Max Move power. If this move is successful, each Pokemon on the opposing side becomes poisoned, even if they have a substitute.",
-        shortDesc: "Base move affects power. Foes: poisoned."
-    },
-    gmaxmeltdown: {
-        num: 1000,
-        accuracy: true,
-        basePower: 10,
-        category: "Physical",
-        isNonstandard: "Gigantamax",
-        name: "G-Max Meltdown",
-        pp: 5,
-        priority: 0,
-        flags: {},
-        isMax: "Melmetal",
-        self: {},
-        secondary: null,
-        target: "adjacentFoe",
-        type: "Steel",
-        contestType: "Cool",
-        desc: "Power is equal to the base move's Max Move power. If this move is successful, the effect of Torment begins for each Pokemon on the opposing side, even if they have a substitute.",
-        shortDesc: "Base move affects power. Foes: Tormented."
-    },
-    gmaxoneblow: {
-        num: 1000,
-        accuracy: true,
-        basePower: 10,
-        category: "Physical",
-        isNonstandard: "Gigantamax",
-        name: "G-Max One Blow",
-        pp: 5,
-        priority: 0,
-        flags: {},
-        isMax: "Urshifu",
-        secondary: null,
-        target: "adjacentFoe",
-        type: "Dark",
-        contestType: "Cool",
-        desc: "Power is equal to the base move's Max Move power. This move bypasses all protection effects, including Max Guard.",
-        shortDesc: "Base move affects power. Bypasses Max Guard."
-    },
-    gmaxrapidflow: {
-        num: 1000,
-        accuracy: true,
-        basePower: 10,
-        category: "Physical",
-        isNonstandard: "Gigantamax",
-        name: "G-Max Rapid Flow",
-        pp: 5,
-        priority: 0,
-        flags: {},
-        isMax: "Urshifu-Rapid-Strike",
-        secondary: null,
-        target: "adjacentFoe",
-        type: "Water",
-        contestType: "Cool",
-        desc: "Power is equal to the base move's Max Move power. This move bypasses all protection effects, including Max Guard.",
-        shortDesc: "Base move affects power. Bypasses Max Guard."
-    },
-    gmaxreplenish: {
-        num: 1000,
-        accuracy: true,
-        basePower: 10,
-        category: "Physical",
-        isNonstandard: "Gigantamax",
-        name: "G-Max Replenish",
-        pp: 5,
-        priority: 0,
-        flags: {},
-        isMax: "Snorlax",
-        self: {},
-        secondary: null,
-        target: "adjacentFoe",
-        type: "Normal",
-        contestType: "Cool",
-        desc: "Power is equal to the base move's Max Move power. If this move is successful, there is a 50% chance every Pokemon on the user's side has its Berry restored, even if they have a substitute.",
-        shortDesc: "Base move affects power. 50% restores Berries."
-    },
-    gmaxresonance: {
-        num: 1000,
-        accuracy: true,
-        basePower: 10,
-        category: "Physical",
-        isNonstandard: "Gigantamax",
-        name: "G-Max Resonance",
-        pp: 5,
-        priority: 0,
-        flags: {},
-        isMax: "Lapras",
-        self: {
-            sideCondition: "auroraveil"
-        },
-        secondary: null,
-        target: "adjacentFoe",
-        type: "Ice",
-        contestType: "Cool",
-        desc: "Power is equal to the base move's Max Move power. If this move is successful, the effect of Aurora Veil begins on the user's side.",
-        shortDesc: "Base move affects power. Allies: Aurora Veil."
-    },
-    gmaxsandblast: {
-        num: 1000,
-        accuracy: true,
-        basePower: 10,
-        category: "Physical",
-        isNonstandard: "Gigantamax",
-        name: "G-Max Sandblast",
-        pp: 5,
-        priority: 0,
-        flags: {},
-        isMax: "Sandaconda",
-        self: {},
-        secondary: null,
-        target: "adjacentFoe",
-        type: "Ground",
-        contestType: "Cool",
-        desc: "Power is equal to the base move's Max Move power. If this move is successful, each Pokemon on the opposing side is prevented from switching for four or five turns (seven turns if the user is holding Grip Claw), even if they have a substitute. Causes damage equal to 1/8 of their maximum HP (1/6 if the user is holding Binding Band), rounded down, at the end of each turn during effect. They can still switch out if they are holding Shed Shell or use Baton Pass, Flip Turn, Parting Shot, Teleport, U-turn, or Volt Switch. The effect ends for a target if it leaves the field, or if it uses Rapid Spin or Substitute successfully. This effect is not stackable or reset by using this or another binding move.",
-        shortDesc: "Base move affects power. Foes: bound 4-5 turns."
-    },
-    gmaxsmite: {
-        num: 1000,
-        accuracy: true,
-        basePower: 10,
-        category: "Physical",
-        isNonstandard: "Gigantamax",
-        name: "G-Max Smite",
-        pp: 5,
-        priority: 0,
-        flags: {},
-        isMax: "Hatterene",
-        self: {},
-        secondary: null,
-        target: "adjacentFoe",
-        type: "Fairy",
-        contestType: "Cool",
-        desc: "Power is equal to the base move's Max Move power. If this move is successful, each Pokemon on the opposing side becomes confused, even if they have a substitute.",
-        shortDesc: "Base move affects power. Foes: confused."
-    },
-    gmaxsnooze: {
-        num: 1000,
-        accuracy: true,
-        basePower: 10,
-        category: "Physical",
-        isNonstandard: "Gigantamax",
-        name: "G-Max Snooze",
-        pp: 5,
-        priority: 0,
-        flags: {},
-        isMax: "Grimmsnarl",
-        secondary: null,
-        target: "adjacentFoe",
-        type: "Dark",
-        contestType: "Cool",
-        desc: "Power is equal to the base move's Max Move power. If this move is successful, there is a 50% chance the effect of Yawn begins on the target, even if it has a substitute.",
-        shortDesc: "Base move affects power. Target: 50% Yawn."
-    },
-    gmaxsteelsurge: {
-        num: 1000,
-        accuracy: true,
-        basePower: 10,
-        category: "Physical",
-        isNonstandard: "Gigantamax",
-        name: "G-Max Steelsurge",
-        pp: 5,
-        priority: 0,
-        flags: {},
-        isMax: "Copperajah",
-        self: {},
-        condition: {},
-        secondary: null,
-        target: "adjacentFoe",
-        type: "Steel",
-        contestType: "Cool",
-        desc: "Power is equal to the base move's Max Move power. If this move is successful, it sets up a hazard on the opposing side of the field, damaging each opposing Pokemon that switches in. Foes lose 1/32, 1/16, 1/8, 1/4, or 1/2 of their maximum HP, rounded down, based on their weakness to the Steel type; 0.25x, 0.5x, neutral, 2x, or 4x, respectively. Can be removed from the opposing side if any opposing Pokemon uses Rapid Spin or Defog successfully, or is hit by Defog.",
-        shortDesc: "Base move affects power. Foes: Steel hazard."
-    },
-    gmaxstonesurge: {
-        num: 1000,
-        accuracy: true,
-        basePower: 10,
-        category: "Physical",
-        isNonstandard: "Gigantamax",
-        name: "G-Max Stonesurge",
-        pp: 5,
-        priority: 0,
-        flags: {},
-        isMax: "Drednaw",
-        self: {},
-        secondary: null,
-        target: "adjacentFoe",
-        type: "Water",
-        contestType: "Cool",
-        desc: "Power is equal to the base move's Max Move power. If this move is successful, it sets up a hazard on the opposing side of the field, damaging each opposing Pokemon that switches in. Foes lose 1/32, 1/16, 1/8, 1/4, or 1/2 of their maximum HP, rounded down, based on their weakness to the Rock type; 0.25x, 0.5x, neutral, 2x, or 4x, respectively. Can be removed from the opposing side if any opposing Pokemon uses Rapid Spin or Defog successfully, or is hit by Defog.",
-        shortDesc: "Base move affects power. Foes: Stealth Rock."
-    },
-    gmaxstunshock: {
-        num: 1000,
-        accuracy: true,
-        basePower: 10,
-        category: "Physical",
-        isNonstandard: "Gigantamax",
-        name: "G-Max Stun Shock",
-        pp: 10,
-        priority: 0,
-        flags: {},
-        isMax: "Toxtricity",
-        self: {},
-        secondary: null,
-        target: "adjacentFoe",
-        type: "Electric",
-        contestType: "Cool",
-        desc: "Power is equal to the base move's Max Move power. If this move is successful, each Pokemon on the opposing side either becomes poisoned or paralyzed, even if they have a substitute.",
-        shortDesc: "Base move affects power. Foes: psn or par."
-    },
-    gmaxsweetness: {
-        num: 1000,
-        accuracy: true,
-        basePower: 10,
-        category: "Physical",
-        isNonstandard: "Gigantamax",
-        name: "G-Max Sweetness",
-        pp: 10,
-        priority: 0,
-        flags: {},
-        isMax: "Appletun",
-        self: {},
-        secondary: null,
-        target: "adjacentFoe",
-        type: "Grass",
-        contestType: "Cool",
-        desc: "Power is equal to the base move's Max Move power. If this move is successful, each Pokemon on the user's side has its status condition cured, even if they have a substitute.",
-        shortDesc: "Base move affects power. Allies: status cured."
-    },
-    gmaxtartness: {
-        num: 1000,
-        accuracy: true,
-        basePower: 10,
-        category: "Physical",
-        isNonstandard: "Gigantamax",
-        name: "G-Max Tartness",
-        pp: 10,
-        priority: 0,
-        flags: {},
-        isMax: "Flapple",
-        self: {},
-        secondary: null,
-        target: "adjacentFoe",
-        type: "Grass",
-        contestType: "Cool",
-        desc: "Power is equal to the base move's Max Move power. If this move is successful, the evasiveness of each Pokemon on the opposing side is lowered by 1 stage, even if they have a substitute.",
-        shortDesc: "Base move affects power. Foes: -1 evasiveness."
-    },
-    gmaxterror: {
-        num: 1000,
-        accuracy: true,
-        basePower: 10,
-        category: "Physical",
-        isNonstandard: "Gigantamax",
-        name: "G-Max Terror",
-        pp: 10,
-        priority: 0,
-        flags: {},
-        isMax: "Gengar",
-        self: {},
-        secondary: null,
-        target: "adjacentFoe",
-        type: "Ghost",
-        contestType: "Cool",
-        desc: "Power is equal to the base move's Max Move power. If this move is successful, each Pokemon on the opposing side is prevented from switching out, even if they have a substitute. They can still switch out if they are holding Shed Shell or use Baton Pass, Flip Turn, Parting Shot, Teleport, U-turn, or Volt Switch. If a target leaves the field using Baton Pass, the replacement will remain trapped. The effect ends if the user leaves the field.",
-        shortDesc: "Base move affects power. Foes: trapped."
-    },
-    gmaxvinelash: {
-        num: 1000,
-        accuracy: true,
-        basePower: 10,
-        category: "Physical",
-        isNonstandard: "Gigantamax",
-        name: "G-Max Vine Lash",
-        pp: 10,
-        priority: 0,
-        flags: {},
-        isMax: "Venusaur",
-        self: {},
-        condition: {
-            duration: 4,
-            onResidualOrder: 5,
-            onResidualSubOrder: 1,
-            onSideResidualOrder: 26,
-            onSideResidualSubOrder: 11
-        },
-        secondary: null,
-        target: "adjacentFoe",
-        type: "Grass",
-        contestType: "Cool",
-        desc: "Power is equal to the base move's Max Move power. If this move is successful, for 4 turns each non-Grass-type Pokemon on the opposing side takes damage equal to 1/6 of its maximum HP, rounded down, at the end of each turn during effect, including the last turn.",
-        shortDesc: "Base move affects power. Foes: -1/6 HP, 4 turns."
-    },
-    gmaxvolcalith: {
-        num: 1000,
-        accuracy: true,
-        basePower: 10,
-        category: "Physical",
-        isNonstandard: "Gigantamax",
-        name: "G-Max Volcalith",
-        pp: 10,
-        priority: 0,
-        flags: {},
-        isMax: "Coalossal",
-        self: {},
-        condition: {
-            duration: 4,
-            onResidualOrder: 5,
-            onResidualSubOrder: 1,
-            onSideResidualOrder: 26,
-            onSideResidualSubOrder: 11
-        },
-        secondary: null,
-        target: "adjacentFoe",
-        type: "Rock",
-        contestType: "Cool",
-        desc: "Power is equal to the base move's Max Move power. If this move is successful, for 4 turns each non-Rock-type Pokemon on the opposing side takes damage equal to 1/6 of its maximum HP, rounded down, at the end of each turn during effect, including the last turn.",
-        shortDesc: "Base move affects power. Foes: -1/6 HP, 4 turns."
-    },
-    gmaxvoltcrash: {
-        num: 1000,
-        accuracy: true,
-        basePower: 10,
-        category: "Physical",
-        isNonstandard: "Gigantamax",
-        name: "G-Max Volt Crash",
-        pp: 10,
-        priority: 0,
-        flags: {},
-        isMax: "Pikachu",
-        self: {},
-        secondary: null,
-        target: "adjacentFoe",
-        type: "Electric",
-        contestType: "Cool",
-        desc: "Power is equal to the base move's Max Move power. If this move is successful, each Pokemon on the opposing side becomes paralyzed, even if they have a substitute.",
-        shortDesc: "Base move affects power. Foes: paralyzed."
-    },
-    gmaxwildfire: {
-        num: 1000,
-        accuracy: true,
-        basePower: 10,
-        category: "Physical",
-        isNonstandard: "Gigantamax",
-        name: "G-Max Wildfire",
-        pp: 10,
-        priority: 0,
-        flags: {},
-        isMax: "Charizard",
-        self: {},
-        condition: {
-            duration: 4,
-            onResidualOrder: 5,
-            onResidualSubOrder: 1,
-            onSideResidualOrder: 26,
-            onSideResidualSubOrder: 11
-        },
-        secondary: null,
-        target: "adjacentFoe",
-        type: "Fire",
-        contestType: "Cool",
-        desc: "Power is equal to the base move's Max Move power. If this move is successful, for 4 turns each non-Fire-type Pokemon on the opposing side takes damage equal to 1/6 of its maximum HP, rounded down, at the end of each turn during effect, including the last turn.",
-        shortDesc: "Base move affects power. Foes: -1/6 HP, 4 turns."
-    },
-    gmaxwindrage: {
-        num: 1000,
-        accuracy: true,
-        basePower: 10,
-        category: "Physical",
-        isNonstandard: "Gigantamax",
-        name: "G-Max Wind Rage",
-        pp: 10,
-        priority: 0,
-        flags: {},
-        isMax: "Corviknight",
-        self: {},
-        secondary: null,
-        target: "adjacentFoe",
-        type: "Flying",
-        contestType: "Cool",
-        desc: "Power is equal to the base move's Max Move power. If this move is successful, the effects of Electric Terrain, Grassy Terrain, Misty Terrain, and Psychic Terrain end, the effects of Reflect, Light Screen, Aurora Veil, Safeguard, Mist, G-Max Steelsurge, Spikes, Toxic Spikes, Stealth Rock, and Sticky Web end for the target's side, and the effects of G-Max Steelsurge, Spikes, Toxic Spikes, Stealth Rock, and Sticky Web end for the user's side.",
-        shortDesc: "Base move affects power. Ends Terrain, hazards."
     },
     grassknot: {
         num: 447,
@@ -8133,24 +6424,6 @@ exports.BattleMovedex = {
         contestType: "Tough",
         desc: "Until the user's next turn, if an opposing Pokemon's attack knocks the user out, that move loses all its remaining PP.",
         shortDesc: "If the user faints, the attack used loses all its PP."
-    },
-    guardianofalola: {
-        num: 698,
-        accuracy: true,
-        basePower: 0,
-        category: "Special",
-        isNonstandard: "Past",
-        name: "Guardian of Alola",
-        pp: 1,
-        priority: 0,
-        flags: {},
-        isZ: "tapuniumz",
-        secondary: null,
-        target: "normal",
-        type: "Fairy",
-        contestType: "Tough",
-        desc: "Deals damage to the target equal to 3/4 of its current HP, rounded down, but not less than 1 HP.",
-        shortDesc: "Does damage equal to 3/4 target's current HP."
     },
     guardsplit: {
         num: 470,
@@ -8464,32 +6737,6 @@ exports.BattleMovedex = {
         contestType: "Tough",
         desc: "If the target lost HP, the user takes recoil damage equal to 1/4 the HP lost by the target, rounded half up, but not less than 1 HP.",
         shortDesc: "Has 1/4 recoil."
-    },
-    headlongrush: {
-        num: 838,
-        accuracy: 100,
-        basePower: 120,
-        category: "Physical",
-        name: "Headlong Rush",
-        pp: 5,
-        priority: 0,
-        flags: {
-            contact: 1,
-            protect: 1,
-            mirror: 1,
-            punch: 1
-        },
-        self: {
-            boosts: {
-                def: -1,
-                spd: -1
-            }
-        },
-        secondary: null,
-        target: "normal",
-        type: "Ground",
-        desc: "Lowers the user's Defense and Special Defense by 1 stage.",
-        shortDesc: "Lowers the user's Defense and Sp. Def by 1."
     },
     headsmash: {
         num: 457,
@@ -9422,44 +7669,6 @@ exports.BattleMovedex = {
         desc: "No additional effect.",
         shortDesc: "No additional effect."
     },
-    hydrosteam: {
-        num: 876,
-        accuracy: 100,
-        basePower: 80,
-        category: "Special",
-        name: "Hydro Steam",
-        pp: 15,
-        priority: 0,
-        flags: {
-            protect: 1,
-            mirror: 1,
-            defrost: 1
-        },
-        thawsTarget: true,
-        secondary: null,
-        target: "normal",
-        type: "Water",
-        desc: "If the current weather is Sunny Day and the user is not holding Utility Umbrella, this move's damage is multiplied by 1.5 instead of halved for being Water type.",
-        shortDesc: "During Sunny Day: 1.5x damage instead of half."
-    },
-    hydrovortex: {
-        num: 642,
-        accuracy: true,
-        basePower: 1,
-        category: "Physical",
-        isNonstandard: "Past",
-        name: "Hydro Vortex",
-        pp: 1,
-        priority: 0,
-        flags: {},
-        isZ: "wateriumz",
-        secondary: null,
-        target: "normal",
-        type: "Water",
-        contestType: "Cool",
-        desc: "Power is equal to the base move's Z-Power.",
-        shortDesc: "Power is equal to the base move's Z-Power."
-    },
     hyperbeam: {
         num: 63,
         accuracy: 100,
@@ -9482,25 +7691,6 @@ exports.BattleMovedex = {
         contestType: "Cool",
         desc: "If this move is successful, the user must recharge on the following turn and cannot select a move.",
         shortDesc: "User cannot move next turn."
-    },
-    hyperdrill: {
-        num: 887,
-        accuracy: 100,
-        basePower: 100,
-        category: "Physical",
-        name: "Hyper Drill",
-        pp: 5,
-        priority: 0,
-        flags: {
-            contact: 1,
-            mirror: 1
-        },
-        secondary: null,
-        target: "normal",
-        type: "Normal",
-        contestType: "Clever",
-        desc: "Bypasses protection without breaking it.",
-        shortDesc: "Bypasses protection without breaking it."
     },
     hyperfang: {
         num: 158,
@@ -9791,25 +7981,6 @@ exports.BattleMovedex = {
         desc: "No additional effect.",
         shortDesc: "Usually goes first."
     },
-    icespinner: {
-        num: 861,
-        accuracy: 100,
-        basePower: 80,
-        category: "Physical",
-        name: "Ice Spinner",
-        pp: 15,
-        priority: 0,
-        flags: {
-            contact: 1,
-            protect: 1,
-            mirror: 1
-        },
-        secondary: null,
-        target: "normal",
-        type: "Ice",
-        desc: "Ends the effects of Electric Terrain, Grassy Terrain, Misty Terrain, and Psychic Terrain.",
-        shortDesc: "Ends the effects of terrain."
-    },
     iciclecrash: {
         num: 556,
         accuracy: 100,
@@ -9932,27 +8103,6 @@ exports.BattleMovedex = {
         desc: "The target loses its held item if it is a Berry or a Gem. This move cannot cause Pokemon with the Sticky Hold Ability to lose their held item. Items lost to this move cannot be regained with Recycle or the Harvest Ability.",
         shortDesc: "Destroys the foe(s) Berry/Gem."
     },
-    infernalparade: {
-        num: 844,
-        accuracy: 100,
-        basePower: 60,
-        category: "Special",
-        name: "Infernal Parade",
-        pp: 15,
-        priority: 0,
-        flags: {
-            protect: 1,
-            mirror: 1
-        },
-        secondary: {
-            chance: 30,
-            status: "brn"
-        },
-        target: "normal",
-        type: "Ghost",
-        desc: "Has a 30% chance to burn the target. Power doubles if the target has a non-volatile status condition.",
-        shortDesc: "30% burn. 2x power if target is already statused."
-    },
     inferno: {
         num: 517,
         accuracy: 50,
@@ -9974,24 +8124,6 @@ exports.BattleMovedex = {
         contestType: "Beautiful",
         desc: "Has a 100% chance to burn the target.",
         shortDesc: "100% chance to burn the target."
-    },
-    infernooverdrive: {
-        num: 640,
-        accuracy: true,
-        basePower: 1,
-        category: "Physical",
-        isNonstandard: "Past",
-        name: "Inferno Overdrive",
-        pp: 1,
-        priority: 0,
-        flags: {},
-        isZ: "firiumz",
-        secondary: null,
-        target: "normal",
-        type: "Fire",
-        contestType: "Cool",
-        desc: "Power is equal to the base move's Z-Power.",
-        shortDesc: "Power is equal to the base move's Z-Power."
     },
     infestation: {
         num: 611,
@@ -10187,28 +8319,6 @@ exports.BattleMovedex = {
         desc: "Prevents the user and the target from switching out. The user and the target can still switch out if either of them is holding Shed Shell or uses Baton Pass, Flip Turn, Parting Shot, Teleport, U-turn, or Volt Switch. The effect ends if either the user or the target leaves the field.",
         shortDesc: "Prevents both user and target from switching out."
     },
-    jetpunch: {
-        num: 857,
-        accuracy: 100,
-        basePower: 60,
-        category: "Physical",
-        name: "Jet Punch",
-        pp: 15,
-        priority: 1,
-        flags: {
-            contact: 1,
-            protect: 1,
-            mirror: 1,
-            punch: 1
-        },
-        secondary: null,
-        hasSheerForce: true,
-        target: "normal",
-        type: "Water",
-        contestType: "Cool",
-        desc: "No additional effect.",
-        shortDesc: "Usually goes first."
-    },
     judgment: {
         num: 449,
         accuracy: 100,
@@ -10371,26 +8481,6 @@ exports.BattleMovedex = {
         desc: "If the target is holding an item that can be removed from it, ignoring the Sticky Hold Ability, this move's power is multiplied by 1.5. If the user has not fainted, the target loses its held item. This move cannot cause Pokemon with the Sticky Hold Ability to lose their held item or cause a Kyogre, a Groudon, a Giratina, an Arceus, a Genesect, a Silvally, a Zacian, or a Zamazenta to lose their Blue Orb, Red Orb, Griseous Orb, Plate, Drive, Memory, Rusted Sword, or Rusted Shield respectively. Items lost to this move cannot be regained with Recycle or the Harvest Ability.",
         shortDesc: "1.5x damage if foe holds an item. Removes item."
     },
-    kowtowcleave: {
-        num: 869,
-        accuracy: true,
-        basePower: 85,
-        category: "Physical",
-        name: "Kowtow Cleave",
-        pp: 10,
-        priority: 0,
-        flags: {
-            contact: 1,
-            protect: 1,
-            mirror: 1,
-            slicing: 1
-        },
-        secondary: null,
-        target: "normal",
-        type: "Dark",
-        desc: "This move does not check accuracy.",
-        shortDesc: "This move does not check accuracy."
-    },
     landswrath: {
         num: 616,
         accuracy: 100,
@@ -10481,24 +8571,6 @@ exports.BattleMovedex = {
         contestType: "Cute",
         desc: "This move fails unless the user knows this move and at least one other move, and has used all the other moves it knows at least once each since it became active or Transformed.",
         shortDesc: "Fails unless each known move has been used."
-    },
-    lastrespects: {
-        num: 854,
-        accuracy: 100,
-        basePower: 50,
-        category: "Physical",
-        name: "Last Respects",
-        pp: 10,
-        priority: 0,
-        flags: {
-            protect: 1,
-            mirror: 1
-        },
-        secondary: null,
-        target: "normal",
-        type: "Ghost",
-        desc: "Power is equal to 50+(X*50), where X is the total number of times any Pokemon has fainted on the user's side, and X cannot be greater than 100.",
-        shortDesc: "+50 power for each time a party member fainted."
     },
     lavaplume: {
         num: 436,
@@ -10689,26 +8761,6 @@ exports.BattleMovedex = {
         desc: "Lowers the target's Defense by 1 stage.",
         shortDesc: "Lowers the foe(s) Defense by 1."
     },
-    letssnuggleforever: {
-        num: 726,
-        accuracy: true,
-        basePower: 190,
-        category: "Physical",
-        isNonstandard: "Past",
-        name: "Let's Snuggle Forever",
-        pp: 1,
-        priority: 0,
-        flags: {
-            contact: 1
-        },
-        isZ: "mimikiumz",
-        secondary: null,
-        target: "normal",
-        type: "Fairy",
-        contestType: "Cool",
-        desc: "No additional effect.",
-        shortDesc: "No additional effect."
-    },
     lick: {
         num: 122,
         accuracy: 100,
@@ -10801,25 +8853,6 @@ exports.BattleMovedex = {
         contestType: "Beautiful",
         desc: "For 5 turns, the user and its party members take 0.5x damage from special attacks, or 0.66x damage if in a Double Battle. Damage is not reduced further with Aurora Veil. Critical hits ignore this effect. It is removed from the user's side if the user or an ally is successfully hit by Brick Break, Psychic Fangs, or Defog. Lasts for 8 turns if the user is holding Light Clay. Fails if the effect is already active on the user's side.",
         shortDesc: "For 5 turns, special damage to allies is halved."
-    },
-    lightthatburnsthesky: {
-        num: 723,
-        accuracy: true,
-        basePower: 200,
-        category: "Special",
-        isNonstandard: "Past",
-        name: "Light That Burns the Sky",
-        pp: 1,
-        priority: 0,
-        flags: {},
-        ignoreAbility: true,
-        isZ: "ultranecroziumz",
-        secondary: null,
-        target: "normal",
-        type: "Psychic",
-        contestType: "Cool",
-        desc: "This move becomes a physical attack if the user's Attack is greater than its Special Attack, including stat stage changes. This move and its effects ignore the Abilities of other Pokemon.",
-        shortDesc: "Physical if user's Atk > Sp. Atk. Ignores Abilities."
     },
     liquidation: {
         num: 710,
@@ -10981,29 +9014,6 @@ exports.BattleMovedex = {
         desc: "For 5 turns, the user and its party members cannot be struck by a critical hit. Fails if the effect is already active on the user's side.",
         shortDesc: "For 5 turns, shields user's party from critical hits."
     },
-    luminacrash: {
-        num: 855,
-        accuracy: 100,
-        basePower: 80,
-        category: "Special",
-        name: "Lumina Crash",
-        pp: 10,
-        priority: 0,
-        flags: {
-            protect: 1,
-            mirror: 1
-        },
-        secondary: {
-            chance: 100,
-            boosts: {
-                spd: -2
-            }
-        },
-        target: "normal",
-        type: "Psychic",
-        desc: "Has a 100% chance to lower the target's Special Defense by 2 stages.",
-        shortDesc: "100% chance to lower the target's Sp. Def by 2."
-    },
     lunarblessing: {
         num: 849,
         accuracy: true,
@@ -11134,34 +9144,6 @@ exports.BattleMovedex = {
         contestType: "Beautiful",
         desc: "This move does not check accuracy.",
         shortDesc: "This move does not check accuracy."
-    },
-    magicaltorque: {
-        num: 900,
-        accuracy: 100,
-        basePower: 100,
-        category: "Physical",
-        isNonstandard: "Unobtainable",
-        name: "Magical Torque",
-        pp: 10,
-        priority: 0,
-        flags: {
-            protect: 1,
-            failencore: 1,
-            failmefirst: 1,
-            nosleeptalk: 1,
-            noassist: 1,
-            failcopycat: 1,
-            failinstruct: 1,
-            failmimic: 1
-        },
-        secondary: {
-            chance: 30,
-            volatileStatus: "confusion"
-        },
-        target: "normal",
-        type: "Fairy",
-        desc: "Has a 30% chance to confuse the target.",
-        shortDesc: "30% chance to confuse the target."
     },
     magiccoat: {
         num: 277,
@@ -11362,50 +9344,6 @@ exports.BattleMovedex = {
         desc: "The power of this move varies; 5% chances for 10 and 150 power, 10% chances for 30 and 110 power, 20% chances for 50 and 90 power, and 30% chance for 70 power. Damage doubles if the target is using Dig.",
         shortDesc: "Hits adjacent Pokemon. Power varies; 2x on Dig."
     },
-    makeitrain: {
-        num: 874,
-        accuracy: 100,
-        basePower: 120,
-        category: "Special",
-        name: "Make It Rain",
-        pp: 5,
-        priority: 0,
-        flags: {
-            protect: 1,
-            mirror: 1
-        },
-        self: {
-            boosts: {
-                spa: -1
-            }
-        },
-        secondary: null,
-        target: "allAdjacentFoes",
-        type: "Steel",
-        contestType: "Beautiful",
-        desc: "Lowers the user's Special Attack by 1 stage.",
-        shortDesc: "Lowers the user's Sp. Atk by 1. Hits foe(s)."
-    },
-    maliciousmoonsault: {
-        num: 696,
-        accuracy: true,
-        basePower: 180,
-        category: "Physical",
-        isNonstandard: "Past",
-        name: "Malicious Moonsault",
-        pp: 1,
-        priority: 0,
-        flags: {
-            contact: 1
-        },
-        isZ: "inciniumz",
-        secondary: null,
-        target: "normal",
-        type: "Dark",
-        contestType: "Cool",
-        desc: "Damage doubles and no accuracy check is done if the target has used Minimize while active.",
-        shortDesc: "Damage doubles if the target used Minimize."
-    },
     matblock: {
         num: 561,
         accuracy: true,
@@ -11438,354 +9376,6 @@ exports.BattleMovedex = {
         contestType: "Cool",
         desc: "The user and its party members are protected from damaging attacks made by other Pokemon, including allies, during this turn. Fails unless it is the user's first turn on the field, if the user moves last this turn, or if this move is already in effect for the user's side.",
         shortDesc: "Protects allies from damaging attacks. Turn 1 only."
-    },
-    maxairstream: {
-        num: 766,
-        accuracy: true,
-        basePower: 10,
-        category: "Physical",
-        isNonstandard: "Past",
-        name: "Max Airstream",
-        pp: 10,
-        priority: 0,
-        flags: {},
-        isMax: true,
-        self: {},
-        target: "adjacentFoe",
-        type: "Flying",
-        contestType: "Cool",
-        desc: "Power is equal to the base move's Max Move power. If this move is successful, the Speed of each Pokemon on the user's side is raised by 1 stage, even if they have a substitute. This effect does not happen if the user is not Dynamaxed. If this move is used as a base move, it deals damage with a power of 0.",
-        shortDesc: "Base move affects power. Allies: +1 Speed."
-    },
-    maxdarkness: {
-        num: 772,
-        accuracy: true,
-        basePower: 10,
-        category: "Physical",
-        isNonstandard: "Past",
-        name: "Max Darkness",
-        pp: 10,
-        priority: 0,
-        flags: {},
-        isMax: true,
-        self: {},
-        target: "adjacentFoe",
-        type: "Dark",
-        contestType: "Cool",
-        desc: "Power is equal to the base move's Max Move power. If this move is successful, the Special Defense of each Pokemon on the opposing side is lowered by 1 stage, even if they have a substitute. This effect does not happen if the user is not Dynamaxed. If this move is used as a base move, it deals damage with a power of 0.",
-        shortDesc: "Base move affects power. Foes: -1 Sp. Def."
-    },
-    maxflare: {
-        num: 757,
-        accuracy: true,
-        basePower: 100,
-        category: "Physical",
-        isNonstandard: "Past",
-        name: "Max Flare",
-        pp: 10,
-        priority: 0,
-        flags: {},
-        isMax: true,
-        self: {},
-        target: "adjacentFoe",
-        type: "Fire",
-        contestType: "Cool",
-        desc: "Power is equal to the base move's Max Move power. If this move is successful, the effect of Sunny Day begins. This effect does not happen if the user is not Dynamaxed. If this move is used as a base move, it deals damage with a power of 0.",
-        shortDesc: "Base move affects power. Starts Sunny Day."
-    },
-    maxflutterby: {
-        num: 758,
-        accuracy: true,
-        basePower: 10,
-        category: "Physical",
-        isNonstandard: "Past",
-        name: "Max Flutterby",
-        pp: 10,
-        priority: 0,
-        flags: {},
-        isMax: true,
-        self: {},
-        target: "adjacentFoe",
-        type: "Bug",
-        contestType: "Cool",
-        desc: "Power is equal to the base move's Max Move power. If this move is successful, the Special Attack of each Pokemon on the opposing side is lowered by 1 stage, even if they have a substitute. This effect does not happen if the user is not Dynamaxed. If this move is used as a base move, it deals damage with a power of 0.",
-        shortDesc: "Base move affects power. Foes: -1 Sp. Atk."
-    },
-    maxgeyser: {
-        num: 765,
-        accuracy: true,
-        basePower: 10,
-        category: "Physical",
-        isNonstandard: "Past",
-        name: "Max Geyser",
-        pp: 10,
-        priority: 0,
-        flags: {},
-        isMax: true,
-        self: {},
-        target: "adjacentFoe",
-        type: "Water",
-        contestType: "Cool",
-        desc: "Power is equal to the base move's Max Move power. If this move is successful, the effect of Rain Dance begins. This effect does not happen if the user is not Dynamaxed. If this move is used as a base move, it deals damage with a power of 0.",
-        shortDesc: "Base move affects power. Starts Rain Dance."
-    },
-    maxguard: {
-        num: 743,
-        accuracy: true,
-        basePower: 0,
-        category: "Status",
-        isNonstandard: "Past",
-        name: "Max Guard",
-        pp: 10,
-        priority: 4,
-        flags: {},
-        isMax: true,
-        stallingMove: true,
-        volatileStatus: "maxguard",
-        condition: {
-            duration: 1,
-            onTryHitPriority: 3
-        },
-        secondary: null,
-        target: "self",
-        type: "Normal",
-        contestType: "Cool",
-        desc: "The user is protected from nearly all attacks made by other Pokemon during this turn, including Max and G-Max Moves. This move has a 1/X chance of being successful, where X starts at 1 and triples each time this move is successfully used. X resets to 1 if this move fails, if the user's last move used is not Baneful Bunker, Detect, Endure, King's Shield, Max Guard, Obstruct, Protect, Quick Guard, Spiky Shield, or Wide Guard, or if it was one of those moves and the user's protection was broken. Fails if the user moves last this turn.",
-        shortDesc: "Protects user from moves & Max Moves this turn."
-    },
-    maxhailstorm: {
-        num: 763,
-        accuracy: true,
-        basePower: 10,
-        category: "Physical",
-        isNonstandard: "Past",
-        name: "Max Hailstorm",
-        pp: 10,
-        priority: 0,
-        flags: {},
-        isMax: true,
-        self: {},
-        target: "adjacentFoe",
-        type: "Ice",
-        contestType: "Cool",
-        desc: "Power is equal to the base move's Max Move power. If this move is successful, the effect of Hail begins. This effect does not happen if the user is not Dynamaxed. If this move is used as a base move, it deals damage with a power of 0.",
-        shortDesc: "Base move affects power. Starts Hail."
-    },
-    maxknuckle: {
-        num: 761,
-        accuracy: true,
-        basePower: 10,
-        category: "Physical",
-        isNonstandard: "Past",
-        name: "Max Knuckle",
-        pp: 10,
-        priority: 0,
-        flags: {},
-        isMax: true,
-        self: {},
-        target: "adjacentFoe",
-        type: "Fighting",
-        contestType: "Cool",
-        desc: "Boosts the user and its allies' Attack by 1 stage. BP scales with the base move's BP. This effect does not happen if the user is not Dynamaxed. If this move is used as a base move, it deals damage with a power of 0.",
-        shortDesc: "Base move affects power. Allies: +1 Attack."
-    },
-    maxlightning: {
-        num: 759,
-        accuracy: true,
-        basePower: 10,
-        category: "Physical",
-        isNonstandard: "Past",
-        name: "Max Lightning",
-        pp: 10,
-        priority: 0,
-        flags: {},
-        isMax: true,
-        self: {},
-        target: "adjacentFoe",
-        type: "Electric",
-        contestType: "Cool",
-        desc: "Power is equal to the base move's Max Move power. If this move is successful, the effect of Electric Terrain begins. This effect does not happen if the user is not Dynamaxed. If this move is used as a base move, it deals damage with a power of 0.",
-        shortDesc: "Base move affects power. Starts Electric Terrain."
-    },
-    maxmindstorm: {
-        num: 769,
-        accuracy: true,
-        basePower: 10,
-        category: "Physical",
-        isNonstandard: "Past",
-        name: "Max Mindstorm",
-        pp: 10,
-        priority: 0,
-        flags: {},
-        isMax: true,
-        self: {},
-        target: "adjacentFoe",
-        type: "Psychic",
-        contestType: "Cool",
-        desc: "Power is equal to the base move's Max Move power. If this move is successful, the effect of Psychic Terrain begins. This effect does not happen if the user is not Dynamaxed. If this move is used as a base move, it deals damage with a power of 0.",
-        shortDesc: "Base move affects power. Starts Psychic Terrain."
-    },
-    maxooze: {
-        num: 764,
-        accuracy: true,
-        basePower: 10,
-        category: "Physical",
-        isNonstandard: "Past",
-        name: "Max Ooze",
-        pp: 10,
-        priority: 0,
-        flags: {},
-        isMax: true,
-        self: {},
-        target: "adjacentFoe",
-        type: "Poison",
-        contestType: "Cool",
-        desc: "Power is equal to the base move's Max Move power. If this move is successful, the Special Attack of each Pokemon on the user's side is raised by 1 stage, even if they have a substitute. This effect does not happen if the user is not Dynamaxed. If this move is used as a base move, it deals damage with a power of 0.",
-        shortDesc: "Base move affects power. Allies: +1 Sp. Atk."
-    },
-    maxovergrowth: {
-        num: 773,
-        accuracy: true,
-        basePower: 10,
-        category: "Physical",
-        isNonstandard: "Past",
-        name: "Max Overgrowth",
-        pp: 10,
-        priority: 0,
-        flags: {},
-        isMax: true,
-        self: {},
-        target: "adjacentFoe",
-        type: "Grass",
-        contestType: "Cool",
-        desc: "Power is equal to the base move's Max Move power. If this move is successful, the effect of Grassy Terrain begins. This effect does not happen if the user is not Dynamaxed. If this move is used as a base move, it deals damage with a power of 0.",
-        shortDesc: "Base move affects power. Starts Grassy Terrain."
-    },
-    maxphantasm: {
-        num: 762,
-        accuracy: true,
-        basePower: 10,
-        category: "Physical",
-        isNonstandard: "Past",
-        name: "Max Phantasm",
-        pp: 10,
-        priority: 0,
-        flags: {},
-        isMax: true,
-        self: {},
-        target: "adjacentFoe",
-        type: "Ghost",
-        contestType: "Cool",
-        desc: "Power is equal to the base move's Max Move power. If this move is successful, the Defense of each Pokemon on the opposing side is lowered by 1 stage, even if they have a substitute. This effect does not happen if the user is not Dynamaxed. If this move is used as a base move, it deals damage with a power of 0.",
-        shortDesc: "Base move affects power. Foes: -1 Defense."
-    },
-    maxquake: {
-        num: 771,
-        accuracy: true,
-        basePower: 10,
-        category: "Physical",
-        isNonstandard: "Past",
-        name: "Max Quake",
-        pp: 10,
-        priority: 0,
-        flags: {},
-        isMax: true,
-        self: {},
-        target: "adjacentFoe",
-        type: "Ground",
-        contestType: "Cool",
-        desc: "Power is equal to the base move's Max Move power. If this move is successful, the Special Defense of each Pokemon on the user's side is raised by 1 stage, even if they have a substitute. This effect does not happen if the user is not Dynamaxed. If this move is used as a base move, it deals damage with a power of 0.",
-        shortDesc: "Base move affects power. Allies: +1 Sp. Def."
-    },
-    maxrockfall: {
-        num: 770,
-        accuracy: true,
-        basePower: 10,
-        category: "Physical",
-        isNonstandard: "Past",
-        name: "Max Rockfall",
-        pp: 10,
-        priority: 0,
-        flags: {},
-        isMax: true,
-        self: {},
-        target: "adjacentFoe",
-        type: "Rock",
-        contestType: "Cool",
-        desc: "Power is equal to the base move's Max Move power. If this move is successful, the effect of Sandstorm begins. This effect does not happen if the user is not Dynamaxed. If this move is used as a base move, it deals damage with a power of 0.",
-        shortDesc: "Base move affects power. Starts Sandstorm."
-    },
-    maxstarfall: {
-        num: 767,
-        accuracy: true,
-        basePower: 10,
-        category: "Physical",
-        isNonstandard: "Past",
-        name: "Max Starfall",
-        pp: 10,
-        priority: 0,
-        flags: {},
-        isMax: true,
-        self: {},
-        target: "adjacentFoe",
-        type: "Fairy",
-        contestType: "Cool",
-        desc: "Power is equal to the base move's Max Move power. If this move is successful, the effect of Misty Terrain begins. This effect does not happen if the user is not Dynamaxed. If this move is used as a base move, it deals damage with a power of 0.",
-        shortDesc: "Base move affects power. Starts Misty Terrain."
-    },
-    maxsteelspike: {
-        num: 774,
-        accuracy: true,
-        basePower: 10,
-        category: "Physical",
-        isNonstandard: "Past",
-        name: "Max Steelspike",
-        pp: 10,
-        priority: 0,
-        flags: {},
-        isMax: true,
-        self: {},
-        target: "adjacentFoe",
-        type: "Steel",
-        contestType: "Cool",
-        desc: "Power is equal to the base move's Max Move power. If this move is successful, the Defense of each Pokemon on the user's side is raised by 1 stage, even if they have a substitute. This effect does not happen if the user is not Dynamaxed. If this move is used as a base move, it deals damage with a power of 0.",
-        shortDesc: "Base move affects power. Allies: +1 Defense."
-    },
-    maxstrike: {
-        num: 760,
-        accuracy: true,
-        basePower: 10,
-        category: "Physical",
-        isNonstandard: "Past",
-        name: "Max Strike",
-        pp: 10,
-        priority: 0,
-        flags: {},
-        isMax: true,
-        self: {},
-        target: "adjacentFoe",
-        type: "Normal",
-        contestType: "Cool",
-        desc: "Power is equal to the base move's Max Move power. If this move is successful, the Speed of each Pokemon on the opposing side is lowered by 1 stage, even if they have a substitute. This effect does not happen if the user is not Dynamaxed. If this move is used as a base move, it deals damage with a power of 0.",
-        shortDesc: "Base move affects power. Foes: -1 Speed."
-    },
-    maxwyrmwind: {
-        num: 768,
-        accuracy: true,
-        basePower: 10,
-        category: "Physical",
-        isNonstandard: "Past",
-        name: "Max Wyrmwind",
-        pp: 10,
-        priority: 0,
-        flags: {},
-        isMax: true,
-        self: {},
-        target: "adjacentFoe",
-        type: "Dragon",
-        contestType: "Cool",
-        desc: "Power is equal to the base move's Max Move power. If this move is successful, the Attack of each Pokemon on the opposing side is lowered by 1 stage, even if they have a substitute. This effect does not happen if the user is not Dynamaxed. If this move is used as a base move, it deals damage with a power of 0.",
-        shortDesc: "Base move affects power. Foes: -1 Attack."
     },
     meanlook: {
         num: 212,
@@ -11985,25 +9575,6 @@ exports.BattleMovedex = {
         contestType: "Tough",
         desc: "Lowers the target's Attack and Special Attack by 2 stages. The user faints unless this move misses or there is no target. Fails entirely if this move hits a substitute, but does not fail if the target's stats cannot be changed.",
         shortDesc: "Lowers target's Attack, Sp. Atk by 2. User faints."
-    },
-    menacingmoonrazemaelstrom: {
-        num: 725,
-        accuracy: true,
-        basePower: 200,
-        category: "Special",
-        isNonstandard: "Past",
-        name: "Menacing Moonraze Maelstrom",
-        pp: 1,
-        priority: 0,
-        flags: {},
-        isZ: "lunaliumz",
-        ignoreAbility: true,
-        secondary: null,
-        target: "normal",
-        type: "Ghost",
-        contestType: "Cool",
-        desc: "This move and its effects ignore the Abilities of other Pokemon.",
-        shortDesc: "Ignores the Abilities of other Pokemon."
     },
     metalburst: {
         num: 368,
@@ -12607,49 +10178,6 @@ exports.BattleMovedex = {
         desc: "The user restores 1/2 of its maximum HP if Delta Stream or no weather conditions are in effect or if the user is holding Utility Umbrella, 2/3 of its maximum HP if the weather is Desolate Land or Sunny Day, and 1/4 of its maximum HP if the weather is Primordial Sea, Rain Dance, Sandstorm, or Snow, all rounded half down.",
         shortDesc: "Heals the user by a weather-dependent amount."
     },
-    mortalspin: {
-        num: 866,
-        accuracy: 100,
-        basePower: 30,
-        category: "Physical",
-        name: "Mortal Spin",
-        pp: 15,
-        priority: 0,
-        flags: {
-            contact: 1,
-            protect: 1,
-            mirror: 1
-        },
-        secondary: {
-            chance: 100,
-            status: "psn"
-        },
-        target: "allAdjacentFoes",
-        type: "Poison",
-        desc: "If this move is successful and the user has not fainted, the effects of Leech Seed and binding moves end for the user, and all hazards are removed from the user's side of the field. Has a 100% chance to poison the target.",
-        shortDesc: "Poisons foes, frees user from hazards/bind/leech."
-    },
-    mountaingale: {
-        num: 836,
-        accuracy: 85,
-        basePower: 100,
-        category: "Physical",
-        name: "Mountain Gale",
-        pp: 10,
-        priority: 0,
-        flags: {
-            protect: 1,
-            mirror: 1
-        },
-        secondary: {
-            chance: 30,
-            volatileStatus: "flinch"
-        },
-        target: "normal",
-        type: "Ice",
-        desc: "Has a 30% chance to make the target flinch.",
-        shortDesc: "30% chance to make the target flinch."
-    },
     mudbomb: {
         num: 426,
         accuracy: 100,
@@ -12974,24 +10502,6 @@ exports.BattleMovedex = {
         desc: "Has a 30% chance to make the target flinch.",
         shortDesc: "30% chance to make the target flinch."
     },
-    neverendingnightmare: {
-        num: 636,
-        accuracy: true,
-        basePower: 1,
-        category: "Physical",
-        isNonstandard: "Past",
-        name: "Never-Ending Nightmare",
-        pp: 1,
-        priority: 0,
-        flags: {},
-        isZ: "ghostiumz",
-        secondary: null,
-        target: "normal",
-        type: "Ghost",
-        contestType: "Cool",
-        desc: "Power is equal to the base move's Z-Power.",
-        shortDesc: "Power is equal to the base move's Z-Power."
-    },
     nightdaze: {
         num: 539,
         accuracy: 100,
@@ -13145,34 +10655,6 @@ exports.BattleMovedex = {
         desc: "Raises the user's Attack, Defense, Special Attack, Special Defense, and Speed by 1 stage, but it becomes prevented from switching out. The user can still switch out if it uses Baton Pass, Flip Turn, Parting Shot, Teleport, U-turn, or Volt Switch. If the user leaves the field using Baton Pass, the replacement will remain trapped. Fails if the user has already been prevented from switching by this effect.",
         shortDesc: "Raises all stats by 1 (not acc/eva). Traps user."
     },
-    noxioustorque: {
-        num: 898,
-        accuracy: 100,
-        basePower: 100,
-        category: "Physical",
-        isNonstandard: "Unobtainable",
-        name: "Noxious Torque",
-        pp: 10,
-        priority: 0,
-        flags: {
-            protect: 1,
-            failencore: 1,
-            failmefirst: 1,
-            nosleeptalk: 1,
-            noassist: 1,
-            failcopycat: 1,
-            failinstruct: 1,
-            failmimic: 1
-        },
-        secondary: {
-            chance: 30,
-            status: "psn"
-        },
-        target: "normal",
-        type: "Poison",
-        desc: "Has a 30% chance to poison the target.",
-        shortDesc: "30% chance to poison the target."
-    },
     nuzzle: {
         num: 609,
         accuracy: 100,
@@ -13242,24 +10724,6 @@ exports.BattleMovedex = {
         type: "Dark",
         desc: "The user is protected from most attacks made by other Pokemon during this turn, and Pokemon trying to make contact with the user have their Defense lowered by 2 stages. Non-damaging moves go through this protection. This move has a 1/X chance of being successful, where X starts at 1 and triples each time this move is successfully used. X resets to 1 if this move fails, if the user's last move used is not Baneful Bunker, Detect, Endure, King's Shield, Max Guard, Obstruct, Protect, Quick Guard, Silk Trap, Spiky Shield, or Wide Guard, or if it was one of those moves and the user's protection was broken. Fails if the user moves last this turn.",
         shortDesc: "Protects from damaging attacks. Contact: -2 Def."
-    },
-    oceanicoperetta: {
-        num: 697,
-        accuracy: true,
-        basePower: 195,
-        category: "Special",
-        isNonstandard: "Past",
-        name: "Oceanic Operetta",
-        pp: 1,
-        priority: 0,
-        flags: {},
-        isZ: "primariumz",
-        secondary: null,
-        target: "normal",
-        type: "Water",
-        contestType: "Cool",
-        desc: "No additional effect.",
-        shortDesc: "No additional effect."
     },
     octazooka: {
         num: 190,
@@ -13369,24 +10833,6 @@ exports.BattleMovedex = {
         contestType: "Beautiful",
         desc: "Has a 10% chance to raise the user's Attack, Defense, Special Attack, Special Defense, and Speed by 1 stage.",
         shortDesc: "10% chance to raise all stats by 1 (not acc/eva)."
-    },
-    orderup: {
-        num: 856,
-        accuracy: 100,
-        basePower: 80,
-        category: "Physical",
-        name: "Order Up",
-        pp: 10,
-        priority: 0,
-        flags: {
-            protect: 1
-        },
-        secondary: null,
-        hasSheerForce: true,
-        target: "normal",
-        type: "Dragon",
-        desc: "If an ally Tatsugiri has activated its Commander Ability, this move raises the user's Attack by 1 stage if the Tatsugiri is Curly Form, Defense by 1 stage if Droopy Form, or Speed by 1 stage if Stretchy Form. The effect happens whether or not this move is successful, and even if the Tatsugiri that activated the effect has since fainted.",
-        shortDesc: "Curly|Droopy|Stretchy eaten: +1 Atk|Def|Spe."
     },
     originpulse: {
         num: 618,
@@ -13499,31 +10945,6 @@ exports.BattleMovedex = {
         contestType: "Clever",
         desc: "The user and the target's HP become the average of their current HP, rounded down, but not more than the maximum HP of either one.",
         shortDesc: "Shares HP of user and target equally."
-    },
-    paleowave: {
-        num: 0,
-        accuracy: 100,
-        basePower: 85,
-        category: "Special",
-        isNonstandard: "CAP",
-        name: "Paleo Wave",
-        pp: 15,
-        priority: 0,
-        flags: {
-            protect: 1,
-            mirror: 1
-        },
-        secondary: {
-            chance: 20,
-            boosts: {
-                atk: -1
-            }
-        },
-        target: "normal",
-        type: "Rock",
-        contestType: "Beautiful",
-        desc: "Has a 20% chance to lower the target's Attack by 1 stage.",
-        shortDesc: "20% chance to lower the target's Attack by 1."
     },
     paraboliccharge: {
         num: 570,
@@ -13752,26 +11173,6 @@ exports.BattleMovedex = {
         contestType: "Cool",
         desc: "This move becomes a physical attack if the user's Attack is greater than its Special Attack, including stat stage changes. This move and its effects ignore the Abilities of other Pokemon.",
         shortDesc: "Physical if user's Atk > Sp. Atk. Ignores Abilities."
-    },
-    pikapapow: {
-        num: 732,
-        accuracy: true,
-        basePower: 0,
-        category: "Special",
-        isNonstandard: "LGPE",
-        name: "Pika Papow",
-        pp: 20,
-        priority: 0,
-        flags: {
-            protect: 1,
-            mirror: 1
-        },
-        secondary: null,
-        target: "normal",
-        type: "Electric",
-        contestType: "Cute",
-        desc: "Power is equal to the greater of (user's Happiness * 2/5), rounded down, or 1.",
-        shortDesc: "Max happiness: 102 power. Can't miss."
     },
     pinmissile: {
         num: 42,
@@ -14081,53 +11482,6 @@ exports.BattleMovedex = {
         desc: "Fails if the target has no held item.",
         shortDesc: "Fails if the target has no held item."
     },
-    populationbomb: {
-        num: 860,
-        accuracy: 90,
-        basePower: 20,
-        category: "Physical",
-        name: "Population Bomb",
-        pp: 10,
-        priority: 0,
-        flags: {
-            contact: 1,
-            protect: 1,
-            mirror: 1,
-            slicing: 1
-        },
-        multihit: 10,
-        multiaccuracy: true,
-        secondary: null,
-        target: "normal",
-        type: "Normal",
-        desc: "Hits ten times. This move checks accuracy for each hit, and the attack ends if the target avoids a hit. If one of the hits breaks the target's substitute, it will take damage for the remaining hits. If the user has the Skill Link Ability, this move will always hit ten times. If the user is holding Loaded Dice, this move hits four to ten times at random without checking accuracy between hits.",
-        shortDesc: "Hits 10 times. Each hit can miss."
-    },
-    pounce: {
-        num: 884,
-        accuracy: 100,
-        basePower: 50,
-        category: "Physical",
-        name: "Pounce",
-        pp: 20,
-        priority: 0,
-        flags: {
-            contact: 1,
-            protect: 1,
-            mirror: 1
-        },
-        secondary: {
-            chance: 100,
-            boosts: {
-                spe: -1
-            }
-        },
-        target: "normal",
-        type: "Bug",
-        contestType: "Cute",
-        desc: "Has a 100% chance to lower the target's Speed by 1 stage.",
-        shortDesc: "100% chance to lower the target's Speed by 1."
-    },
     pound: {
         num: 1,
         accuracy: 100,
@@ -14221,26 +11575,6 @@ exports.BattleMovedex = {
         contestType: "Beautiful",
         desc: "No additional effect.",
         shortDesc: "No additional effect."
-    },
-    powershift: {
-        num: 829,
-        accuracy: true,
-        basePower: 0,
-        category: "Status",
-        isNonstandard: "Unobtainable",
-        name: "Power Shift",
-        pp: 10,
-        priority: 0,
-        flags: {
-            snatch: 1
-        },
-        volatileStatus: "powershift",
-        condition: {},
-        secondary: null,
-        target: "self",
-        type: "Normal",
-        desc: "The user swaps its Attack and Defense stats, and stat stage changes remain on their respective stats. This move can be used again to swap the stats back. If the user uses Baton Pass, the replacement will have its Attack and Defense stats swapped if the effect is active. If the user has its stats recalculated by changing forme while its stats are swapped, this effect is ignored but is still active for the purposes of Baton Pass.",
-        shortDesc: "Switches user's Attack and Defense stats."
     },
     powersplit: {
         num: 471,
@@ -14504,26 +11838,6 @@ exports.BattleMovedex = {
         desc: "Has a 10% chance to confuse the target.",
         shortDesc: "10% chance to confuse the target."
     },
-    psyblade: {
-        num: 875,
-        accuracy: 100,
-        basePower: 80,
-        category: "Physical",
-        name: "Psyblade",
-        pp: 15,
-        priority: 0,
-        flags: {
-            contact: 1,
-            protect: 1,
-            mirror: 1,
-            slicing: 1
-        },
-        secondary: null,
-        target: "normal",
-        type: "Psychic",
-        desc: "If the current terrain is Electric Terrain, this move's power is multiplied by 1.5.",
-        shortDesc: "During Electric Terrain: 1.5x power."
-    },
     psychup: {
         num: 244,
         accuracy: true,
@@ -14694,32 +12008,6 @@ exports.BattleMovedex = {
         desc: "The user's non-volatile status condition is transferred to the target, and the user is then cured. Fails if the user has no non-volatile status condition or if the target already has one.",
         shortDesc: "Transfers the user's status ailment to the target."
     },
-    psyshieldbash: {
-        num: 828,
-        accuracy: 90,
-        basePower: 70,
-        category: "Physical",
-        name: "Psyshield Bash",
-        pp: 10,
-        priority: 0,
-        flags: {
-            contact: 1,
-            protect: 1,
-            mirror: 1
-        },
-        secondary: {
-            chance: 100,
-            self: {
-                boosts: {
-                    def: 1
-                }
-            }
-        },
-        target: "normal",
-        type: "Psychic",
-        desc: "Has a 100% chance to raise the user's Defense by 1 stage.",
-        shortDesc: "100% chance to raise the user's Defense by 1."
-    },
     psyshock: {
         num: 473,
         accuracy: 100,
@@ -14779,26 +12067,6 @@ exports.BattleMovedex = {
         contestType: "Clever",
         desc: "Deals damage to the target equal to (user's level) * (X + 50) / 100, where X is a random number from 0 to 100, rounded down, but not less than 1 HP.",
         shortDesc: "Random damage equal to 0.5x-1.5x user's level."
-    },
-    pulverizingpancake: {
-        num: 701,
-        accuracy: true,
-        basePower: 210,
-        category: "Physical",
-        isNonstandard: "Past",
-        name: "Pulverizing Pancake",
-        pp: 1,
-        priority: 0,
-        flags: {
-            contact: 1
-        },
-        isZ: "snorliumz",
-        secondary: null,
-        target: "normal",
-        type: "Normal",
-        contestType: "Cool",
-        desc: "No additional effect.",
-        shortDesc: "No additional effect."
     },
     punishment: {
         num: 386,
@@ -15077,46 +12345,6 @@ exports.BattleMovedex = {
         contestType: "Clever",
         desc: "Until the end of the turn, all single-target attacks from the opposing side are redirected to the user. Such attacks are redirected to the user before they can be reflected by Magic Coat or the Magic Bounce Ability, or drawn in by the Lightning Rod or Storm Drain Abilities. Fails if it is not a Double Battle or Battle Royal. This effect is ignored while the user is under the effect of Sky Drop.",
         shortDesc: "The foes' moves target the user on the turn used."
-    },
-    ragingbull: {
-        num: 873,
-        accuracy: 100,
-        basePower: 90,
-        category: "Physical",
-        name: "Raging Bull",
-        pp: 10,
-        priority: 0,
-        flags: {
-            contact: 1,
-            protect: 1,
-            mirror: 1
-        },
-        secondary: null,
-        target: "normal",
-        type: "Normal",
-        desc: "If this attack does not miss, the effects of Reflect, Light Screen, and Aurora Veil end for the target's side of the field before damage is calculated. If the user's current form is a Paldean Tauros, this move's type changes to match. Fighting type for Combat Breed, Fire type for Blaze Breed, and Water type for Aqua Breed.",
-        shortDesc: "Destroys screens. Type depends on user's form."
-    },
-    ragingfury: {
-        num: 833,
-        accuracy: 100,
-        basePower: 120,
-        category: "Physical",
-        name: "Raging Fury",
-        pp: 10,
-        priority: 0,
-        flags: {
-            protect: 1,
-            mirror: 1
-        },
-        self: {
-            volatileStatus: "lockedmove"
-        },
-        secondary: null,
-        target: "randomNormal",
-        type: "Fire",
-        desc: "The user spends two or three turns locked into this move and becomes confused immediately after its move on the last turn of the effect if it is not already. This move targets an opposing Pokemon at random on each turn. If the user is prevented from moving, is asleep at the beginning of a turn, or the attack is not successful against the target on the first turn of the effect or the second turn of a three-turn effect, the effect ends without causing confusion. If this move is called by Sleep Talk and the user is asleep, the move is used for one turn and does not confuse the user.",
-        shortDesc: "Lasts 2-3 turns. Confuses the user afterwards."
     },
     raindance: {
         num: 240,
@@ -15516,27 +12744,6 @@ exports.BattleMovedex = {
         contestType: "Cool",
         desc: "The power of this move is 20 if X is 33 to 48, 40 if X is 17 to 32, 80 if X is 10 to 16, 100 if X is 5 to 9, 150 if X is 2 to 4, and 200 if X is 0 or 1, where X is equal to (user's current HP * 48 / user's maximum HP), rounded down.",
         shortDesc: "More power the less HP the user has left."
-    },
-    revivalblessing: {
-        num: 863,
-        accuracy: true,
-        basePower: 0,
-        category: "Status",
-        name: "Revival Blessing",
-        pp: 1,
-        noPPBoosts: true,
-        priority: 0,
-        flags: {},
-        slotCondition: "revivalblessing",
-        selfSwitch: true,
-        condition: {
-            duration: 1
-        },
-        secondary: null,
-        target: "self",
-        type: "Normal",
-        desc: "A fainted party member is selected and revived with 1/2 its max HP, rounded down. Fails if there are no fainted party members.",
-        shortDesc: "Revives a fainted Pokemon to 50% HP."
     },
     risingvoltage: {
         num: 804,
@@ -15953,25 +13160,6 @@ exports.BattleMovedex = {
         desc: "If there are other active Pokemon that chose this move for use this turn, those Pokemon take their turn immediately after the user, in Speed order, and this move's power is 120 for each other user.",
         shortDesc: "Power doubles if others used Round this turn."
     },
-    ruination: {
-        num: 877,
-        accuracy: 90,
-        basePower: 0,
-        category: "Special",
-        name: "Ruination",
-        pp: 10,
-        priority: 0,
-        flags: {
-            protect: 1,
-            mirror: 1
-        },
-        secondary: null,
-        target: "normal",
-        type: "Dark",
-        contestType: "Tough",
-        desc: "Deals damage to the target equal to half of its current HP, rounded down, but not less than 1 HP.",
-        shortDesc: "Does damage equal to 1/2 target's current HP."
-    },
     sacredfire: {
         num: 221,
         accuracy: 100,
@@ -16048,31 +13236,6 @@ exports.BattleMovedex = {
         desc: "For 5 turns, the user and its party members cannot have non-volatile status conditions or confusion inflicted on them by other Pokemon. Pokemon on the user's side cannot become affected by Yawn but can fall asleep from its effect. It is removed from the user's side if the user or an ally is successfully hit by Defog. Fails if the effect is already active on the user's side.",
         shortDesc: "For 5 turns, protects user's party from status."
     },
-    saltcure: {
-        num: 864,
-        accuracy: 100,
-        basePower: 40,
-        category: "Physical",
-        name: "Salt Cure",
-        pp: 15,
-        priority: 0,
-        flags: {
-            protect: 1,
-            mirror: 1
-        },
-        condition: {
-            noCopy: true,
-            onResidualOrder: 13
-        },
-        secondary: {
-            chance: 100,
-            volatileStatus: "saltcure"
-        },
-        target: "normal",
-        type: "Rock",
-        desc: "Causes damage to the target equal to 1/8 of its maximum HP (1/4 if the target is Steel or Water type), rounded down, at the end of each turn during effect. This effect ends when the target is no longer active.",
-        shortDesc: "Deals 1/8 max HP each turn; 1/4 on Steel, Water."
-    },
     sandattack: {
         num: 28,
         accuracy: 100,
@@ -16100,28 +13263,6 @@ exports.BattleMovedex = {
         contestType: "Cute",
         desc: "Lowers the target's accuracy by 1 stage.",
         shortDesc: "Lowers the target's accuracy by 1."
-    },
-    sandsearstorm: {
-        num: 848,
-        accuracy: 80,
-        basePower: 100,
-        category: "Special",
-        name: "Sandsear Storm",
-        pp: 10,
-        priority: 0,
-        flags: {
-            protect: 1,
-            mirror: 1,
-            wind: 1
-        },
-        secondary: {
-            chance: 20,
-            status: "brn"
-        },
-        target: "allAdjacentFoes",
-        type: "Ground",
-        desc: "Has a 20% chance to burn the target.",
-        shortDesc: "20% chance to burn foe(s)."
     },
     sandstorm: {
         num: 201,
@@ -16166,45 +13307,6 @@ exports.BattleMovedex = {
         contestType: "Clever",
         desc: "Prevents the target from switching for four or five turns (seven turns if the user is holding Grip Claw). Causes damage to the target equal to 1/8 of its maximum HP (1/6 if the user is holding Binding Band), rounded down, at the end of each turn during effect. The target can still switch out if it is holding Shed Shell or uses Baton Pass, Flip Turn, Parting Shot, Shed Tail, Teleport, U-turn, or Volt Switch. The effect ends if either the user or the target leaves the field, or if the target uses Mortal Spin, Rapid Spin, or Substitute successfully. This effect is not stackable or reset by using this or another binding move.",
         shortDesc: "Traps and damages the target for 4-5 turns."
-    },
-    sappyseed: {
-        num: 738,
-        accuracy: 90,
-        basePower: 100,
-        category: "Physical",
-        isNonstandard: "LGPE",
-        name: "Sappy Seed",
-        pp: 10,
-        priority: 0,
-        flags: {
-            protect: 1,
-            reflectable: 1,
-            mirror: 1
-        },
-        secondary: null,
-        target: "normal",
-        type: "Grass",
-        contestType: "Clever",
-        desc: "This move summons Leech Seed on the foe.",
-        shortDesc: "Summons Leech Seed."
-    },
-    savagespinout: {
-        num: 634,
-        accuracy: true,
-        basePower: 1,
-        category: "Physical",
-        isNonstandard: "Past",
-        name: "Savage Spin-Out",
-        pp: 1,
-        priority: 0,
-        flags: {},
-        isZ: "buginiumz",
-        secondary: null,
-        target: "normal",
-        type: "Bug",
-        contestType: "Cool",
-        desc: "Power is equal to the base move's Z-Power.",
-        shortDesc: "Power is equal to the base move's Z-Power."
     },
     scald: {
         num: 503,
@@ -16387,27 +13489,6 @@ exports.BattleMovedex = {
         contestType: "Cool",
         desc: "Has a 30% chance to burn the target.",
         shortDesc: "30% chance to burn adjacent Pokemon."
-    },
-    searingsunrazesmash: {
-        num: 724,
-        accuracy: true,
-        basePower: 200,
-        category: "Physical",
-        isNonstandard: "Past",
-        name: "Searing Sunraze Smash",
-        pp: 1,
-        priority: 0,
-        flags: {
-            contact: 1
-        },
-        isZ: "solganiumz",
-        ignoreAbility: true,
-        secondary: null,
-        target: "normal",
-        type: "Steel",
-        contestType: "Cool",
-        desc: "This move and its effects ignore the Abilities of other Pokemon.",
-        shortDesc: "Ignores the Abilities of other Pokemon."
     },
     secretpower: {
         num: 290,
@@ -16684,32 +13765,6 @@ exports.BattleMovedex = {
         desc: "No additional effect.",
         shortDesc: "Usually goes first."
     },
-    shadowstrike: {
-        num: 0,
-        accuracy: 95,
-        basePower: 80,
-        category: "Physical",
-        isNonstandard: "CAP",
-        name: "Shadow Strike",
-        pp: 10,
-        priority: 0,
-        flags: {
-            contact: 1,
-            protect: 1,
-            mirror: 1
-        },
-        secondary: {
-            chance: 50,
-            boosts: {
-                def: -1
-            }
-        },
-        target: "normal",
-        type: "Ghost",
-        contestType: "Clever",
-        desc: "Has a 50% chance to lower the target's Defense by 1 stage.",
-        shortDesc: "50% chance to lower the target's Defense by 1."
-    },
     sharpen: {
         num: 159,
         accuracy: true,
@@ -16736,45 +13791,6 @@ exports.BattleMovedex = {
         contestType: "Cute",
         desc: "Raises the user's Attack by 1 stage.",
         shortDesc: "Raises the user's Attack by 1."
-    },
-    shatteredpsyche: {
-        num: 648,
-        accuracy: true,
-        basePower: 1,
-        category: "Physical",
-        isNonstandard: "Past",
-        name: "Shattered Psyche",
-        pp: 1,
-        priority: 0,
-        flags: {},
-        isZ: "psychiumz",
-        secondary: null,
-        target: "normal",
-        type: "Psychic",
-        contestType: "Cool",
-        desc: "Power is equal to the base move's Z-Power.",
-        shortDesc: "Power is equal to the base move's Z-Power."
-    },
-    shedtail: {
-        num: 880,
-        accuracy: true,
-        basePower: 0,
-        category: "Status",
-        name: "Shed Tail",
-        pp: 10,
-        priority: 0,
-        flags: {},
-        volatileStatus: "substitute",
-        self: {},
-        selfSwitch: "shedtail",
-        secondary: null,
-        target: "self",
-        type: "Normal",
-        zMove: {
-            effect: "clearnegativeboost"
-        },
-        desc: "The user takes 1/2 of its maximum HP, rounded up, and creates a substitute that has 1/4 of the user's maximum HP, rounded down. The user is replaced with another Pokemon in its party and the selected Pokemon has the substitute transferred to it. Fails if the user would faint, or if there are no unfainted party members.",
-        shortDesc: "User takes 1/2 its max HP to pass a substitute."
     },
     sheercold: {
         num: 329,
@@ -16878,26 +13894,6 @@ exports.BattleMovedex = {
         desc: "Fails unless the user is hit by a physical attack from an opponent this turn before it can execute the move. If the user was hit and has not fainted, it attacks immediately after being hit, and the effect ends. If the opponent's physical attack had a secondary effect removed by the Sheer Force Ability, it does not count for the purposes of this effect.",
         shortDesc: "User must take physical damage before moving."
     },
-    shelter: {
-        num: 842,
-        accuracy: true,
-        basePower: 0,
-        category: "Status",
-        name: "Shelter",
-        pp: 10,
-        priority: 0,
-        flags: {
-            snatch: 1
-        },
-        boosts: {
-            def: 2
-        },
-        secondary: null,
-        target: "self",
-        type: "Steel",
-        desc: "Raises the user's Defense by 2 stages.",
-        shortDesc: "Raises the user's Defense by 2."
-    },
     shiftgear: {
         num: 508,
         accuracy: true,
@@ -16987,26 +13983,6 @@ exports.BattleMovedex = {
         desc: "Has a 10% chance to confuse the target.",
         shortDesc: "10% chance to confuse the target."
     },
-    silktrap: {
-        num: 852,
-        accuracy: true,
-        basePower: 0,
-        category: "Status",
-        name: "Silk Trap",
-        pp: 10,
-        priority: 4,
-        flags: {},
-        stallingMove: true,
-        volatileStatus: "silktrap",
-        condition: {
-            duration: 1,
-            onTryHitPriority: 3
-        },
-        target: "self",
-        type: "Bug",
-        desc: "The user is protected from most attacks made by other Pokemon during this turn, and Pokemon trying to make contact with the user have their Speed lowered by 1 stage. Non-damaging moves go through this protection. This move has a 1/X chance of being successful, where X starts at 1 and triples each time this move is successfully used. X resets to 1 if this move fails, if the user's last move used is not Baneful Bunker, Detect, Endure, King's Shield, Max Guard, Obstruct, Protect, Quick Guard, Silk Trap, Spiky Shield, or Wide Guard, or if it was one of those moves and the user's protection was broken. Fails if the user moves last this turn.",
-        shortDesc: "Protects from damaging attacks. Contact: -1 Spe."
-    },
     silverwind: {
         num: 318,
         accuracy: 100,
@@ -17091,49 +14067,6 @@ exports.BattleMovedex = {
         contestType: "Cute",
         desc: "Causes the target to fall asleep.",
         shortDesc: "Causes the target to fall asleep."
-    },
-    sinisterarrowraid: {
-        num: 695,
-        accuracy: true,
-        basePower: 180,
-        category: "Physical",
-        isNonstandard: "Past",
-        name: "Sinister Arrow Raid",
-        pp: 1,
-        priority: 0,
-        flags: {},
-        isZ: "decidiumz",
-        secondary: null,
-        target: "normal",
-        type: "Ghost",
-        contestType: "Cool",
-        desc: "No additional effect.",
-        shortDesc: "No additional effect."
-    },
-    sizzlyslide: {
-        num: 735,
-        accuracy: 100,
-        basePower: 60,
-        category: "Physical",
-        isNonstandard: "LGPE",
-        name: "Sizzly Slide",
-        pp: 20,
-        priority: 0,
-        flags: {
-            contact: 1,
-            protect: 1,
-            mirror: 1,
-            defrost: 1
-        },
-        secondary: {
-            chance: 100,
-            status: "brn"
-        },
-        target: "normal",
-        type: "Fire",
-        contestType: "Clever",
-        desc: "Has a 100% chance to burn the foe.",
-        shortDesc: "100% chance to burn the foe."
     },
     sketch: {
         num: 166,
@@ -17754,22 +14687,6 @@ exports.BattleMovedex = {
         desc: "Has a 30% chance to make the target flinch. Fails if the user is not asleep.",
         shortDesc: "User must be asleep. 30% chance to flinch target."
     },
-    snowscape: {
-        num: 883,
-        accuracy: true,
-        basePower: 0,
-        category: "Status",
-        name: "Snowscape",
-        pp: 10,
-        priority: 0,
-        flags: {},
-        weather: "snow",
-        secondary: null,
-        target: "all",
-        type: "Ice",
-        desc: "For 5 turns, the weather becomes Snow. During the effect, the Defense of Ice-type Pokemon is multiplied by 1.5 when taking damage from a physical attack. Lasts for 8 turns if the user is holding Icy Rock. Fails if the current weather is Snow.",
-        shortDesc: "For 5 turns, snow falls. Ice: 1.5x Def."
-    },
     soak: {
         num: 487,
         accuracy: 100,
@@ -17886,26 +14803,6 @@ exports.BattleMovedex = {
         desc: "Deals 20 HP of damage to the target.",
         shortDesc: "Always does 20 HP of damage."
     },
-    soulstealing7starstrike: {
-        num: 699,
-        accuracy: true,
-        basePower: 195,
-        category: "Physical",
-        isNonstandard: "Past",
-        name: "Soul-Stealing 7-Star Strike",
-        pp: 1,
-        priority: 0,
-        flags: {
-            contact: 1
-        },
-        isZ: "marshadiumz",
-        secondary: null,
-        target: "normal",
-        type: "Ghost",
-        contestType: "Cool",
-        desc: "No additional effect.",
-        shortDesc: "No additional effect."
-    },
     spacialrend: {
         num: 460,
         accuracy: 100,
@@ -17975,27 +14872,6 @@ exports.BattleMovedex = {
         desc: "If the user has not fainted, the target is cured of its burn.",
         shortDesc: "The target is cured of its burn."
     },
-    sparklyswirl: {
-        num: 740,
-        accuracy: 85,
-        basePower: 120,
-        category: "Special",
-        isNonstandard: "LGPE",
-        name: "Sparkly Swirl",
-        pp: 5,
-        priority: 0,
-        flags: {
-            protect: 1,
-            mirror: 1
-        },
-        self: {},
-        secondary: null,
-        target: "normal",
-        type: "Fairy",
-        contestType: "Clever",
-        desc: "Every Pokemon in the user's party is cured of its non-volatile status condition.",
-        shortDesc: "Cures the user's party of all status conditions."
-    },
     spectralthief: {
         num: 712,
         accuracy: 100,
@@ -18044,29 +14920,6 @@ exports.BattleMovedex = {
         contestType: "Clever",
         desc: "The user swaps its Speed stat with the target. Stat stage changes are unaffected.",
         shortDesc: "Swaps Speed stat with target."
-    },
-    spicyextract: {
-        num: 858,
-        accuracy: true,
-        basePower: 0,
-        category: "Status",
-        name: "Spicy Extract",
-        pp: 15,
-        priority: 0,
-        flags: {
-            protect: 1,
-            reflectable: 1,
-            mirror: 1
-        },
-        boosts: {
-            atk: 2,
-            def: -2
-        },
-        secondary: null,
-        target: "normal",
-        type: "Grass",
-        desc: "Raises the target's Attack by 2 stages and lowers its Defense by 2 stages.",
-        shortDesc: "Raises target's Atk by 2 and lowers its Def by 2."
     },
     spiderweb: {
         num: 169,
@@ -18174,30 +15027,6 @@ exports.BattleMovedex = {
         contestType: "Tough",
         desc: "The user is protected from most attacks made by other Pokemon during this turn, and Pokemon making contact with the user lose 1/8 of their maximum HP, rounded down. This move has a 1/X chance of being successful, where X starts at 1 and triples each time this move is successfully used. X resets to 1 if this move fails, if the user's last move used is not Baneful Bunker, Detect, Endure, King's Shield, Max Guard, Obstruct, Protect, Quick Guard, Silk Trap, Spiky Shield, or Wide Guard, or if it was one of those moves and the user's protection was broken. Fails if the user moves last this turn.",
         shortDesc: "Protects from moves. Contact: loses 1/8 max HP."
-    },
-    spinout: {
-        num: 859,
-        accuracy: 100,
-        basePower: 100,
-        category: "Physical",
-        name: "Spin Out",
-        pp: 5,
-        priority: 0,
-        flags: {
-            contact: 1,
-            protect: 1,
-            mirror: 1
-        },
-        self: {
-            boosts: {
-                spe: -2
-            }
-        },
-        secondary: null,
-        target: "normal",
-        type: "Steel",
-        desc: "Lowers the user's Speed by 2 stages.",
-        shortDesc: "Lowers the user's Speed by 2."
     },
     spiritbreak: {
         num: 789,
@@ -18309,47 +15138,6 @@ exports.BattleMovedex = {
         desc: "No competitive use.",
         shortDesc: "No competitive use."
     },
-    splinteredstormshards: {
-        num: 727,
-        accuracy: true,
-        basePower: 190,
-        category: "Physical",
-        isNonstandard: "Past",
-        name: "Splintered Stormshards",
-        pp: 1,
-        priority: 0,
-        flags: {},
-        isZ: "lycaniumz",
-        secondary: null,
-        target: "normal",
-        type: "Rock",
-        contestType: "Cool",
-        desc: "Ends the effects of Electric Terrain, Grassy Terrain, Misty Terrain, and Psychic Terrain.",
-        shortDesc: "Ends the effects of terrain."
-    },
-    splishysplash: {
-        num: 730,
-        accuracy: 100,
-        basePower: 90,
-        category: "Special",
-        isNonstandard: "LGPE",
-        name: "Splishy Splash",
-        pp: 15,
-        priority: 0,
-        flags: {
-            protect: 1,
-            mirror: 1
-        },
-        secondary: {
-            chance: 30,
-            status: "par"
-        },
-        target: "allAdjacentFoes",
-        type: "Water",
-        contestType: "Cool",
-        desc: "Has a 30% chance to paralyze the target.",
-        shortDesc: "30% chance to paralyze the target."
-    },
     spore: {
         num: 147,
         accuracy: 100,
@@ -18407,30 +15195,6 @@ exports.BattleMovedex = {
         contestType: "Cute",
         desc: "Until the end of the turn, all single-target attacks from opponents of the target are redirected to the target. Such attacks are redirected to the target before they can be reflected by Magic Coat or the Magic Bounce Ability, or drawn in by the Lightning Rod or Storm Drain Abilities. Fails if it is not a Double Battle or Battle Royal.",
         shortDesc: "Target's foes' moves are redirected to it this turn."
-    },
-    springtidestorm: {
-        num: 831,
-        accuracy: 80,
-        basePower: 100,
-        category: "Special",
-        name: "Springtide Storm",
-        pp: 5,
-        priority: 0,
-        flags: {
-            protect: 1,
-            mirror: 1,
-            wind: 1
-        },
-        secondary: {
-            chance: 30,
-            boosts: {
-                atk: -1
-            }
-        },
-        target: "allAdjacentFoes",
-        type: "Fairy",
-        desc: "Has a 30% chance to lower the target's Attack by 1 stage.",
-        shortDesc: "30% chance to lower the foe(s) Attack by 1."
     },
     stealthrock: {
         num: 446,
@@ -18621,27 +15385,6 @@ exports.BattleMovedex = {
         desc: "Raises the user's Defense and Special Defense by 1 stage. The user's Stockpile count increases by 1. Fails if the user's Stockpile count is 3. The user's Stockpile count is reset to 0 when it is no longer active.",
         shortDesc: "Raises user's Defense, Sp. Def by 1. Max 3 uses."
     },
-    stokedsparksurfer: {
-        num: 700,
-        accuracy: true,
-        basePower: 175,
-        category: "Special",
-        isNonstandard: "Past",
-        name: "Stoked Sparksurfer",
-        pp: 1,
-        priority: 0,
-        flags: {},
-        isZ: "aloraichiumz",
-        secondary: {
-            chance: 100,
-            status: "par"
-        },
-        target: "normal",
-        type: "Electric",
-        contestType: "Cool",
-        desc: "Has a 100% chance to paralyze the target.",
-        shortDesc: "100% chance to paralyze the target."
-    },
     stomp: {
         num: 23,
         accuracy: 100,
@@ -18685,26 +15428,6 @@ exports.BattleMovedex = {
         contestType: "Tough",
         desc: "Power doubles if the user's last move on the previous turn, including moves called by other moves or those used through Instruct, Magic Coat, Snatch, or the Dancer or Magic Bounce Abilities, failed to do any of its normal effects, not including damage from an unsuccessful High Jump Kick, Jump Kick, or Mind Blown, or if the user was prevented from moving by any effect other than recharging or Sky Drop. A move that was blocked by Baneful Bunker, Detect, King's Shield, Protect, Spiky Shield, Crafty Shield, Mat Block, Quick Guard, or Wide Guard will not double this move's power, nor will Bounce or Fly ending early due to the effect of Gravity, Smack Down, or Thousand Arrows.",
         shortDesc: "Power doubles if the user's last move failed."
-    },
-    stoneaxe: {
-        num: 830,
-        accuracy: 90,
-        basePower: 65,
-        category: "Physical",
-        name: "Stone Axe",
-        pp: 15,
-        priority: 0,
-        flags: {
-            contact: 1,
-            protect: 1,
-            mirror: 1,
-            slicing: 1
-        },
-        secondary: {},
-        target: "normal",
-        type: "Rock",
-        desc: "If this move is successful, it sets up a hazard on the opposing side of the field, damaging each opposing Pokemon that switches in. Foes lose 1/32, 1/16, 1/8, 1/4, or 1/2 of their maximum HP, rounded down, based on their weakness to the Rock type; 0.25x, 0.5x, neutral, 2x, or 4x, respectively. Can be removed from the opposing side if any opposing Pokemon uses Mortal Spin, Rapid Spin, or Defog successfully, or is hit by Defog.",
-        shortDesc: "Sets Stealth Rock on the target's side."
     },
     stoneedge: {
         num: 444,
@@ -19014,24 +15737,6 @@ exports.BattleMovedex = {
         desc: "The user takes 1/4 of its maximum HP, rounded down, and puts it into a substitute to take its place in battle. The substitute is removed once enough damage is inflicted on it, or if the user switches out or faints. Baton Pass can be used to transfer the substitute to an ally, and the substitute will keep its remaining HP. Until the substitute is broken, it receives damage from all attacks made by other Pokemon and shields the user from status effects and stat stage changes caused by other Pokemon. Sound-based moves and Pokemon with the Infiltrator Ability ignore substitutes. The user still takes normal damage from weather and status effects while behind its substitute. If the substitute breaks during a multi-hit attack, the user will take damage from any remaining hits. If a substitute is created while the user is trapped by a binding move, the binding effect ends immediately. Fails if the user does not have enough HP remaining to create a substitute without fainting, or if it already has a substitute.",
         shortDesc: "User takes 1/4 its max HP to put in a substitute."
     },
-    subzeroslammer: {
-        num: 650,
-        accuracy: true,
-        basePower: 1,
-        category: "Physical",
-        isNonstandard: "Past",
-        name: "Subzero Slammer",
-        pp: 1,
-        priority: 0,
-        flags: {},
-        isZ: "iciumz",
-        secondary: null,
-        target: "normal",
-        type: "Ice",
-        contestType: "Cool",
-        desc: "Power is equal to the base move's Z-Power.",
-        shortDesc: "Power is equal to the base move's Z-Power."
-    },
     suckerpunch: {
         num: 389,
         accuracy: 100,
@@ -19169,24 +15874,6 @@ exports.BattleMovedex = {
         contestType: "Clever",
         desc: "Causes the target to become confused.",
         shortDesc: "Causes the target to become confused."
-    },
-    supersonicskystrike: {
-        num: 626,
-        accuracy: true,
-        basePower: 1,
-        category: "Physical",
-        isNonstandard: "Past",
-        name: "Supersonic Skystrike",
-        pp: 1,
-        priority: 0,
-        flags: {},
-        isZ: "flyiniumz",
-        secondary: null,
-        target: "normal",
-        type: "Flying",
-        contestType: "Cool",
-        desc: "Power is equal to the base move's Z-Power.",
-        shortDesc: "Power is equal to the base move's Z-Power."
     },
     surf: {
         num: 57,
@@ -19602,24 +16289,6 @@ exports.BattleMovedex = {
         desc: "If the target lost HP, the user takes recoil damage equal to 1/4 the HP lost by the target, rounded half up, but not less than 1 HP.",
         shortDesc: "Has 1/4 recoil."
     },
-    takeheart: {
-        num: 850,
-        accuracy: true,
-        basePower: 0,
-        category: "Status",
-        isNonstandard: "Past",
-        name: "Take Heart",
-        pp: 15,
-        priority: 0,
-        flags: {
-            snatch: 1
-        },
-        secondary: null,
-        target: "self",
-        type: "Psychic",
-        desc: "The user cures its non-volatile status condition. Raises the user's Special Attack and Special Defense by 1 stage.",
-        shortDesc: "Cures user's status, raises Sp. Atk, Sp. Def by 1."
-    },
     tarshot: {
         num: 749,
         accuracy: 100,
@@ -19743,24 +16412,6 @@ exports.BattleMovedex = {
         desc: "This move's type depends on the user's held Drive.",
         shortDesc: "Type varies based on the held Drive."
     },
-    tectonicrage: {
-        num: 630,
-        accuracy: true,
-        basePower: 1,
-        category: "Physical",
-        isNonstandard: "Past",
-        name: "Tectonic Rage",
-        pp: 1,
-        priority: 0,
-        flags: {},
-        isZ: "groundiumz",
-        secondary: null,
-        target: "normal",
-        type: "Ground",
-        contestType: "Cool",
-        desc: "Power is equal to the base move's Z-Power.",
-        shortDesc: "Power is equal to the base move's Z-Power."
-    },
     teeterdance: {
         num: 298,
         accuracy: 100,
@@ -19840,25 +16491,6 @@ exports.BattleMovedex = {
         contestType: "Cool",
         desc: "If this move is successful and the user has not fainted, the user switches out even if it is trapped and is replaced immediately by a selected party member. The user does not switch out if there are no unfainted party members.",
         shortDesc: "User switches out."
-    },
-    terablast: {
-        num: 851,
-        accuracy: 100,
-        basePower: 80,
-        category: "Special",
-        name: "Tera Blast",
-        pp: 10,
-        priority: 0,
-        flags: {
-            protect: 1,
-            mirror: 1,
-            mustpressure: 1
-        },
-        secondary: null,
-        target: "normal",
-        type: "Normal",
-        desc: "If the user is Terastallized, this move becomes a physical attack if the user's Attack is greater than its Special Attack, including stat stage changes, and this move's type becomes the same as the user's Tera Type.",
-        shortDesc: "If Terastallized: Phys. if Atk > SpA, type = Tera."
     },
     terrainpulse: {
         num: 805,
@@ -20225,21 +16857,6 @@ exports.BattleMovedex = {
         desc: "Lowers the target's Attack and Defense by 1 stage.",
         shortDesc: "Lowers the target's Attack and Defense by 1."
     },
-    tidyup: {
-        num: 882,
-        accuracy: true,
-        basePower: 0,
-        category: "Status",
-        name: "Tidy Up",
-        pp: 10,
-        priority: 0,
-        flags: {},
-        secondary: null,
-        target: "self",
-        type: "Normal",
-        desc: "Raises the user's Attack and Speed by 1 stage. Removes subtitutes from all active Pokemon and ends the effects of Spikes, Stealth Rock, Sticky Web, and Toxic Spikes for both sides.",
-        shortDesc: "User +1 Atk, Spe. Clears all substitutes/hazards."
-    },
     topsyturvy: {
         num: 576,
         accuracy: true,
@@ -20266,34 +16883,6 @@ exports.BattleMovedex = {
         contestType: "Clever",
         desc: "The target's positive stat stages become negative and vice versa. Fails if all of the target's stat stages are 0.",
         shortDesc: "Inverts the target's stat stages."
-    },
-    torchsong: {
-        num: 871,
-        accuracy: 100,
-        basePower: 80,
-        category: "Special",
-        name: "Torch Song",
-        pp: 10,
-        priority: 0,
-        flags: {
-            protect: 1,
-            mirror: 1,
-            sound: 1,
-            bypasssub: 1
-        },
-        secondary: {
-            chance: 100,
-            self: {
-                boosts: {
-                    spa: 1
-                }
-            }
-        },
-        target: "normal",
-        type: "Fire",
-        contestType: "Beautiful",
-        desc: "Has a 100% chance to raise the user's Special Attack by 1 stage.",
-        shortDesc: "100% chance to raise the user's Sp. Atk by 1."
     },
     torment: {
         num: 259,
@@ -20407,33 +16996,6 @@ exports.BattleMovedex = {
         contestType: "Tough",
         desc: "Lowers the target's Speed by 1 stage and poisons it.",
         shortDesc: "Lowers the target's Speed by 1 and poisons it."
-    },
-    trailblaze: {
-        num: 885,
-        accuracy: 100,
-        basePower: 50,
-        category: "Physical",
-        name: "Trailblaze",
-        pp: 20,
-        priority: 0,
-        flags: {
-            contact: 1,
-            protect: 1,
-            mirror: 1
-        },
-        secondary: {
-            chance: 100,
-            self: {
-                boosts: {
-                    spe: 1
-                }
-            }
-        },
-        target: "normal",
-        type: "Grass",
-        contestType: "Cool",
-        desc: "Has a 100% chance to raise the user's Speed by 1 stage.",
-        shortDesc: "100% chance to raise the user's Speed by 1."
     },
     transform: {
         num: 144,
@@ -20596,53 +17158,6 @@ exports.BattleMovedex = {
         desc: "Has a 50% chance to lower the target's Defense by 1 stage, a 30% chance to make it flinch, and a higher chance for a critical hit.",
         shortDesc: "High crit. Target: 50% -1 Defense, 30% flinch."
     },
-    tripleaxel: {
-        num: 813,
-        accuracy: 90,
-        basePower: 20,
-        category: "Physical",
-        name: "Triple Axel",
-        pp: 10,
-        priority: 0,
-        flags: {
-            contact: 1,
-            protect: 1,
-            mirror: 1
-        },
-        multihit: 3,
-        multiaccuracy: true,
-        secondary: null,
-        target: "normal",
-        type: "Ice",
-        zMove: {
-            basePower: 120
-        },
-        maxMove: {
-            basePower: 140
-        },
-        desc: "Hits three times. Power increases to 40 for the second hit and 60 for the third. This move checks accuracy for each hit, and the attack ends if the target avoids a hit. If one of the hits breaks the target's substitute, it will take damage for the remaining hits. If the user has the Skill Link Ability, this move will always hit three times.",
-        shortDesc: "Hits 3 times. Each hit can miss, but power rises."
-    },
-    tripledive: {
-        num: 865,
-        accuracy: 95,
-        basePower: 30,
-        category: "Physical",
-        name: "Triple Dive",
-        pp: 10,
-        priority: 0,
-        flags: {
-            contact: 1,
-            protect: 1,
-            mirror: 1
-        },
-        multihit: 3,
-        secondary: null,
-        target: "normal",
-        type: "Water",
-        desc: "Hits three times.",
-        shortDesc: "Hits 3 times."
-    },
     triplekick: {
         num: 167,
         accuracy: 90,
@@ -20725,26 +17240,6 @@ exports.BattleMovedex = {
         desc: "The power of this move is based on the amount of PP remaining after normal PP reduction and the Pressure Ability resolve. 200 power for 0 PP, 80 power for 1 PP, 60 power for 2 PP, 50 power for 3 PP, and 40 power for 4 or more PP.",
         shortDesc: "More power the fewer PP this move has left."
     },
-    twinbeam: {
-        num: 888,
-        accuracy: 100,
-        basePower: 40,
-        category: "Special",
-        name: "Twin Beam",
-        pp: 10,
-        priority: 0,
-        flags: {
-            protect: 1,
-            mirror: 1
-        },
-        multihit: 2,
-        secondary: null,
-        target: "normal",
-        type: "Psychic",
-        contestType: "Cool",
-        desc: "Hits twice. If the first hit breaks the target's substitute, it will take damage for the second hit.",
-        shortDesc: "Hits 2 times in one turn."
-    },
     twineedle: {
         num: 41,
         accuracy: 100,
@@ -20771,24 +17266,6 @@ exports.BattleMovedex = {
         contestType: "Cool",
         desc: "Hits twice, with each hit having a 20% chance to poison the target. If the first hit breaks the target's substitute, it will take damage for the second hit.",
         shortDesc: "Hits 2 times. Each hit has 20% chance to poison."
-    },
-    twinkletackle: {
-        num: 656,
-        accuracy: true,
-        basePower: 1,
-        category: "Physical",
-        isNonstandard: "Past",
-        name: "Twinkle Tackle",
-        pp: 1,
-        priority: 0,
-        flags: {},
-        isZ: "fairiumz",
-        secondary: null,
-        target: "normal",
-        type: "Fairy",
-        contestType: "Cool",
-        desc: "Power is equal to the base move's Z-Power.",
-        shortDesc: "Power is equal to the base move's Z-Power."
     },
     twister: {
         num: 239,
@@ -20915,27 +17392,6 @@ exports.BattleMovedex = {
         desc: "Lowers the user's Speed, Defense, and Special Defense by 1 stage.",
         shortDesc: "Lowers the user's Defense, Sp. Def, Speed by 1."
     },
-    veeveevolley: {
-        num: 741,
-        accuracy: true,
-        basePower: 0,
-        category: "Physical",
-        isNonstandard: "LGPE",
-        name: "Veevee Volley",
-        pp: 20,
-        priority: 0,
-        flags: {
-            contact: 1,
-            protect: 1,
-            mirror: 1
-        },
-        secondary: null,
-        target: "normal",
-        type: "Normal",
-        contestType: "Cute",
-        desc: "Power is equal to the greater of (user's Happiness * 2/5), rounded down, or 1.",
-        shortDesc: "Max happiness: 102 power. Can't miss."
-    },
     venomdrench: {
         num: 599,
         accuracy: 100,
@@ -20980,29 +17436,6 @@ exports.BattleMovedex = {
         contestType: "Beautiful",
         desc: "Power doubles if the target is poisoned.",
         shortDesc: "Power doubles if the target is poisoned."
-    },
-    victorydance: {
-        num: 837,
-        accuracy: true,
-        basePower: 0,
-        category: "Status",
-        name: "Victory Dance",
-        pp: 10,
-        priority: 0,
-        flags: {
-            snatch: 1,
-            dance: 1
-        },
-        boosts: {
-            atk: 1,
-            def: 1,
-            spe: 1
-        },
-        secondary: null,
-        target: "self",
-        type: "Fighting",
-        desc: "Raises the user's Attack, Defense, and Speed by 1 stage.",
-        shortDesc: "Raises the user's Attack, Defense, Speed by 1."
     },
     vinewhip: {
         num: 22,
@@ -21292,26 +17725,6 @@ exports.BattleMovedex = {
         desc: "Power is equal to (user's current HP * 150 / user's maximum HP), rounded down, but not less than 1.",
         shortDesc: "Less power as user's HP decreases. Hits foe(s)."
     },
-    wavecrash: {
-        num: 834,
-        accuracy: 100,
-        basePower: 120,
-        category: "Physical",
-        name: "Wave Crash",
-        pp: 10,
-        priority: 0,
-        flags: {
-            contact: 1,
-            protect: 1,
-            mirror: 1
-        },
-        recoil: [33, 100],
-        secondary: null,
-        target: "normal",
-        type: "Water",
-        desc: "If the target lost HP, the user takes recoil damage equal to 33% the HP lost by the target, rounded half up, but not less than 1 HP.",
-        shortDesc: "Has 33% recoil."
-    },
     weatherball: {
         num: 311,
         accuracy: 100,
@@ -21409,34 +17822,6 @@ exports.BattleMovedex = {
         desc: "This move is always a critical hit unless the target is under the effect of Lucky Chant or has the Battle Armor or Shell Armor Abilities.",
         shortDesc: "Always results in a critical hit."
     },
-    wickedtorque: {
-        num: 897,
-        accuracy: 100,
-        basePower: 80,
-        category: "Physical",
-        isNonstandard: "Unobtainable",
-        name: "Wicked Torque",
-        pp: 10,
-        priority: 0,
-        flags: {
-            protect: 1,
-            failencore: 1,
-            failmefirst: 1,
-            nosleeptalk: 1,
-            noassist: 1,
-            failcopycat: 1,
-            failinstruct: 1,
-            failmimic: 1
-        },
-        secondary: {
-            chance: 10,
-            status: "slp"
-        },
-        target: "normal",
-        type: "Dark",
-        desc: "Has a 10% chance to cause the target to fall asleep.",
-        shortDesc: "10% chance to cause the target to fall asleep."
-    },
     wideguard: {
         num: 469,
         accuracy: true,
@@ -21464,28 +17849,6 @@ exports.BattleMovedex = {
         contestType: "Tough",
         desc: "The user and its party members are protected from moves made by other Pokemon, including allies, during this turn that target all adjacent foes or all adjacent Pokemon. This move modifies the same 1/X chance of being successful used by other protection moves, where X starts at 1 and triples each time this move is successfully used, but does not use the chance to check for failure. X resets to 1 if this move fails, if the user's last move used is not Baneful Bunker, Detect, Endure, King's Shield, Max Guard, Obstruct, Protect, Quick Guard, Silk Trap, Spiky Shield, or Wide Guard, or if it was one of those moves and the user's protection was broken. Fails if the user moves last this turn or if this move is already in effect for the user's side.",
         shortDesc: "Protects allies from multi-target moves this turn."
-    },
-    wildboltstorm: {
-        num: 847,
-        accuracy: 80,
-        basePower: 100,
-        category: "Special",
-        name: "Wildbolt Storm",
-        pp: 10,
-        priority: 0,
-        flags: {
-            protect: 1,
-            mirror: 1,
-            wind: 1
-        },
-        secondary: {
-            chance: 20,
-            status: "par"
-        },
-        target: "allAdjacentFoes",
-        type: "Electric",
-        desc: "Has a 20% chance to paralyze the target.",
-        shortDesc: "20% chance to paralyze foe(s)."
     },
     wildcharge: {
         num: 528,
@@ -21881,33 +18244,5 @@ exports.BattleMovedex = {
         contestType: "Cool",
         desc: "Has a 30% chance to make the target flinch.",
         shortDesc: "30% chance to make the target flinch."
-    },
-    zippyzap: {
-        num: 729,
-        accuracy: 100,
-        basePower: 80,
-        category: "Physical",
-        isNonstandard: "LGPE",
-        name: "Zippy Zap",
-        pp: 10,
-        priority: 2,
-        flags: {
-            contact: 1,
-            protect: 1,
-            mirror: 1
-        },
-        secondary: {
-            chance: 100,
-            self: {
-                boosts: {
-                    evasion: 1
-                }
-            }
-        },
-        target: "normal",
-        type: "Electric",
-        contestType: "Cool",
-        desc: "Has a 100% chance to raise the user's evasion by 1 stage.",
-        shortDesc: "Goes first. Raises user's evasion by 1."
     }
 };
