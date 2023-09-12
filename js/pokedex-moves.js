@@ -786,18 +786,18 @@ var PokedexLocationPanel = PokedexResultPanel.extend({
 			results.push('bz1% '+ BattleLocationdex[moveid].fishslot10);
 		}
 		if (typeof BattleLocationdex[moveid].waterslot1 !== 'undefined') {
-			results.push('c60% '+ BattleLocationdex[moveid].waterslot1);
+			results.push('c30% '+ BattleLocationdex[moveid].waterslot1);
 			results.push('c30% '+ BattleLocationdex[moveid].waterslot2);
-			results.push('cz5% '+ BattleLocationdex[moveid].waterslot3);
-			results.push('cz4% '+ BattleLocationdex[moveid].waterslot4);
-			results.push('cz1% '+ BattleLocationdex[moveid].waterslot5);
+			results.push('c20% '+ BattleLocationdex[moveid].waterslot3);
+			results.push('c10% '+ BattleLocationdex[moveid].waterslot4);
+			results.push('c10% '+ BattleLocationdex[moveid].waterslot5);
 		}
 		if (typeof BattleLocationdex[moveid].rockslot1 !== 'undefined') {
-			results.push('d30% '+ BattleLocationdex[moveid].rockslot1);
+			results.push('d60% '+ BattleLocationdex[moveid].rockslot1);
 			results.push('d30% '+ BattleLocationdex[moveid].rockslot2);
-			results.push('d20% '+ BattleLocationdex[moveid].rockslot3);
-			results.push('d10% '+ BattleLocationdex[moveid].rockslot4);
-			results.push('d10% '+ BattleLocationdex[moveid].rockslot5);
+			results.push('dz5% '+ BattleLocationdex[moveid].rockslot3);
+			results.push('dz4% '+ BattleLocationdex[moveid].rockslot4);
+			results.push('dz1% '+ BattleLocationdex[moveid].rockslot5);
 		}
 		var last = '';
 		for (var i=0; i<results.length; i++) {
