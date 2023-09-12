@@ -9699,7 +9699,7 @@ exports.BattleMovedex = {
     },
     meteormash: {
         num: 309,
-        accuracy: 90,
+        accuracy: 100,
         basePower: 90,
         category: "Physical",
         name: "Meteor Mash",
@@ -12962,7 +12962,7 @@ exports.BattleMovedex = {
     },
     rocktomb: {
         num: 317,
-        accuracy: 95,
+        accuracy: 100,
         basePower: 60,
         category: "Physical",
         name: "Rock Tomb",
