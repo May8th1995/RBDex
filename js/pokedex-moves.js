@@ -652,3 +652,301 @@ var PokedexMovePanel = PokedexResultPanel.extend({
 		}
 	}
 });
+
+var PokedexLocationPanel = PokedexResultPanel.extend({
+	initialize: function(id) {
+		id = toID(id);
+		var move = BattleLocationdex[id];
+		this.id = id;
+		this.shortTitle = move.name;
+
+		var buf = '<div class="pfx-body dexentry">';
+
+		buf += '<a href="/" class="pfx-backbutton" data-target="back"><i class="fa fa-chevron-left"></i> Pok&eacute;dex</a>';
+		buf += '<h1><a href="/moves/'+id+'" data-target="push" class="subtle">'+move.name+'</a></h1>';
+		// getting it
+		// warning: excessive trickiness
+		var leftPanel = this.app.panels[this.app.panels.length - 2];
+		if (leftPanel && leftPanel.fragment.slice(0, 8) === 'pokemon/') {
+			var pokemon = Dex.species.get(leftPanel.id);
+			var learnset = BattleLearnsets[pokemon.id] && BattleLearnsets[pokemon.id].learnset;
+			if (!learnset) learnset = BattleLearnsets[toID(pokemon.baseSpecies)].learnset;
+			var eg1 = pokemon.eggGroups[0];
+			var eg2 = pokemon.eggGroups[2];
+			var sources = learnset[id];
+			var template = null;
+			var atLeastOne = false;
+			while (true) {
+				if (!template) {
+					template = pokemon;
+				} else {
+					if (!template.prevo) break;
+					template = Dex.species.get(template.prevo);
+					sources = BattleLearnsets[template.id].learnset[id];
+				}
+
+				if (!sources) continue;
+
+				if (!atLeastOne) {
+					buf += '<h3>Getting it on ' + pokemon.name + '</h3><ul>';
+					atLeastOne = true;
+				}
+
+				if (template.id !== pokemon.id) {
+					buf += '</ul><p>From ' + template.name + ':</p><ul>';
+				}
+
+				if (!sources.length) buf += '<li>(Past gen only)</li>';
+
+				if (typeof sources === 'string') sources = [sources];
+				for (var i=0, len=sources.length, gen=''+Dex.gen; i<len; i++) {
+					var source = sources[i];
+					var sourceType = source.charAt(1);
+					if (source.charAt(0) === gen) {
+						switch (sourceType) {
+						case 'L':
+							buf += '<li>Level ' + parseInt(source.slice(2, 5), 10) + '</li>';
+							break;
+						case 'M':
+							buf += '<li>TM/HM</li>';
+							break;
+						case 'T':
+							buf += '<li>Tutor</li>';
+							break;
+						case 'E':
+							buf += '<li>Egg move: breed with ';
+							var hasBreeders = false;
+							for (var breederid in BattleLearnsets) {
+								if (!BattleLearnsets[breederid].learnset || !BattleLearnsets[breederid].learnset[id]) continue;
+								var breeder = BattlePokedex[breederid];
+								if (breeder.isNonstandard) continue;
+								if (breeder.gender && breeder.gender !== 'M') continue;
+								if (breederid === pokemon.id || breederid === template.id || breederid === pokemon.prevo) continue;
+								if (eg1 === breeder.eggGroups[0] || eg1 === breeder.eggGroups[1] ||
+									(eg2 && (eg2 === breeder.eggGroups[0] || eg2 === breeder.eggGroups[1]))) {
+									if (hasBreeders) buf += ', ';
+									buf += '<a href="/pokemon/' + breederid + '" data-target="push">' + breeder.name + '</a>';
+									hasBreeders = true;
+								}
+							}
+							if (!hasBreeders) buf += 'itself';
+							buf += '</li>';
+							break;
+						}
+					} else if (source === '7V') {
+						buf += '<li>Virtual Console transfer from Gen 1</li>';
+					} else if (source === '8V') {
+						buf += '<li>Pok&eacute;mon HOME transfer from Let\'s Go! Pikachu and Eevee</li>';
+					}
+					if (sourceType === 'S') {
+						buf += '<li>Event move</li>';
+					}
+				}
+			}
+			if (atLeastOne) buf += '</ul>';
+		}
+		// distribution
+		buf += '<ul class="utilichart metricchart nokbd">';
+		buf += '</ul>';
+
+		buf += '</div>';
+
+		this.html(buf);
+
+		setTimeout(this.renderDistribution.bind(this));
+	},
+	getDistribution: function() {
+		var moveid = this.id;
+		if (this.results) return this.results;
+		var results = [];
+		if (typeof BattleLocationdex[moveid].landslot1 !== 'undefined') {
+			results.push('a20% '+ BattleLocationdex[moveid].landslot1);
+			results.push('a10% '+ BattleLocationdex[moveid].landslot2);
+			results.push('a10% '+ BattleLocationdex[moveid].landslot3);
+			results.push('a10% '+ BattleLocationdex[moveid].landslot4);
+			results.push('a10% '+ BattleLocationdex[moveid].landslot5);
+			results.push('a10% '+ BattleLocationdex[moveid].landslot6);
+			results.push('a10% '+ BattleLocationdex[moveid].landslot7);
+			results.push('az5% '+ BattleLocationdex[moveid].landslot8);
+			results.push('az5% '+ BattleLocationdex[moveid].landslot9);
+			results.push('az5% '+ BattleLocationdex[moveid].landslot10);
+			results.push('az4% '+ BattleLocationdex[moveid].landslot11);
+			results.push('az1% '+ BattleLocationdex[moveid].landslot12);
+		}
+		if (typeof BattleLocationdex[moveid].fishslot1 !== 'undefined') {
+			results.push('b20% '+ BattleLocationdex[moveid].fishslot1);
+			results.push('b20% '+ BattleLocationdex[moveid].fishslot2);
+			results.push('b10% '+ BattleLocationdex[moveid].fishslot3);
+			results.push('b10% '+ BattleLocationdex[moveid].fishslot4);
+			results.push('b10% '+ BattleLocationdex[moveid].fishslot5);
+			results.push('b10% '+ BattleLocationdex[moveid].fishslot6);
+			results.push('b10% '+ BattleLocationdex[moveid].fishslot7);
+			results.push('bz5% '+ BattleLocationdex[moveid].fishslot8);
+			results.push('bz4% '+ BattleLocationdex[moveid].fishslot9);
+			results.push('bz1% '+ BattleLocationdex[moveid].fishslot10);
+		}
+		if (typeof BattleLocationdex[moveid].waterslot1 !== 'undefined') {
+			results.push('c60% '+ BattleLocationdex[moveid].waterslot1);
+			results.push('c30% '+ BattleLocationdex[moveid].waterslot2);
+			results.push('cz5% '+ BattleLocationdex[moveid].waterslot3);
+			results.push('cz4% '+ BattleLocationdex[moveid].waterslot4);
+			results.push('cz1% '+ BattleLocationdex[moveid].waterslot5);
+		}
+		if (typeof BattleLocationdex[moveid].rockslot1 !== 'undefined') {
+			results.push('d30% '+ BattleLocationdex[moveid].rockslot1);
+			results.push('d30% '+ BattleLocationdex[moveid].rockslot2);
+			results.push('d20% '+ BattleLocationdex[moveid].rockslot3);
+			results.push('d10% '+ BattleLocationdex[moveid].rockslot4);
+			results.push('d10% '+ BattleLocationdex[moveid].rockslot5);
+		}
+		var last = '';
+		for (var i=0; i<results.length; i++) {
+			if (results[i].charAt(0) !== last) {
+				results.splice(i, 0, results[i].charAt(0).toUpperCase());
+				i++;
+			}
+			last = results[i].charAt(0);
+		}
+		return this.results = results;
+	},
+	renderDistribution: function() {
+		var results = this.getDistribution();
+		this.$chart = this.$('.utilichart');
+
+		if (results.length > 1600/33) {
+			this.streamLoading = true;
+			this.$el.on('scroll', this.handleScroll.bind(this));
+
+			var panelTop = this.$el.children().offset().top;
+			var panelHeight = this.$el.outerHeight();
+			var chartTop = this.$chart.offset().top;
+			var scrollLoc = this.scrollLoc = this.$el.scrollTop();
+
+			var start = Math.floor((scrollLoc - (chartTop-panelTop)) / 33 - 35);
+			var end = Math.floor(start + 35 + panelHeight / 33 + 35);
+			if (start < 0) start = 0;
+			if (end > results.length-1) end = results.length-1;
+			this.start = start, this.end = end;
+
+			// distribution
+			var buf = '';
+			for (var i=0, len=results.length; i<len; i++) {
+				buf += '<li class="result">'+this.renderRow(i, i < start || i > end)+'</li>';
+			}
+			this.$chart.html(buf);
+		} else {
+			var buf = '';
+			for (var i=0, len=results.length; i<len; i++) {
+				buf += '<li class="result">'+this.renderRow(i)+'</li>';
+			}
+			this.$chart.html(buf);
+		}
+	},
+	renderRow: function(i, offscreen) {
+		var results = this.results;
+		var id = results[i].substr(5);
+		var template = id ? BattlePokedex[id] : undefined;
+		if (!template) {
+			switch (results[i].charAt(0)) {
+			case 'A': // level-up move
+				return '<h3>Land</h3>';
+			case 'B': // tm/hm
+				return '<h3>Fishing</h3>';
+			case 'C': // tutor
+				return '<h3>Surfing</h3>';
+			case 'D': // egg move
+				return '<h3>Rock Smash</h3>';
+			case 'E': // event
+				return '<h3>Event</h3>';
+			case 'F': // past gen
+				return '<h3>Past generation only</h3>';
+			}
+			return '<pre>error: "'+results[i]+'"</pre>';
+		} else if (offscreen) {
+			return ''+template.name+' '+template.abilities['0']+' '+(template.abilities['1']||'')+' '+(template.abilities['H']||'')+'';
+		} else {
+			var desc = '';
+			switch (results[i].charAt(0)) {
+			case 'a': // level-up move
+				desc = results[i].substr(1,3).replace("z","");
+				break;
+			case 'b': // tm/hm
+				desc = results[i].substr(1,3).replace("z","");
+				break;
+			case 'c': // tutor
+				desc = results[i].substr(1,3).replace("z","");
+				break;
+			case 'd': // egg move
+				desc = results[i].substr(1,3).replace("z","");
+				break;
+			case 'e': // event
+				desc = '!';
+				break;
+			case 'f': // past generation
+				desc = '...';
+				break;
+			}
+			return BattleSearch.renderTaggedLocationRowInner(template, desc);
+		}
+	},
+	handleScroll: function() {
+		var scrollLoc = this.$el.scrollTop();
+		if (Math.abs(scrollLoc - this.scrollLoc) > 20*33) {
+			this.renderUpdateDistribution();
+		}
+	},
+	debouncedPurgeTimer: null,
+	renderUpdateDistribution: function(fullUpdate) {
+		if (this.debouncedPurgeTimer) {
+			clearTimeout(this.debouncedPurgeTimer);
+			this.debouncedPurgeTimer = null;
+		}
+
+		var panelTop = this.$el.children().offset().top;
+		var panelHeight = this.$el.outerHeight();
+		var chartTop = this.$chart.offset().top;
+		var scrollLoc = this.scrollLoc = this.$el.scrollTop();
+
+		var results = this.results;
+
+		var rowFit = Math.floor(panelHeight / 33);
+
+		var start = Math.floor((scrollLoc - (chartTop-panelTop)) / 33 - 35);
+		var end = start + 35 + rowFit + 35;
+		if (start < 0) start = 0;
+		if (end > results.length-1) end = results.length-1;
+
+		var $rows = this.$chart.children();
+
+		if (fullUpdate || start < this.start - rowFit - 30 || end > this.end + rowFit + 30) {
+			var buf = '';
+			for (var i=0, len=results.length; i<len; i++) {
+				buf += '<li class="result">'+this.renderRow(i, (i < start || i > end))+'</li>';
+			}
+			this.$chart.html(buf);
+			this.start = start, this.end = end;
+			return;
+		}
+
+		if (start < this.start) {
+			for (var i = start; i<this.start; i++) {
+				$rows[i].innerHTML = this.renderRow(i);
+			}
+			this.start = start;
+		}
+
+		if (end > this.end) {
+			for (var i = this.end+1; i<=end; i++) {
+				$rows[i].innerHTML = this.renderRow(i);
+			}
+			this.end = end;
+		}
+
+		if (this.end - this.start > rowFit+90) {
+			var self = this;
+			this.debouncedPurgeTimer = setTimeout(function() {
+				self.renderUpdateDistribution(true);
+			}, 1000);
+		}
+	}
+});

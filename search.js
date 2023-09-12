@@ -199,6 +199,9 @@
 		case 'pokemon':
 			var pokemon = this.engine.dex.species.get(id);
 			return this.renderPokemonRow(pokemon, matchStart, matchLength, errorMessage, attrs);
+		case 'location':
+			var move = BattleLocationdex[id];
+			return this.renderLocationRow(move, matchStart, matchLength, errorMessage, attrs);
 		case 'move':
 			var move = this.engine.dex.moves.get(id);
 			return this.renderMoveRow(move, matchStart, matchLength, errorMessage, attrs);
@@ -468,6 +471,75 @@
 		return buf;
 	};
 
+	Search.prototype.renderTaggedLocationRowInner = function (pokemon, tag, errorMessage) {
+		var attrs = '';
+		if (Search.urlRoot) attrs = ' href="' + Search.urlRoot + 'pokemon/' + toID(pokemon.name) + '" data-target="push"';
+		var buf = '<a' + attrs + ' data-entry="pokemon|' + BattleLog.escapeHTML(pokemon.name) + '">';
+
+		// tag
+		buf += '<span class="col tagcol shorttagcol">' + tag + '</span> ';
+
+		// icon
+		buf += '<span class="col iconcol">';
+		buf += '<span style="' + Dex.getPokemonIcon(pokemon.name) + '"></span>';
+		buf += '</span> ';
+
+		// name
+		var name = pokemon.name;
+		var tagStart = (pokemon.forme ? name.length - pokemon.forme.length - 1 : 0);
+		if (tagStart) name = name.substr(0, tagStart) + '<small>' + pokemon.name.substr(tagStart) + '</small>';
+		buf += '<span class="col shortpokemonnamecol">' + name + '</span> ';
+
+		// error
+		if (errorMessage) {
+			buf += errorMessage + '</a></li>';
+			return buf;
+		}
+
+		// type
+		buf += '<span class="col typecol">';
+		for (var i = 0; i < pokemon.types.length; i++) {
+			buf += Dex.getTypeIcon(pokemon.types[i]);
+		}
+		buf += '</span> ';
+
+		// abilities
+		buf += '<span style="float:left;min-height:26px">';
+		if (pokemon.abilities['1']) {
+			buf += '<span class="col twoabilitycol">';
+		} else {
+			buf += '<span class="col abilitycol">';
+		}
+		for (var i in pokemon.abilities) {
+			var ability = pokemon.abilities[i];
+			if (!ability) continue;
+
+			if (i === '1') buf += '<br />';
+			if (i === 'H') ability = '</span><span class="col abilitycol"><em>' + pokemon.abilities[i] + '</em>';
+			buf += ability;
+		}
+		if (!pokemon.abilities['H']) buf += '</span><span class="col abilitycol">';
+		buf += '</span>';
+		buf += '</span>';
+
+		// base stats
+		buf += '<span style="float:left;min-height:26px">';
+		buf += '<span class="col statcol"><em>HP</em><br />' + pokemon.baseStats.hp + '</span> ';
+		buf += '<span class="col statcol"><em>Atk</em><br />' + pokemon.baseStats.atk + '</span> ';
+		buf += '<span class="col statcol"><em>Def</em><br />' + pokemon.baseStats.def + '</span> ';
+		buf += '<span class="col statcol"><em>SpA</em><br />' + pokemon.baseStats.spa + '</span> ';
+		buf += '<span class="col statcol"><em>SpD</em><br />' + pokemon.baseStats.spd + '</span> ';
+		buf += '<span class="col statcol"><em>Spe</em><br />' + pokemon.baseStats.spe + '</span> ';
+		var bst = 0;
+		for (i in pokemon.baseStats) bst += pokemon.baseStats[i];
+		buf += '<span class="col bstcol"><em>BST<br />' + bst + '</em></span> ';
+		buf += '</span>';
+
+		buf += '</a>';
+
+		return buf;
+	};``
+
 	Search.prototype.renderItemRow = function (item, matchStart, matchLength, errorMessage, attrs) {
 		if (!attrs) attrs = '';
 		if (!item) return '<li class="result">Unrecognized item</li>';
@@ -526,6 +598,40 @@
 
 		return buf;
 	};
+	Search.prototype.renderLocationRow = function (move, matchStart, matchLength, errorMessage, attrs) {
+		if (!attrs) attrs = '';
+		if (!move) return '<li class="result">Unrecognized move</li>';
+		var id = toID(move.name);
+		if (Search.urlRoot) attrs += ' href="' + Search.urlRoot + 'locations/' + id + '" data-target="push"';
+		var buf = '<li class="result"><a' + attrs + ' data-entry="move|' + BattleLog.escapeHTML(move.name) + '">';
+		// name
+		var name = move.name;
+		var tagStart = (name.substr(0, 12) === 'Hidden Power' ? 12 : 0);
+		if (tagStart) name = name.substr(0, tagStart);
+		if (matchLength) {
+			name = name.substr(0, matchStart) + '<b>' + name.substr(matchStart, matchLength) + '</b>' + name.substr(matchStart + matchLength);
+		}
+		if (tagStart) {
+			if (matchLength && matchStart + matchLength > tagStart) {
+				if (matchStart < tagStart) {
+					matchLength -= tagStart - matchStart;
+					matchStart = tagStart;
+				}
+				name += '<small>' + move.name.substr(tagStart, matchStart - tagStart) + '<b>' + move.name.substr(matchStart, matchLength) + '</b>' + move.name.substr(matchStart + matchLength) + '</small>';
+			} else {
+				name += '<small>' + move.name.substr(tagStart) + '</small>';
+			}
+		}
+		buf += '<span class="col movenamecol">' + name + '</span> ';
+
+		// type
+		buf += '<span class="col typecol">';
+		buf += '</span> ';
+		buf += '</a></li>';
+
+		return buf;
+	};
+
 	Search.prototype.renderMoveRow = function (move, matchStart, matchLength, errorMessage, attrs) {
 		if (!attrs) attrs = '';
 		if (!move) return '<li class="result">Unrecognized move</li>';
@@ -786,6 +892,7 @@
 	Search.renderRow = Search.prototype.renderRow;
 	Search.renderPokemonRow = Search.prototype.renderPokemonRow;
 	Search.renderTaggedPokemonRowInner = Search.prototype.renderTaggedPokemonRowInner;
+	Search.renderTaggedLocationRowInner = Search.prototype.renderTaggedLocationRowInner;
 	Search.renderItemRow = Search.prototype.renderItemRow;
 	Search.renderAbilityRow = Search.prototype.renderAbilityRow;
 	Search.renderMoveRow = Search.prototype.renderMoveRow;

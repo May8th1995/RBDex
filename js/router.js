@@ -4,6 +4,7 @@ var Pokedex = Panels.App.extend({
 	states2: {
 		'pokemon/:pokemon': PokedexPokemonPanel,
 		'moves/:move': PokedexMovePanel,
+		'locations/:location': PokedexLocationPanel,
 		'items/:item': PokedexItemPanel,
 		'abilities/:ability': PokedexAbilityPanel,
 		'types/:type': PokedexTypePanel,
@@ -16,6 +17,7 @@ var Pokedex = Panels.App.extend({
 		'': PokedexSearchPanel,
 		'pokemon/': PokedexSearchPanel,
 		'moves/': PokedexSearchPanel,
+		'locations/': PokedexSearchPanel,
 		':q': PokedexSearchPanel
 	},
 	initialize: function() {
