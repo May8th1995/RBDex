@@ -18438,7 +18438,7 @@ exports.BattlePokedex = {
         eggGroups: ["Field"],
         otherFormes: ["Zoroark-Hisui"],
         formeOrder: ["Zoroark", "Zoroark-Hisui"],
-        tier: "1NUBL"
+        tier: "1"
     },
     zoroarkhisui: {
         num: 571,
