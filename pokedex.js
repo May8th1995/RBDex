@@ -3044,7 +3044,7 @@ exports.BattlePokedex = {
         weightkg: 316,
         color: "Gray",
         prevo: "Graveler-Alola",
-        evoType: "trade",
+        evoLevel: 38,
         eggGroups: ["Mineral"],
         tier: "1",
     },
