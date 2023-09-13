@@ -4029,6 +4029,34 @@ exports.BattleLearnsets = {
          secretpower: ["9T"],
         }
     },
+    bayleef: {
+       learnset: {
+         tackle: ["9L1"],
+         growl: ["9L1"],
+         razorleaf: ["9L6"],
+         poisonpowder: ["9L9"],
+         magicalleaf: ["9L12", "9M"],
+         synthesis: ["9L18"],
+         bodyslam: ["9L22"],
+         naturalgift: ["9L26", "9T"],
+         seedbomb: ["9L30"],
+         lightscreen: ["9L34"],
+         reflect: ["9L34"],
+         safeguard: ["9L38"],
+         energyball: ["9L42"],
+         aromatherapy: ["9L46"],
+         grasswhistle: ["9L50"],
+         leafstorm: ["9L54"],
+         healpulse: ["9M"],
+         cut: ["9M"],
+         flash: ["9M"],
+         solarbeam: ["9M"],
+         swagger: ["9M"],
+         facade: ["9M"],
+         hiddenpower: ["9T"],
+         secretpower: ["9T"],
+        }
+    },
     meganium: {
        learnset: {
          tackle: ["9L1"],
