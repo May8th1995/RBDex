@@ -6559,9 +6559,9 @@ exports.BattlePokedex = {
         types: ["Water", "Fairy"],
         baseStats: {
             hp: 100,
-            atk: 50,
+            atk: 65,
             def: 80,
-            spa: 60,
+            spa: 90,
             spd: 80,
             spe: 50
         },
@@ -21068,7 +21068,7 @@ exports.BattlePokedex = {
         types: ["Normal", "Ground"],
         baseStats: {
             hp: 85,
-            atk: 56,
+            atk: 71,
             def: 77,
             spa: 50,
             spd: 77,
