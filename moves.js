@@ -17131,32 +17131,32 @@ exports.BattleMovedex = {
         desc: "For 5 turns, the Speed of every Pokemon is recalculated for the purposes of determining turn order. During the effect, each Pokemon's Speed is considered to be (10000 - its normal Speed), and if this value is greater than 8191, 8192 is subtracted from it. If this move is used during the effect, the effect ends.",
         shortDesc: "Goes last. For 5 turns, turn order is reversed."
     },
-    triplearrows: {
-        num: 843,
-        accuracy: 100,
-        basePower: 90,
+    tripleaxel: {
+        num: 813,
+        accuracy: 90,
+        basePower: 20,
         category: "Physical",
-        name: "Triple Arrows",
+        name: "Triple Axel",
         pp: 10,
         priority: 0,
         flags: {
+            contact: 1,
             protect: 1,
             mirror: 1
         },
-        critRatio: 2,
-        secondaries: [{
-            chance: 50,
-            boosts: {
-                def: -1
-            }
-        }, {
-            chance: 30,
-            volatileStatus: "flinch"
-        }],
+        multihit: 3,
+        multiaccuracy: true,
+        secondary: null,
         target: "normal",
-        type: "Fighting",
-        desc: "Has a 50% chance to lower the target's Defense by 1 stage, a 30% chance to make it flinch, and a higher chance for a critical hit.",
-        shortDesc: "High crit. Target: 50% -1 Defense, 30% flinch."
+        type: "Ice",
+        zMove: {
+            basePower: 120
+        },
+        maxMove: {
+            basePower: 140
+        },
+        desc: "Hits three times. Power increases to 40 for the second hit and 60 for the third. This move checks accuracy for each hit, and the attack ends if the target avoids a hit. If one of the hits breaks the target's substitute, it will take damage for the remaining hits. If the user has the Skill Link Ability, this move will always hit three times.",
+        shortDesc: "Hits 3 times. Each hit can miss, but power rises."
     },
     triplekick: {
         num: 167,
