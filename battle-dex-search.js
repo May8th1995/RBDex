@@ -325,7 +325,6 @@ var DexSearch = /** @class */ (function () {
                 if (passType === 'alias')
                     continue;
             }
-            console.log("type: " + type + " searchtype: " + searchType);
             var typeIndex = DexSearch.typeTable[type];
             // For performance, with a query length of 1, we only fill the first bucket
             if (query.length === 1 && typeIndex !== (searchType ? searchTypeIndex : 1))
@@ -382,9 +381,7 @@ var DexSearch = /** @class */ (function () {
             if (topbufIndex < 0 && searchTypeIndex < 2 && passType === 'alias' && !bufs[1].length && bufs[2].length) {
                 topbufIndex = 2;
             }
-            console.log("typeindex: " + typeIndex + " searchtypeindex: " + searchTypeIndex);
             if (illegal && typeIndex === searchTypeIndex) {
-                //console.log("illegal");
                 // Always show illegal results under legal results.
                 // This is done by putting legal results (and the type header)
                 // in bucket 0, and illegal results in the searchType's bucket.
@@ -427,7 +424,6 @@ var DexSearch = /** @class */ (function () {
             bufs.push(this.instafilter(searchType, instafilter[0], instafilter[1]));
         }
         this.results = Array.prototype.concat.apply(topbuf, bufs);
-        console.log(this.results);
         return this.results;
     };
     DexSearch.prototype.instafilter = function (searchType, fType, fId) {
@@ -576,7 +572,6 @@ var BattleTypedSearch = /** @class */ (function () {
         this.illegalReasons = null;
         this.results = null;
         this.sortRow = null;
-        console.log("typeset: " + searchType);
         this.searchType = searchType;
         this.baseResults = null;
         this.baseIllegalResults = null;
@@ -685,14 +680,12 @@ var BattleTypedSearch = /** @class */ (function () {
                 var _b = _a[_i], resultType = _b[0], value = _b[1];
                 if (resultType === this.searchType) {
                     legalityFilter[value] = 1;
-                    console.log("testcase " + resultType + ", " + this.searchType);
                 }
             }
             this.baseIllegalResults = [];
             this.illegalReasons = {};
             for (var id in this.getTable()) {
                 if (!(id in legalityFilter)) {
-                    console.log(id + " " + this.searchType);
                     this.baseIllegalResults.push([this.searchType, id]);
                     this.illegalReasons[id] = 'Illegal';
                 }
