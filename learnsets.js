@@ -1,5 +1,5 @@
 exports.BattleLearnsets = {
-  : {
+  bulbasaur: {
      learnset: {
        tackle: ["9L1"],
        growl: ["9L1"],
