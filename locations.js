@@ -870,7 +870,7 @@ exports.BattleLocationdex = {
         landslot9:"druddigon",
         landslot10:"turtonator",
         landslot11:"jangmoo",
-        landslot12:"hakomoo",
+        landslot12:"hakamoo",
     },
     jaggedpass: {
         name:"Jagged Pass",
