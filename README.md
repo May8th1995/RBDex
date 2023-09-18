@@ -1,25 +1,19 @@
-Pokémon Showdown Dex
+RBDex Showdown Dex
 ========================================================================
 
-Navigation: [Website][1] | [Server repository][2] | [Client repository][3] | **Dex repository**
+This is a fork of the showdown dex made to support Pokemon Run&Bun
+Expanded features include: 
 
-  [1]: http://pokemonshowdown.com/
-  [2]: https://github.com/Zarel/Pokemon-Showdown
-  [3]: https://github.com/Zarel/Pokemon-Showdown-Client
+- **Location Information** - Entire new tab that supports pokemon locations and tracking
+- **Updated Move Data** - Moves have all their data matching their in game stats
+- **Updated Pokemon Data** - Learnsets, stats, are all matching as well as new data in catchrates, and held items
 
-Introduction
-------------------------------------------------------------------------
-
-This is a repository for [**Pokémon Showdown's Pokédex**][4].
-
-This is what runs `dex.pokemonshowdown.com`.
-
-  [4]: http://dex.pokemonshowdown.com/
+Navigation: [Website](https://may8th1995.github.io/RBDex/) | [Client repository](https://github.com/May8th1995/RB-Client) | **Dex repository**
 
 Features
 ------------------------------------------------------------------------
 
-Important features include:
+Important features include
 
 - **Instant search** - start typing and search results will appear instantly
 
