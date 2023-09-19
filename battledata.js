@@ -2553,6 +2553,9 @@ if(typeof window==='undefined'){
     this.isMega=!!(this.forme&&['-mega','-megax','-megay'].includes(this.formeid));
     this.cannotDynamax=!!data.cannotDynamax;
     this.canGigantamax=!!data.canGigantamax;
+    this.catchrate=data.catchrate||0;
+    this.itemCommon=data.itemCommon||'';
+    this.itemRare=data.itemRare||'';
     this.isPrimal=!!(this.forme&&this.formeid==='-primal');
     this.battleOnly=data.battleOnly||undefined;
     this.isNonstandard=data.isNonstandard||null;

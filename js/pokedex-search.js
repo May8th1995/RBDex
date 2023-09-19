@@ -18,7 +18,6 @@ var PokedexSearchPanel = Panels.Panel.extend({
 	activeLink: null,
 	initialize: function () {
 		var fragment = this.fragment;
-		console.log(fragment);
 		var questionIndex = fragment.indexOf('?');
 		if (fragment === 'moves') fragment = 'moves/';
 		if (fragment === 'pokemon') fragment = 'pokemon/';
