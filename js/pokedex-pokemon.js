@@ -190,22 +190,25 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
 			buf += '</dd></dl>';
 			buf += '<div style="clear:left"></div>';
 		}
-		if (pokemon.catchrate){
-			buf += '<dl class="colentry"><dt>Catch rate:</dt><dd>' + pokemon.catchrate + '</a></dd></dl>';
-		}
-		if (pokemon.itemCommon) {
-			if (pokemon.itemRare) {
-				if (pokemon.itemCommon == pokemon.itemRare) {
-					buf += '<dl class="colentry"><dt>Held items:</dt><dd> 100% <a href="/items/' + toID(pokemon.itemCommon) + '" data-target="push">' + pokemon.itemCommon + '</a>';
+		if (pokemon.tier == "1")
+		{
+			if (pokemon.catchrate){
+				buf += '<dl class="colentry"><dt>Catch rate:</dt><dd>' + pokemon.catchrate + '</a></dd></dl>';
+			}
+			if (pokemon.itemCommon) {
+				if (pokemon.itemRare) {
+					if (pokemon.itemCommon == pokemon.itemRare) {
+						buf += '<dl class="colentry"><dt>Held items:</dt><dd> 100% <a href="/items/' + toID(pokemon.itemCommon) + '" data-target="push">' + pokemon.itemCommon + '</a>';
+					} else {
+						buf += '<dl class="colentry"><dt>Held items:</dt><dd> 50% <a href="/items/' + toID(pokemon.itemCommon) + '" data-target="push">' + pokemon.itemCommon + '</a>';
+						buf += ', 50% <a href="/items/' + toID(pokemon.itemRare) + '" data-target="push">' + pokemon.itemRare + '</a>';
+					}
 				} else {
 					buf += '<dl class="colentry"><dt>Held items:</dt><dd> 50% <a href="/items/' + toID(pokemon.itemCommon) + '" data-target="push">' + pokemon.itemCommon + '</a>';
-					buf += ', 50% <a href="/items/' + toID(pokemon.itemRare) + '" data-target="push">' + pokemon.itemRare + '</a>';
 				}
-			} else {
-				buf += '<dl class="colentry"><dt>Held items:</dt><dd> 50% <a href="/items/' + toID(pokemon.itemCommon) + '" data-target="push">' + pokemon.itemCommon + '</a>';
+			} else if (pokemon.itemRare) {
+				buf += '<dl class="colentry"><dt>Held items:</dt><dd> 5% <a href="/items/' + toID(pokemon.itemRare) + '" data-target="push">' + pokemon.itemRare + '</a>';
 			}
-		} else if (pokemon.itemRare) {
-			buf += '<dl class="colentry"><dt>Held items:</dt><dd> 5% <a href="/items/' + toID(pokemon.itemRare) + '" data-target="push">' + pokemon.itemRare + '</a>';
 		}
 		buf += '</dd></dl>';
 		buf += '<div style="clear:left"></div>';
