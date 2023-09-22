@@ -187,7 +187,7 @@ var PokedexSearchPanel = Panels.Panel.extend({
 			if (id === 'location' || id === 'locations') {
 				e.preventDefault();
 				e.stopPropagation();
-				this.app.go('moves/', this, true);
+				this.app.go('locations/', this, true);
 				return;
 			}
 			break;

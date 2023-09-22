@@ -146,6 +146,20 @@ var DexSearch = /** @class */ (function () {
             this.results = null;
             return true;
         }
+        else if (this.typedSearch.searchType === 'location') {
+            if (type === this.sortCol)
+                this.sortCol = null;
+            if (!['pokemon'].includes(type))
+                return false;
+            if (type === 'pokemon')
+                entry[1] = toID(entry[1]);
+            if (!this.filters)
+                this.filters = [];
+            this.filters.push(entry);
+            this.results = null;
+            return true;
+        }
+        console.log("filter: " + this.typedSearch.searchType);
         return false;
     };
     DexSearch.prototype.removeFilter = function (entry) {
@@ -190,6 +204,7 @@ var DexSearch = /** @class */ (function () {
         this.results = null;
     };
     DexSearch.prototype.filterLabel = function (filterType) {
+        console.log("filter label");
         if (this.typedSearch && this.typedSearch.searchType !== filterType) {
             return 'Filter';
         }
@@ -339,6 +354,9 @@ var DexSearch = /** @class */ (function () {
                 continue;
             // For move queries in the teambuilder, don't accept pokemon as filters
             if (searchType === 'move' && illegal && typeIndex === 1)
+                continue;
+            // For move queries in the teambuilder, only accept pokemon as filters
+            if (searchType === 'location' && illegal && typeIndex != 1)
                 continue;
             // For ability/item queries, don't accept anything else as a filter
             if ((searchType === 'ability' || searchType === 'item') && typeIndex !== searchTypeIndex)
@@ -782,6 +800,80 @@ var BattleTypedSearch = /** @class */ (function () {
         if (next)
             return toID(next);
         return '';
+    };
+    BattleTypedSearch.prototype.isHere = function (speciesid, location) {
+        if (typeof location.landslot1 !== 'undefined') {
+            if (location.landslot1 === speciesid)
+                return true;
+            if (location.landslot2 === speciesid)
+                return true;
+            if (location.landslot3 === speciesid)
+                return true;
+            if (location.landslot4 === speciesid)
+                return true;
+            if (location.landslot5 === speciesid)
+                return true;
+            if (location.landslot6 === speciesid)
+                return true;
+            if (location.landslot7 === speciesid)
+                return true;
+            if (location.landslot8 === speciesid)
+                return true;
+            if (location.landslot9 === speciesid)
+                return true;
+            if (location.landslot10 === speciesid)
+                return true;
+            if (location.landslot11 === speciesid)
+                return true;
+            if (location.landslot12 === speciesid)
+                return true;
+        }
+        if (typeof location.fishslot1 !== 'undefined') {
+            if (location.fishslot1 === speciesid)
+                return true;
+            if (location.fishslot2 === speciesid)
+                return true;
+            if (location.fishslot3 === speciesid)
+                return true;
+            if (location.fishslot4 === speciesid)
+                return true;
+            if (location.fishslot5 === speciesid)
+                return true;
+            if (location.fishslot6 === speciesid)
+                return true;
+            if (location.fishslot7 === speciesid)
+                return true;
+            if (location.fishslot8 === speciesid)
+                return true;
+            if (location.fishslot9 === speciesid)
+                return true;
+            if (location.fishslot10 === speciesid)
+                return true;
+        }
+        if (typeof location.waterslot1 !== 'undefined') {
+            if (location.waterslot1 === speciesid)
+                return true;
+            if (location.waterslot2 === speciesid)
+                return true;
+            if (location.waterslot3 === speciesid)
+                return true;
+            if (location.waterslot4 === speciesid)
+                return true;
+            if (location.waterslot5 === speciesid)
+                return true;
+        }
+        if (typeof location.rockslot1 !== 'undefined') {
+            if (location.rockslot1 === speciesid)
+                return true;
+            if (location.rockslot2 === speciesid)
+                return true;
+            if (location.rockslot3 === speciesid)
+                return true;
+            if (location.rockslot4 === speciesid)
+                return true;
+            if (location.rockslot5 === speciesid)
+                return true;
+        }
     };
     BattleTypedSearch.prototype.canLearn = function (speciesid, moveid) {
         var _a;
@@ -1757,24 +1849,20 @@ var BattleLocationSearch = /** @class */ (function (_super) {
         return __spreadArray(__spreadArray([], usableMoves, true), uselessMoves, true);
     };
     BattleLocationSearch.prototype.filter = function (row, filters) {
+        console.log("test1");
         if (!filters)
             return true;
-        if (row[0] !== 'move')
+        console.log("test2");
+        if (row[0] !== 'location')
             return true;
-        var move = this.dex.moves.get(row[1]);
+        console.log("test3");
+        var location = BattleLocationdex[row[1]];
+        console.log("type: " + typeof location);
         for (var _i = 0, filters_4 = filters; _i < filters_4.length; _i++) {
             var _a = filters_4[_i], filterType = _a[0], value = _a[1];
             switch (filterType) {
-                case 'type':
-                    if (move.type !== value)
-                        return false;
-                    break;
-                case 'category':
-                    if (move.category !== value)
-                        return false;
-                    break;
                 case 'pokemon':
-                    if (!this.canLearn(value, move.id))
+                    if (!this.isHere(value, location))
                         return false;
                     break;
             }
