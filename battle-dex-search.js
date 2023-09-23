@@ -159,7 +159,6 @@ var DexSearch = /** @class */ (function () {
             this.results = null;
             return true;
         }
-        console.log("filter: " + this.typedSearch.searchType);
         return false;
     };
     DexSearch.prototype.removeFilter = function (entry) {
@@ -204,7 +203,6 @@ var DexSearch = /** @class */ (function () {
         this.results = null;
     };
     DexSearch.prototype.filterLabel = function (filterType) {
-        console.log("filter label");
         if (this.typedSearch && this.typedSearch.searchType !== filterType) {
             return 'Filter';
         }
@@ -1849,15 +1847,11 @@ var BattleLocationSearch = /** @class */ (function (_super) {
         return __spreadArray(__spreadArray([], usableMoves, true), uselessMoves, true);
     };
     BattleLocationSearch.prototype.filter = function (row, filters) {
-        console.log("test1");
         if (!filters)
             return true;
-        console.log("test2");
         if (row[0] !== 'location')
             return true;
-        console.log("test3");
         var location = BattleLocationdex[row[1]];
-        console.log("type: " + typeof location);
         for (var _i = 0, filters_4 = filters; _i < filters_4.length; _i++) {
             var _a = filters_4[_i], filterType = _a[0], value = _a[1];
             switch (filterType) {
