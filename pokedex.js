@@ -14569,9 +14569,9 @@ exports.BattlePokedex = {
             spe: 74
         },
         abilities: {
-            "0": "Stench",
+            "0": "Keen Eye",
             "1": "Aftermath",
-            H: "Keen Eye"
+            H: "Stench"
         },
         heightm: 0.4,
         weightkg: 19.2,
@@ -14594,9 +14594,9 @@ exports.BattlePokedex = {
             spe: 84
         },
         abilities: {
-            "0": "Stench",
+            "0": "Keen Eye",
             "1": "Aftermath",
-            H: "Keen Eye"
+            H: "Stench"
         },
         heightm: 1,
         weightkg: 38,
