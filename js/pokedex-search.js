@@ -19,6 +19,7 @@ var PokedexSearchPanel = Panels.Panel.extend({
 	initialize: function () {
 		var fragment = this.fragment;
 		var questionIndex = fragment.indexOf('?');
+		console.log("test");
 		if (fragment === 'moves') fragment = 'moves/';
 		if (fragment === 'pokemon') fragment = 'pokemon/';
 		if (fragment === 'location') fragment = 'location/';
@@ -27,7 +28,7 @@ var PokedexSearchPanel = Panels.Panel.extend({
 		buf += '<h1><a href="/" data-target="replace">Pok&eacute;dex</a></h1>';
 		buf += '<ul class="tabbar centered" style="margin-bottom: 18px"><li><button class="button nav-first' + (fragment === '' ? ' cur' : '') + '" value="">Search</button></li>';
 		buf += '<li><button class="button' + (fragment === 'pokemon/' ? ' cur' : '') + '" value="pokemon/">Pok&eacute;mon</button></li>';
-		buf += '<li><button class="button' + (fragment === 'location/' ? ' cur' : '') + '" value="location/">Locations</button></li>';
+		buf += '<li><button class="button' + (fragment === 'locations/' ? ' cur' : '') + '" value="locations/">Locations</button></li>';
 		buf += '<li><button class="button nav-last' + (fragment === 'moves/' ? ' cur' : '') + '" value="moves/">Moves</button></li></ul>';
 		buf += '<div class="searchboxwrapper"><input class="textbox searchbox" type="search" name="q" value="' + Dex.escapeHTML(this.$('.searchbox').val() || '') + '" autocomplete="off" autofocus placeholder="Search Pok&eacute;mon, moves, abilities, items, types, or more" /></div>';
 		if (fragment === '') {
@@ -49,7 +50,7 @@ var PokedexSearchPanel = Panels.Panel.extend({
 				search.setType('pokemon');
 				$searchbox.attr('placeholder', 'Search pokemon OR filter by type, move, ability, egg group');
 				this.$('.buttonbar').remove();
-			} else if (fragment === 'location/') {
+			} else if (fragment === 'locations/') {
 				search.setType('location');
 				$searchbox.attr('placeholder', 'Search locations');
 				this.$('.buttonbar').remove();

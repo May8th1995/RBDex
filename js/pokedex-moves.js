@@ -663,7 +663,7 @@ var PokedexLocationPanel = PokedexResultPanel.extend({
 		var buf = '<div class="pfx-body dexentry">';
 
 		buf += '<a href="/" class="pfx-backbutton" data-target="back"><i class="fa fa-chevron-left"></i> Pok&eacute;dex</a>';
-		buf += '<h1><a href="/moves/'+id+'" data-target="push" class="subtle">'+move.name+'</a></h1>';
+		buf += '<h1><a href="/locations/'+id+'" data-target="push" class="subtle">'+move.name+'</a></h1>';
 		// getting it
 		// warning: excessive trickiness
 		var leftPanel = this.app.panels[this.app.panels.length - 2];
