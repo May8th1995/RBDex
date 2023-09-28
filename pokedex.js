@@ -3486,7 +3486,7 @@ exports.BattlePokedex = {
     },
     farfetchd: {
         num: 83,
-        name: "Farfetchâ€™d",
+        name: "Farfetch’d",
         types: ["Normal", "Flying"],
         baseStats: {
             hp: 52,
@@ -3507,14 +3507,14 @@ exports.BattlePokedex = {
         itemRare: "Leek",
         color: "Brown",
         eggGroups: ["Flying", "Field"],
-        otherFormes: ["Farfetchâ€™d-Galar"],
-        formeOrder: ["Farfetchâ€™d", "Farfetchâ€™d-Galar"],
+        otherFormes: ["Farfetch’d-Galar"],
+        formeOrder: ["Farfetch’d", "Farfetch’d-Galar"],
         tier: "2",
     },
     farfetchdgalar: {
         num: 83,
-        name: "Farfetchâ€™d-Galar",
-        baseSpecies: "Farfetchâ€™d",
+        name: "Farfetch’d-Galar",
+        baseSpecies: "Farfetch’d",
         forme: "Galar",
         types: ["Fighting"],
         baseStats: {
@@ -3534,7 +3534,7 @@ exports.BattlePokedex = {
         catchrate: 150,
         itemCommon: "Leek",
         color: "Brown",
-        evos: ["Sirfetchâ€™d"],
+        evos: ["Sirfetch’d"],
         eggGroups: ["Flying", "Field"],
         tier: "1",
     },
@@ -22335,7 +22335,7 @@ exports.BattlePokedex = {
     },
     flabebe: {
         num: 669,
-        name: "FlabeÌbeÌ",
+        name: "Flabébé",
         baseForme: "Red",
         types: ["Fairy"],
         gender: "F",
@@ -22357,8 +22357,8 @@ exports.BattlePokedex = {
         color: "White",
         evos: ["Floette"],
         eggGroups: ["Fairy"],
-        cosmeticFormes: ["FlabeÌbeÌ-Blue", "FlabeÌbeÌ-Orange", "FlabeÌbeÌ-White", "FlabeÌbeÌ-Yellow"],
-        formeOrder: ["FlabeÌbeÌ", "FlabeÌbeÌ-Blue", "FlabeÌbeÌ-Orange", "FlabeÌbeÌ-White", "FlabeÌbeÌ-Yellow"],
+        cosmeticFormes: ["Flabébé-Blue", "Flabébé-Orange", "Flabébé-White", "Flabébé-Yellow"],
+        formeOrder: ["Flabébé", "Flabébé-Blue", "Flabébé-Orange", "Flabébé-White", "Flabébé-Yellow"],
         tier: "1"
     },
     floette: {
@@ -22383,7 +22383,7 @@ exports.BattlePokedex = {
         weightkg: 0.9,
         catchrate: 120,
         color: "White",
-        prevo: "FlabeÌbeÌ",
+        prevo: "Flabébé",
         evoLevel: 19,
         evos: ["Florges"],
         eggGroups: ["Fairy"],
@@ -28805,7 +28805,7 @@ exports.BattlePokedex = {
     },
     sirfetchd: {
         num: 865,
-        name: "Sirfetchâ€™d",
+        name: "Sirfetch’d",
         types: ["Fighting"],
         baseStats: {
             hp: 62,
@@ -28824,7 +28824,7 @@ exports.BattlePokedex = {
         catchrate: 45,
         itemRare: "Leek",
         color: "White",
-        prevo: "Farfetchâ€™d-Galar",
+        prevo: "Farfetch’d-Galar",
         evoLevel: "36",
         eggGroups: ["Flying", "Field"],
         tier: "1",

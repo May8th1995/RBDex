@@ -1579,7 +1579,7 @@ exports.BattleLocationdex = {
     sootopoliscity: {
         name:"Sootopolis City",
         landslot1:"petilil",
-        landslot2:"flabébé",
+        landslot2:"flabebe",
         landslot3:"flabebe",
         landslot4:"flabebe",
         landslot5:"flabebe",

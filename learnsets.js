@@ -14301,7 +14301,7 @@ exports.BattleLearnsets = {
        secretpower: ["9T"],
       }
   },
-  flabébé: {
+  flabebe: {
      learnset: {
        fairywind: ["9L1"],
        absorb: ["9L1"],
