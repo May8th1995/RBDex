@@ -354,7 +354,7 @@ var DexSearch = /** @class */ (function () {
             if (searchType === 'move' && illegal && typeIndex === 1)
                 continue;
             // For move queries in the teambuilder, only accept pokemon as filters
-            if (searchType === 'location' && illegal && typeIndex != 1)
+            if (searchType === 'location' && illegal && typeIndex != 1 && typeIndex != 10)
                 continue;
             // For ability/item queries, don't accept anything else as a filter
             if ((searchType === 'ability' || searchType === 'item') && typeIndex !== searchTypeIndex)
