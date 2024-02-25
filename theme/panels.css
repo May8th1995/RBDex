@@ -358,7 +358,6 @@ a.button {
 .pfx-topbar .header {
 	margin: 0;
 	width: auto;
-	min-height: 48px;
 }
 @media all and (min-width: 900px) {
 	.pfx-topbar .header {
